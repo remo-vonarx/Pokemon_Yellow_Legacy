@@ -242,7 +242,7 @@ _SaffronGymYoungster3EndBattleText::
 _SaffronGymYoungster3AfterBattleText::
 	text "There used to be"
 	line "2 #MON GYMs in"
-	cont "SAFFRON."
+	cont "SAFFRONIA."
 
 	para "The FIGHTING DOJO"
 	line "next door lost"
@@ -252,7 +252,7 @@ _SaffronGymYoungster3AfterBattleText::
 	done
 
 _SaffronGymYoungster4BattleText::
-	text "SAFFRON #MON"
+	text "SAFFRONIA #MON"
 	line "GYM is famous for"
 	cont "its psychics!"
 

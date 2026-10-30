@@ -152,6 +152,6 @@ _Route19Swimmer8AfterBattleText::
 
 _Route19SignText::
 	text "SEA ROUTE 19"
-	line "FUCHSIA CITY -"
+	line "FUCHSANIA CITY -"
 	cont "SEAFOAM ISLANDS"
 	done

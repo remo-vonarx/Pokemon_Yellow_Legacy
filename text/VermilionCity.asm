@@ -83,7 +83,7 @@ _VermilionCitySailor2Text::
 	line "famous luxury"
 	cont "cruise ship."
 
-	para "We visit VERMILION"
+	para "We visit ORANIA"
 	line "once a year."
 	done
 
@@ -170,7 +170,7 @@ _JennyAfterBattleText::
     done
 
 _VermilionCitySignText::
-	text "VERMILION CITY"
+	text "ORANIA CITY"
 	line "The Port of"
 	cont "Exquisite Sunsets"
 	done
@@ -184,9 +184,9 @@ _VermilionCityNoticeSignText::
 
 	para "Detour through"
 	line "ROCK TUNNEL to"
-	cont "LAVENDER TOWN."
+	cont "LAVANDIA."
 
-	para "VERMILION POLICE"
+	para "ORANIA POLICE"
 	done
 
 _VermilionCityPokemonFanClubSignText::
@@ -196,7 +196,7 @@ _VermilionCityPokemonFanClubSignText::
 	done
 
 _VermilionCityGymSignText::
-	text "VERMILION CITY"
+	text "ORANIA CITY"
 	line "#MON GYM"
 	cont "LEADER: MAJOR BOB"
 
@@ -205,5 +205,5 @@ _VermilionCityGymSignText::
 	done
 
 _VermilionCityHarborSignText::
-	text "VERMILION HARBOR"
+	text "ORANIA HARBOR"
 	done

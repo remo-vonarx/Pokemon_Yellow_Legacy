@@ -84,13 +84,13 @@ _CeladonCityRocket2Text::
 	done
 
 _CeladonCitySignText::
-	text "CELADON CITY"
+	text "PRISMANIA CITY"
 	line "The City of"
 	cont "Rainbow Dreams"
 	done
 
 _CeladonCityGymSignText::
-	text "CELADON CITY"
+	text "PRISMANIA CITY"
 	line "#MON GYM"
 	cont "LEADER: ERIKA"
 
@@ -99,12 +99,12 @@ _CeladonCityGymSignText::
 	done
 
 _CeladonCityMansionSignText::
-	text "CELADON MANSION"
+	text "PRISMANIA MANSION"
 	done
 
 _CeladonCityDeptStoreSignText::
 	text "Find what you"
-	line "need at CELADON"
+	line "need at PRISMANIA"
 	cont "DEPT. STORE!"
 	done
 
@@ -118,7 +118,7 @@ _CeladonCityTrainerTips2Text::
 	cont "during battle."
 
 	para "Get your items at"
-	line "CELADON DEPT."
+	line "PRISMANIA DEPT."
 	cont "STORE!"
 	done
 

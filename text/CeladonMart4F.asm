@@ -1,7 +1,7 @@
 _CeladonMart4FSuperNerdText::
 	text "I'm getting a"
 	line "gift for COPYCAT"
-	cont "in CERULEAN CITY."
+	cont "in AZURIA CITY."
 
 	para "It's got to be a"
 	line "# DOLL. They"

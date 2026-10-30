@@ -208,7 +208,7 @@ _MtMoonPokecenterBenchGuyText::
 _RockTunnelPokecenterGuyText::
 	text "I heard that"
 	line "GHOSTs haunt"
-	cont "LAVENDER TOWN!"
+	cont "LAVANDIA!"
 	done
 
 _UnusedBenchGuyText1::

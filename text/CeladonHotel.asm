@@ -11,8 +11,8 @@ _CeladonHotelBeautyText::
 	line "with my brother"
 	cont "and boy friend."
 
-	para "CELADON is such a"
-	line "pretty city!"
+	para "PRISMANIA is such"
+	line "a pretty city!"
 	done
 
 _CeladonHotelSuperNerdText::

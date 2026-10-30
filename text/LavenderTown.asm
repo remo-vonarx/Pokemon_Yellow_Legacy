@@ -38,7 +38,7 @@ _LavenderTownSuperNerdText::
 	done
 
 _LavenderTownSignText::
-	text "LAVENDER TOWN"
+	text "LAVANDIA"
 	line "The Noble Purple"
 	cont "Town"
 	done
@@ -53,7 +53,7 @@ _LavenderTownSilphScopeSignText::
 	done
 
 _LavenderTownPokemonHouseSignText::
-	text "LAVENDER VOLUNTEER"
+	text "LAVANDIA VOLUNTEER"
 	line "#MON HOUSE"
 	done
 

@@ -11,7 +11,7 @@ _CeladonMansion1FNidoranFText::
 	text_end
 
 _CeladonMansion1FManagersSuiteSignText::
-	text "CELADON MANSION"
+	text "PRISMANIA MANSION"
 	line "Manager's Suite"
 	done
 

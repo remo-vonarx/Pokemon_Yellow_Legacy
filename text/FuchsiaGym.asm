@@ -256,7 +256,7 @@ _FuchsiaGymGymGuideChampInMakingText::
 	text "Yo! CHAMP in"
 	line "making!"
 
-	para "FUCHSIA GYM is"
+	para "FUCHSANIA GYM is"
 	line "riddled with"
 	cont "poison-types!"
 

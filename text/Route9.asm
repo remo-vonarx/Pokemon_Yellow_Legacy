@@ -34,7 +34,7 @@ _Route9AJAfterBattleText::
 _Route9CooltrainerM2BattleText::
 	text "I'm taking ROCK"
 	line "TUNNEL to go to"
-	cont "LAVENDER..."
+	cont "LAVANDIA..."
 	done
 
 _Route9CooltrainerM2EndBattleText::

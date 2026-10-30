@@ -54,8 +54,8 @@ _Route16Biker4EndBattleText::
 
 _Route16Biker4AfterBattleText::
 	text "You can also get"
-	line "to FUCHSIA from"
-	cont "VERMILION using a"
+	line "to FUCHSANIA from"
+	cont "ORANIA using a"
 	cont "coastal road."
 	done
 
@@ -115,6 +115,6 @@ _Route16CyclingRoadSignText::
 
 _Route16SignText::
 	text "ROUTE 16"
-	line "CELADON CITY -"
-	cont "FUCHSIA CITY"
+	line "PRISMANIA CITY -"
+	cont "FUCHSANIA CITY"
 	done

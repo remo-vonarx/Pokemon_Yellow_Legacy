@@ -1,6 +1,6 @@
 _VermilionGymLTSurgePreBattleText::
 	text "Ten-hut! Welcome"
-	line "to VERMILION GYM!"
+	line "to ORANIA GYM!"
 
 	para "Will you look at"
 	line "that, a pint-size"

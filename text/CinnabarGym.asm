@@ -3,7 +3,7 @@ _CinnabarGymBlainePreBattleText::
 
 	para "I am PYRO! I"
 	line "am the LEADER of"
-	cont "CINNABAR GYM!"
+	cont "ZINNOBER GYM!"
 
 	para "My fiery #MON"
 	line "will incinerate"

@@ -4,7 +4,7 @@ _CinnabarIslandDoorIsLockedText::
 	done
 
 _CinnabarIslandGirlText::
-	text "CINNABAR GYM's"
+	text "ZINNOBER GYM's"
 	line "PYRO is an odd"
 	cont "man who has lived"
 	cont "here for decades."
@@ -18,7 +18,7 @@ _CinnabarIslandGamblerText::
 	done
 
 _CinnabarIslandSignText::
-	text "CINNABAR ISLAND"
+	text "ZINNOBERINSEL"
 	line "The Fiery Town of"
 	cont "Burning Desire"
 	done
@@ -28,7 +28,7 @@ _CinnabarIslandPokemonLabSignText::
 	done
 
 _CinnabarIslandGymSignText::
-	text "CINNABAR ISLAND"
+	text "ZINNOBERINSEL"
 	line "#MON GYM"
 	cont "LEADER: PYRO"
 
