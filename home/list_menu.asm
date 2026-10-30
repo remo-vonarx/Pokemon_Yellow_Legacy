@@ -63,7 +63,8 @@ DisplayListMenuID::
 	ld [wMenuWatchedKeys], a
 	ld a, [wBattleType]
 	and a ; is it the Old Man battle?
-	call z, CheckBadOffset
+	call z, CheckBadOffset ; bank $01 is loaded unless it is
+	assert BANK(CheckBadOffset) == $01
 	ld c, 10
 	call DelayFrames
 
