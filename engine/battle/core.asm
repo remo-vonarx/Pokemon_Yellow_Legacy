@@ -1203,7 +1203,20 @@ HandlePlayerBlackOut:
 	ld a, [wIsInBattle]
 	dec a
 	jr z, .notRival1Battle
-	hlcoord 0, 0  ; rival 1 battle
+; only opponents with their own victory speech (rival, Oak) say something;
+; everyone else has their defeat text stored as lose text too
+	ld a, [wEndBattleWinTextPointer]
+	ld b, a
+	ld a, [wEndBattleLoseTextPointer]
+	cp b
+	jr nz, .hasVictorySpeech
+	ld a, [wEndBattleWinTextPointer + 1]
+	ld b, a
+	ld a, [wEndBattleLoseTextPointer + 1]
+	cp b
+	jr z, .notRival1Battle
+.hasVictorySpeech
+	hlcoord 0, 0  ; opponent with a victory speech
 	lb bc, 8, 21
 	call ClearScreenArea
 	call ScrollTrainerPicAfterBattle
