@@ -29,7 +29,8 @@ _LancesRoomLanceBeforeBattleText::
 	done
 
 _LancesRoomLanceEndBattleText::
-	text "That's it!"
+	text "That's"
+	line "it!"
 
 	para "I hate to admit"
 	line "it, but you are a"
@@ -88,7 +89,8 @@ _LancesRoomLanceRematchBeforeBattleText::
 	done
 
 _LancesRoomLanceRematchEndBattleText::
-	text "Incredible!"
+	text "That's"
+	line "incredible!"
 
 	para "Your strength"
 	line "keeps growing."
