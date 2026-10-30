@@ -33,12 +33,12 @@ MelanieText5::
 	text_end
 
 MelanieBulbasaurText::
-	text "BISASAM: Bubba!"
-	line "Zoar!@"
+	text "BISASAM: Bisa!"
+	line "Bisasam!@"
 	text_end
 
 MelanieOddishText::
-	text "MYRAPLA: Myrrapla!@"
+	text "MYRAPLA: Myraaa!@"
 	text_end
 
 MelanieSandshrewText::
