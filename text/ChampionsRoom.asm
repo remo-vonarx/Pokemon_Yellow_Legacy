@@ -262,16 +262,16 @@ _ChampionsRoomRematchOakComeWithMeText::
 	done
 
 _ChampionsRoomJolteonText::
-	text "JOLTEON:"
-	line "JOLTEON!"
+	text "BLITZA:"
+	line "BLITZA!"
 	done
 
 _ChampionsRoomFlareonText::
-	text "FLAREON:"
-	line "FLAREON!"
+	text "FLAMARA:"
+	line "FLAMARA!"
 	done
 
 _ChampionsRoomVaporeonText::
-	text "VAPOREON:"
-	line "VAPOREON!"
+	text "AQUANA:"
+	line "AQUANA!"
 	done

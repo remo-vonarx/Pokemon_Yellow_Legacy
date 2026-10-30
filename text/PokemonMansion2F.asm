@@ -61,7 +61,7 @@ _PokemonMansion2F_OakBeforeBattleText1::
 
 _PokemonMansion2F_OakBeforeBattleText2::	
 	text "Looking at the"
-	line "story of MEWTWO,"
+	line "story of MEWTU,"
 	
 	para "one ponders its"
 	line "origins..."
@@ -91,7 +91,7 @@ _PokemonMansion2F_OakBeforeBattleText4::
 
 _PokemonMansion2F_OakBeforeBattleText5::
 	text "In learning of"
-	line "MEWTWO's creation,"
+	line "MEWTU's creation,"
 
 	para "it seems my fears"
 	line "were well placed."

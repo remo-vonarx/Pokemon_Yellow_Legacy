@@ -25,7 +25,7 @@ _Route19CooltrainerM2EndBattleText::
 
 _Route19CooltrainerM2AfterBattleText::
 	text "Watch out for"
-	line "TENTACOOL!"
+	line "TENTACHA!"
 	done
 
 _Route19Swimmer1BattleText::

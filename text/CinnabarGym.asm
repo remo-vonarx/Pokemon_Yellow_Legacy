@@ -91,8 +91,8 @@ _CinnabarGymBlaineTM38ExplanationText::
 	para "Teach it to fire-"
 	line "type #MON!"
 
-	para "CHARMELEON or"
-	line "PONYTA would be"
+	para "GLUTEXO or"
+	line "PONITA would be"
 	cont "good bets!"
 	done
 
@@ -207,8 +207,8 @@ _CinnabarGymSuperNerd6EndBattleText::
 
 _CinnabarGymSuperNerd6AfterBattleText::
 	text "Us fire #MON"
-	line "fans like PONYTA"
-	cont "and NINETALES!"
+	line "fans like PONITA"
+	cont "and VULNONA!"
 	done
 
 _CinnabarGymSuperNerd7BattleText::

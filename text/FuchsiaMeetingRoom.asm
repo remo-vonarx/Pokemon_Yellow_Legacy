@@ -1,13 +1,13 @@
 _FuchsiaMeetingRoomSafariZoneWorker1::
 	text "We nicknamed the"
-	line "WARDEN SLOWPOKE."
+	line "WARDEN FLEGMON."
 
-	para "He and SLOWPOKE"
+	para "He and FLEGMON"
 	line "both look vacant!"
 	done
 
 _FuchsiaMeetingRoomSafariZoneWorker2::
-	text "SLOWPOKE is very"
+	text "FLEGMON is very"
 	line "knowledgeable"
 	cont "about #MON!"
 
@@ -17,7 +17,7 @@ _FuchsiaMeetingRoomSafariZoneWorker2::
 	done
 
 _FuchsiaMeetingRoomSafariZoneWorker3::
-	text "SLOWPOKE came in,"
+	text "FLEGMON came in,"
 	line "but I couldn't"
 	cont "understand him."
 

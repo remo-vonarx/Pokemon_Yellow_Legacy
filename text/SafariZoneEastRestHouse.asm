@@ -6,7 +6,7 @@ _SafariZoneEastRestHouseScientistText::
 
 _SafariZoneEastRestHouseRockerText::
 	text "I caught a"
-	line "CHANSEY!"
+	line "CHANEIRA!"
 
 	para "That makes this"
 	line "all worthwhile!"

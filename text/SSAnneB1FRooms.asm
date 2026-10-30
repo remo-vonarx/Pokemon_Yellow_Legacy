@@ -1,5 +1,5 @@
 _SSAnneB1FRoomsMachokeText::
-	text "MACHOKE: Gwoh!"
+	text "MASCHOCK: Gwoh!"
 	line "Goggoh!@"
 	text_end
 
@@ -105,7 +105,7 @@ _SSAnneB1FRoomsFisherAfterBattleText::
 	done
 
 _SSAnneB1FRoomsSuperNerdText::
-	text "My buddy, MACHOKE,"
+	text "My buddy MASCHOCK"
 	line "is super strong!"
 
 	para "He has enough"

@@ -1,5 +1,5 @@
 _SSAnne1FRoomsWigglytuffText::
-	text "WIGGLYTUFF: Puup"
+	text "KNUDDELUFF: Puup"
 	line "pupuu!@"
 	text_end
 
@@ -89,7 +89,7 @@ _SSAnne1FRoomsMiddleAgedManText::
 
 _SSAnne1FRoomsLittleGirlText::
 	text "I always travel"
-	line "with WIGGLYTUFF!"
+	line "with KNUDDELUFF!"
 	done
 
 _SSAnne1FRoomsGirl2Text::

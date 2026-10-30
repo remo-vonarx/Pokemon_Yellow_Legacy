@@ -1,5 +1,5 @@
 _CeladonCityLittleGirlText::
-	text "I got my KOFFING"
+	text "I got my SMOGON"
 	line "from my friend!"
 
 	para "We get along now,"
@@ -61,15 +61,15 @@ _CeladonCityGramps3TM41NoRoomText::
 
 _CeladonCityFisherText::
 	text "This is my trusted"
-	line "pal, POLIWRATH!"
+	line "pal, QUAPPO!"
 
 	para "It evolved from"
-	line "POLIWHIRL when I"
+	line "QUAPUTZI when I"
 	cont "used WATER STONE!"
 	done
 
 _CeladonCityPoliwrathText::
-	text "POLIWRATH: Ribi"
+	text "QUAPPO: Ribi"
 	line "ribit!@"
 	text_end
 

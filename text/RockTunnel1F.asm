@@ -74,7 +74,7 @@ _RockTunnel1FCooltrainerF1EndBattleText::
 	prompt
 
 _RockTunnel1FCooltrainerF1AfterBattleText::
-	text "I saw a MACHOP"
+	text "I saw a MACHOLLO"
 	line "in this tunnel!"
 	done
 

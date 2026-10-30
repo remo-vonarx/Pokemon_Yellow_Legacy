@@ -33,5 +33,5 @@ _PokemonMansion3FDiaryText::
 	line "MEW gave birth."
 
 	para "We named the"
-	line "newborn MEWTWO."
+	line "newborn MEWTU."
 	done

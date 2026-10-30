@@ -1,7 +1,8 @@
 _Route4CooltrainerF1Text::
 	text "Ouch! I tripped"
 	line "over a rocky"
-	cont "#MON, GEODUDE!"
+	cont "#MON,"
+	cont "KLEINSTEIN!"
 	done
 
 _Route4CooltrainerF2BattleText::

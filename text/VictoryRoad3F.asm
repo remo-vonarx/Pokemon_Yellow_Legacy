@@ -36,9 +36,9 @@ _VictoryRoad3FCooltrainerF1EndBattleText::
 	prompt
 
 _VictoryRoad3FCooltrainerF1AfterBattleText::
-	text "I like DRAGONAIR"
+	text "I like DRAGONIR"
 	line "more than"
-	cont "DRAGONITE!"
+	cont "DRAGORAN!"
 	cont "It's so cute!"
 	done
 

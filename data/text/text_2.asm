@@ -174,7 +174,7 @@ _ViridianCityPokecenterGuyText::
 _PewterCityPokecenterGuyText::
 	text "Yawn!"
 
-	para "When JIGGLYPUFF"
+	para "When PUMMELUFF"
 	line "sings, #MON"
 	cont "get drowsy..."
 
@@ -191,7 +191,7 @@ _CeruleanPokecenterGuyText::
 	done
 
 _LavenderPokecenterGuyText::
-	text "CUBONEs wear"
+	text "TRAGOSSOs wear"
 	line "skulls, right?"
 
 	para "People will pay a"
@@ -375,8 +375,8 @@ _CinnabarGymQuizShortIntroText::
 	done
 
 _CinnabarQuizQuestionsText1::
-	text "CATERPIE evolves"
-	line "into BUTTERFREE?"
+	text "RAUPY evolves"
+	line "into SMETTBO?"
 	done
 
 _CinnabarQuizQuestionsText2::
@@ -386,7 +386,7 @@ _CinnabarQuizQuestionsText2::
 	done
 
 _CinnabarQuizQuestionsText3::
-	text "POLIWAG evolves 3"
+	text "QUAPSEL evolves 3"
 	line "times?"
 	done
 
@@ -640,11 +640,11 @@ _KabutopsFossilText::
 	done
 
 _FanClubPicture1Text::
-	text "My cute RAPIDASH."
+	text "My cute GALLOPA."
 	done
 
 _FanClubPicture2Text::
-	text "My beloved FEAROW."
+	text "My beloved IBITAK."
 	done
 
 _LinkCableHelpText1::
@@ -848,7 +848,7 @@ _PokemonBooksText::
 
 _DiglettSculptureText::
 	text "It's a sculpture"
-	line "of DIGLETT."
+	line "of DIGDA."
 	done
 
 _ElevatorText::

@@ -96,7 +96,7 @@ _Route25CooltrainerF2EndBattleText::
 _Route25CooltrainerF2AfterBattleText::
 	text "You came from MT."
 	line "MOON? May I have"
-	cont "a CLEFAIRY?"
+	cont "a PIEPI?"
 	done
 
 _Route25Hiker1BattleText::
