@@ -413,7 +413,7 @@ _ClosedOaksPCText::
 	text_end
 
 _AccessedOaksPCText::
-	text "Accessed PROF."
+	text "Accessed PROF"
 	line "EICH's PC."
 
 	para "Accessed #DEX"
