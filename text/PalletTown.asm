@@ -64,7 +64,7 @@ _PalletTownFisherText::
 	done
 
 _PalletTownOaksLabSignText::
-	text "EICH #MON"
+	text "EICHs #MON"
 	line "RESEARCH LAB"
 	done
 

@@ -175,9 +175,11 @@ POKEMON_TEXT_ALIASES = {
 }
 
 # longest names first, so LT.SURGE is matched before SURGE
+# (in texts it's PROF EICH without a period; the trainer class stays PROF.EICH)
 PEOPLE = {
 	'LT.SURGE': 'MAJOR BOB',
 	'SURGE': 'BOB',
+	'PROF.OAK': 'PROF EICH',
 	'OAK': 'EICH',
 	'BROCK': 'ROCKO',
 	'BLAINE': 'PYRO',

@@ -1,6 +1,6 @@
 _ViridianMartClerkSayHiToOakText::
 	text "Okay! Say hi to"
-	line "PROF.EICH for me!"
+	line "PROF EICH for me!"
 	done
 
 _ViridianMartClerkYouCameFromPalletTownText::
@@ -9,7 +9,7 @@ _ViridianMartClerkYouCameFromPalletTownText::
 	done
 
 _ViridianMartClerkParcelQuestText::
-	text "You know PROF."
+	text "You know PROF"
 	line "EICH, right?"
 
 	para "His order came in."

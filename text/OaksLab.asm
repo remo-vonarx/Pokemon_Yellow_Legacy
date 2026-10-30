@@ -147,7 +147,7 @@ _OaksLabOak2Text::
 	done
 
 _OaksLabGirlText::
-	text "PROF.EICH is the"
+	text "PROF EICH is the"
 	line "authority on"
 	cont "#MON!"
 
@@ -364,7 +364,8 @@ _OaksLabOakGotPokedexText::
 	cont "these with you!"
 
 	para "<PLAYER> got"
-	line "#DEX from EICH!@"
+	line "#DEX from"
+	cont "PROF EICH!@"
 	text_end
 
 _OaksLabOakThatWasMyDreamText::
@@ -432,7 +433,7 @@ _CompletedDexText::
 
 _OaksLabScientistText::
 	text "I study #MON as"
-	line "PROF.EICH's AIDE."
+	line "PROF EICH's AIDE."
 
 	para "We recently"
 	line "finished a"
