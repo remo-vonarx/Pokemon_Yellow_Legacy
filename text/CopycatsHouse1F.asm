@@ -17,5 +17,5 @@ _CopycatsHouse1FMiddleAgedManText::
 
 _CopycatsHouse1FChanseyText::
 	text "CHANEIRA: Cha!"
-	line "Chaneira!@"
+	line "Neera!@"
 	text_end

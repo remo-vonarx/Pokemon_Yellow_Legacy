@@ -1,6 +1,6 @@
 _SSAnneB1FRoomsMachokeText::
-	text "MASCHOCK: Gwoh!"
-	line "Goggoh!@"
+	text "MASCHOCK: Macho!"
+	line "Maschock!@"
 	text_end
 
 _SSAnneB1FRoomsSailor1BattleText::
