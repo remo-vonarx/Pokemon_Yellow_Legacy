@@ -409,12 +409,12 @@ _GetDexRatedText::
 
 _ClosedOaksPCText::
 	text "Closed link to"
-	line "PROF.OAK's PC.@"
+	line "PROF EICH's PC.@"
 	text_end
 
 _AccessedOaksPCText::
 	text "Accessed PROF."
-	line "OAK's PC."
+	line "EICH's PC."
 
 	para "Accessed #DEX"
 	line "Rating System."
@@ -437,7 +437,7 @@ _OakSpeechText1::
 	line "Welcome to the"
 	cont "world of #MON!"
 
-	para "My name is OAK!"
+	para "My name is EICH!"
 	line "People call me"
 	cont "the #MON PROF!"
 	prompt

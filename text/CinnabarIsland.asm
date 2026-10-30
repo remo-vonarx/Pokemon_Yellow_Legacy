@@ -5,7 +5,7 @@ _CinnabarIslandDoorIsLockedText::
 
 _CinnabarIslandGirlText::
 	text "CINNABAR GYM's"
-	line "BLAINE is an odd"
+	line "PYRO is an odd"
 	cont "man who has lived"
 	cont "here for decades."
 	done
@@ -30,7 +30,7 @@ _CinnabarIslandPokemonLabSignText::
 _CinnabarIslandGymSignText::
 	text "CINNABAR ISLAND"
 	line "#MON GYM"
-	cont "LEADER: BLAINE"
+	cont "LEADER: PYRO"
 
 	para "The Hot-Headed"
 	line "Quiz Master!"

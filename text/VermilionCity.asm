@@ -198,7 +198,7 @@ _VermilionCityPokemonFanClubSignText::
 _VermilionCityGymSignText::
 	text "VERMILION CITY"
 	line "#MON GYM"
-	cont "LEADER: LT.SURGE"
+	cont "LEADER: MAJOR BOB"
 
 	para "The Lightning "
 	line "American!"

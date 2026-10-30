@@ -254,7 +254,7 @@ _CoinCaseDescription::
 
 _OaksParcelDescription::
 	text "A parcel belonging"
-	next "to PROF.OAK."
+	next "to PROF EICH."
 	prompt
 
 _ItemfinderDescription::

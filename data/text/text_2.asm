@@ -472,7 +472,7 @@ _OakLabEmailText::
 	para "#MON LEAGUE HQ"
 	line "INDIGO PLATEAU"
 
-	para "PS: PROF.OAK,"
+	para "PS: PROF EICH,"
 	line "please visit us!"
 	cont "..."
 	done

@@ -161,7 +161,7 @@ _FuchsiaGymJanineBattleText::
 	
 	para "Caught off guard?"
 
-	para "I'm JANINE, a"
+	para "I'm JANINA, a"
 	line "ninja of KOGA's"
 	cont "GYM."
 

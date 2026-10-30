@@ -1,7 +1,7 @@
 _CinnabarGymBlainePreBattleText::
 	text "Hah!"
 
-	para "I am BLAINE! I"
+	para "I am PYRO! I"
 	line "am the LEADER of"
 	cont "CINNABAR GYM!"
 
@@ -172,7 +172,7 @@ _CinnabarGymSuperNerd4AfterBattleText::
 	done
 
 _CinnabarGymSuperNerd5BattleText::
-	text "I know why BLAINE"
+	text "I know why PYRO"
 	line "became a trainer!"
 	
 	para "I'll tell you if"
@@ -184,13 +184,13 @@ _CinnabarGymSuperNerd5EndBattleText::
 	prompt
 
 _CinnabarGymSuperNerd5AfterBattleText::
-	text "BLAINE was lost"
+	text "PYRO was lost"
 	line "in the mountains"
 	cont "when a fiery bird"
 	cont "#MON appeared."
 
 	para "Its light enabled"
-	line "BLAINE to find"
+	line "PYRO to find"
 	cont "his way down!"
 	done
 
@@ -232,7 +232,7 @@ _CinnabarGymGymGuideChampInMakingText::
 	line "making!"
 
 	para "The hot-headed"
-	line "BLAINE is a fire"
+	line "PYRO is a fire"
 	cont "#MON pro!"
 
 	para "Douse his spirits"
@@ -258,7 +258,7 @@ _CinnabarGymText_1::
 
 	para "You have to take a"
 	line "quiz if you want"
-	cont "to see BLAINE."
+	cont "to see PYRO."
 
 	para "You don't have to"
 	line "fight us if you"
