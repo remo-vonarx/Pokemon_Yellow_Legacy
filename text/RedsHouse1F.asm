@@ -4,7 +4,7 @@ _RedsHouse1FMomWakeUpText::
 	cont "home someday."
 	cont "It said so on TV."
 
-	para "PROF.OAK, next"
+	para "PROF.EICH, next"
 	line "door, is looking"
 	cont "for you."
 	done
@@ -61,8 +61,8 @@ _RedsHouse1FMomChampionText::
 	done
 
 _RedsHouse1FMrMimeText::
-	text "MR MIME: MIME,"
-	line "MIME, MR MIME."
+	text "PANTIMOS: PANTI,"
+	line "PANTIMOS."
 	done
 
 _RedsHouse1FTVStandByMeMovieText::

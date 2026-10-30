@@ -1,10 +1,10 @@
 _PalletTownOakHeyWaitDontGoOutText::
-	text "OAK: Hey! Wait!"
+	text "EICH: Hey! Wait!"
 	line "Don't go out!@"
 	text_end
 
 _PalletTownOakThatWasCloseText::
-	text "OAK: That was"
+	text "EICH: That was"
 	line "close!"
 
 	para "Wild #MON live"
@@ -12,13 +12,13 @@ _PalletTownOakThatWasCloseText::
 	done
 
 _PalletTownOakWhewText::
-	text "OAK: Whew..."
+	text "EICH: Whew..."
 	done
 
 _PalletTownOakComeWithMe::
-	text "OAK: A #MON can"
-	line "appear anytime in"
-	cont "tall grass."
+	text "EICH: A #MON"
+	line "can appear anytime"
+	cont "in tall grass."
 
 	para "You need your own"
 	line "#MON for your"
@@ -37,17 +37,17 @@ _PalletTownGirlText::
 	line "RUNNING SHOES?"
 
 	para "I can get to"
-	line "VIRIDIAN MART"
+	line "VERTANIA MART"
 	cont "in record time!"
 
 	para "I can't run to"
-	line "CINNABAR ISLAND," 
+	line "ZINNOBERINSEL,"
 	cont "but I can see"
 	cont "it from here!"
 
 	para "Is someone"
 	line "surfing on a"
-	cont "RHYDON?"
+	cont "RIZEROS?"
 	done
 
 _PalletTownFisherText::
@@ -64,12 +64,12 @@ _PalletTownFisherText::
 	done
 
 _PalletTownOaksLabSignText::
-	text "OAK #MON"
+	text "EICH #MON"
 	line "RESEARCH LAB"
 	done
 
 _PalletTownSignText::
-	text "PALLET TOWN"
+	text "ALABASTIA"
 	line "Shades of your"
 	cont "journey await!"
 	done

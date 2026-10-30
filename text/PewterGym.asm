@@ -1,6 +1,6 @@
 _PewterGymBrockPreBattleText::
-	text "I'm BROCK!"
-	line "I'm PEWTER's GYM"
+	text "I'm ROCKO!"
+	line "I'm MARMORIA's GYM"
 	cont "LEADER!"
 
 	para "I believe in rock"
@@ -34,7 +34,7 @@ _PewterGymBrockPostBattleAdviceText::
 	line "#MON training"
 	cont "seriously, go"
 	cont "visit the GYM in"
-	cont "CERULEAN and test"
+	cont "AZURIA and test"
 	cont "your abilities!"
 	done
 
@@ -155,7 +155,7 @@ _PewterGymCooltrainerMBattleText::
 
 	para "You're still light"
 	line "years from facing"
-	cont "BROCK!"
+	cont "ROCKO!"
 	done
 
 _PewterGymCooltrainerMEndBattleText::
@@ -169,7 +169,7 @@ _PewterGymCooltrainerMEndBattleText::
 _PewterGymCooltrainerMAfterBattleText::
 	text "You're pretty hot,"
 	line "but not as hot"
-	cont "as BROCK!"
+	cont "as ROCKO!"
 	done
 
 _PewterGymGuidePreAdviceText::
@@ -192,8 +192,8 @@ _PewterGymGuideBeginAdviceText::
 	prompt
 
 _PewterGymGuideAdviceText::
-	text "BROCK's lead"
-	line "is GEODUDE!"
+	text "ROCKO's lead"
+	line "is KLEINSTEIN!"
 
 	para "Offense driven,"
 	line "it can throw"
@@ -211,7 +211,7 @@ _PewterGymGuideAdviceText::
 
 	para "Electric attacks"
 	line "are harmless to"
-	cont "BROCK's ground-"
+	cont "ROCKO's ground-"
 	cont "type #MON."
 	done
 
@@ -231,8 +231,8 @@ _PewterGymGuyText::
 	text "All right! Let's"
 	line "get happening!"
 
-	para "BROCK's lead"
-	line "is GEODUDE!"
+	para "ROCKO's lead"
+	line "is KLEINSTEIN!"
 
 	para "Offense driven,"
 	line "it can throw"
@@ -250,6 +250,6 @@ _PewterGymGuyText::
 
 	para "Electric attacks"
 	line "are harmless to"
-	cont "BROCK's ground-"
+	cont "ROCKO's ground-"
 	cont "type #MON."
 	done

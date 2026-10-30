@@ -9,6 +9,10 @@ Yellow Legacy aims to give each Pokémon a special niche. Balance changes were m
 While Yellow Legacy is not designed as a “Kaizo” project, Pokémon trainer fights (especially bosses) throughout the game have been made more difficult. Difficulty is used as a tool to make the game as engaging as possible to the most amount of players. It will not be difficult for the sake of being difficult, but rather, to provide you with a challenge that gives reaching the title of Champion a feeling of genuine earned satisfaction. Major trainers will have Pokémon and attacks designed to counter players attempting to easily sweep through the fight with a single super-effective Pokémon. However, players will also have more opportunities to create unique teams of stellar Pokémon to tackle each major fight. Pokémon availability has also been altered throughout the world to provide appropriately-powerful Pokémon based on your progression through the game. Finally, all 151 Pokémon will be obtainable in a single playthrough, and a small amount of post-game content has been added as well.
 
 
+## Changes in this fork
+
+This fork contains mostly languages adaptions, so that names of Pokemon, Trainers and Cities follow the german translations.
+
 ## Download and Play
 
 * ### **You should use RGBDS version 0.6.1.**

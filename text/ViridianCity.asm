@@ -68,7 +68,7 @@ _ViridianCityGambler1GymAlwaysClosedText::
 	done
 
 _ViridianCityGambler1GymLeaderReturnedText::
-	text "VIRIDIAN GYM's"
+	text "VERTANIA GYM's"
 	line "LEADER returned!"
 	done
 
@@ -130,10 +130,10 @@ _ViridianCityGirlHasntHadHisCoffeeYetText::
 
 _ViridianCityGirlWhenIGoShopText::
 	text "When I go shop in"
-	line "PEWTER CITY, I"
+	line "MARMORIA CITY, I"
 	cont "have to take the"
 	cont "winding trail in"
-	cont "VIRIDIAN FOREST."
+	cont "VERTANIA FOREST."
 	done
 
 _ViridianCityOldManSleepyPrivatePropertyText::
@@ -150,7 +150,7 @@ ViridianCityFisherYouCanHaveThisText::
 	cont "off in the sun."
 
 	para "I had this dream"
-	line "about a DROWZEE"
+	line "about a TRAUMATO"
 	cont "eating my dream."
 	cont "What's this?"
 	cont "Where did this TM"
@@ -195,7 +195,7 @@ _ViridianCityOldManNotGoodEnoughForYouText::
 	done
 
 _ViridianCitySignText::
-	text "VIRIDIAN CITY "
+	text "VERTANIA CITY "
 	line "The Eternally"
 	cont "Green Paradise"
 	done
@@ -231,7 +231,7 @@ _ViridianCityTrainerTips2Text::
 	done
 
 _ViridianCityGymSignText::
-	text "VIRIDIAN CITY"
+	text "VERTANIA CITY"
 	line "#MON GYM"
 	done
 

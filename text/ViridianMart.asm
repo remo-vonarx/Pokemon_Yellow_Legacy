@@ -1,23 +1,23 @@
 _ViridianMartClerkSayHiToOakText::
 	text "Okay! Say hi to"
-	line "PROF.OAK for me!"
+	line "PROF.EICH for me!"
 	done
 
 _ViridianMartClerkYouCameFromPalletTownText::
 	text "Hey! You came from"
-	line "PALLET TOWN?"
+	line "ALABASTIA?"
 	done
 
 _ViridianMartClerkParcelQuestText::
 	text "You know PROF."
-	line "OAK, right?"
+	line "EICH, right?"
 
 	para "His order came in."
 	line "Will you take it"
 	cont "to him?"
 
 	para "<PLAYER> got"
-	line "OAK's PARCEL!@"
+	line "EICH's PARCEL!@"
 	text_end
 
 _ViridianMartYoungsterText::

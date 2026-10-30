@@ -5,7 +5,7 @@ _Route1Youngster1MartSampleText::
 	para "It's a convenient"
 	line "shop, so please"
 	cont "visit us in"
-	cont "VIRIDIAN CITY."
+	cont "VERTANIA CITY."
 
 	para "I know, I'll give"
 	line "you a sample!"
@@ -55,12 +55,12 @@ _Route1Youngster2Text::
 
 _Route1SignText::
 	text "ROUTE 1"
-	line "PALLET TOWN -"
-	cont "VIRIDIAN CITY"
+	line "ALABASTIA -"
+	cont "VERTANIA CITY"
 	done
 
 _OakBeforeBattleText::
-	text "OAK: Oh, my!"
+	text "EICH: Oh, my!"
 	
 	para "It seems you"
 	line "caught me during"
