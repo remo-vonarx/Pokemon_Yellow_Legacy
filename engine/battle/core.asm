@@ -1199,10 +1199,15 @@ ChooseNextMon:
 HandlePlayerBlackOut:
 	ld a, [wLinkState]
 	cp LINK_STATE_BATTLING
-	jr z, .notRival1Battle
+	jr z, .noVictorySpeech
 	ld a, [wIsInBattle]
 	dec a
-	jr z, .notRival1Battle
+	jr z, .noVictorySpeech
+; rematches started by a script don't save end battle texts,
+; so the pointers would still be the ones of an earlier battle
+	ld a, [wd72d]
+	bit 7, a
+	jr z, .noVictorySpeech
 ; only opponents with their own victory speech (rival, Oak) say something;
 ; everyone else has their defeat text stored as lose text too
 	ld a, [wEndBattleWinTextPointer]
@@ -1214,7 +1219,7 @@ HandlePlayerBlackOut:
 	ld b, a
 	ld a, [wEndBattleLoseTextPointer + 1]
 	cp b
-	jr z, .notRival1Battle
+	jr z, .noVictorySpeech
 .hasVictorySpeech
 	hlcoord 0, 0  ; opponent with a victory speech
 	lb bc, 8, 21
@@ -1226,7 +1231,7 @@ HandlePlayerBlackOut:
 	ld a, [wCurMap]
 	cp OAKS_LAB
 	ret z            ; starter battle in oak's lab: don't black out
-.notRival1Battle
+.noVictorySpeech
 	ld b, SET_PAL_BATTLE_BLACK
 	call RunPaletteCommand
 	ld hl, PlayerBlackedOutText2
@@ -1242,10 +1247,6 @@ HandlePlayerBlackOut:
 	call ClearScreen
 	scf
 	ret
-
-Rival1WinText:
-	text_far _Rival1WinText
-	text_end
 
 PlayerBlackedOutText2:
 	text_far _PlayerBlackedOutText2

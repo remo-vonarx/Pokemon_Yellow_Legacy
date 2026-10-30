@@ -932,11 +932,6 @@ _UseNextMonText::
 	text "Use next #MON?"
 	done
 
-_Rival1WinText::
-	text "<RIVAL>: Yeah! Am"
-	line "I great or what?"
-	prompt
-
 _PlayerBlackedOutText2::
 	text "<PLAYER> is out of"
 	line "useable #MON!"
