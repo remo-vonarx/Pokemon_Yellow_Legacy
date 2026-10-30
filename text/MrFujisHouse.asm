@@ -28,7 +28,7 @@ _MrFujisHouseLittleGirlPokemonAreNiceToHugText::
 	done
 
 _MrFujisHousePsyduckText::
-	text "ENTON: Gwappa!@"
+	text "ENTON: Enton!@"
 	text_end
 
 _MrFujisHouseNidorinoText::
