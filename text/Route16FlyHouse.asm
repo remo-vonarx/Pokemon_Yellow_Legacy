@@ -28,5 +28,5 @@ _Route16FlyHouseBrunetteGirlHM02NoRoomText::
 	done
 
 _Route16FlyHouseFearowText::
-	text "IBITAK: Kyueen!"
+	text "IBITAK: Ibitak!"
 	done

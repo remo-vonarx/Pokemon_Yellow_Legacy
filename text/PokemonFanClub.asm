@@ -43,11 +43,11 @@ _PokemonFanClubSeelFanText::
 	done
 
 _PokemonFanClubClefairyText::
-	text "PIEPI: Pippii!"
+	text "PIEPI: Piepi!"
 	done
 
 _PokemonFanClubSeelText::
-	text "JUROB: Kyuoo!"
+	text "JUROB: Juuurob!"
 	done
 
 _PokemonFanClubChairmanIntroText::

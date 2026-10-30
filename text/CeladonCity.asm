@@ -69,8 +69,8 @@ _CeladonCityFisherText::
 	done
 
 _CeladonCityPoliwrathText::
-	text "QUAPPO: Ribi"
-	line "ribit!@"
+	text "QUAPPO: Quappo!"
+	line "Quappo!@"
 	text_end
 
 _CeladonCityRocket1Text::

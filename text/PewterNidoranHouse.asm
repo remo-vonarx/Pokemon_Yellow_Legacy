@@ -1,5 +1,5 @@
 _PewterNidoranHouseNidoranText::
-	text "NIDORAN: Bowbow!@"
+	text "NIDORAN: Nidoran!@"
 	text_end
 
 _PewterNidoranHouseLittleBoyText::

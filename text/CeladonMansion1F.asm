@@ -1,15 +1,13 @@
 _CeladonMansion1FMeowthText::
-	text "MAUZI: Meow!@"
+	text "MAUZI: Miauz!@"
 	text_end
 
 _CeladonMansion1FClefairyText::
-	text "PIEPI: Pi"
-	line "pippippi!@"
+	text "PIEPI: Piepi!@"
 	text_end
 
 _CeladonMansion1FNidoranFText::
-	text "NIDORAN: Kya"
-	line "kyaoo!@"
+	text "NIDORAN: Nidoran!@"
 	text_end
 
 _CeladonMansion1FManagersSuiteSignText::

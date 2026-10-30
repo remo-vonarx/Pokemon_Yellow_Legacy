@@ -65,7 +65,7 @@ _SaffronCityGentlemanText::
 	done
 
 _SaffronCityPidgeotText::
-	text "TAUBOSS: Bi bibii!@"
+	text "TAUBOSS: Tauboss!@"
 	text_end
 
 _SaffronCityRockerText::
