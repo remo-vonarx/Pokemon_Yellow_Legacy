@@ -38,15 +38,17 @@ TABLE_FILES = {
 	'data/player_names_list.asm': changed(names.DEFAULT_NAMES),
 }
 
+def code_part(line):
+	# drop a trailing comment, but not a ';' inside a string
+	return re.match(r'^((?:[^";]|"[^"]*")*)', line).group(1)
+
 def strings(line):
 	if SKIP_LINE.match(line):
 		return []
-	# drop a trailing comment, but not a ';' inside a string
-	code = re.match(r'^((?:[^";]|"[^"]*")*)', line).group(1)
-	return re.findall(r'"([^"]*)"', code)
+	return re.findall(r'"([^"]*)"', code_part(line))
 
-def word_re(word):
-	return re.compile(r'(?<![A-Z])' + re.escape(word) + r'(?![A-Z])')
+def word_re(*words):
+	return re.compile(r'(?<![A-Z])(?:' + '|'.join(map(re.escape, words)) + r')(?![A-Z])')
 
 def scan(paths, mapping):
 	# longest names first, so "PALLET" isn't reported again inside "PALLET TOWN"

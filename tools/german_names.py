@@ -11,7 +11,8 @@ Sources:
 - Pokemon: PokeAPI pokemon_species_names.csv (language 6 = German)
 - Trade nicknames: German Pokemon Yellow, via Bulbapedia "List of in-game
   trades in other languages" (LOLA from German Red/Blue)
-- Everything else: decisions in docs/superpowers/plans/2026-10-30-german-names.md
+- Characters and places: German Pokemon Yellow; README.md "Changes in this fork"
+  lists which ones are renamed
 """
 
 # pokemon constant: (English in-game name, German name), in Pokedex order

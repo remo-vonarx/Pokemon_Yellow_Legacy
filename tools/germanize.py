@@ -15,25 +15,30 @@ import re
 import sys
 from pathlib import Path
 
-from check_names import CATEGORIES, ROOT, SCAN_DIRS, SKIP_LINE
+from check_names import CATEGORIES, ROOT, SCAN_DIRS, SKIP_LINE, code_part, word_re
 
 def name_pattern(mapping):
 	# longest names first, so "PALLET TOWN" wins over "PALLET"
-	names = sorted(mapping, key=len, reverse=True)
-	return re.compile(r'(?<![A-Z])(' + '|'.join(map(re.escape, names)) + r')(?![A-Z])')
+	return word_re(*sorted(mapping, key=len, reverse=True))
 
 def replace_line(line, mapping, pattern):
 	if SKIP_LINE.match(line):
 		return line
 	# only the code part; a trailing comment keeps its English names
-	code = re.match(r'^((?:[^";]|"[^"]*")*)', line).group(1)
+	code = code_part(line)
+	# several strings with the same length are a fixed-width table, like
+	# "JOLTEON@@@@", "AERODACTYL@"
+	strings = re.findall(r'"([^"]*)"', code)
+	table = len(strings) > 1 and len(set(map(len, strings))) == 1
 	def replace_string(match):
 		old = match.group(1)
 		new = pattern.sub(lambda name: mapping[name.group(0)], old)
-		# fixed-width entries like "JOLTEON@@@@" keep their length
-		if new != old and old.endswith('@@'):
+		# fixed-width entries keep their length
+		if new != old and (old.endswith('@@') or table):
 			new = new.rstrip('@')
-			assert len(new) < len(old), f'"{new}" does not fit into "{old}"'
+			# only a full-width entry can do without the "@"
+			fits = len(new) < len(old) or (len(new) == len(old) and not old.endswith('@'))
+			assert fits, f'"{new}" does not fit into "{old}"'
 			new = new.ljust(len(old), '@')
 		return f'"{new}"'
 	return re.sub(r'"([^"]*)"', replace_string, code) + line[len(code):]
@@ -74,11 +79,21 @@ def test_replace_word_boundaries():
 		'\ttext "SEEL" ; SEEL': '\ttext "JUROB" ; SEEL',
 		'INCLUDE "text/SEEL.asm"': 'INCLUDE "text/SEEL.asm"',
 		'\tdb "JOLTEON@@@@", "SNORLAX@@@@"': '\tdb "BLITZA@@@@@", "RELAXO@@@@@"',
+		'\tdb "BUTTERFREE@", "AERODACTYL@"': '\tdb "SMETTBO@@@@", "AERODACTYL@"',
+		'\tdb "OLD MAN@"': '\tdb "OLD MAN@"',
+		'\tdb "PROF.OAK@"': '\tdb "PROF EICH@"',
 		'\ttext "MEOWTH: Meow!@"': '\ttext "MAUZI: Meow!@"',
 	}
 	for line, want in cases.items():
 		got = replace_line(line, mapping, pattern)
 		assert got == want, f'{line!r}: got {got!r}, want {want!r}'
+	too_long = {'BUTTERFREE': 'SMETTBO-SMETTBO'}
+	try:
+		replace_line('\tdb "BUTTERFREE@", "AERODACTYL@"', too_long, name_pattern(too_long))
+	except AssertionError:
+		pass
+	else:
+		raise AssertionError('a longer name must not fit into a fixed-width entry')
 
 def main():
 	args = sys.argv[1:]
