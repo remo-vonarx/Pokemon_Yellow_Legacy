@@ -45,7 +45,7 @@ TrainerNames::
 	li "RIVAL3"
 	li "LORELEI"
 	li "CHANNELER"
-	li "AGATHA"
+	li "AGATHE"
 	li "SIEGFRIED"
 	li "WEEBRA"
 	li "JANINA"
