@@ -16,7 +16,7 @@ This fork keeps the English text of Yellow Legacy, but uses the German names, so
 **German:**
 * All 151 Pokémon, also in dialogue, signs and the Pokédex (KLEINSTEIN, GLURAK, PUMMELUFF, ...)
 * Characters: PROF EICH, ROCKO, MAJOR BOB, PYRO, SIEGFRIED, JANINA and OFFICER ROCKY
-* Cities: ALABASTIA, VERTANIA CITY, MARMORIA CITY, AZURIA CITY, ORANIA CITY, LAVANDIA, PRISMANIA CITY, FUCHSANIA CITY, SAFFRONIA CITY and ZINNOBERINSEL
+* Cities: ALABASTIA, VERTANIA CITY, MARMORIA CITY, AZURIA CITY, ORANIA CITY, LAVANDIA, PRISMANIA CITY, FUCHSANIA CITY, SAFFRONIA CITY and ZINNOBER ISLAND
 * Places named after a city or Pokémon: VERTANIA FOREST, DIGDA's CAVE, AZURIA CAVE, PRISMANIA DEPT. STORE, ...
 * The in-game trade nicknames, WILLI in the nickname house and the default names GELB, GRÜN and BLAU
 * The cries of talking Pokémon as in the German release, e.g. "PUMMELUFF: Puu! Pu-uuu-ummeluff!"

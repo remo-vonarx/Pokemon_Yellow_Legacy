@@ -18,7 +18,7 @@ _CinnabarIslandGamblerText::
 	done
 
 _CinnabarIslandSignText::
-	text "ZINNOBERINSEL"
+	text "ZINNOBER ISLAND"
 	line "The Fiery Town of"
 	cont "Burning Desire"
 	done
@@ -28,7 +28,7 @@ _CinnabarIslandPokemonLabSignText::
 	done
 
 _CinnabarIslandGymSignText::
-	text "ZINNOBERINSEL"
+	text "ZINNOBER ISLAND"
 	line "#MON GYM"
 	cont "LEADER: PYRO"
 

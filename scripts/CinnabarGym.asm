@@ -24,7 +24,7 @@ CinnabarGymSetMapAndTiles:
 	jp LoadGymLeaderAndCityName
 
 .CityName:
-	db "ZINNOBERINSEL@"
+	db "ZINNOBER ISLAND@"
 
 .LeaderName:
 	db "PYRO@"

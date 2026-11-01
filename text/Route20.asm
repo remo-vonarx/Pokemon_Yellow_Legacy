@@ -120,7 +120,7 @@ _Route20Swimmer7AfterBattleText::
 
 _Route20Swimmer8BattleText::
 	text "I swam here from"
-	line "ZINNOBERINSEL!"
+	line "ZINNOBER ISLAND!"
 	done
 
 _Route20Swimmer8EndBattleText::
