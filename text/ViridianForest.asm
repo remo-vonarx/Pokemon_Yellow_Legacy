@@ -14,7 +14,7 @@ _ViridianForestYoungster2BattleText::
 
 _ViridianForestYoungster2EndBattleText::
 	text "No!"
-	line "CATERPIE can't"
+	line "RAUPY can't"
 	cont "cut it!"
 	prompt
 
@@ -78,7 +78,7 @@ _ViridianForestCooltrainerFAfterBattleText::
 	cont "a PIKACHU here!"
 
 	para "I did run"
-	line "into an ODDISH"
+	line "into a MYRAPLA"
 	cont "though!"
 	done
 
@@ -94,7 +94,7 @@ _ViridianForestYoungster5EndBattleText::
 	prompt
 
 _ViridianForestYoungster5AfterBattleText::
-	text "A METAPOD is cool"
+	text "A SAFCON is cool"
 	line "because its"
 	cont "attack is its"
 	cont "defense!"
@@ -127,7 +127,7 @@ _ViridianForestUseAntidoteSignText::
 _ViridianForestTrainerTips2Text::
 	text "TRAINER TIPS"
 
-	para "Contact PROF.OAK"
+	para "Contact PROF EICH"
 	line "via PC to get"
 	cont "your #DEX"
 	cont "evaluated!"
@@ -156,6 +156,7 @@ _ViridianForestTrainerTips4Text::
 
 _ViridianForestLeavingSignText::
 	text "LEAVING"
-	line "VIRIDIAN FOREST"
-	cont "PEWTER CITY AHEAD"
+	line "VERTANIA FOREST"
+	cont "MARMORIA CITY"
+	cont "AHEAD"
 	done

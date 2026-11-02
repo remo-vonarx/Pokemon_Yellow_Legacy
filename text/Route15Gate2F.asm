@@ -1,6 +1,6 @@
 _Route15Gate2FOaksAideHiText::
 	text "Hi! Remember me?"
-	line "I'm PROF.OAK's"
+	line "I'm PROF EICH's"
 	cont "AIDE!"
 
 	para "I'm supposed to"

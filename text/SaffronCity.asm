@@ -14,7 +14,7 @@ _SaffronCityRocket3Text::
 	done
 
 _SaffronCityRocket4Text::
-	text "SAFFRON belongs"
+	text "SAFFRONIA belongs"
 	line "to TEAM ROCKET!"
 	done
 
@@ -51,12 +51,12 @@ _SaffronCitySilphWorkerMText::
 _SaffronCitySilphWorkerFText::
 	text "People should be"
 	line "flocking back to"
-	cont "SAFFRON now."
+	cont "SAFFRONIA now."
 	done
 
 _SaffronCityGentlemanText::
 	text "I flew here on my"
-	line "PIDGEOT when I"
+	line "TAUBOSS when I"
 	cont "read about SILPH."
 
 	para "It's already over?"
@@ -65,7 +65,7 @@ _SaffronCityGentlemanText::
 	done
 
 _SaffronCityPidgeotText::
-	text "PIDGEOT: Bi bibii!@"
+	text "TAUBOSS: Tauboss!@"
 	text_end
 
 _SaffronCityRockerText::
@@ -91,7 +91,7 @@ _SaffronCityRocket9Text::
 	done
 
 _SaffronCitySignText::
-	text "SAFFRON CITY"
+	text "SAFFRONIA CITY"
 	line "Shining, Golden"
 	cont "Land of Commerce"
 	done
@@ -101,7 +101,7 @@ _SaffronCityFightingDojoSignText::
 	done
 
 _SaffronCityGymSignText::
-	text "SAFFRON CITY"
+	text "SAFFRONIA CITY"
 	line "#MON GYM"
 	cont "LEADER: SABRINA"
 

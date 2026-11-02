@@ -1,8 +1,8 @@
 _AgathaBeforeBattleText::
-	text "I am AGATHA of"
+	text "I am AGATHE of"
 	line "the ELITE FOUR!"
 
-	para "OAK's taken a lot"
+	para "EICH's taken a lot"
 	line "of interest in"
 	cont "you, child!"
 
@@ -41,7 +41,7 @@ _AgathaAfterBattleText::
 _AgathaRematchBeforeBattleText::
 	text "Back again, eh?"
 
-	para "Seen OAK lately?"
+	para "Seen EICH lately?"
 	line "Still fond of"
 	cont "you, I bet!"
 
@@ -68,7 +68,7 @@ _AgathaRematchAfterBattleText::
 	cont "grown mighty!"
 
 	para "You've earned"
-	line "OAK's--and my"
+	line "EICH's--and my"
 	cont "respect!"
 
 	para "Now, go!"

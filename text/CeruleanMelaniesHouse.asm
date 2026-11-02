@@ -3,7 +3,7 @@ MelanieText1::
 	line "injured #MON."
 
 	para "I nursed this"
-	line "BULBASAUR back to"
+	line "BISASAM back to"
 	cont "health."
 
 	para "It needs a good"
@@ -14,16 +14,16 @@ MelanieText1::
 MelanieText2::
 	text "I know! Would you"
 	line "take care of this"
-	cont "BULBASAUR?"
+	cont "BISASAM?"
 	done
 
 MelanieText3::
 	text "Please take care"
-	line "of BULBASAUR!@"
+	line "of BISASAM!@"
 	text_end
 
 MelanieText4::
-	text "Is BULBASAUR"
+	text "Is BISASAM"
 	line "doing well?@"
 	text_end
 
@@ -33,14 +33,14 @@ MelanieText5::
 	text_end
 
 MelanieBulbasaurText::
-	text "BULBASAUR: Bubba!"
-	line "Zoar!@"
+	text "BISASAM: Bisa!"
+	line "Bisasam!@"
 	text_end
 
 MelanieOddishText::
-	text "ODDISH: Orddissh!@"
+	text "MYRAPLA: Myraaa!@"
 	text_end
 
 MelanieSandshrewText::
-	text "SANDSHREW: Pikii!@"
+	text "SANDAN: Pikii!@"
 	text_end

@@ -1,6 +1,6 @@
 _VermilionGymLTSurgePreBattleText::
 	text "Ten-hut! Welcome"
-	line "to VERMILION GYM!"
+	line "to ORANIA GYM!"
 
 	para "Will you look at"
 	line "that, a pint-size"
@@ -116,7 +116,7 @@ _VermilionGymLTSurgeReceivedThunderBadgeText::
 
 _VermilionGymGentlemanBattleText::
 	text "When I was in the"
-	line "Army, LT.SURGE"
+	line "Army, MAJOR BOB"
 	cont "was my strict CO!"
 	done
 
@@ -129,7 +129,7 @@ _VermilionGymGentlemanAfterBattleText::
 	text "The door won't"
 	line "open?"
 
-	para "LT.SURGE always"
+	para "MAJOR BOB always"
 	line "was cautious!"
 	done
 
@@ -146,7 +146,7 @@ _VermilionGymSuperNerdEndBattleText::
 _VermilionGymSuperNerdAfterBattleText::
 	text "OK, I'll talk!"
 
-	para "LT.SURGE said he"
+	para "MAJOR BOB said he"
 	line "hid door switches"
 	cont "inside something!"
 	done
@@ -162,7 +162,7 @@ _VermilionGymSailorEndBattleText::
 	prompt
 
 _VermilionGymSailorAfterBattleText::
-	text "LT.SURGE set up"
+	text "MAJOR BOB set up"
 	line "double locks!"
 	cont "Here's a hint!"
 
@@ -176,7 +176,7 @@ _VermilionGymGymGuideChampInMakingText::
 	text "Yo! Champ in"
 	line "making!"
 
-	para "LT.SURGE is"
+	para "MAJOR BOB is"
 	line "most known for"
 	cont "only using a"
 	cont "single #MON"
@@ -192,7 +192,7 @@ _VermilionGymGymGuideChampInMakingText::
 	cont "risk! But that"
 	cont "isn't all!"
 
-	para "LT.SURGE has"
+	para "MAJOR BOB has"
 	line "taught his"
 	cont "#MON a very"
 	cont "strong water"

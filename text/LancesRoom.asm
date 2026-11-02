@@ -4,8 +4,9 @@ _LancesRoomLanceBeforeBattleText::
 
 	para "I lead the ELITE"
 	line "FOUR! You can"
-	cont "call me LANCE the"
-	cont "dragon trainer!"
+	cont "call me SIEGFRIED"
+	cont "the dragon"
+	cont "trainer!"
 
 	para "You know that"
 	line "dragons are"
@@ -28,7 +29,8 @@ _LancesRoomLanceBeforeBattleText::
 	done
 
 _LancesRoomLanceEndBattleText::
-	text "That's it!"
+	text "That's"
+	line "it!"
 
 	para "I hate to admit"
 	line "it, but you are a"
@@ -87,7 +89,8 @@ _LancesRoomLanceRematchBeforeBattleText::
 	done
 
 _LancesRoomLanceRematchEndBattleText::
-	text "Incredible!"
+	text "That's"
+	line "incredible!"
 
 	para "Your strength"
 	line "keeps growing."

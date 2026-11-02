@@ -87,7 +87,7 @@ _GameCornerGymGuideChampInMakingText::
 	text "Hey!"
 	line "You found me!"
 
-	para "CELADON GYM's"
+	para "PRISMANIA GYM's"
 	line "LEADER is ERIKA!"
 	cont "She uses grass-"
 	cont "type #MON!"

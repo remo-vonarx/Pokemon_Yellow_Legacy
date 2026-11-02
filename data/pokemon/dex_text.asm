@@ -791,11 +791,11 @@ _SlowpokeDexEntry::
 _SlowbroDexEntry::
 	text "Lives lazily by"
 	next "the sea. If the"
-	next "SHELLDER on its"
+	next "MUSCHAS on its"
 
 	page "tail comes off,"
 	next "it becomes a"
-	next "SLOWPOKE again"
+	next "FLEGMON again"
 	dex
 
 _MagnemiteDexEntry::
@@ -839,7 +839,7 @@ _DoduoDexEntry::
 	dex
 
 _DodrioDexEntry::
-	text "One of DODUO's 2"
+	text "One of DODU's 2"
 	next "heads splits to"
 	next "form a unique"
 
@@ -945,7 +945,7 @@ _OnixDexEntry::
 
 	page "tunnels it leaves"
 	next "are used as homes"
-	next "by DIGLETTs"
+	next "by DIGDAs"
 	dex
 
 _DrowzeeDexEntry::

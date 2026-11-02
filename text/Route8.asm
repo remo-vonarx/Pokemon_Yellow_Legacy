@@ -40,7 +40,7 @@ _Route8SuperNerd2EndBattleText::
 	prompt
 
 _Route8SuperNerd2AfterBattleText::
-	text "Go with GRIMER"
+	text "Go with SLEIMA"
 	line "first...and..."
 	cont "...and...then..."
 	done
@@ -74,11 +74,12 @@ _Route8SuperNerd3EndBattleText::
 _Route8SuperNerd3AfterBattleText::
 	text "We're stuck here"
 	line "because of the"
-	cont "gates at SAFFRON."
+	cont "gates at"
+	cont "SAFFRONIA."
 	done
 
 _Route8CooltrainerF2BattleText::
-	text "MEOWTH is so cute,"
+	text "MAUZI is so cute,"
 	line "meow, meow, meow!"
 	done
 
@@ -87,8 +88,8 @@ _Route8CooltrainerF2EndBattleText::
 	prompt
 
 _Route8CooltrainerF2AfterBattleText::
-	text "I think PIDGEY"
-	line "and RATTATA"
+	text "I think TAUBSI"
+	line "and RATTFRATZ"
 	cont "are cute too!"
 	done
 
@@ -104,7 +105,7 @@ _Route8CooltrainerF3EndBattleText::
 	prompt
 
 _Route8CooltrainerF3AfterBattleText::
-	text "SAFFRON's gate-"
+	text "SAFFRONIA's gate-"
 	line "keeper won't let"
 	cont "us through."
 	cont "He's so mean!"
@@ -137,11 +138,11 @@ _Route8CooltrainerF4EndBattleText::
 	text "Stop!"
 
 	para "Don't be so mean"
-	line "to my CLEFAIRY!"
+	line "to my PIEPI!"
 	prompt
 
 _Route8CooltrainerF4AfterBattleText::
-	text "CLEFAIRY evolves"
+	text "PIEPI evolves"
 	line "when it's exposed"
 	cont "to a MOON STONE."
 
@@ -151,6 +152,6 @@ _Route8CooltrainerF4AfterBattleText::
 
 _Route8UndergroundSignText::
 	text "UNDERGROUND PATH"
-	line "CELADON CITY -"
-	cont "LAVENDER TOWN"
+	line "PRISMANIA CITY -"
+	cont "LAVANDIA"
 	done

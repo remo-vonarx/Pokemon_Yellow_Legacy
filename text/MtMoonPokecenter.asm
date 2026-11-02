@@ -8,7 +8,7 @@ _MtMoonPokecenterYoungsterText::
 
 _MtMoonPokecenterGentlemanText::
 	text "TEAM ROCKET"
-	line "attacks CERULEAN"
+	line "attacks AZURIA"
 	cont "citizens..."
 
 	para "TEAM ROCKET is"
@@ -26,7 +26,7 @@ _MtMoonPokecenterMagikarpSalesmanIGotADealText::
 	cont "just for you!"
 
 	para "I'll let you have"
-	line "a swell MAGIKARP"
+	line "a swell KARPADOR"
 	cont "for just ¥500!"
 	cont "What do you say?"
 	done

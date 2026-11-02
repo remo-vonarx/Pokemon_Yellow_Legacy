@@ -9,16 +9,46 @@ Yellow Legacy aims to give each Pokémon a special niche. Balance changes were m
 While Yellow Legacy is not designed as a “Kaizo” project, Pokémon trainer fights (especially bosses) throughout the game have been made more difficult. Difficulty is used as a tool to make the game as engaging as possible to the most amount of players. It will not be difficult for the sake of being difficult, but rather, to provide you with a challenge that gives reaching the title of Champion a feeling of genuine earned satisfaction. Major trainers will have Pokémon and attacks designed to counter players attempting to easily sweep through the fight with a single super-effective Pokémon. However, players will also have more opportunities to create unique teams of stellar Pokémon to tackle each major fight. Pokémon availability has also been altered throughout the world to provide appropriately-powerful Pokémon based on your progression through the game. Finally, all 151 Pokémon will be obtainable in a single playthrough, and a small amount of post-game content has been added as well.
 
 
+## Changes in this fork
+
+This fork keeps the English text of Yellow Legacy, but uses the German names, so the game feels familiar to everyone who grew up with the German releases.
+
+**German:**
+* All 151 Pokémon, also in dialogue, signs and the Pokédex (KLEINSTEIN, GLURAK, PUMMELUFF, ...)
+* Characters: PROF EICH, ROCKO, MAJOR BOB, PYRO, SIEGFRIED, AGATHE, JANINA and OFFICER ROCKY
+* Cities: ALABASTIA, VERTANIA CITY, MARMORIA CITY, AZURIA CITY, ORANIA CITY, LAVANDIA, PRISMANIA CITY, FUCHSANIA CITY, SAFFRONIA CITY and ZINNOBER ISLAND
+* Places named after a city or Pokémon: VERTANIA FOREST, DIGDA's CAVE, AZURIA CAVE, PRISMANIA DEPT. STORE, ...
+* The in-game trade nicknames, WILLI in the nickname house and the default names GELB, GRÜN and BLAU
+* The cries of talking Pokémon as in the German release, e.g. "PUMMELUFF: Puu! Pu-uuu-ummeluff!"
+
+**Still English:** everything else, including moves, items, badges, types, trainer classes, Pokédex categories and landmarks such as MT.MOON or ROCK TUNNEL.
+
+**Bug fixes from upstream pull requests:**
+* [#26](https://github.com/cRz-Shadows/Pokemon_Yellow_Legacy/pull/26) by CreamElDudJafar: Cerulean badge house texts, list menu offset after depositing, Hall of Fame half step, S.S. Anne reward money
+* [#41](https://github.com/cRz-Shadows/Pokemon_Yellow_Legacy/pull/41) by Fernando Barbosa: ELIXIR and MAX ELIXIR spelling
+* [#32](https://github.com/cRz-Shadows/Pokemon_Yellow_Legacy/pull/32) by rjd1922: the rival's victory speeches when you lose, shown only for opponents that have one
+
+The font has Ä, Ö and Ü in the tiles `$c9`-`$cb`. To keep names and line lengths consistent after changes, run `python3 tools/check_names.py` and `python3 tools/check_text_width.py`; `tools/germanize.py` replaces English names inside text strings.
+
 ## Download and Play
 
 * ### **You should use RGBDS version 0.6.1.**
 * To set up the repository, see [**INSTALL.md**](INSTALL.md).
+* On macOS, Homebrew's rgbds is too new. Build 0.6.1 from source instead:
+  ```
+  brew install bison libpng pkg-config
+  curl -L https://github.com/gbdev/rgbds/archive/refs/tags/v0.6.1.tar.gz | tar -xz
+  cd rgbds-0.6.1
+  make BISON=$(brew --prefix bison)/bin/bison
+  make install PREFIX=$HOME/.local/rgbds-0.6.1
+  ```
+  Then run `export PATH=$HOME/.local/rgbds-0.6.1/bin:$PATH` before `make` in this repository.
 
 
 ## A complete list of features can be found here:
 - Full doc: 
-    - [Make a Copy (Recommended)](https://docs.google.com/document/d/1JlZRhW2fcBUd7y23DB7MGfJCU95FK_yJI-QdRFdMawI/copy)
-    - [Download as PDF](https://docs.google.com/document/d/1JlZRhW2fcBUd7y23DB7MGfJCU95FK_yJI-QdRFdMawI/export?format=pdf)
+    - [Make a Copy (Recommended)]( https://docs.google.com/document/d/1oVDn9-gGBJsxE4bZcrgGL3gvvouPuNeNlGBEOvPEIJU/copy)
+    - [Download as PDF](https://docs.google.com/document/d/1oVDn9-gGBJsxE4bZcrgGL3gvvouPuNeNlGBEOvPEIJU/export?format=pdf)
 
 These videos also provide an overview of the hack and the ideology behind it:
 - Release 1.0: https://youtu.be/jTH2fVqHPwc

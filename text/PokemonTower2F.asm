@@ -19,7 +19,7 @@ _PokemonTower2FRivalDefeatedText::
 	prompt
 
 _PokemonTower2FRivalVictoryText::
-	text "<RIVAL>: Well,"
+	text "Well,"
 	line "look at all your"
 	cont "wimpy #MON!"
 
@@ -41,10 +41,10 @@ _PokemonTower2FRivalHowsYourDexText::
 	text "How's your #DEX"
 	line "coming, pal?"
 	cont "I just caught a"
-	cont "CUBONE!"
+	cont "TRAGOSSO!"
 
 	para "I can't find the"
-	line "grown-up MAROWAK"
+	line "grown-up KNOGGA"
 	cont "yet!"
 
 	para "I doubt there are"

@@ -71,7 +71,7 @@ _NoMoreRoomForItemText::
 
 _OaksAideHiText::
 	text "Hi! Remember me?"
-	line "I'm PROF.OAK's"
+	line "I'm PROF EICH's"
 	cont "AIDE!"
 
 	para "If you caught @"
@@ -149,6 +149,6 @@ _OaksAideNoRoomText::
 	done
 
 _NurseChanseyText::
-	text "CHANSEY: Chaaan"
-	line "sey!"
+	text "CHANEIRA: Cha!"
+	line "Chaneira!"
 	done

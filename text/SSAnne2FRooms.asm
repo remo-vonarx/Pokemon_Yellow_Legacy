@@ -89,7 +89,7 @@ _SSAnne2FRoomsCooltrainerFAfterBattleText::
 _SSAnne2FRoomsGentleman5Text::
 	text "Have you gone to"
 	line "the SAFARI ZONE"
-	cont "in FUCHSIA CITY?"
+	cont "in FUCHSANIA CITY?"
 
 	para "It had many rare"
 	line "kinds of #MON!!"

@@ -13,14 +13,14 @@ _CeladonMart3FGameBoyKid2Text::
 
 	para "My buddy's going"
 	line "to trade me his"
-	cont "KANGASKHAN for my"
-	cont "GRAVELER!"
+	cont "KANGAMA for my"
+	cont "GEOROK!"
 	done
 
 _CeladonMart3FGameBoyKid3Text::
-	text "Come on GRAVELER!"
+	text "Come on GEOROK!"
 
-	para "I love GRAVELER!"
+	para "I love GEOROK!"
 	line "I collect them!"
 	done
 

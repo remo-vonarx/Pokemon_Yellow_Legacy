@@ -110,8 +110,8 @@ _RivalRematchDefeatedText::
 	prompt
 
 _RivalRematchVictoryText::
-	text "With my new"
-	line "strategies,"
+	text "With my"
+	line "new strategies,"
 
 	para "you stood no"
 	line "chance, <PLAYER>!"
@@ -134,11 +134,11 @@ _ChampionsRoomRivalRematchAfterBattleText::
 	done
 
 _ChampionsRoomOakText::
-	text "OAK: <PLAYER>!"
+	text "EICH: <PLAYER>!"
 	done
 
 _ChampionsRoomOakCongratulatesPlayerText::
-	text "OAK: So, you won!"
+	text "EICH: So, you won!"
 	line "Congratulations!"
 	cont "You're the new"
 	cont "#MON LEAGUE"
@@ -156,7 +156,7 @@ _ChampionsRoomOakCongratulatesPlayerText::
 	done
 
 _ChampionsRoomOakDisappointedWithRivalText::
-	text "OAK: <RIVAL>! I'm"
+	text "EICH: <RIVAL>! I'm"
 	line "disappointed!"
 
 	para "I came when I"
@@ -182,7 +182,7 @@ _ChampionsRoomOakDisappointedWithRivalText::
 	done
 
 _ChampionsRoomOakComeWithMeText::
-	text "OAK: <PLAYER>!"
+	text "EICH: <PLAYER>!"
 
 	para "You understand"
 	line "that your victory"
@@ -198,7 +198,7 @@ _ChampionsRoomOakComeWithMeText::
 	done
 
 _ChampionsRoomRematchOakCongratulatesPlayerText::
-	text "OAK: So, you won"
+	text "EICH: So, you won"
 	line "again!"
 
 	para "Congratulations!"
@@ -219,7 +219,7 @@ _ChampionsRoomRematchOakCongratulatesPlayerText::
 	done
 
 _ChampionsRoomRematchOakDisappointedWithRivalText::
-	text "OAK: Ah, "
+	text "EICH: Ah, "
 	line "<RIVAL>..."
 
 	para "I had hoped for"
@@ -246,7 +246,7 @@ _ChampionsRoomRematchOakDisappointedWithRivalText::
 	done
 
 _ChampionsRoomRematchOakComeWithMeText::
-	text "OAK: <PLAYER>!"
+	text "EICH: <PLAYER>!"
 
 	para "Your triumph is"
 	line "not yours alone!"
@@ -262,16 +262,16 @@ _ChampionsRoomRematchOakComeWithMeText::
 	done
 
 _ChampionsRoomJolteonText::
-	text "JOLTEON:"
-	line "JOLTEON!"
+	text "BLITZA:"
+	line "BLITZA!"
 	done
 
 _ChampionsRoomFlareonText::
-	text "FLAREON:"
-	line "FLAREON!"
+	text "FLAMARA:"
+	line "FLAMARA!"
 	done
 
 _ChampionsRoomVaporeonText::
-	text "VAPOREON:"
-	line "VAPOREON!"
+	text "AQUANA:"
+	line "AQUANA!"
 	done

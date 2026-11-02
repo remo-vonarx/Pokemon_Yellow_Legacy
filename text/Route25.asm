@@ -20,7 +20,7 @@ _Route25Youngster2BattleText::
 	text "Dad took me to a"
 	line "great party on"
 	cont "S.S.ANNE at"
-	cont "VERMILION CITY!"
+	cont "ORANIA CITY!"
 	done
 
 _Route25Youngster2EndBattleText::
@@ -96,7 +96,7 @@ _Route25CooltrainerF2EndBattleText::
 _Route25CooltrainerF2AfterBattleText::
 	text "You came from MT."
 	line "MOON? May I have"
-	cont "a CLEFAIRY?"
+	cont "a PIEPI?"
 	done
 
 _Route25Hiker1BattleText::
@@ -147,7 +147,7 @@ _Route25Hiker3EndBattleText::
 _Route25Hiker3AfterBattleText::
 	text "The trail below"
 	line "is a shortcut to"
-	cont "CERULEAN CITY."
+	cont "AZURIA CITY."
 	done
 
 _Route25BillSignText::

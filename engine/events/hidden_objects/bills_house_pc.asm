@@ -120,10 +120,10 @@ BillsHousePokemonListText1:
 	text_end
 
 BillsMonListText:
-	db   "EEVEE"
-	next "FLAREON"
-	next "JOLTEON"
-	next "VAPOREON"
+	db   "EVOLI"
+	next "FLAMARA"
+	next "BLITZA"
+	next "AQUANA"
 	next "CANCEL@"
 
 BillsHousePokemonListText2:

@@ -137,20 +137,20 @@ _CeruleanCityGuardText::
 	done
 
 _CeruleanCityCooltrainerF1ElectrodeUseSonicboomText::
-	text "OK! ELECTRODE!"
+	text "OK! LEKTROBAL!"
 	line "Use SONICBOOM!"
-	cont "Please ELECTRODE,"
+	cont "Please LEKTROBAL,"
 	cont "pay attention!"
 	done
 
 _CeruleanCityCooltrainerF1ElectrodePunchText::
-	text "ELECTRODE, TACKLE!"
+	text "LEKTROBAL, TACKLE!"
 	line "No! You blew it"
 	cont "again!"
 	done
 
 _CeruleanCityCooltrainerF1ElectrodeWithdrawText::
-	text "ELECTRODE, SWIFT!"
+	text "LEKTROBAL, SWIFT!"
 	line "No! That's wrong!"
 
 	para "Training #MON"
@@ -163,22 +163,22 @@ _CeruleanCityCooltrainerF1ElectrodeWithdrawText::
 	done
 
 _CeruleanCityElectrodeTookASnoozeText::
-	text "ELECTRODE took a"
+	text "LEKTROBAL took a"
 	line "snooze..."
 	done
 
 _CeruleanCityElectrodeIsLoafingAroundText::
-	text "ELECTRODE is"
+	text "LEKTROBAL is"
 	line "loafing around..."
 	done
 
 _CeruleanCityElectrodeTurnedAwayText::
-	text "ELECTRODE turned"
+	text "LEKTROBAL turned"
 	line "away..."
 	done
 
 _CeruleanCityElectrodeIgnoredOrdersText::
-	text "ELECTRODE"
+	text "LEKTROBAL"
 	line "ignored orders..."
 	done
 
@@ -192,7 +192,7 @@ _CeruleanCityCooltrainerF2Text::
 	done
 
 _CeruleanCitySuperNerd3Text::
-	text "This is CERULEAN"
+	text "This is AZURIA"
 	line "CAVE! Horribly"
 	cont "strong #MON"
 	cont "live in there!"
@@ -204,7 +204,7 @@ _CeruleanCitySuperNerd3Text::
 	done
 
 _CeruleanCitySignText::
-	text "CERULEAN CITY"
+	text "AZURIA CITY"
 	line "A Mysterious,"
 	cont "Blue Aura"
 	cont "Surrounds It"
@@ -234,7 +234,7 @@ _CeruleanCityBikeShopSign::
 	done
 
 _CeruleanCityGymSign::
-	text "CERULEAN CITY"
+	text "AZURIA CITY"
 	line "#MON GYM"
 	cont "LEADER: MISTY"
 

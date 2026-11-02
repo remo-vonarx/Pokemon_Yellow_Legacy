@@ -16,6 +16,6 @@ _Route9Youngster1AfterBattleText::
 
 _Route9SignText::
 	text "ROUTE 9"
-	line "CERULEAN CITY-"
+	line "AZURIA CITY-"
 	cont "ROCK TUNNEL"
 	done

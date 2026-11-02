@@ -1,5 +1,5 @@
 _SeafoamIslandsB4FArticunoBattleText::
-	text "Gyaoo!@"
+	text "Arktos!@"
 	text_end
 
 _SeafoamIslandsB4FBouldersSignText::

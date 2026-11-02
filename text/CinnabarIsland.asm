@@ -4,8 +4,8 @@ _CinnabarIslandDoorIsLockedText::
 	done
 
 _CinnabarIslandGirlText::
-	text "CINNABAR GYM's"
-	line "BLAINE is an odd"
+	text "ZINNOBER GYM's"
+	line "PYRO is an odd"
 	cont "man who has lived"
 	cont "here for decades."
 	done
@@ -18,7 +18,7 @@ _CinnabarIslandGamblerText::
 	done
 
 _CinnabarIslandSignText::
-	text "CINNABAR ISLAND"
+	text "ZINNOBER ISLAND"
 	line "The Fiery Town of"
 	cont "Burning Desire"
 	done
@@ -28,9 +28,9 @@ _CinnabarIslandPokemonLabSignText::
 	done
 
 _CinnabarIslandGymSignText::
-	text "CINNABAR ISLAND"
+	text "ZINNOBER ISLAND"
 	line "#MON GYM"
-	cont "LEADER: BLAINE"
+	cont "LEADER: PYRO"
 
 	para "The Hot-Headed"
 	line "Quiz Master!"

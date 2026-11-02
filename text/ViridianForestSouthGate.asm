@@ -1,6 +1,6 @@
 _ViridianForestSouthGateGirlText::
 	text "Are you going to"
-	line "VIRIDIAN FOREST?"
+	line "VERTANIA FOREST?"
 	cont "Be careful, it's"
 	cont "a natural maze!"
 	done
@@ -12,5 +12,5 @@ _ViridianForestSouthGateLittleGirlText::
 
 	para "Look for other"
 	line "types outside of"
-	cont "VIRIDIAN FOREST."
+	cont "VERTANIA FOREST."
 	done

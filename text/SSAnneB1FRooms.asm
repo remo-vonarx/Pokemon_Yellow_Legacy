@@ -1,6 +1,6 @@
 _SSAnneB1FRoomsMachokeText::
-	text "MACHOKE: Gwoh!"
-	line "Goggoh!@"
+	text "MASCHOCK: Macho!"
+	line "Maschock!@"
 	text_end
 
 _SSAnneB1FRoomsSailor1BattleText::
@@ -32,7 +32,7 @@ _SSAnneB1FRoomsSailor2EndBattleText::
 _SSAnneB1FRoomsSailor2AfterBattleText::
 	text "Did you see the"
 	line "FISHING GURU in"
-	cont "VERMILION CITY?"
+	cont "ORANIA CITY?"
 	done
 
 _SSAnneB1FRoomsSailor3BattleText::
@@ -105,7 +105,7 @@ _SSAnneB1FRoomsFisherAfterBattleText::
 	done
 
 _SSAnneB1FRoomsSuperNerdText::
-	text "My buddy, MACHOKE,"
+	text "My buddy MASCHOCK"
 	line "is super strong!"
 
 	para "He has enough"

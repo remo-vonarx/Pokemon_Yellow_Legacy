@@ -159,7 +159,7 @@ _Route24Youngster2AfterBattleText::
 
 _Route24DamianText1::
 	text "I should release"
-	line "my CHARMANDER"
+	line "my GLUMANDA"
 	cont "because it's"
 	cont "weak!"
 
@@ -179,6 +179,6 @@ _Route24DamianText3::
 
 _Route24DamianText4::
 	text "How's that weak"
-	line "old CHARMANDER"
+	line "old GLUMANDA"
 	cont "doing?"
 	done

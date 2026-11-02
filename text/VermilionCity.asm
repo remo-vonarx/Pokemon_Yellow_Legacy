@@ -2,7 +2,7 @@ _VermilionCityBeautyText::
 	text "We're careful"
 	line "about pollution!"
 
-	para "We've heard GRIMER"
+	para "We've heard SLEIMA"
 	line "multiplies in"
 	cont "toxic sludge!"
 	done
@@ -67,13 +67,13 @@ _VermilionCityGambler2Text::
 	done
 
 _VermilionCityMachopText::
-	text "MACHOP: Guoh!"
+	text "MACHOLLO: Guoh!"
 	line "Gogogoh!@"
 	text_end
 
 _VermilionCityMachopStompingTheLandFlatText::
 	text_start
-	para "A MACHOP is"
+	para "A MACHOLLO is"
 	line "stomping the land"
 	cont "flat."
 	done
@@ -83,13 +83,13 @@ _VermilionCitySailor2Text::
 	line "famous luxury"
 	cont "cruise ship."
 
-	para "We visit VERMILION"
+	para "We visit ORANIA"
 	line "once a year."
 	done
 
 _OfficerJennyText1::
 	text "I just caught a"
-	line "SQUIRTLE that was"
+	line "SCHIGGY that was"
 	cont "always getting"
 	cont "into mischief."
 
@@ -106,7 +106,7 @@ _OfficerJennyText2::
 	line "good trainer!"
 
 	para "I just caught a"
-	line "SQUIRTLE that was"
+	line "SCHIGGY that was"
 	cont "always getting"
 	cont "into mischief."
 
@@ -116,7 +116,7 @@ _OfficerJennyText2::
 
 _OfficerJennyText3::
 	text "OK! Please treat"
-	line "SQUIRTLE right!@"
+	line "SCHIGGY right!@"
 	text_end
 
 _OfficerJennyText4::
@@ -125,7 +125,7 @@ _OfficerJennyText4::
 	done
 
 _OfficerJennyText5::
-	text "How is SQUIRTLE"
+	text "How is SCHIGGY"
 	line "doing?"
 	done
 
@@ -135,7 +135,7 @@ _JennyBattleText::
 	cont "strong."
 
 	para "And so has that"
-	line "SQUIRTLE I gave"
+	line "SCHIGGY I gave"
 	cont "you."
 
 	para "I wonder how"
@@ -161,7 +161,7 @@ _JennyAcceptedText::
 _JennyAfterBattleText::
     text "Incredible!"
 
-	para "You and SQUIRTLE"
+	para "You and SCHIGGY"
 	line "are unstoppable!"
 
 	para "Keep up the"
@@ -170,7 +170,7 @@ _JennyAfterBattleText::
     done
 
 _VermilionCitySignText::
-	text "VERMILION CITY"
+	text "ORANIA CITY"
 	line "The Port of"
 	cont "Exquisite Sunsets"
 	done
@@ -184,9 +184,9 @@ _VermilionCityNoticeSignText::
 
 	para "Detour through"
 	line "ROCK TUNNEL to"
-	cont "LAVENDER TOWN."
+	cont "LAVANDIA."
 
-	para "VERMILION POLICE"
+	para "ORANIA POLICE"
 	done
 
 _VermilionCityPokemonFanClubSignText::
@@ -196,14 +196,14 @@ _VermilionCityPokemonFanClubSignText::
 	done
 
 _VermilionCityGymSignText::
-	text "VERMILION CITY"
+	text "ORANIA CITY"
 	line "#MON GYM"
-	cont "LEADER: LT.SURGE"
+	cont "LEADER: MAJOR BOB"
 
 	para "The Lightning "
 	line "American!"
 	done
 
 _VermilionCityHarborSignText::
-	text "VERMILION HARBOR"
+	text "ORANIA HARBOR"
 	done

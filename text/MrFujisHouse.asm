@@ -7,7 +7,7 @@ _MrFujisHouseSuperNerdMrFujiIsntHereText::
 _MrFujisHouseSuperNerdMrFujiHadBeenPrayingText::
 	text "MR.FUJI had been"
 	line "praying alone for"
-	cont "CUBONE's mother."
+	cont "TRAGOSSO's mother."
 	done
 
 _MrFujisHouseLittleGirlThisIsMrFujisHouseText::
@@ -28,11 +28,11 @@ _MrFujisHouseLittleGirlPokemonAreNiceToHugText::
 	done
 
 _MrFujisHousePsyduckText::
-	text "PSYDUCK: Gwappa!@"
+	text "ENTON: Enton!@"
 	text_end
 
 _MrFujisHouseNidorinoText::
-	text "NIDORINO: Gaoo!@"
+	text "NIDORINO: Nido!@"
 	text_end
 
 _MrFujisHouseMrFujiIThinkThisMayHelpYourQuestText::

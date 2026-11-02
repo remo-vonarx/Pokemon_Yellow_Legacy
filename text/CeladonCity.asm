@@ -1,5 +1,5 @@
 _CeladonCityLittleGirlText::
-	text "I got my KOFFING"
+	text "I got my SMOGON"
 	line "from my friend!"
 
 	para "We get along now,"
@@ -61,16 +61,16 @@ _CeladonCityGramps3TM41NoRoomText::
 
 _CeladonCityFisherText::
 	text "This is my trusted"
-	line "pal, POLIWRATH!"
+	line "pal, QUAPPO!"
 
 	para "It evolved from"
-	line "POLIWHIRL when I"
+	line "QUAPUTZI when I"
 	cont "used WATER STONE!"
 	done
 
 _CeladonCityPoliwrathText::
-	text "POLIWRATH: Ribi"
-	line "ribit!@"
+	text "QUAPPO: Quappo!"
+	line "Quappo!@"
 	text_end
 
 _CeladonCityRocket1Text::
@@ -84,13 +84,13 @@ _CeladonCityRocket2Text::
 	done
 
 _CeladonCitySignText::
-	text "CELADON CITY"
+	text "PRISMANIA CITY"
 	line "The City of"
 	cont "Rainbow Dreams"
 	done
 
 _CeladonCityGymSignText::
-	text "CELADON CITY"
+	text "PRISMANIA CITY"
 	line "#MON GYM"
 	cont "LEADER: ERIKA"
 
@@ -99,12 +99,12 @@ _CeladonCityGymSignText::
 	done
 
 _CeladonCityMansionSignText::
-	text "CELADON MANSION"
+	text "PRISMANIA MANSION"
 	done
 
 _CeladonCityDeptStoreSignText::
 	text "Find what you"
-	line "need at CELADON"
+	line "need at PRISMANIA"
 	cont "DEPT. STORE!"
 	done
 
@@ -118,7 +118,7 @@ _CeladonCityTrainerTips2Text::
 	cont "during battle."
 
 	para "Get your items at"
-	line "CELADON DEPT."
+	line "PRISMANIA DEPT."
 	cont "STORE!"
 	done
 

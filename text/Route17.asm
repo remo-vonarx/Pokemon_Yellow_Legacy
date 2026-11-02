@@ -31,7 +31,7 @@ _Route17Biker2AfterBattleText::
 
 _Route17Biker3BattleText::
 	text "You heading to"
-	line "FUCHSIA?"
+	line "FUCHSANIA?"
 	done
 
 _Route17Biker3EndBattleText::
@@ -59,7 +59,7 @@ _Route17Biker4AfterBattleText::
 	done
 
 _Route17Biker5BattleText::
-	text "Let ELECTRODE"
+	text "Let LEKTROBAL"
 	line "electrify you!"
 	done
 
@@ -70,7 +70,7 @@ _Route17Biker5EndBattleText::
 
 _Route17Biker5AfterBattleText::
 	text "I got my"
-	line "ELECTRODE at the"
+	line "LEKTROBAL at the"
 	cont "abandoned POWER"
 	cont "PLANT."
 	done
@@ -178,8 +178,8 @@ _Route17TrainerTips2Text::
 
 _Route17SignText::
 	text "ROUTE 17"
-	line "CELADON CITY -"
-	cont "FUCHSIA CITY"
+	line "PRISMANIA CITY -"
+	cont "FUCHSANIA CITY"
 	done
 
 _Route17NoticeSign2Text::

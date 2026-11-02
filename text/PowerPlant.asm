@@ -3,7 +3,7 @@ _PowerPlantVoltorbBattleText::
 	done
 
 _PowerPlantZapdosBattleText::
-	text "Gyaoo!@"
+	text "Zapdos!@"
 	text_end
 
 _PowerPlantCraigBattleText1::

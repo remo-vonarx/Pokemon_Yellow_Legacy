@@ -1,6 +1,6 @@
 _PewterCityCooltrainerFText::
 	text "It's rumored that"
-	line "CLEFAIRYs came"
+	line "PIEPIs came"
 	cont "from the moon!"
 
 	para "They appeared "
@@ -15,8 +15,8 @@ _PewterCityCooltrainerMText::
 
 	para "They're all like"
 	line "BUG CATCHERs,"
-	cont "but PEWTER GYM's"
-	cont "BROCK is totally"
+	cont "but MARMORIA GYM's"
+	cont "ROCKO is totally"
 	cont "into it!"
 	done
 
@@ -64,7 +64,7 @@ _PewterCitySuperNerd2ImSprayingRepelText::
 
 _PewterCityYoungsterYoureATrainerFollowMeText::
 	text "You're a trainer"
-	line "right? BROCK's"
+	line "right? ROCKO's"
 	cont "looking for new"
 	cont "challengers!"
 	cont "Follow me!"
@@ -73,7 +73,7 @@ _PewterCityYoungsterYoureATrainerFollowMeText::
 _PewterCityYoungsterGoTakeOnBrockText::
 	text "If you have the"
 	line "right stuff, go"
-	cont "take on BROCK!"
+	cont "take on ROCKO!"
 	done
 
 _PewterCityTrainerTipsText::
@@ -99,26 +99,26 @@ _PewterCityPoliceNoticeSignText::
 	line "stealing #MON"
 	cont "fossils at MT."
 	cont "MOON! Please call"
-	cont "PEWTER POLICE"
+	cont "MARMORIA POLICE"
 	cont "with any info!"
 	done
 
 _PewterCityMuseumSignText::
-	text "PEWTER MUSEUM"
+	text "MARMORIA MUSEUM"
 	line "OF SCIENCE"
 	done
 
 _PewterCityGymSignText::
-	text "PEWTER CITY"
+	text "MARMORIA CITY"
 	line "#MON GYM"
-	cont "LEADER: BROCK"
+	cont "LEADER: ROCKO"
 
 	para "The Rock Solid"
 	line "#MON Trainer!"
 	done
 
 _PewterCitySignText::
-	text "PEWTER CITY"
+	text "MARMORIA CITY"
 	line "A Stone Gray"
 	cont "City"
 	done

@@ -27,12 +27,12 @@ _OaksLabThatsAPokeball::
 	done
 
 _OaksLabOak1GoAheadItsYours::
-	text "OAK: Go ahead,"
+	text "EICH: Go ahead,"
 	line "it's yours!"
 	done
 
 _OaksLabOak1YourPokemonCanFightText::
-	text "OAK: If a wild"
+	text "EICH: If a wild"
 	line "#MON appears,"
 	cont "your #MON can"
 	cont "fight against it!"
@@ -42,13 +42,13 @@ _OaksLabOak1YourPokemonCanFightText::
 	done
 
 _OaksLabOak1YouShouldTalkToIt::
-	text "OAK: You should"
+	text "EICH: You should"
 	line "talk to it and"
 	cont "see how it feels."
 	done
 
 _OaksLabOak1DeliverParcelText::
-	text "OAK: Oh, <PLAYER>!"
+	text "EICH: Oh, <PLAYER>!"
 
 	para "How is my old"
 	line "#MON?"
@@ -64,7 +64,7 @@ _OaksLabOak1DeliverParcelText::
 	line "something for me?"
 
 	para "<PLAYER> delivered"
-	line "OAK's PARCEL.@"
+	line "EICH's PARCEL.@"
 	text_end
 
 _OaksLabOak1ParcelThanksText::
@@ -86,7 +86,7 @@ _OaksLabOak1PokemonAroundTheWorldText::
 	done
 
 _OaksLabOak1ReceivedPokeballsText::
-	text "OAK: You can't get"
+	text "EICH: You can't get"
 	line "detailed data on"
 	cont "#MON by just"
 	cont "seeing them."
@@ -120,7 +120,7 @@ _OaksLabGivePokeballsExplanationText::
 	done
 
 _OaksLabOak1ComeSeeMeSometimesText::
-	text "OAK: Come see me"
+	text "EICH: Come see me"
 	line "sometimes."
 
 	para "I want to know how"
@@ -129,7 +129,7 @@ _OaksLabOak1ComeSeeMeSometimesText::
 	done
 
 _OaksLabOak1HowIsYourPokedexComingText::
-	text "OAK: Good to see "
+	text "EICH: Good to see "
 	line "you! How is your "
 	cont "#DEX coming? "
 	cont "Here, let me take"
@@ -147,7 +147,7 @@ _OaksLabOak2Text::
 	done
 
 _OaksLabGirlText::
-	text "PROF.OAK is the"
+	text "PROF EICH is the"
 	line "authority on"
 	cont "#MON!"
 
@@ -174,9 +174,9 @@ _OaksLabRivalFedUpWithWaitingText::
 	done
 
 _OaksLabOakChooseMonText::
-	text "OAK: Hmm? <RIVAL>?"
-	line "Why are you here"
-	cont "already?"
+	text "EICH: Hmm?"
+	line "<RIVAL>? Why are"
+	cont "you here already?"
 
 	para "I said for you to"
 	line "come by later..."
@@ -203,7 +203,7 @@ _OaksLabRivalWhatAboutMeText::
 	done
 
 _OaksLabOakBePatientText::
-	text "OAK: Be patient,"
+	text "EICH: Be patient,"
 	line "<RIVAL>, I'll give"
 	cont "you one later."
 	done
@@ -220,8 +220,9 @@ _OaksLabRivalTakesText2::
 	text_end
 
 _OaksLabRivalTakesText3::
-	text "OAK: <RIVAL>! What"
-	line "are you doing?"
+	text "EICH: <RIVAL>!"
+	line "What are you"
+	cont "doing?"
 	prompt
 
 _OaksLabRivalTakesText4::
@@ -230,10 +231,10 @@ _OaksLabRivalTakesText4::
 	prompt
 
 _OaksLabRivalTakesText5::
-	text "OAK: But, I... Oh,"
-	line "all right then."
-	cont "That #MON is"
-	cont "yours."
+	text "EICH: But, I..."
+	line "Oh, all right"
+	cont "then. That #MON"
+	cont "is yours."
 
 	para "I was going to"
 	line "give you one"
@@ -244,9 +245,10 @@ _OaksLabRivalTakesText5::
 	done
 
 _OaksLabOakGivesText::
-	text "OAK: <PLAYER>, this"
-	line "is the #MON I"
-	cont "caught earlier."
+	text "EICH: <PLAYER>,"
+	line "this is the"
+	cont "#MON I caught"
+	cont "earlier."
 
 	para "You can have it."
 	line "I caught it in"
@@ -262,7 +264,7 @@ _OaksLabReceivedText::
 	text_end
 
 _OaksLabOakDontGoAwayYetText::
-	text "OAK: Hey! Don't go"
+	text "EICH: Hey! Don't go"
 	line "away yet!"
 	done
 
@@ -284,7 +286,7 @@ _OaksLabRivalIPickedTheWrongPokemonText::
 	prompt
 
 _OaksLabRivalAmIGreatOrWhatText::
-	text "<RIVAL>: Yeah! Am"
+	text "Yeah! Am"
 	line "I great or what?"
 	prompt
 
@@ -299,11 +301,11 @@ _OaksLabRivalSmellYouLaterText::
 	done
 
 _OaksLabPikachuDislikesPokeballsText1::
-	text "OAK: What?"
+	text "EICH: What?"
 	done
 
 _OaksLabPikachuDislikesPokeballsText2::
-	text "OAK: Would you"
+	text "EICH: Would you"
 	line "look at that!"
 
 	para "It's odd, but it"
@@ -334,7 +336,7 @@ _OaksLabRivalMyPokemonHasGrownStrongerText::
 	done
 
 _OaksLabOakIHaveARequestText::
-	text "OAK: Ah, <RIVAL>,"
+	text "EICH: Ah, <RIVAL>,"
 	line "good timing!"
 
 	para "I needed to ask"
@@ -357,12 +359,13 @@ _OaksLabOakMyInventionPokedexText::
 	done
 
 _OaksLabOakGotPokedexText::
-	text "OAK: <PLAYER> and"
+	text "EICH: <PLAYER> and"
 	line "<RIVAL>! Take"
 	cont "these with you!"
 
 	para "<PLAYER> got"
-	line "#DEX from OAK!@"
+	line "#DEX from"
+	cont "PROF EICH!@"
 	text_end
 
 _OaksLabOakThatWasMyDreamText::
@@ -430,7 +433,7 @@ _CompletedDexText::
 
 _OaksLabScientistText::
 	text "I study #MON as"
-	line "PROF.OAK's AIDE."
+	line "PROF EICH's AIDE."
 
 	para "We recently"
 	line "finished a"

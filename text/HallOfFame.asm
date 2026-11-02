@@ -1,5 +1,5 @@
 _HallOfFameOakText::
-	text "OAK: Er-hem!"
+	text "EICH: Er-hem!"
 	line "Congratulations,"
 	cont "<PLAYER>!"
 
@@ -28,7 +28,7 @@ _HallOfFameOakText::
 	done
 
 _HallOfFameRematchOakText::
-	text "OAK: Er-hem!"
+	text "EICH: Er-hem!"
 	line "Congratulations,"
 	cont "<PLAYER>!"
 

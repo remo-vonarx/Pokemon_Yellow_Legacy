@@ -45,7 +45,7 @@ _Route6Youngster1EndBattleText::
 _Route6Youngster1AfterBattleText::
 	text "I like bugs, so"
 	line "I'm going back to"
-	cont "VIRIDIAN FOREST."
+	cont "VERTANIA FOREST."
 	done
 
 _Route6CooltrainerM2BattleText::
@@ -99,6 +99,6 @@ _Route6Youngster2AfterBattleText::
 
 _Route6UndergroundPathSignText::
 	text "UNDERGROUND PATH"
-	line "CERULEAN CITY -"
-	cont "VERMILION CITY"
+	line "AZURIA CITY -"
+	cont "ORANIA CITY"
 	done

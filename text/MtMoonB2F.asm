@@ -64,7 +64,7 @@ _MtMoonB2fSuperNerdEachTakeOneText::
 
 _MtMoonB2FSuperNerdTheresAPokemonLabText::
 	text "Far away, on"
-	line "CINNABAR ISLAND,"
+	line "ZINNOBER ISLAND,"
 	cont "there's a #MON"
 	cont "LAB."
 

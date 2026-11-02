@@ -74,7 +74,7 @@ _RockTunnel1FCooltrainerF1EndBattleText::
 	prompt
 
 _RockTunnel1FCooltrainerF1AfterBattleText::
-	text "I saw a MACHOP"
+	text "I saw a MACHOLLO"
 	line "in this tunnel!"
 	done
 
@@ -110,6 +110,6 @@ _RockTunnel1FCooltrainerF3AfterBattleText::
 
 _RockTunnel1FSignText::
 	text "ROCK TUNNEL"
-	line "CERULEAN CITY -"
-	cont "LAVENDER TOWN"
+	line "AZURIA CITY -"
+	cont "LAVANDIA"
 	done

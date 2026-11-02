@@ -25,7 +25,7 @@ _Route19CooltrainerM2EndBattleText::
 
 _Route19CooltrainerM2AfterBattleText::
 	text "Watch out for"
-	line "TENTACOOL!"
+	line "TENTACHA!"
 	done
 
 _Route19Swimmer1BattleText::
@@ -152,6 +152,6 @@ _Route19Swimmer8AfterBattleText::
 
 _Route19SignText::
 	text "SEA ROUTE 19"
-	line "FUCHSIA CITY -"
+	line "FUCHSANIA CITY -"
 	cont "SEAFOAM ISLANDS"
 	done
