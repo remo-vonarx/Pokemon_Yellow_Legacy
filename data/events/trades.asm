@@ -8,7 +8,7 @@ TradeMons:
 	; the same species as English Red and Blue.
 	db LICKITUNG,  DUGTRIO,  TRADE_DIALOGSET_CASUAL,    "BODO@@@@@@@"
 	db CLEFAIRY,   MR_MIME,  TRADE_DIALOGSET_CASUAL,    "MICKY@@@@@@"
-	db BUTTERFREE, BEEDRILL, TRADE_DIALOGSET_HAPPY,     "STINGER@@@@" ; unused
+	db BUTTERFREE, BEEDRILL, TRADE_DIALOGSET_HAPPY,     "SPIKY@@@@@@" ; unused
 	db KANGASKHAN, MUK,      TRADE_DIALOGSET_CASUAL,    "STINKER@@@@"
 	db MEW,        MEW,      TRADE_DIALOGSET_HAPPY,     "BART@@@@@@@" ; unused
 	db TANGELA,    PARASECT, TRADE_DIALOGSET_CASUAL,    "SEPP@@@@@@@"

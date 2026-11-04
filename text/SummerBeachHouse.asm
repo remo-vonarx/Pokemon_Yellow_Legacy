@@ -27,7 +27,7 @@ _SummerBeachHouseSurfinDudeText4::
 	done
 
 _SummerBeachHousePikachuText::
-	text "PIKACHU: PIKA!"
+	text "PIKACHU: Pika!"
 	done
 
 _SummerBeachHousePoster1Text1::

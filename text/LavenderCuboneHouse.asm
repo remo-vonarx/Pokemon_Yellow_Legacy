@@ -1,6 +1,6 @@
 _LavenderCuboneHouseCuboneText::
 	text "TRAGOSSO:"
-	line "Kyarugoo!@"
+	line "Tragosso!@"
 	text_end
 
 _LavenderCuboneHouseBrunetteGirlPoorCubonesMotherText::

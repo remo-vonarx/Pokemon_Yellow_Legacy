@@ -14,7 +14,7 @@ _Route18CooltrainerM1AfterBattleText::
 	done
 
 _Route18CooltrainerM2BattleText::
-	text "Kurukkoo!"
+	text "Guruguu!"
 	line "How do you like"
 	cont "my bird call?"
 	done

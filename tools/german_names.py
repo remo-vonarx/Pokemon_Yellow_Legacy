@@ -11,8 +11,8 @@ Sources:
 - Pokemon: PokeAPI pokemon_species_names.csv (language 6 = German)
 - Trade nicknames: German Pokemon Yellow, via Bulbapedia "List of in-game
   trades in other languages" (LOLA from German Red/Blue)
-- Characters and places: German Pokemon Yellow; README.md "Changes in this fork"
-  lists which ones are renamed
+- Characters and places: German Pokemon Yellow (BLACKTHORN from German
+  Crystal); README.md "Changes in this fork" lists which ones are renamed
 """
 
 # pokemon constant: (English in-game name, German name), in Pokedex order
@@ -188,6 +188,7 @@ PEOPLE = {
 	'AGATHA': 'AGATHE',
 	'JANINE': 'JANINA',
 	'JENNY': 'ROCKY',
+	'PIPPI': 'NIKKI',
 }
 
 # full city names whose suffix changes, then the stems used in compounds
@@ -207,9 +208,10 @@ PLACES = {
 	'FUCHSIA': 'FUCHSANIA',
 	'SAFFRON': 'SAFFRONIA',
 	'CINNABAR': 'ZINNOBER',
+	'BLACKTHORN': 'EBENHOLZ',
 }
 
-# in-game trade nicknames (unused STINGER and BART stay as they are)
+# in-game trade nicknames (the unused BART is the same in German)
 TRADE_NICKNAMES = {
 	'GURIO': 'BODO',
 	'MILES': 'MICKY',
@@ -219,6 +221,7 @@ TRADE_NICKNAMES = {
 	'BUFFY': 'DICKIE',
 	'CEZANNE': 'ROBBIE',
 	'RICKY': 'PROLO',
+	'STINGER': 'SPIKY',
 }
 
 # naming screen defaults
