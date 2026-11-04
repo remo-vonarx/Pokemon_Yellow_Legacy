@@ -360,23 +360,13 @@ PetitCup::
 	ld a, [hli]
 	cp "@"
 	jr nz, .loop2
-	ld a, [hli]
-	cp $7
+	ld a, [hli] ; height in tenths of a metre
+	cp 20 + 1 ; 2 m
 	jp nc, asm_f5689
-	add a
-	add a
-	ld b, a
-	add a
-	add b
-	ld b, a
-	ld a, [hli]
-	add b
-	cp $51
-	jp nc, asm_f5689
-	ld a, [hli]
-	sub $b9
+	ld a, [hli] ; weight in tenths of a kilogram
+	sub LOW(200 + 1) ; 20 kg
 	ld a, [hl]
-	sbc $1
+	sbc HIGH(200 + 1)
 	jp nc, asm_f569b
 	pop af
 	pop bc

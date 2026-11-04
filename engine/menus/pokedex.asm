@@ -345,20 +345,20 @@ DrawPokedexVerticalLine:
 	ret
 
 PokedexSeenText:
-	db "SEEN@"
+	db "GES@"
 
 PokedexOwnText:
-	db "OWN@"
+	db "BES@"
 
 PokedexContentsText:
-	db "CONTENTS@"
+	db "INHALT@"
 
 PokedexMenuItemsText:
 	db   "DATA"
-	next "CRY"
-	next "AREA"
-	next "MOVE"
-	next "QUIT@"
+	next "RUF"
+	next "GEB."
+	next "ATT."
+	next "ZUR.@"
 
 Pokedex_PlacePokemonList:
 	xor a
@@ -499,8 +499,8 @@ ShowPokedexDataInternal:
 	ret
 
 HeightWeightText:
-	db   "HT  ?′??″"
-	next "WT   ???lb@"
+	db   "GR.  ???<m>"
+	next "GEW  ???<k><g>@"
 
 ; XXX does anything point to this?
 PokeText:
@@ -614,21 +614,23 @@ DrawDexEntryOnScreen:
 	and a
 	ret z ; if the pokemon has not been owned, don't print the height, weight, or description
 
-	inc de ; de = address of feet (height)
-	ld a, [de] ; reads feet, but a is overwritten without being used
-	hlcoord 12, 6
-	lb bc, 1, 2
-	call PrintNumber ; print feet (height)
-	ld a, "′"
-	ld [hl], a
-	inc de
-	inc de ; de = address of inches (height)
-	hlcoord 15, 6
-	lb bc, LEADING_ZEROES | 1, 2
-	call PrintNumber ; print inches (height)
-	ld a, "″"
-	ld [hl], a
-; now print the weight (note that weight is stored in tenths of pounds internally)
+	inc de ; de = address of height
+	ld a, [de] ; height is stored in tenths of a metre
+	push af
+	hlcoord 13, 6
+	lb bc, 1, 3
+	call PrintNumber ; print height
+	hlcoord 14, 6
+	pop af
+	cp 10
+	jr nc, .printedHeight
+	ld [hl], "0" ; if the height is less than 1 m, put a 0 before the decimal point
+.printedHeight
+	inc hl
+	ld a, [hli]
+	ld [hld], a ; make space for the decimal point by moving the last digit forward one tile
+	ld [hl], "<DOT>" ; decimal point tile
+; now print the weight (note that weight is stored in tenths of kilograms internally)
 	inc de
 	inc de
 	inc de ; de = address of upper byte of weight
@@ -645,8 +647,8 @@ DrawDexEntryOnScreen:
 	ld a, [de] ; a = lower byte of weight
 	ld [hl], a ; store lower byte of weight in [hDexWeight + 1]
 	ld de, hDexWeight
-	hlcoord 11, 8
-	lb bc, 2, 5 ; 2 bytes, 5 digits
+	hlcoord 12, 8
+	lb bc, 2, 4 ; 2 bytes, 4 digits
 	call PrintNumber ; print weight
 	hlcoord 14, 8
 	ldh a, [hDexWeight + 1]
@@ -915,10 +917,10 @@ NewPageButtonPressCheck::
 	ret
 
 LevelUpMovesText:
-	db   "LEVEL UP MOVES:@"
+	db   "LEVEL-UP-ATTACKEN:@"
 
 TMHMMovesText:
-	db   "TM/HM MOVES:@"
+	db   "TM/VM-ATTACKEN:@"
 
 Pokedex_PrintFlavorTextAtRow11:
 	bccoord 1, 11
