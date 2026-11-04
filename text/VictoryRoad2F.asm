@@ -23,7 +23,7 @@ _VictoryRoad2FHikerAfterBattleText::
 
 	para "Can you point"
 	line "me towards"
-	cont "BLACKTHORN CITY?"
+	cont "EBENHOLZ CITY?"
 	done
 
 _VictoryRoad2FJuggler1BattleText::
