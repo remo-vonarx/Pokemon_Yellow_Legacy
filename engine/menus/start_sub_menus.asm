@@ -537,7 +537,7 @@ DrawTrainerInfo:
 	call TrainerInfo_FarCopyData
 	pop bc
 	ld hl, BadgeNumbersTileGraphics  ; badge number tile patterns
-	ld de, vChars1 tile $58
+	ld de, vChars1 tile $40 ; free here: the EXP bar tiles only load in battle
 	call TrainerInfo_FarCopyData
 	ld hl, GymLeaderFaceAndBadgeTileGraphics  ; gym leader face and badge tile patterns
 	ld de, vChars2 tile $20
@@ -607,12 +607,12 @@ TrainerInfo_FarCopyData:
 
 TrainerInfo_NameMoneyTimeText:
 	db   "NAME/"
-	next "MONEY/"
-	next "TIME/@"
+	next "GELD/"
+	next "ZEIT/@"
 
 ; $76 is a circle tile
 TrainerInfo_BadgesText:
-	db $76,"BADGES",$76,"@"
+	db $76,"ORDEN",$76,"@"
 
 ; draws a text box on the trainer info screen
 ; height is always 6
