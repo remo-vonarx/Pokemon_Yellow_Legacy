@@ -1,75 +1,76 @@
 _BrunoBeforeBattleText::
-	text "I am BRUNO of"
-	line "the ELITE FOUR!"
+	text "Ich gehöre zu den"
+	line "TOP VIER! Mein"
+	cont "Name ist BRUNO!"
 
-	para "Through rigorous"
-	line "training, people"
-	cont "and #MON can"
-	cont "become stronger!"
+	para "Durch ausgiebiges"
+	line "Training können"
+	cont "#MON sehr"
+	cont "stark werden!"
 
-	para "I've weight"
-	line "trained with"
-	cont "my #MON!"
+	para "Ich habe meine"
+	line "#MON pausenlos"
+	cont "trainiert!"
 
 	para "<PLAYER>!"
 
-	para "We will grind you"
-	line "down with our"
-	cont "superior power!"
+	para "Wir werden Dich"
+	line "mit unserer Kraft"
+	cont "bezwingen!"
 
-	para "Hoo hah!"
+	para "Zum Angriff!"
 	done
 
 _BrunoEndBattleText::
-	text "Why?"
-	line "How could I lose?"
+	text "Wie konnte"
+	line "ich verlieren?"
 	prompt
 
 _BrunoAfterBattleText::
-	text "My job is done!"
-	line "Go face your next"
-	cont "challenge!"
+	text "Ich bin erledigt!"
+	line "Doch die nächste"
+	cont "Herausforderung"
+	cont "wartet bereits..."
 	done
 
 _BrunoRematchBeforeBattleText::
-	text "Your strength is"
-	line "legendary now."
-	cont "But so is mine!"
+	text "Deine Stärke ist"
+	line "nun legendär. Das"
+	cont "gilt auch für"
+	cont "meine!"
 
-	para "We've both grown"
-	line "stronger with"
-	cont "our #MON."
+	para "Wir beide sind mit"
+	line "unseren #MON"
+	cont "stärker geworden."
 
-	para "Let's test our"
-	line "limits again!"
+	para "Testen wir erneut"
+	line "unsere Grenzen!"
 
-	para "Prepare yourself!"
-	line "For an intense"
-	cont "battle!"
+	para "Mach Dich bereit"
+	line "für einen harten"
+	cont "Kampf!"
 
-	para "Hoo hah!"
+	para "Hu ha!"
 	done
 
 _BrunoRematchEndBattleText::
-	text "Incredible!"
-	line "You've surpassed"
-	cont "even my wildest"
-	cont "expectations!"
+	text "Wahnsinn!"
+	line "Du übertriffst"
+	cont "all meine"
+	cont "Erwartungen!"
 	prompt
 
 _BrunoRematchAfterBattleText::
-	text "Truly, you are"
-	line "a CHAMPION among"
+	text "Du bist wahrlich"
+	line "ein CHAMPION unter"
 	cont "CHAMPIONS."
 
-	para "Continue to hone"
-	line "your skills."
-
-	para "The journey never"
-	line "ends!"
+	para "Verfeinere weiter"
+	line "Dein Können. Die"
+	cont "Reise endet nie!"
 	done
 
 _BrunosRoomBrunoDontRunAwayText::
-	text "Someone's voice:"
-	line "Don't run away!"
+	text "EINE STIMME:"
+	line "Lauf nicht davon!"
 	done

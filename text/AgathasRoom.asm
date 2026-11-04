@@ -1,84 +1,93 @@
 _AgathaBeforeBattleText::
-	text "I am AGATHE of"
-	line "the ELITE FOUR!"
+	text "Ich bin AGATHE"
+	line "aus dem Team der"
+	cont "TOP VIER!"
 
-	para "EICH's taken a lot"
-	line "of interest in"
-	cont "you, child!"
+	para "PROF EICH"
+	line "lobt Dich in"
+	cont "höchsten Tönen,"
+	cont "junger Mann!"
 
-	para "That old duff was"
-	line "once tough and"
-	cont "handsome! That"
-	cont "was decades ago!"
+	para "Er war einmal ein"
+	line "gutaussehender,"
+	cont "stattlicher Mann!"
+	cont "Doch das war vor"
+	cont "Jahrzehnten!"
 
-	para "Now he just wants"
-	line "to fiddle with"
-	cont "his #DEX! He's"
-	cont "wrong! #MON"
-	cont "are for fighting!"
+	para "Heute kümmert er"
+	line "sich nur noch um"
+	cont "seinen #DEX!"
+	cont "Aber #MON"
+	cont "wollen ja"
+	cont "kämpfen!"
 
-	para "<PLAYER>! I'll show"
-	line "you how a real"
-	cont "trainer fights!"
+	para "<PLAYER>! "
+	line "Ich zeige Dir,"
+	cont "wie ein richtiger"
+	cont "Trainer kämpft!"
 	done
 
 _AgathaEndBattleText::
-	text "Woo-hoo!"
-	line "You're something"
-	cont "special, child!"
+	text "Wirklich!"
+	line "Du bist ein ganz"
+	cont "besonderes Kind!"
 	prompt
 
 _AgathaAfterBattleText::
-	text "You win! I see"
-	line "what the old duff"
-	cont "sees in you now!"
+	text "Du hast gewonnen!"
+	line "Nun verstehe ich,"
+	cont "was der Professor"
+	cont "meinte..."
 
-	para "I have nothing"
-	line "else to say! Run"
-	cont "along now, child!"
+	para "Ich stimme ihm"
+	line "voll und ganz zu!"
+	cont "Setz Deinen Weg"
+	cont "fort, mein Kind!"
 	done
 
 _AgathaRematchBeforeBattleText::
-	text "Back again, eh?"
+	text "Schon wieder da?"
+	line "Hast Du EICH in"
+	cont "letzter Zeit"
+	cont "gesehen?"
 
-	para "Seen EICH lately?"
-	line "Still fond of"
-	cont "you, I bet!"
+	para "Er mag Dich sicher"
+	line "noch immer!"
 
-	para "He's softened,"
-	line "unlike me. I"
-	cont "relish battles!"
+	para "Er ist weich ge-"
+	line "worden, ich nicht!"
+	cont "Ich liebe Kämpfe!"
 
-	para "Let's see your"
-	line "growth, young"
-	cont "one!"
+	para "Zeig mir, wie Du"
+	line "gewachsen bist,"
+	cont "mein Kind!"
 
-	para "Ready, <PLAYER>?"
+	para "Bereit, <PLAYER>?"
 	done
 
 _AgathaRematchEndBattleText::
-	text "Oh, my!"
-	line "You've grown"
-	cont "even stronger!"
+	text "Oh je!"
+	line "Du bist noch"
+	cont "stärker geworden!"
 	prompt
 
 _AgathaRematchAfterBattleText::
-	text "Well earned,"
-	line "CHAMPION! You've"
-	cont "grown mighty!"
+	text "Gut gemacht,"
+	line "CHAMPION!"
 
-	para "You've earned"
-	line "EICH's--and my"
-	cont "respect!"
+	para "Du bist gewaltig"
+	line "stark geworden!"
 
-	para "Now, go!"
+	para "Du hast Dir EICHS"
+	line "und meinen Respekt"
+	cont "verdient!"
 
-	para "Show the world"
-	line "your power,"
+	para "Nun geh! Zeig der"
+	line "Welt Deine Kraft,"
 	cont "<PLAYER>!"
 	done
 
 _AgathasRoomAgathaDontRunAwayText::
-	text "Someone's voice:"
-	line "Don't run away!"
+	text "EINE STIMME:"
+	line "Lauf nicht davon!"
 	done
