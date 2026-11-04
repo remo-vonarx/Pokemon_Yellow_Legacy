@@ -157,6 +157,10 @@
 	charmap "Ä",         $c9 ; German umlauts, after the EXP bar tiles ($c0-$c8)
 	charmap "Ö",         $ca
 	charmap "Ü",         $cb
+	charmap "ä",         $dc ; lowercase umlauts and ß, clear of the Pikachu sprite ($cc-$d7)
+	charmap "ö",         $dd
+	charmap "ü",         $de
+	charmap "ß",         $df
 
 	charmap "'",         $e0
 	charmap "<PK>",      $e1
