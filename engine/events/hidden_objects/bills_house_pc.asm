@@ -124,7 +124,7 @@ BillsMonListText:
 	next "FLAMARA"
 	next "BLITZA"
 	next "AQUANA"
-	next "CANCEL@"
+	next "ZURÜCK@"
 
 BillsHousePokemonListText2:
 	text_far _BillsHousePokemonListText2
