@@ -1101,10 +1101,10 @@ NEXTU
 wTileMapBackup2:: ds SCREEN_WIDTH * SCREEN_HEIGHT
 ENDU
 
-; This union spans 30 bytes.
+; This union spans 35 bytes.
 UNION
 ; Temporary storage area
-wBuffer:: ds 30
+wBuffer:: ds 35
 
 NEXTU
 wEvoOldSpecies:: db
@@ -1228,7 +1228,7 @@ wPartyMenuHPBarColors:: ds PARTY_LENGTH
 
 wStatusScreenHPBarColor:: db
 
-	ds 7
+	ds 2
 
 wCopyingSGBTileData::
 wWhichPartyMenuHPBar::

@@ -7,28 +7,28 @@ TwoOptionMenuStrings:
 ; entries correspond to *_MENU constants
 	table_width 5, TwoOptionMenuStrings
 	; width, height, blank line before first menu item?, text pointer
-	two_option_menu 4, 3, FALSE, .YesNoMenu
-	two_option_menu 5, 3, FALSE, .BoyGirlMenu
+	two_option_menu 5, 3, FALSE, .YesNoMenu
+	two_option_menu 8, 3, FALSE, .BoyGirlMenu
 	two_option_menu 6, 3, FALSE, .SouthEastMenu
 	two_option_menu 6, 3, FALSE, .YesNoMenu
 	two_option_menu 6, 3, FALSE, .NorthEastMenu
 	two_option_menu 7, 3, FALSE, .TradeCancelMenu
 	two_option_menu 7, 4, TRUE,  .HealCancelMenu
-	two_option_menu 4, 3, FALSE, .NoYesMenu
+	two_option_menu 5, 3, FALSE, .NoYesMenu
 	two_option_menu 7, 3, FALSE, .DifficultyMenu
 	assert_table_length NUM_TWO_OPTION_MENUS
 
 .NoYesMenu:
-	db   "NO"
-	next "YES@"
+	db   "NEIN"
+	next "JA@"
 
 .YesNoMenu:
-	db   "YES"
-	next "NO@"
+	db   "JA"
+	next "NEIN@"
 
 .BoyGirlMenu:
-	db   "BOY"
-	next "GIRL@"
+	db   "JUNGE"
+	next "MÄDCHEN@"
 
 .SouthEastMenu:
 	db   "SOUTH"
@@ -39,13 +39,13 @@ TwoOptionMenuStrings:
 	next "EAST@"
 
 .TradeCancelMenu:
-	db   "TRADE"
-	next "CANCEL@"
+	db   "TAUSCH"
+	next "ZURÜCK@"
 
 .HealCancelMenu:
-	db   "HEAL"
-	next "CANCEL@"
+	db   "HEILEN"
+	next "ZURÜCK@"
 
 .DifficultyMenu:
 	db   "NORMAL"
-	next "HARD@"
+	next "SCHWER@"
