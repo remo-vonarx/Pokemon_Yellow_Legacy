@@ -6,7 +6,7 @@ Func_f531b::
 	xor a
 	ld [wUnknownSerialFlag_d499], a
 	coord hl, 0, 0
-	lb bc, 4, 5
+	lb bc, 4, 6
 	call TextBoxBorder
 	ld de, Text_f5791
 	coord hl, 1, 2
@@ -534,29 +534,29 @@ PointerTable_f56ee::
 	dw Text_f575b
 
 Text_f56f4::
-	db "LVs of 3<PKMN>:50-55"
-	next "Sum of LVs:155 MAX"
-	next "MEW can't attend.@"
+	db "<PKMN>-LV: 50-55"
+	next "Kombi-LV: max. 155"
+	next "MEW ausgenommen@"
 
 Text_f5728::
-	db "LVs of 3<PKMN>:15-20"
-	next "Sum of LVs:50 MAX"
-	next "MEW can't attend.@"
+	db "<PKMN>-LV: 15-20"
+	next "Kombi-LV: max. 50"
+	next "MEW ausgenommen@"
 
 Text_f575b::
-	db "3 Basic <PKMN>.LV25-30"
-	next "Sum of LVs:80 MAX"
-	next "6’8” and 44lb MAX@"
+	db "Basis-<PKMN>: LV25-30"
+	next "Kombi-LV: max. 80"
+	next "Maximum 2 m, 20 kg@"
 
 Text_f5791::
-	db "View"
-	next "Rules@"
+	db "Regeln"
+	next "zeigen@"
 
 Text_f579c::
-	db "# Cup"
-	next "Pika Cup"
-	next "Petit Cup"
-	next "CANCEL@"
+	db "#-Cup"
+	next "Pika-Cup"
+	next "Mini-Cup"
+	next "ZURÜCK@"
 
 Colosseum3MonsText::
 	text_far _Colosseum3MonsText
@@ -632,11 +632,11 @@ LinkMenu:
 	call SaveScreenTilesToBuffer1
 	ld hl, ColosseumWhereToText
 	call PrintText
-	hlcoord 5, 3
-	lb bc, 8, 13
+	hlcoord 4, 3
+	lb bc, 8, 14
 	call TextBoxBorder
 	call UpdateSprites
-	hlcoord 7, 5
+	hlcoord 6, 5
 	ld de, TradeCenterText
 	call PlaceString
 	xor a
@@ -646,7 +646,7 @@ LinkMenu:
 	ld hl, wTopMenuItemY
 	ld a, $5
 	ld [hli], a
-	ld a, $6
+	ld a, $5
 	ld [hli], a
 	xor a
 	ld [hli], a
@@ -896,7 +896,7 @@ TextTerminator_f5a16:
 	text_end
 
 TradeCenterText:
-	db   "TRADE CENTER"
-	next "COLOSSEUM"
-	next "COLOSSEUM2"
-	next "CANCEL@"
+	db   "HANDELSCENTER"
+	next "KOLOSSEUM"
+	next "KOLOSSEUM2"
+	next "ZURÜCK@"
