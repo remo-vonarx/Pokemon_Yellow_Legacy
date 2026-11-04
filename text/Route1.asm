@@ -1,56 +1,61 @@
 _Route1Youngster1MartSampleText::
-	text "Hi! I work at a"
-	line "#MON MART."
+	text "Hi! Ich arbeite"
+	line "in einem"
+	cont "PKMN-SUPERMARKT."
 
-	para "It's a convenient"
-	line "shop, so please"
-	cont "visit us in"
+	para "Wir verkaufen"
+	line "viele praktische"
+	cont "Dinge! Du findest"
+	cont "unseren Laden in"
 	cont "VERTANIA CITY."
 
-	para "I know, I'll give"
-	line "you a sample!"
-	cont "Here you go!"
+	para "Am besten gebe"
+	line "ich Dir ein"
+	cont "Werbegeschenk!"
+	cont "Hier, bitte!"
 	prompt
 
 _Route1Youngster1GotPotionText::
-	text "<PLAYER> got"
+	text "<PLAYER> erhält"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _Route1Youngster1AlsoGotPokeballsText::
-	text "We also carry"
-	line "# BALLs for"
-	cont "catching #MON!"
+	text "Willst Du #MON"
+	line "fangen? Wir haben"
+	cont "auch #BÄLLE"
+	cont "im Sortiment!"
 	done
 
 _Route1Youngster1NoRoomText::
-	text "You have too much"
-	line "stuff with you!"
+	text "Du kannst keine"
+	line "weiteren Items"
+	cont "mehr tragen!"
 	done
 
 _Route1Youngster2Text::
-	text "Do you know"
-	line "about STAT" 
-	cont "experience?"
+	text "Kennst Du die"
+	line "STATUS-Erfahrung?"
 
-	para "When a #MON"
-	line "battles, it"
-	cont "gains EXP."
+	para "Kämpft ein"
+	line "#MON, erhält es"
+	cont "EP."
 
-	para "This EXP gives"
-	line "it increased"
-	cont "stats that"
-	cont "enemy trainers"
-	cont "don't have."
+	para "Diese EP erhöhen"
+	line "seine Statuswerte,"
+	cont "was gegnerische"
+	cont "Trainer nicht"
+	cont "haben."
 
-	para "A #MON trained"
-	line "from LVL 5 to"
-	cont "LVL 50 could"
-	cont "have the stats"
-	cont "of an opponent"
-	cont "at LVL 60!"
+	para "Ein #MON, das"
+	line "von Level 5 auf"
+	cont "Level 50 trainiert"
+	cont "wird, kann die"
+	cont "Werte eines"
+	cont "Gegners mit"
+	cont "Level 60 haben!"
 	done
 
 _Route1SignText::
@@ -60,74 +65,67 @@ _Route1SignText::
 	done
 
 _OakBeforeBattleText::
-	text "EICH: Oh, my!"
-	
-	para "It seems you"
-	line "caught me during"
-	cont "my lunch hour!"
+	text "EICH: Oh je! Du"
+	line "erwischst mich in"
+	cont "der Mittagspause!"
 
-	para "<PLAYER>, you"
-	line "have truly come"
-	cont "into your own!"
+	para "<PLAYER>, Du hast"
+	line "Dich wirklich"
+	cont "entwickelt!"
 
-	para "Your #MON"
-	line "LEAGUE challenge"
-	cont "has reignited"
-	cont "a spirit that"
-	cont "left me a long"
-	cont "time ago..."
+	para "Deine Herausforde-"
+	line "rung in der PKMN-"
+	cont "LIGA hat einen"
+	cont "Geist geweckt, der"
+	cont "mich vor langer"
+	cont "Zeit verlassen"
+	cont "hatte..."
 
-	para "How about we"
-	line "spar a bit?"
-	cont "What say you?"
+	para "Wie wäre es mit"
+	line "einem kleinen"
+	cont "Kampf? Was meinst"
+	cont "Du?"
 	done
 
 _OakRealChallengeBattleText::
-	text "Excellent!"
-
-	para "Prepare yourself"
-	line "for a real"
-	cont "challenge!"
+	text "Ausgezeichnet!"
+	line "Mach Dich auf eine"
+	cont "echte Herausfor-"
+	cont "derung gefaßt!"
 	done
 
 _OakRefusedBattleText::
-	text "Maybe some other"
-	line "time!"
+	text "Vielleicht ein"
+	line "andermal!"
 	done
 
 _OakDefeatedText::
 	text "Hmm..."
-
-	para "I still have a"
-	line "lot to learn!"
+	line "Ich muß noch viel"
+	cont "lernen!"
 	prompt
 
 _OakWonText::
-	text "Back in"
-	line "my day, I was a"
-	cont "serious TRAINER!"
+	text "Früher"
+	line "war ich ein ernst-"
+	cont "hafter TRAINER!"
 	prompt
 
 _OakPostBattleText::
-	text "Well done,"
-	line "<PLAYER>!"
+	text "Gut gemacht,"
+	line "<PLAYER>! Du hast"
+	cont "Dich bewiesen."
 
-	para "You've certainly"
-	line "proved your"
-	cont "mettle."
+	para "Im Alter werde ich"
+	line "wohl etwas rostig."
 
-	para "It seems I might"
-	line "be getting a bit"
-	cont "rusty in my old"
-	cont "age."
+	para "Ein guter Trainer"
+	line "strebt stets nach"
+	cont "Verbesserung, und"
+	cont "das tue ich auch."
 
-	para "A good trainer"
-	line "always strives"
-	cont "for improvement,"
-	cont "and so shall I."
-
-	para "May your journey"
-	line "continue to be"
-	cont "one of growth"
-	cont "and discovery."
+	para "Möge Deine Reise"
+	line "weiter voller"
+	cont "Wachstum und"
+	cont "Entdeckungen sein."
 	done

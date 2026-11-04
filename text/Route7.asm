@@ -1,5 +1,5 @@
 _Route7UndergroundPathSignText::
-	text "UNDERGROUND PATH"
+	text "TUNNELPFAD"
 	line "PRISMANIA CITY -"
 	cont "LAVANDIA"
 	done
