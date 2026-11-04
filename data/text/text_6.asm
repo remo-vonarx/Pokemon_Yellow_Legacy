@@ -1,8 +1,7 @@
 TeachingHMsText::
-	text "HMs are really"
-	line "important!"
-
-	para "You should keep"
-	line "them on you at"
-	cont "all times."
+	text "VM sind wirklich"
+	line "wichtig! Du"
+	cont "solltest sie"
+	cont "immer bei Dir"
+	cont "tragen."
 	done
