@@ -179,21 +179,21 @@ SpecialEnterMap::
 	jp EnterMap
 
 ContinueText:
-	db "CONTINUE"
+	db "WEITER"
 	next ""
 	; fallthrough
 
 NewGameText:
-	db   "NEW GAME"
-	next "OPTION@"
+	db   "NEUES SPIEL"
+	next "OPTIONEN@"
 
 DisplayContinueGameInfo:
 	xor a
 	ldh [hAutoBGTransferEnabled], a
-	hlcoord 4, 7
-	lb bc, 8, 14
+	hlcoord 3, 7
+	lb bc, 8, 15
 	call TextBoxBorder
-	hlcoord 5, 9
+	hlcoord 4, 9
 	ld de, SaveScreenInfoText
 	call PlaceString
 	hlcoord 12, 9
@@ -213,12 +213,12 @@ DisplayContinueGameInfo:
 PrintSaveScreenText:
 	xor a
 	ldh [hAutoBGTransferEnabled], a
-	hlcoord 4, 0
-	lb bc, 8, 14
+	hlcoord 3, 0
+	lb bc, 8, 15
 	call TextBoxBorder
 	call LoadTextBoxTilePatterns
 	call UpdateSprites
-	hlcoord 5, 2
+	hlcoord 4, 2
 	ld de, SaveScreenInfoText
 	call PlaceString
 	hlcoord 12, 2
@@ -266,10 +266,10 @@ PrintPlayTime:
 	jp PrintNumber
 
 SaveScreenInfoText:
-	db   "PLAYER"
-	next "BADGES    "
-	next "#DEX    "
-	next "TIME@"
+	db   "SPIELER"
+	next "ORDEN          "
+	next "#DEX        "
+	next "ZEIT@"
 
 DisplayOptionMenu:
 	callfar DisplayOptionMenu_

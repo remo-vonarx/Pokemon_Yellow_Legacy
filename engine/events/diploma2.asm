@@ -24,19 +24,23 @@ _DisplayDiploma:
 	ld [hl], a
 
 	ld de, DiplomaText
-	hlcoord 5, 2
+	hlcoord 6, 2
 	call PlaceString
 
-	ld de, DiplomaPlayer
-	hlcoord 3, 4
+	ld de, DiplomaCongrats1
+	hlcoord 2, 4
+	call PlaceString
+
+	ld de, DiplomaCongrats2
+	hlcoord 2, 6
 	call PlaceString
 
 	ld de, wPlayerName
-	hlcoord 10, 4
+	hlcoord 9, 6
 	call PlaceString
 
-	ld de, DiplomaCongrats
-	hlcoord 2, 6
+	ld de, DiplomaCongrats3
+	hlcoord 2, 8
 	call PlaceString
 
 	ld de, DiplomaGameFreak
@@ -52,17 +56,19 @@ _DisplayDiploma:
 	ret
 
 DiplomaText:
-	db CIRCLE_TILE_ID, "Diploma", CIRCLE_TILE_ID, "@"
+	db CIRCLE_TILE_ID, "Diplom", CIRCLE_TILE_ID, "@"
 
-DiplomaPlayer:
-	db "Player@"
+DiplomaCongrats1:
+	db "Herzlichen Glück-@"
 
-DiplomaCongrats:
-	db   "Congrats! This"
-	next "diploma certifies"
-	next "that you have"
-	next "completed your"
-	next "#DEX.@"
+DiplomaCongrats2:
+	db "wunsch         !@"
+
+DiplomaCongrats3:
+	db   "Du hast es ge-"
+	next "schafft, den"
+	next "#DEX zu"
+	next "vervollständigen.@"
 
 DiplomaGameFreak:
 	db "GAME FREAK@"
@@ -142,7 +148,7 @@ TileMap_e9bc1:
 	db $7f, $78, $11, $12, $13
 	db $7f, $7f, $14, $15, $7f
 
-String_e9bd5:  db "PLAY TIME@"
+String_e9bd5:  db "SPIELZEIT@"
 
 Func_e9bdf:
 	ld c, 10
