@@ -3,13 +3,9 @@ _VermilionDockUnusedText::
 	done
 
 _VermilionDockTruckText::
-	text "Sounds like"
-	line "something is"
-	cont "under here,"
+	text "Da scheint etwas"
+	line "darunter zu sein,"
+	cont "ich sehe mal nach."
 
-	para "I should take a"
-	line "look."
-
-	para "Oh, it's just a"
-	line "DITTO."
+	para "Oh, nur ein DITTO."
 	done

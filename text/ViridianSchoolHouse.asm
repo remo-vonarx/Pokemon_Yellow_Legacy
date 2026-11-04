@@ -1,32 +1,34 @@
 _ViridianSchoolHouseBrunetteGirlText::
-	text "Whew! I'm trying"
-	line "to memorize all"
-	cont "my notes."
+	text "Puh! Ich"
+	line "versuche, meine"
+	cont "Notizen auswendig"
+	cont "zu lernen."
 
-	para "CUT is a bug-"
-	line "type move taught"
-	cont "by HM!"
+	para "ZERSCHNEIDER ist"
+	line "eine KÄFER-Attacke"
+	cont "und wird per VM"
+	cont "gelehrt!"
 
-	para "What's this?"
-	line "I don't know"
-	cont "what type SLAM"
-	cont "is!"
+	para "Was ist das? Ich"
+	line "kenne den Typ von"
+	cont "SLAM nicht!"
 	done
 
 _ViridianSchoolHouseLittleGirlText::
-	text "Sis says #MON"
-	line "will evolve"
-	cont "if you train them"
-	cont "nicely."
+	text "Meine Schwester"
+	line "sagt, #MON ent-"
+	cont "wickeln sich, wenn"
+	cont "man nett zu ihnen"
+	cont "ist."
 
-	para "There is no need"
-	line "to trade them!"
+	para "Tauschen muß man"
+	line "sie dafür nicht!"
 	done
 
 _ViridianSchoolHouseCooltrainerFText::
-	text "Okay!"
+	text "OK!"
 
-	para "Be sure to read"
-	line "the blackboard"
-	cont "carefully!"
+	para "Lies sorgfältig"
+	line "den Text auf der"
+	cont "Tafel!"
 	done

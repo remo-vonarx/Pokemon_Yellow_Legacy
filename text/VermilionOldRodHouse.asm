@@ -1,44 +1,40 @@
 _VermilionGoodRodHouseFishingGuruText::
-	text "I'm the FISHING"
-	line "GURU's older"
-	cont "brother!"
+	text "Ich bin der ältere"
+	line "Bruder des ANGEL-"
+	cont "GURUS!"
 
-	para "I simply Looove"
-	line "fishing!"
+	para "Ich liebe das"
+	line "Angeln über alles!"
 
-	para "Do you like to"
-	line "fish?"
+	para "Angelst Du auch"
+	line "gerne?"
 	done
 
 _VermilionGoodRodHouseFishingGuruReceivedGoodRodText::
-	text "Grand! I like"
-	line "your style!"
+	text "Großartig! Dein"
+	line "Stil gefällt mir!"
 
-	para "Take this and"
-	line "fish, young one!"
+	para "Nimm das und"
+	line "angle, mein Kind!"
 
-	para "<PLAYER> received"
-	line "a @"
+	para "<PLAYER> erhält"
+	line "eine @"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _VermilionGoodRodHouseFishingGuruThatsSoDisappointingText::
-	text "Oh... That's so"
-	line "disappointing..."
+	text "Oh..."
+	line "Wie schade..."
 	done
 
 _VermilionGoodRodHouseFishingGuruHowAreTheFishText::
-	text "Hello there,"
-	line "<PLAYER>!"
-
-	para "How are the fish"
-	line "biting?"
+	text "Hallo, <PLAYER>!"
+	line "Beißen die Fische?"
 	done
 
 _VermilionGoodRodHouseFishingGuruNoRoomText::
-	text "Oh no!"
-
-	para "You have no room"
-	line "for my gift!"
+	text "Oh nein! Du hast"
+	line "keinen Platz für"
+	cont "mein Geschenk!"
 	done

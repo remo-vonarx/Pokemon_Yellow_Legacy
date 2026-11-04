@@ -1,69 +1,75 @@
 _VermilionCityBeautyText::
-	text "We're careful"
-	line "about pollution!"
+	text "Wir sind sehr"
+	line "umweltbewußt!"
 
-	para "We've heard SLEIMA"
-	line "multiplies in"
-	cont "toxic sludge!"
+	para "Wir haben gehört,"
+	line "daß SLEIMA sich"
+	cont "in giftigem Dreck"
+	cont "wohlfühlt und"
+	cont "entwickelt!"
 	done
 
 _VermilionCityGambler1DidYouSeeText::
-	text "Did you see S.S."
-	line "ANNE moored in"
-	cont "the harbor?"
+	text "Hast Du gesehen?"
+	line "Die M.S. ANNE"
+	cont "ankert im Hafen!"
 	done
 
 _VermilionCityGambler1SSAnneDepartedText::
-	text "So, S.S.ANNE has"
-	line "departed!"
+	text "Die M.S.ANNE ist"
+	line "ausgelaufen!"
 
-	para "She'll be back in"
-	line "about a year."
+	para "Sie wird in einem"
+	line "Jahr wieder hier"
+	cont "anlegen."
 	done
 
 _VermilionCitySailor1WelcomeToSSAnneText::
-	text "Welcome to S.S."
-	line "ANNE!"
+	text "Willkommen auf"
+	line "der M.S. ANNE!"
 	done
 
 _VermilionCitySailor1DoYouHaveATicketText::
-	text "Welcome to S.S."
-	line "ANNE!"
+	text "Willkommen auf"
+	line "der M.S. ANNE!"
 
-	para "Excuse me, do you"
-	line "have a ticket?"
+	para "Verzeihung, hast"
+	line "Du ein Ticket?"
 	prompt
 
 _VermilionCitySailor1FlashedTicketText::
-	text "<PLAYER> flashed"
-	line "the S.S.TICKET!"
+	text "<PLAYER> zeigt"
+	line "das BOOTSTICKET!"
 
-	para "Great! Welcome to"
-	line "S.S.ANNE!"
+	para "Großartig!"
+	line "Willkommen auf"
+	cont "der M.S. ANNE!"
 	done
 
 _VermilionCitySailor1YouNeedATicketText::
-	text "<PLAYER> doesn't"
-	line "have the needed"
-	cont "S.S.TICKET."
+	text "<PLAYER> hat "
+	line "kein BOOTSTICKET!"
 
-	para "Sorry!"
+	para "Tut mir leid!"
 
-	para "You need a ticket"
-	line "to get aboard."
+	para "Du brauchst ein"
+	line "Ticket, um an"
+	cont "Bord gehen zu"
+	cont "können."
 	done
 
 _VermilionCitySailor1ShipSetSailText::
-	text "The ship set sail."
+	text "Das Schiff ist in"
+	line "See gestochen!"
 	done
 
 _VermilionCityGambler2Text::
-	text "I'm putting up a"
-	line "building on this"
-	cont "plot of land."
+	text "Ich möchte auf"
+	line "diesem Land"
+	cont "bauen."
 
-	para "My #MON is"
-	line "tamping the land."
+	para "Mein #MON"
+	line "ebnet den Boden!"
 	done
 
 _VermilionCityMachopText::
@@ -73,137 +79,142 @@ _VermilionCityMachopText::
 
 _VermilionCityMachopStompingTheLandFlatText::
 	text_start
-	para "A MACHOLLO is"
-	line "stomping the land"
-	cont "flat."
+	text_start
+
+	para "Ein MACHOLLO"
+	line "ebnet das Land!"
 	done
 
 _VermilionCitySailor2Text::
-	text "S.S.ANNE is a"
-	line "famous luxury"
-	cont "cruise ship."
+	text "Die M.S. ANNE ist"
+	line "ein luxuriöses"
+	cont "Kreuzfahrtschiff."
 
-	para "We visit ORANIA"
-	line "once a year."
+	para "Sie legt einmal"
+	line "jährlich in"
+	cont "ORANIA CITY an."
 	done
 
 _OfficerJennyText1::
-	text "I just caught a"
-	line "SCHIGGY that was"
-	cont "always getting"
-	cont "into mischief."
+	text "Ich habe ein"
+	line "SCHIGGY gefangen."
+	cont "Aber dieses"
+	cont "#MON macht nur"
+	cont "Dummheiten!"
 
-	para "I think it needs a"
-	line "good trainer to"
-	cont "set it straight."
+	para "Ich denke, ein"
+	line "guter Trainer"
+	cont "sollte SCHIGGY"
+	cont "richtig erziehen"
+	cont "können."
 	done
 
 _OfficerJennyText2::
-	text "You have the"
-	line "THUNDERBADGE!?"
+	text "Du trägst den"
+	line "DONNERORDEN!?"
 
-	para "You must be a"
-	line "good trainer!"
+	para "Dann bist Du ein"
+	line "guter Trainer!"
 
-	para "I just caught a"
-	line "SCHIGGY that was"
-	cont "always getting"
-	cont "into mischief."
+	para "Ich habe ein"
+	line "SCHIGGY gefangen."
+	cont "Aber dieses"
+	cont "#MON macht nur"
+	cont "Dummheiten!"
 
-	para "Would you take"
-	line "good care of it?"
+	para "Würdest Du Dich"
+	line "um mein SCHIGGY"
+	cont "kümmern?"
 	done
 
 _OfficerJennyText3::
-	text "OK! Please treat"
-	line "SCHIGGY right!@"
+	text "OK, aber behandle"
+	line "SCHIGGY gut!@"
 	text_end
 
 _OfficerJennyText4::
-	text "Oh... What am I"
-	line "to do now?"
+	text "Oh... Was soll"
+	line "ich nur machen?"
 	done
 
 _OfficerJennyText5::
-	text "How is SCHIGGY"
-	line "doing?"
+	text "Wie geht es"
+	line "SCHIGGY?"
 	done
 
 _JennyBattleText::
-	text "As a CHAMPION,"
-	line "you've grown"
-	cont "strong."
+	text "Als CHAMPION bist"
+	line "Du stark geworden."
+	cont "Das gilt auch für"
+	cont "mein SCHIGGY."
 
-	para "And so has that"
-	line "SCHIGGY I gave"
-	cont "you."
-
-	para "I wonder how"
-	line "strong?"
-
-	para "Can I test your"
-	line "strength in a"
-	cont "battle?"
+	para "Wie stark wohl?"
+	line "Darf ich Deine"
+	cont "Stärke in einem"
+	cont "Kampf testen?"
 	done
 
 _JennyRefusedText::
-	text "Oh, that's too"
-	line "bad. Maybe"
-	cont "another time."
+	text "Oh, schade."
+	line "Vielleicht ein"
+	cont "andermal."
 	done
 
 _JennyAcceptedText::
-	text "I knew you"
-	line "wouldn't back"
-	cont "down!"
+	text "Ich wußte, Du"
+	line "kneifst nicht!"
 	done
 
 _JennyAfterBattleText::
-    text "Incredible!"
+	text "Unglaublich! Du"
+	line "und SCHIGGY seid"
+	cont "nicht zu stoppen!"
 
-	para "You and SCHIGGY"
-	line "are unstoppable!"
-
-	para "Keep up the"
-	line "great work,"
-	cont "CHAMPION!"
-    done
+	para "Weiter so,"
+	line "CHAMPION!"
+	done
 
 _VermilionCitySignText::
 	text "ORANIA CITY"
-	line "The Port of"
-	cont "Exquisite Sunsets"
+	line "Die Hafenstadt"
+	cont "der einmaligen"
+	cont "Sonnenuntergänge!"
 	done
 
 _VermilionCityNoticeSignText::
-	text "NOTICE!"
+	text "ACHTUNG!"
 
-	para "ROUTE 12 may be"
-	line "blocked off by a"
-	cont "sleeping #MON."
+	para "ROUTE 12 wird"
+	line "von einem"
+	cont "schlafenden"
+	cont "#MON"
+	cont "blockiert."
 
-	para "Detour through"
-	line "ROCK TUNNEL to"
+	para "Umleitung: "
+	line "FELSTUNNEL nach"
 	cont "LAVANDIA."
 
-	para "ORANIA POLICE"
+	para "POLIZEI VON"
+	line "ORANIA CITY"
 	done
 
 _VermilionCityPokemonFanClubSignText::
-	text "#MON FAN CLUB"
-	line "All #MON fans"
-	cont "welcome!"
+	text "#MON-FANCLUB"
+	line "Alle #MON-Fans"
+	cont "sind willkommen!"
 	done
 
 _VermilionCityGymSignText::
 	text "ORANIA CITY"
-	line "#MON GYM"
-	cont "LEADER: MAJOR BOB"
+	line "PKMN-ARENA"
+	cont "ARENALEITER:"
+	cont "MAJOR BOB"
 
-	para "The Lightning "
-	line "American!"
+	para "Der blitzschnelle"
+	line "Arenaleiter!"
 	done
 
 _VermilionCityHarborSignText::
-	text "ORANIA HARBOR"
+	text "HAFEN VON"
+	line "ORANIA CITY"
 	done

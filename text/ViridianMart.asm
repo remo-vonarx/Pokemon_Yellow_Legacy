@@ -1,89 +1,85 @@
 _ViridianMartClerkSayHiToOakText::
-	text "Okay! Say hi to"
-	line "PROF EICH for me!"
+	text "OK! Grüße PROF"
+	line "EICH von mir!"
 	done
 
 _ViridianMartClerkYouCameFromPalletTownText::
-	text "Hey! You came from"
-	line "ALABASTIA?"
+	text "Hey! Kommst Du"
+	line "aus ALABASTIA?"
 	done
 
 _ViridianMartClerkParcelQuestText::
-	text "You know PROF"
-	line "EICH, right?"
+	text "PROF EICH"
+	line "schickt Dich,"
+	cont "oder?"
 
-	para "His order came in."
-	line "Will you take it"
-	cont "to him?"
+	para "Seine Bestellung"
+	line "ist angekommen!"
+	cont "Holst Du das"
+	cont "Paket für ihn ab?"
 
-	para "<PLAYER> got"
-	line "EICH's PARCEL!@"
+	para "<PLAYER> erhält"
+	line "EICHS PAKET!@"
 	text_end
 
 _ViridianMartYoungsterText::
-	text "This shop sells a"
-	line "lot of PARLYZ"
-	cont "HEALs."
+	text "Dieser Laden"
+	line "führt viele"
+	cont "GEGENGIFTE."
 	done
 
 _ViridianMartCooltrainerMText::
-	text "The shop finally"
-	line "has some POTIONs"
-	cont "in stock."
+	text "Der Laden hat"
+	line "endlich wieder"
+	cont "GEGENGIFT "
+	cont "vorrätig."
 	done
 
 _ViridianOldRodHouseFishingGuruDoYouLikeToFishText::
-	text "I'm the FISHING"
-	line "GURU!"
+	text "Ich bin der ANGEL-"
+	line "GURU! Ich liebe"
+	cont "das Angeln über"
+	cont "alles!"
 
-	para "I simply Looove"
-	line "fishing!"
-
-	para "Do you like to"
-	line "fish?"
+	para "Angelst Du auch"
+	line "gerne?"
 	done
 
 _ViridianOldRodHouseFishingGuruTakeThisText::
-	text "Grand! I like"
-	line "your style!"
+	text "Großartig! Dein"
+	line "Stil gefällt mir!"
 
-	para "Take this and"
-	line "fish, young one!"
+	para "Nimm das und"
+	line "angle, mein Kind!"
 
-	para "<PLAYER> received"
-	line "an @"
+	para "<PLAYER> erhält"
+	line "eine @"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _ViridianOldRodHouseFishingGuruFishingIsAWayOfLifeText::
-	text_start
+	text "Angeln ist eine"
+	line "Lebensart!"
 
-	para "Fishing is a way"
-	line "of life!"
-
-	para "From the seas to"
-	line "rivers, go out"
-	cont "and land the big"
-	cont "one, young one!"
+	para "Zieh los, vom Meer"
+	line "bis zum Fluß, und"
+	cont "fang den Großen,"
+	cont "mein Kind!"
 	done
 
 _ViridianOldRodHouseFishingGuruThatsSoDisappointingText::
-	text "Oh... That's so"
-	line "disappointing..."
+	text "Oh..."
+	line "Wie schade..."
 	done
 
 _ViridianOldRodHouseFishingGuruHowAreTheFishBitingText::
-	text "Hello there,"
-	line "<PLAYER>!"
-
-	para "How are the fish"
-	line "biting?"
+	text "Hallo, <PLAYER>!"
+	line "Beißen die Fische?"
 	done
 
 _ViridianOldRodHouseFishingGuruNoRoomText::
-	text "Oh no!"
-
-	para "You have no room"
-	line "for my gift!"
+	text "Oh nein! Du hast"
+	line "keinen Platz für"
+	cont "mein Geschenk!"
 	done

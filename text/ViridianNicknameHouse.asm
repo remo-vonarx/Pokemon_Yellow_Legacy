@@ -1,16 +1,19 @@
 _ViridianNicknameHouseBaldingGuyText::
-	text "Coming up with"
-	line "nicknames is fun,"
-	cont "but hard."
+	text "Es macht Spaß,"
+	line "sich Spitznamen"
+	cont "auszudenken. Aber"
+	cont "es erfordert viel"
+	cont "Einfallsreichtum!"
 
-	para "Simple names are"
-	line "the easiest to"
-	cont "remember."
+	para "Einfache Namen"
+	line "kann man sich"
+	cont "leichter merken!"
 	done
 
 _ViridianNicknameHouseLittleGirlText::
-	text "My Daddy loves"
-	line "#MON too."
+	text "Mein Papa mag"
+	line "#MON auch"
+	cont "sehr gerne!"
 	done
 
 _ViridianNicknameHouseSpearowText::
@@ -20,5 +23,5 @@ _ViridianNicknameHouseSpearowText::
 
 _ViridianNicknameHouseSpearySignText::
 	text "HABITAK"
-	line "Name: WILLI"
+	line "Spitzname: WILLI"
 	done

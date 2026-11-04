@@ -1,9 +1,8 @@
 _VermilionPidgeyHouseYoungsterText::
-	text "I'm getting my"
-	line "TAUBSI to fly a"
-	cont "letter to"
-	cont "SAFFRONIA in the"
-	cont "north!"
+	text "Ich lasse TAUBSI"
+	line "einen Brief nach"
+	cont "SAFFRONIA CITY im"
+	cont "Norden bringen!"
 	done
 
 _VermilionPidgeyHousePidgeyText::
@@ -11,13 +10,17 @@ _VermilionPidgeyHousePidgeyText::
 	text_end
 
 _VermilionPidgeyHouseLetterText::
-	text "Dear NIKKI, I hope"
-	line "to see you soon."
+	text "Liebe NIKKI! Ich"
+	line "hoffe, wir sehen"
+	cont "uns bald wieder!"
 
-	para "I heard SAFFRONIA"
-	line "has problems with"
-	cont "TEAM ROCKET."
+	para "Wie ich höre,"
+	line "stiftet TEAM"
+	cont "ROCKET in"
+	cont "SAFFRONIA CITY"
+	cont "Unruhe!"
 
-	para "ORANIA appears"
-	line "to be safe."
+	para "Hier in ORANIA"
+	line "CITY scheint es"
+	cont "sicher zu sein."
 	done

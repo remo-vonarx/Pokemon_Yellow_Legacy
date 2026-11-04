@@ -1,4 +1,5 @@
 _GameCornerOopsForgotCoinCaseText::
-	text "Oops! Forgot the"
-	line "COIN CASE!"
+	text "Ups! Ich habe"
+	line "den MÜNZKORB "
+	cont "vergessen!"
 	done

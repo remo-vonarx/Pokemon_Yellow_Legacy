@@ -1,189 +1,199 @@
 _GameCornerBeauty1Text::
-	text "Welcome!"
+	text "Willkommen!"
 
-	para "You can exchange"
-	line "your coins for"
-	cont "fabulous prizes"
-	cont "next door."
+	para "In dem Gebäude"
+	line "nebenan kannst"
+	cont "Du Deine Münzen"
+	cont "gegen Preise ein-"
+	cont "tauschen."
 	done
 
 _GameCornerClerkDoYouNeedSomeGameCoinsText::
-	text "Welcome to ROCKET"
-	line "GAME CORNER!"
+	text "Willkommen"
+	line "in der ROCKET"
+	cont "SPIELHALLE!"
 
-	para "Do you need some"
-	line "game coins?"
+	para "Benötigst Du"
+	line "Spiel-Münzen?"
 
-	para "It's ¥1000 for 50"
-	line "coins. Would you"
-	cont "like some?"
+	para "Für ¥1000"
+	line "erhältst Du 50"
+	cont "Münzen. OK?"
 	done
 
 _GameCornerClerkThanksHereAre50CoinsText::
-	text "Thanks! Here are"
-	line "your 50 coins!"
+	text "Danke! Hier sind"
+	line "Deine 50 Münzen!"
 	done
 
 _GameCornerClerkPleaseComePlaySometimeText::
-	text "No? Please come"
-	line "play sometime!"
+	text "Nein? Dann komm"
+	line "vorbei, wenn Du"
+	cont "spielen möchtest!"
 	done
 
 _GameCornerClerkCantAffordTheCoinsText::
-	text "You can't afford"
-	line "the coins!"
+	text "Du hast nicht"
+	line "genug Geld!"
 	done
 
 _GameCornerClerkCoinCaseIsFullText::
-	text "Oops! Your COIN"
-	line "CASE is full."
+	text "Dein MÜNZKORB"
+	line "ist voll!"
 	done
 
 _GameCornerClerkDontHaveCoinCaseText::
-	text "You don't have a"
-	line "COIN CASE!"
+	text "Du benötigst"
+	line "einen MÜNZKORB!"
 	done
 
 _GameCornerMiddleAgedMan1Text::
-	text "Keep this quiet."
+	text "Pst! Hör mir zu!"
 
-	para "It's rumored that"
-	line "this place is run"
-	cont "by TEAM ROCKET."
+	para "Man sagt, diese"
+	line "SPIELHALLE gehöre"
+	cont "TEAM ROCKET!"
 	done
 
 _GameCornerBeauty2Text::
-	text "I think these"
-	line "machines have"
-	cont "different odds."
+	text "Ich glaube, jeder"
+	line "Spielautomat hat"
+	cont "eine andere"
+	cont "Gewinnchance!"
 	done
 
 _GameCornerFishingGuru1WantToPlayText::
-	text "Kid, do you want"
-	line "to play?"
+	text "Möchtest Du auch"
+	line "spielen, Kind?"
 	prompt
 
 _GameCornerFishingGuru1Received10CoinsText::
-	text "<PLAYER> received"
-	line "10 coins!@"
+	text "<PLAYER> erhält"
+	line "10 Münzen!@"
 	text_end
 
 _GameCornerFishingGuru1DontNeedMyCoinsText::
-	text "You don't need my"
-	line "coins!"
+	text "Du brauchst meine"
+	line "Münzen nicht!"
 	done
 
 _GameCornerFishingGuru1WinsComeAndGoText::
-	text "Wins seem to come"
-	line "and go."
+	text "Mal gewinnt man,"
+	line "mal verliert man!"
 	done
 
 _GameCornerMiddleAgedWomanText::
-	text "I'm having a"
-	line "wonderful time!"
+	text "Herrlich!"
+	line "Das macht Spaß!"
 	done
 
 _GameCornerGymGuideChampInMakingText::
-	text "Hey!"
-	line "You found me!"
+	text "Hey! Du hast mich"
+	line "gefunden!"
 
-	para "PRISMANIA GYM's"
-	line "LEADER is ERIKA!"
-	cont "She uses grass-"
-	cont "type #MON!"
+	para "Die ARENALEITERIN"
+	line "von PRISMANIA"
+	cont "CITY heißt ERIKA."
+	cont "Sie trainiert"
+	cont "PFLANZEN-#MON!"
 
-	para "They wouldn't"
-	line "let me in so"
-	cont "I don't know"
-	cont "anything else!"
+	para "Mich lassen sie"
+	line "nicht rein, also"
+	cont "weiß ich nicht"
+	cont "mehr!"
 
-	para "Maybe the JUNIOR"
-	line "TRAINERs will"
-	cont "let some info"
-	cont "slip if you"
-	cont "beat them!"
+	para "Vielleicht sagen"
+	line "die Trainerinnen"
+	cont "mehr, wenn Du sie"
+	cont "schlägst!"
 	done
 
 _GameCornerGymGuideTheyOfferRarePokemonText::
-	text "They offer rare"
-	line "#MON that can"
-	cont "be exchanged for"
-	cont "your coins."
+	text "Man kann die"
+	line "Münzen gegen"
+	cont "seltene #MON"
+	cont "eintauschen."
 
-	para "But, I just can't"
-	line "seem to win!"
+	para "Aber ich habe"
+	line "kein Glück im"
+	cont "Spiel!"
 	done
 
 _GameCornerGamblerText::
-	text "Games are scary!"
-	line "It's so easy to"
-	cont "get hooked!"
+	text "Glücksspiele sind"
+	line "unheimlich!"
+	cont "Man wird schnell"
+	cont "davon abhängig!"
 	done
 
 _GameCornerMiddleAgedMan2WantSomeCoinsText::
-	text "What's up? Want"
-	line "some coins?"
+	text "Wie geht's?"
+	line "Brauchst Du ein"
+	cont "paar Münzen?"
 	prompt
 
 _GameCornerMiddleAgedMan2Received20CoinsText::
-	text "<PLAYER> received"
-	line "20 coins!@"
+	text "<PLAYER> erhält"
+	line "20 Münzen!@"
 	text_end
 
 _GameCornerMiddleAgedMan2YouHaveLotsOfCoinsText::
-	text "You have lots of"
-	line "coins!"
+	text "Hey, Du besitzt"
+	line "genug Münzen!"
 	done
 
 _GameCornerMiddleAgedMan2INeedMoreCoinsText::
-	text "Darn! I need more"
-	line "coins for the"
-	cont "#MON I want!"
+	text "Mist! Ich habe"
+	line "noch immer nicht"
+	cont "genug Münzen für"
+	cont "das #MON!"
 	done
 
 _GameCornerFishingGuru2ThrowingMeOffText::
-	text "Hey, what? You're"
-	line "throwing me off!"
-	cont "Here are some"
-	cont "coins, shoo!"
+	text "Hey! Willst Du"
+	line "mich ablenken?"
+	cont "Hier, nimm ein"
+	cont "paar Münzen!"
 	prompt
 
 _GameCornerFishingGuru2Received20CoinsText::
-	text "<PLAYER> received"
-	line "20 coins!@"
+	text "<PLAYER> erhält"
+	line "20 Münzen!@"
 	text_end
 
 _GameCornerFishingGuru2YouGotYourOwnCoinsText::
-	text "You've got your"
-	line "own coins!"
+	text "Du hast Deine"
+	line "eigenen Münzen!"
 	done
 
 _GameCornerFishingGuru2CloselyWatchTheReelsText::
-	text "The trick is to"
-	line "watch the reels"
-	cont "closely!"
+	text "Du mußt die"
+	line "Walzen genau im"
+	cont "Auge behalten!"
 	done
 
 _GameCornerRocketImGuardingThisPosterText::
-	text "I'm guarding this"
-	line "poster!"
-	cont "Go away, or else!"
+	text "Verschwinde von"
+	line "dem Poster, oder"
+	cont "ich muß..."
 	done
 
 _GameCornerRocketBattleEndText::
-	text "Dang!"
+	text_start
+	line "Mist!"
 	prompt
 
 _GameCornerRocketAfterBattleText::
-	text "Our hideout might"
-	line "be discovered! I"
-	cont "better tell BOSS!"
+	text "Ich muß dem BOSS"
+	line "sagen, daß unser"
+	cont "Versteck entdeckt"
+	cont "werden könnte!"
 	done
 
 _GameCornerPosterSwitchBehindPosterText::
-	text "Hey!"
+	text "Seltsam!"
 
-	para "A switch behind"
-	line "the poster!?"
-	cont "Let's push it!@"
+	para "Hinter dem Poster"
+	line "ist ein Schalter!"
+	cont "Mal sehen...@"
 	text_end
