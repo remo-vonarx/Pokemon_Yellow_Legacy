@@ -82,9 +82,9 @@ InitWildBattle:
 	ld hl, wEnemyMonNick  ; set name to "GHOST"
 	ld a, "G"
 	ld [hli], a
-	ld a, "H"
+	ld a, "E"
 	ld [hli], a
-	ld a, "O"
+	ld a, "I"
 	ld [hli], a
 	ld a, "S"
 	ld [hli], a
