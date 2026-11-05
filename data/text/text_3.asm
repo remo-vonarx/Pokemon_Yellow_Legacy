@@ -500,7 +500,6 @@ _OakSpeechText2A::
 	text_end
 
 _OakSpeechText2B::
-	text $51,"For some people,"
 	text_start
 
 	para "Für manche Leute"
