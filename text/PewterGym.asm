@@ -228,7 +228,7 @@ _PewterGymGuideAdviceText::
 	line "es hier nicht"
 	cont "leicht haben!"
 
-	para "ELEKTRO-Attacken"
+	para "Elektro-Attacken"
 	line "können ROCKOS"
 	cont "BODEN-#MON"
 	cont "nichts anhaben."
@@ -267,7 +267,7 @@ _PewterGymGuyText::
 	line "es hier nicht"
 	cont "leicht haben!"
 
-	para "ELEKTRO-Attacken"
+	para "Elektro-Attacken"
 	line "können ROCKOS"
 	cont "BODEN-#MON"
 	cont "nichts anhaben."

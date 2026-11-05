@@ -31,7 +31,7 @@ _PokemonTower2FRivalVictoryText::
 	line "bißchen härter!"
 
 	para "Und achte auf"
-	line "GEIST-Attacken!"
+	line "Geist-Attacken!"
 
 	para "NORMAL-#MON"
 	line "treffen sie nicht,"

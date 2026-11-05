@@ -208,7 +208,7 @@ _VermilionGymGymGuideChampInMakingText::
 	para "MAJOR BOB hat"
 	line "seinem #MON"
 	cont "eine starke"
-	cont "WASSER-Technik"
+	cont "Wasser-Technik"
 	cont "beigebracht."
 
 	para "Ein einzelnes"

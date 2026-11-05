@@ -334,7 +334,7 @@ _HM02Description::
 
 _HM03Description::
 	text "Eine starke"
-	next "WASSER-Attacke."
+	next "Wasser-Attacke."
 	prompt
 
 _HM04Description::
@@ -478,7 +478,7 @@ _TM26Description::
 	prompt
 
 _TM27Description::
-	text "BODEN-Attacke mit"
+	text "Boden-Attacke mit"
 	next "K.O. in 1 Treffer."
 	prompt
 

@@ -5,7 +5,7 @@ _ViridianSchoolHouseBrunetteGirlText::
 	cont "zu lernen."
 
 	para "ZERSCHNEIDER ist"
-	line "eine KÄFER-Attacke"
+	line "eine Käfer-Attacke"
 	cont "und wird per VM"
 	cont "gelehrt!"
 

@@ -169,14 +169,14 @@ _CeruleanGymGymGuideChampInMakingText::
 	line "MISTY setzt auf"
 	cont "den Angriff!"
 
-	para "Ihre WASSER-"
+	para "Ihre Wasser-"
 	line "Attacken treffen"
 	cont "hart, und sie ist"
 	cont "sehr clever!"
 
 	para "Ihr erstes und ihr"
 	line "stärkstes #MON"
-	cont "kennen PSYCHO-"
+	cont "kennen Psycho-"
 	cont "Attacken!"
 
 	para "Das deckt ihre"
