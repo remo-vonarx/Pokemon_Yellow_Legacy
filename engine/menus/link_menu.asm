@@ -865,13 +865,13 @@ LinkMenu:
 
 Func_f59ec::
 	ld a, b
-	ldcoord_a 6, 5
+	ldcoord_a 5, 5
 	ld a, c
-	ldcoord_a 6, 7
+	ldcoord_a 5, 7
 	ld a, d
-	ldcoord_a 6, 9
+	ldcoord_a 5, 9
 	ld a, e
-	ldcoord_a 6, 11
+	ldcoord_a 5, 11
 	ld c, 40
 	call DelayFrames
 	ret
