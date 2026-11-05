@@ -14,9 +14,9 @@ _ViridianForestYoungster2BattleText::
 	done
 
 _ViridianForestYoungster2EndBattleText::
-	text "Nein!"
-	line "RAUPY schafft es"
-	cont "nicht!"
+	text "Ah!"
+	line "RAUPY hat es"
+	cont "nicht geschafft!"
 	prompt
 
 _ViridianForestYoungster2AfterBattleText::

@@ -58,7 +58,7 @@ _MtMoonB2FSuperNerdTheyreBothMineText::
 	done
 
 _MtMoonB2FSuperNerdOkIllShareText::
-	text "Gut!"
+	text "Na gut!"
 	line "Ich gebe Dir"
 	cont "eins ab!"
 	prompt

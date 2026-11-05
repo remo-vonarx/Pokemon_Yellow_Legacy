@@ -25,8 +25,7 @@ _SafariZoneNorthRestHouseGentlemanText::
 	cont "entwickelt!"
 
 	para "Aber bei einem"
-	line "Freund wurde EVOLI"
-	cont "zu AQUANA!"
-
-	para "Warum wohl?"
+	line "Freund hat sich"
+	cont "EVOLI zu AQUANA"
+	cont "entwickelt!"
 	done

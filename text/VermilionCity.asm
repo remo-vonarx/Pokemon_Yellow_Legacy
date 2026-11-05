@@ -129,7 +129,7 @@ _OfficerJennyText2::
 
 _OfficerJennyText3::
 	text "OK, aber behandle"
-	line "SCHIGGY gut!@"
+	line "mein SCHIGGY gut!@"
 	text_end
 
 _OfficerJennyText4::

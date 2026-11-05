@@ -116,24 +116,21 @@ _OaksAideUhOhText::
 	para "Du benötigst @"
 	text_decimal hOaksAideRequirement, 1, 3
 	text ","
-	line "um @"
-	text_ram wOaksAideRewardItemName
-	text_start
+	line "um das Geschenk"
 	cont "zu erhalten."
 	done
 
 _OaksAideComeBackText::
-	text "Oh. Verstehe."
+	text "Ich habe"
+	line "eine gute Idee."
 
 	para "Komm wieder, wenn"
 	line "Du @"
 	text_decimal hOaksAideRequirement, 1, 3
 	text " #MON"
-	cont "besitzt. Dann"
-	cont "erhältst Du"
-	cont "@"
-	text_ram wOaksAideRewardItemName
-	text "."
+	cont "besitzt. Ich"
+	cont "hebe Dir Dein"
+	cont "Geschenk auf."
 	done
 
 _OaksAideHereYouGoText::

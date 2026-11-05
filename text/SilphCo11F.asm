@@ -87,7 +87,7 @@ _SilphCo11FGiovanniText::
 	done
 
 _SilphCo10FGiovanniILostAgainText::
-	text "Argh!"
+	text "Arrgh!"
 	line "Wieder verloren!"
 	prompt
 

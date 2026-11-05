@@ -4,8 +4,7 @@ _FuchsiaMeetingRoomSafariZoneWorker1::
 	cont "FLEGMON."
 
 	para "Er und FLEGMON"
-	line "gucken beide so"
-	cont "leer!"
+	line "ähneln sich sehr!"
 	done
 
 _FuchsiaMeetingRoomSafariZoneWorker2::

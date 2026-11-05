@@ -25,8 +25,8 @@ _PokemonTower1FBaldingGuyText::
 
 _PokemonTower1FGirlText::
 	text "FUKANO..."
-	line "Warum bist Du"
-	cont "gestorben?"
+	line "Warum hast Du"
+	cont "mich verlassen?"
 	done
 
 _PokemonTower1FChannelerText::

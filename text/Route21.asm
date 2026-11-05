@@ -23,7 +23,7 @@ _Route21Fisher2BattleText::
 
 _Route21Fisher2EndBattleText::
 	text "Mist!"
-	line "Blödes KARPADOR!"
+	line "Ein KARPADOR!"
 	prompt
 
 _Route21Fisher2AfterBattleText::

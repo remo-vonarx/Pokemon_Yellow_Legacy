@@ -700,13 +700,13 @@ _KabutopsFossilText::
 	done
 
 _FanClubPicture1Text::
-	text "Mein süßes"
-	line "GALLOPA."
+	text "Mein geliebtes"
+	line "GALLOPA..."
 	done
 
 _FanClubPicture2Text::
 	text "Mein geliebtes"
-	line "IBITAK."
+	line "IBITAK..."
 	done
 
 _LinkCableHelpText1::
