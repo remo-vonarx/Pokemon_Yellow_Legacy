@@ -1,6 +1,6 @@
 _FuchsiaGoodRodHouseFishingGuruText::
 	text "Ich bin der"
-	line "ältere Bruder des"
+	line "Bruder des"
 	cont "PROFIANGLERS!"
 
 	para "Ich liebe"
