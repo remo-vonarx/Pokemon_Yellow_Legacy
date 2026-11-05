@@ -608,7 +608,7 @@ GBPrinter_UpdateStatusMessage:
 	db   "   Druckfehler 1"
 	next " Ziehe bitte das"
 	next " Printer-Handbuch"
-	next " zur Rate!@"
+	next " zu Rate!@"
 .Error2:
 	db   "   Druckfehler 2"
 	next " Ziehe bitte das"
@@ -618,12 +618,12 @@ GBPrinter_UpdateStatusMessage:
 	db   "   Druckfehler 3"
 	next " Ziehe bitte das"
 	next " Printer-Handbuch"
-	next " zur Rate!@"
+	next " zu Rate!@"
 .Error4:
 	db   "   Druckfehler 4"
 	next " Ziehe bitte das"
 	next " Printer-Handbuch"
-	next " zur Rate!@"
+	next " zu Rate!@"
 .WrongDevice:
 	db   "   Druckfehler 5"
 	next " Es ist kein"
