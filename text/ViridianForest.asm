@@ -73,8 +73,8 @@ _ViridianForestCooltrainerFBattleText::
 	done
 
 _ViridianForestCooltrainerFEndBattleText::
-	text "Oh nein,"
-	line "wirklich?"
+	text "PIKACHU"
+	line "ist so süß!"
 	prompt
 
 _ViridianForestCooltrainerFAfterBattleText::

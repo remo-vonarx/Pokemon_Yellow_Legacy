@@ -120,8 +120,8 @@ _SilphCo11FRocket2BattleText::
 	done
 
 _SilphCo11FRocket2EndBattleText::
-	text "Gaah!"
-	line "Vernichtet!"
+	text "OK!"
+	line "Du darfst durch!"
 	prompt
 
 _SilphCo11FRocket2AfterBattleText::
