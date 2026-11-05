@@ -54,39 +54,30 @@ CreditsTextPointers:
 	dw CreditsText_Sekine
 	dw CreditsText_Shimamura
 	dw CreditsText_Shimoyamada
-	dw CreditsText_SuperMarioClub
 	dw CreditsText_Izushi
-	dw CreditsText_Nomura
 	dw CreditsText_Harada
-	dw CreditsText_Yamagami
-	dw CreditsText_Nishimura
-	dw CreditsText_Saeki
-	dw CreditsText_Fuzii
 	dw CreditsText_Shogakukan
 	dw CreditsText_Ootani
 	dw CreditsText_PikachuVoice
-	dw CreditsText_USStaff
-	dw CreditsText_USCoord
-	dw CreditsText_Tilden
+	dw CreditsText_EUStaff
+	dw CreditsText_EUCoord
+	dw CreditsText_Moyse
+	dw CreditsText_Kraft
 	dw CreditsText_Kawakami
-	dw CreditsText_Nakamura2
-	dw CreditsText_Shoemake
-	dw CreditsText_Osborne
+	dw CreditsText_Edasawa
+	dw CreditsText_Uesugi
+	dw CreditsText_Yoshimura
 	dw CreditsText_Translation
-	dw CreditsText_Ogasawara
-	dw CreditsText_Iwata
-	dw CreditsText_Izushi2
-	dw CreditsText_Harada2
 	dw CreditsText_Murakawa
 	dw CreditsText_Fukui
-	dw CreditsText_SuperMarioClub2
-	dw CreditsText_Paad
-	dw CreditsText_Producers
 	dw CreditsText_Hosokawa
-	dw CreditsText_Okubo
+	dw CreditsText_Sano
 	dw CreditsText_Nakamichi
-	dw CreditsText_Yoshimura
-	dw CreditsText_Yamazaki
+	dw CreditsText_NOETesting
+	dw CreditsText_NOATesting
+	dw CreditsText_HudsonBuechele
+	dw CreditsText_Fabri
+	dw CreditsText_ZehThieret
 
 	dw CreditsText_Creator
 	dw CreditsText_Developer
@@ -214,35 +205,33 @@ CreditsText_Yuda:
 CreditsText_Pokemon:
 	db -3, "#MON@"
 CreditsText_Director:
-	db -3, "DIRECTOR@"
+	db -3, "LEITUNG@"
 CreditsText_Programmers:
-	db -5, "PROGRAMMERS@"
+	db -6, "PROGRAMMIERER@"
 CreditsText_CharacterDesign:
-	db -7, "CHARACTER DESIGN@"
+	db -7, "CHARAKTER-DESIGN@"
 CreditsText_Music:
-	db -2, "MUSIC@"
+	db -2, "MUSIK@"
 CreditsText_SoundEffects:
-	db -6, "SOUND EFFECTS@"
+	db -6, "SOUND-EFFEKTE@"
 CreditsText_GameDesign:
-	db -5, "GAME DESIGN@"
+	db -5, "SPIEL-DESIGN@"
 CreditsText_MonsterDesign:
-	db -6, "MONSTER DESIGN@"
+	db -6, "MONSTER-DESIGN@"
 CreditsText_GameScenario:
-	db -6, "GAME SCENARIO@"
+	db -6, "SPIEL-SZENARIO@"
 CreditsText_ParametricDesign:
-	db -7, "PARAMETRIC DESIGN@"
+	db -7, "PARAMETR. DESIGN@"
 CreditsText_MapDesign:
-	db -4, "MAP DESIGN@"
+	db -6, "KARTEN-DESIGN@"
 CreditsText_Testing:
-	db -6, "PRODUCT TESTING@"
+	db -5, "PRODUKT-TEST@"
 CreditsText_SpecialThanks:
-	db -6, "SPECIAL THANKS@"
-CreditsText_Producers:
-	db -4, "PRODUCERS@"
+	db -7, "BESONDERER DANK@"
 CreditsText_Producer:
-	db -3, "PRODUCER@"
+	db -4, "PRODUZENT@"
 CreditsText_ExecutiveProducer:
-	db -8, "EXECUTIVE PRODUCER@"
+	db -5, "AUSFÜHRENDER@"
 CreditsText_Tamada:
 	db -6, "SOUSUKE TAMADA@"
 CreditsText_Oota2:
@@ -263,73 +252,56 @@ CreditsText_Shimamura:
 	db -7, "KAZUSHI SHIMAMURA@"
 CreditsText_Shimoyamada:
 	db -9, "TERUYUKI SHIMOYAMADA@"
-CreditsText_SuperMarioClub:
-	db -9, "NCL SUPER MARIO CLUB@"
 CreditsText_Izushi:
 	db -7, "TAKEHIRO IZUSHI@"
-CreditsText_Nomura:
-	db -5, "FUZIKO NOMURA@"
 CreditsText_Harada:
 	db -6, "TAKAHIRO HARADA@"
-CreditsText_Yamagami:
-	db -7, "HITOSHI YAMAGAMI@"
-CreditsText_Nishimura:
-	db -8, "KENTAROU NISHIMURA@"
-CreditsText_Saeki:
-	db -5, "NAOKO SAEKI@"
-CreditsText_Fuzii:
-	db -5, "TAKAYA FUZII@"
 CreditsText_Shogakukan:
 	db -4, "SHOGAKUKAN"
 	next   "PRODUCTION@"
 CreditsText_Ootani:
 	db -5, "IKUE OOTANI@"
 CreditsText_PikachuVoice:
-	db -6, "PIKACHU VOICE@"
+	db -7, "PIKACHUS STIMME@"
 
-	db -3, "××××××××@"
-CreditsText_USStaff:
-	db -7, "US VERSION STAFF@"
-CreditsText_USCoord:
-	db -7, "US COORDINATION@"
-CreditsText_Tilden:
-	db -5, "GAIL TILDEN@"
+CreditsText_EUStaff:
+	db -8, "EUROPÄISCHES TEAM@"
+CreditsText_EUCoord:
+	db -8, "EUROPA-KOORDINATION@"
+CreditsText_Moyse:
+	db -7, "CLAUDE M. MOYSE@"
+CreditsText_Kraft:
+	db -6, "JOHN D. KRAFT@"
 CreditsText_Kawakami:
 	db -6, "NAOKO KAWAKAMI@"
-CreditsText_Nakamura2:
-	db -6, "HIRO NAKAMURA@"
-CreditsText_Shoemake:
-	db -6, "RANDY SHOEMAKE@"
-CreditsText_Osborne:
-	db -5, "SARA OSBORNE@"
+CreditsText_Edasawa:
+	db -6, "YUSUKE EDASAWA@"
+CreditsText_Uesugi:
+	db -7, "HIROYUKI UESUGI@"
 CreditsText_Translation:
-	db -7, "TEXT TRANSLATION@"
-CreditsText_Ogasawara:
-	db -6, "NOB OGASAWARA@"
-CreditsText_Iwata:
-	db -5, "SATORU IWATA@"
-CreditsText_Izushi2:
-	db -7, "TAKEHIRO IZUSHI@"
-CreditsText_Harada2:
-	db -7, "TAKAHIRO HARADA@"
+	db -6, "DEUTSCHER TEXT@"
+CreditsText_Fabri:
+	db -7, "PATRICK R. FABRI@"
 CreditsText_Murakawa:
 	db -7, "TERUKI MURAKAWA@"
 CreditsText_Fukui:
 	db -5, "KOHTA FUKUI@"
-CreditsText_SuperMarioClub2:
-	db -9, "NCL SUPER MARIO CLUB@"
-CreditsText_Paad:
-	db -5, "PAAD TESTING@"
 CreditsText_Hosokawa:
 	db -8, "TAKEHIKO HOSOKAWA@"
-CreditsText_Okubo:
-	db -5, "KENJI OKUBO@"
+CreditsText_Sano:
+	db -5, "SHINYA SANO@"
 CreditsText_Nakamichi:
 	db -7, "KIMIKO NAKAMICHI@"
 CreditsText_Yoshimura:
 	db -6, "KAMON YOSHIMURA@"
-CreditsText_Yamazaki:
-	db -6, "SAKAE YAMAZAKI@"
+CreditsText_NOETesting:
+	db -8, "NOE PRODUCT TESTING@"
+CreditsText_NOATesting:
+	db -8, "NOA PRODUCT TESTING@"
+CreditsText_HudsonBuechele:
+	db -8, "K.HUDSON/T.BUECHELE@"
+CreditsText_ZehThieret:
+	db -6, "K.ZEH/P.THIERET@"
 
 CreditsText_Creator:
 	db -4, "CREATED BY@"
