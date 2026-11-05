@@ -222,7 +222,7 @@ _SaffronGymYoungster2BattleText::
 
 _SaffronGymYoungster2EndBattleText::
 	text "Das "
-	line "ist unfassbar!"
+	line "ist unfaßbar!"
 	prompt
 
 _SaffronGymYoungster2AfterBattleText::
