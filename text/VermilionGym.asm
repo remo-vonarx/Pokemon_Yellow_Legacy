@@ -199,7 +199,8 @@ _VermilionGymGymGuideChampInMakingText::
 
 	para "VOGEL- und"
 	line "WASSER-#MON"
-	cont "sind in Gefahr!"
+	cont "sind ihm hilflos"
+	cont "ausgeliefert!"
 
 	para "Aber das ist"
 	line "nicht alles!"

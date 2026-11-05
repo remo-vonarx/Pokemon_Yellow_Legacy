@@ -79,9 +79,9 @@ _FuchsiaGymRematchPostBattleText::
 	done
 
 _FuchsiaGymKogaSoulBadgeInfoText::
-	text "Nun, da Du den"
-	line "SEELENORDEN hast,"
-	cont "wird die"
+	text "Nun, da Du Träger"
+	line "des SEELENORDENS"
+	cont "bist, wird die"
 	cont "INITIATIVE Deiner"
 	cont "#MON steigen!"
 

@@ -187,8 +187,9 @@ _SaffronGymYoungster1EndBattleText::
 
 _SaffronGymYoungster1AfterBattleText::
 	text "PSYCHO-#MON"
-	line "fürchten nur"
-	cont "Käfer und Geister!"
+	line "fürchten sich nur"
+	cont "vor Käfern und"
+	cont "Geistern!"
 	done
 
 _SaffronGymChanneler2BattleText::

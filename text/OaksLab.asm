@@ -479,16 +479,18 @@ _CompletedDexText::
 	done
 
 _OaksLabScientistText::
-	text "Ich erforsche als"
-	line "PROF EICHS Gehilfe"
-	cont "die #MON."
+	text "Ich bin PROF"
+	line "EICHS Gehilfe."
+	cont "Ich studiere mit"
+	cont "ihm die #MON!"
 
 	para "Wir haben neulich"
 	line "ein Gerücht wider-"
 	cont "legt."
 
-	para "GEIST-#MON sind"
-	line "wie vermutet sehr"
+	para "Die seltenen"
+	line "GEIST-#MON sind"
+	cont "wie vermutet sehr"
 	cont "effektiv gegen"
 	cont "PSYCHO-#MON."
 	done

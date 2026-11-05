@@ -44,10 +44,10 @@ _Route3Youngster2EndBattleText::
 	prompt
 
 _Route3Youngster2AfterBattleText::
-	text "Lagerst Du Deine"
-	line "#MON im PC?"
-	cont "Jede BOX faßt"
-	cont "20 #MON!"
+	text "Du kannst #MON"
+	line "via PC in Boxen"
+	cont "ablegen. Jede BOX"
+	cont "faßt 20 #MON!"
 
 	para "Du erfährst es,"
 	line "wenn Deine BOX"

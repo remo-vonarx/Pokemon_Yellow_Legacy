@@ -16,8 +16,9 @@ _ViridianSchoolHouseBrunetteGirlText::
 
 _ViridianSchoolHouseLittleGirlText::
 	text "Meine Schwester"
-	line "sagt, #MON ent-"
-	cont "wickeln sich, wenn"
+	line "hat gesagt, daß"
+	cont "#MON sich"
+	cont "entwickeln, wenn"
 	cont "man nett zu ihnen"
 	cont "ist."
 
