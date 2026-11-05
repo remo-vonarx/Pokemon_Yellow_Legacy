@@ -146,8 +146,8 @@ CreditsTextPointers:
 ; 16 / 17 = -7
 ; 18 / 19 = -8
 CreditsText_Version:
-	db -6, "YELLOW LEGACY"
-	next   "    STAFF@"
+	db -8, "GELBES VERMÄCHTNIS"
+	next   "   MITWIRKENDE@"
 CreditsText_Tajiri:
 	db -6, "SATOSHI TAJIRI@"
 CreditsText_Oota:
@@ -304,29 +304,29 @@ CreditsText_ZehThieret:
 	db -6, "K.ZEH/P.THIERET@"
 
 CreditsText_Creator:
-	db -4, "CREATED BY@"
+	db -6, "ERSCHAFFEN VON@"
 CreditsText_Developer:
-	db -3, "DEVELOPER@"
+	db -4, "ENTWICKLER@"
 CreditsText_Editor:
-	db -2, "EDITOR@"
+	db -3, "REDAKTION@"
 CreditsText_Moderators:
-	db -4, "MODERATORS@"
+	db -4, "MODERATOREN@"
 CreditsText_Playtesters:
-	db -4, "PLAYTESTERS@"
+	db -4, "SPIELTESTER@"
 CreditsText_SpriteArtists:
-	db -6, "SPRITE ARTISTS@"
+	db -6, "SPRITE-KÜNSTLER@"
 CreditsText_BackspriteArtists:
-	db -8, "BACKSPRITE ARTISTS@"
+	db -8, "RÜCKSPRITE-KÜNSTLER@"
 CreditsText_Tutorials:
-	db -7, "TUTORIALS / CODE@"
+	db -8, "ANLEITUNGEN / CODE@"
 CreditsText_Pret1:
-	db -7, "THANK YOU TO THE@"
+	db -5, "DANKE AN DAS@"
 CreditsText_Pret2:
-	db -7, "PRET TEAM FOR THE@"
+	db -7, "PRET-TEAM FÜR DIE@"
 CreditsText_Pret3:
-	db -4, "POKEYELLOW@"
+	db -4, "POKEYELLOW-@"
 CreditsText_Pret4:
-	db -4, "DISASSEMBLY@"
+	db -7, "DISASSEMBLIERUNG@"
 
 CreditsText_SmithPlaysPokemon:
 	db -7, "SMITHPLAYSPOKEMON@"
