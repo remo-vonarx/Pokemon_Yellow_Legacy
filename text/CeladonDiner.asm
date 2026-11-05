@@ -10,7 +10,7 @@ _CeladonDinerMiddleAgedWomanText::
 	line "sind ziemlich"
 	cont "schwach, deshalb"
 	cont "gehe ich oft zur"
-	cont "POWER ZONE."
+	cont "KRAFT-ZONE."
 	done
 
 _CeladonDinerMiddleAgedManText::

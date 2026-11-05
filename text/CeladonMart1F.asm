@@ -21,7 +21,7 @@ _CeladonMart1FDirectorySignText::
 	para "S3: GESCHENK-"
 	line "ARTIKEL"
 
-	para "S4: POWER ZONE"
+	para "S4: KRAFT-ZONE"
 
 	para "DACHGARTEN:"
 	line "AUTOMATEN"

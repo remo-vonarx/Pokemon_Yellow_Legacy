@@ -28,5 +28,5 @@ _CeladonMart5FSailorText::
 	done
 
 _CeladonMart5FCurrentFloorSignText::
-	text "S4: POWER ZONE"
+	text "S4: KRAFT-ZONE"
 	done
