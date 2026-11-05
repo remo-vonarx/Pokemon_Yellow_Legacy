@@ -14,9 +14,10 @@ _Route15Gate2FOaksAideGotItemText::
 	prompt
 
 _Route15Gate2FOaksAideNoRoomText::
-	text "Oh! Du hast leider"
-	line "keinen Platz für"
-	cont "den EP-TEILER."
+	text "Oh! Du hast"
+	line "momentan keinen"
+	cont "Platz für den"
+	cont "EP-TEILER."
 	done
 
 _Route15Gate2FOaksAideExpAllText::

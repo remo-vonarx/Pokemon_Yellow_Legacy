@@ -36,21 +36,23 @@ _ViridianMartCooltrainerMText::
 	done
 
 _ViridianOldRodHouseFishingGuruDoYouLikeToFishText::
-	text "Ich bin der ANGEL-"
-	line "GURU! Ich liebe"
-	cont "das Angeln über"
-	cont "alles!"
+	text "Ich bin der"
+	line "PROFIANGLER!"
+
+	para "Ich liebe den"
+	line "Angelsport!"
 
 	para "Angelst Du auch"
 	line "gerne?"
 	done
 
 _ViridianOldRodHouseFishingGuruTakeThisText::
-	text "Großartig! Dein"
-	line "Stil gefällt mir!"
+	text "Klasse! Du bist"
+	line "mir sympathisch!"
 
-	para "Nimm das und"
-	line "angle, mein Kind!"
+	para "Nimm das hier"
+	line "und gehe angeln,"
+	cont "junger Freund!"
 
 	para "<PLAYER> erhält"
 	line "eine @"
@@ -59,27 +61,33 @@ _ViridianOldRodHouseFishingGuruTakeThisText::
 	text_end
 
 _ViridianOldRodHouseFishingGuruFishingIsAWayOfLifeText::
-	text "Angeln ist eine"
-	line "Lebensart!"
+	text_start
 
-	para "Zieh los, vom Meer"
-	line "bis zum Fluß, und"
-	cont "fang den Großen,"
-	cont "mein Kind!"
+	para "Angeln ist meine"
+	line "Leidenschaft!"
+
+	para "Suche in Seen"
+	line "und Flüssen und"
+	cont "lande den großen"
+	cont "Fang!"
 	done
 
 _ViridianOldRodHouseFishingGuruThatsSoDisappointingText::
-	text "Oh..."
-	line "Wie schade..."
+	text "Oh... Das ist"
+	line "wirklich schade!"
 	done
 
 _ViridianOldRodHouseFishingGuruHowAreTheFishBitingText::
 	text "Hallo, <PLAYER>!"
-	line "Beißen die Fische?"
+
+	para "Wie beißen die"
+	line "Fische?"
 	done
 
 _ViridianOldRodHouseFishingGuruNoRoomText::
-	text "Oh nein! Du hast"
-	line "keinen Platz für"
-	cont "mein Geschenk!"
+	text "Oh nein!"
+
+	para "Du hast keinen"
+	line "Platz für mein"
+	cont "Geschenk!"
 	done

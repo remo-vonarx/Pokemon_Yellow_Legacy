@@ -50,27 +50,27 @@ _VictoryRoad2FJuggler1AfterBattleText::
 	done
 
 _VictoryRoad2FTamerBattleText::
-	text "Komm schon! Ich"
-	line "mache Dich fertig!"
+	text "Komm nur her!"
+	line "Ich werde Dich"
+	cont "besiegen!"
 	done
 
 _VictoryRoad2FTamerEndBattleText::
-	text "Ich"
-	line "bin fertig!"
+	text "Auweia!"
+	line "Ich bin besiegt!"
 	prompt
 
 _VictoryRoad2FTamerAfterBattleText::
-	text "Du hast Dir das"
-	line "Recht auf die"
-	cont "SIEGESSTRASSE"
-	cont "verdient!"
+	text "Du beschreitest"
+	line "die SIEGESSTRASSE"
+	cont "nicht ohne Grund!"
 	done
 
 _VictoryRoad2FPokemaniacBattleText::
-	text "Schaffst Du es"
-	line "hier durch, kannst"
-	cont "Du die TOP VIER"
-	cont "treffen!"
+	text "Wenn Du an mir"
+	line "vorbeikommst,"
+	cont "kannst Du zu den"
+	cont "TOP VIER gehen!"
 	done
 
 _VictoryRoad2FPokemaniacEndBattleText::

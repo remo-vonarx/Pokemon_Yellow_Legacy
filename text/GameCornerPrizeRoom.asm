@@ -48,7 +48,7 @@ _GameCornerPrizeRoomClerkDoYouNeedSomeGameCoinsText::
 
 _GameCornerPrizeRoomClerkThanksHereAre50CoinsText::
 	text "Danke! Hier sind"
-	line "Deine 500 MÜNZEN!"
+	line "Deine 500 Münzen!"
 	done
 
 _GameCornerPrizeRoomClerkPleaseComePlaySometimeText::
@@ -57,17 +57,16 @@ _GameCornerPrizeRoomClerkPleaseComePlaySometimeText::
 	done
 
 _GameCornerPrizeRoomClerkCantAffordTheCoinsText::
-	text "Du kannst Dir die"
-	line "MÜNZEN nicht"
-	cont "leisten!"
+	text "Du hast nicht"
+	line "genug Geld!"
 	done
 
 _GameCornerPrizeRoomClerkCoinCaseIsFullText::
-	text "Hoppla! Dein"
-	line "MÜNZKORB ist voll."
+	text "Dein MÜNZKORB"
+	line "ist voll!"
 	done
 
 _GameCornerPrizeRoomClerkDontHaveCoinCaseText::
-	text "Du hast keinen"
-	line "MÜNZKORB!"
+	text "Du benötigst"
+	line "einen MÜNZKORB!"
 	done

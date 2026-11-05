@@ -1,21 +1,21 @@
 _VermilionGoodRodHouseFishingGuruText::
-	text "Ich bin der ältere"
-	line "Bruder des ANGEL-"
-	cont "GURUS!"
+	text "Ich bin der"
+	line "ältere Bruder des"
+	cont "PROFIANGLERS!"
 
-	para "Ich liebe das"
-	line "Angeln über alles!"
+	para "Ich liebe"
+	line "den Angelsport!"
 
 	para "Angelst Du auch"
 	line "gerne?"
 	done
 
 _VermilionGoodRodHouseFishingGuruReceivedGoodRodText::
-	text "Großartig! Dein"
-	line "Stil gefällt mir!"
+	text "Klasse! Du bist"
+	line "mir sympathisch!"
 
-	para "Nimm das und"
-	line "angle, mein Kind!"
+	para "Nimm das hier"
+	line "und gehe angeln!"
 
 	para "<PLAYER> erhält"
 	line "eine @"
@@ -24,17 +24,21 @@ _VermilionGoodRodHouseFishingGuruReceivedGoodRodText::
 	text_end
 
 _VermilionGoodRodHouseFishingGuruThatsSoDisappointingText::
-	text "Oh..."
-	line "Wie schade..."
+	text "Oh!"
+	line "Das ist schade!"
 	done
 
 _VermilionGoodRodHouseFishingGuruHowAreTheFishText::
 	text "Hallo, <PLAYER>!"
-	line "Beißen die Fische?"
+
+	para "Wie beißen die"
+	line "Fische?"
 	done
 
 _VermilionGoodRodHouseFishingGuruNoRoomText::
-	text "Oh nein! Du hast"
-	line "keinen Platz für"
+	text "Oh nein!"
+
+	para "Du hast keinen"
+	line "Platz mehr für"
 	cont "mein Geschenk!"
 	done
