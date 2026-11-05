@@ -78,7 +78,7 @@ _AgathaRematchAfterBattleText::
 	para "Du bist gewaltig"
 	line "stark geworden!"
 
-	para "Du hast Dir EICHS"
+	para "Du hast Dir EICHs"
 	line "und meinen Respekt"
 	cont "verdient!"
 

@@ -85,7 +85,7 @@ DisplayPCMainMenu::
 SomeonesPCText:   db "JEMANDES PC@"
 BillsPCText:      db "BILLS PC@"
 PlayersPCText:    db "PC VON @"
-OaksPCText:       db "EICHS PC@"
+OaksPCText:       db "EICHs PC@"
 PKMNLeaguePCText: db "<PKMN>-LIGA@"
 LogOffPCText:     db "AUSLOGGEN@"
 

@@ -9,7 +9,7 @@ _DexCompletionText::
 	text_decimal hDexRatingNumMonsOwned, 1, 3
 	text " PKMN"
 
-	para "PROF EICHS"
+	para "PROF EICHs"
 	line "Bewertung:"
 	prompt
 

@@ -1,7 +1,7 @@
 _Route15Gate2FOaksAideHiText::
 	text "Hallo! Erinnerst"
 	line "Du Dich? Ich bin"
-	cont "PROF EICHS"
+	cont "PROF EICHs"
 	cont "Gehilfe!"
 
 	para "Ich soll Dir einen"

@@ -69,7 +69,7 @@ ItemNames::
 	li "X-TEMPO"
 	li "X-SPEZIAL"
 	li "MÜNZKORB"
-	li "EICHS PAKET"
+	li "EICHs PAKET"
 	li "DETEKTOR"
 	li "SILPH SCOPE"
 	li "POKéFLÖTE"

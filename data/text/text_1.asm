@@ -82,7 +82,7 @@ _NoMoreRoomForItemText::
 _OaksAideHiText::
 	text "Hallo! Erinnerst"
 	line "Du Dich? Ich bin"
-	cont "PROF EICHS"
+	cont "PROF EICHs"
 	cont "Gehilfe!"
 
 	para "Wenn Du"

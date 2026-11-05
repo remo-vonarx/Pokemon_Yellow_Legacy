@@ -439,13 +439,13 @@ _GetDexRatedText::
 
 _ClosedOaksPCText::
 	text "Die Verbindung zu"
-	line "PROF EICHS PC"
+	line "PROF EICHs PC"
 	cont "wurde getrennt.@"
 	text_end
 
 _AccessedOaksPCText::
 	text "Die Verbindung zu"
-	line "PROF EICHS PC"
+	line "PROF EICHs PC"
 	cont "wurde erstellt."
 
 	para "Du hast Zugriff"

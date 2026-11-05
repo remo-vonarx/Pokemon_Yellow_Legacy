@@ -480,7 +480,7 @@ _CompletedDexText::
 
 _OaksLabScientistText::
 	text "Ich bin PROF"
-	line "EICHS Gehilfe."
+	line "EICHs Gehilfe."
 	cont "Ich studiere mit"
 	cont "ihm die #MON!"
 

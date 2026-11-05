@@ -19,7 +19,7 @@ _ViridianMartClerkParcelQuestText::
 	cont "Paket für ihn ab?"
 
 	para "<PLAYER> erhält"
-	line "EICHS PAKET!@"
+	line "EICHs PAKET!@"
 	text_end
 
 _ViridianMartYoungsterText::
