@@ -49,6 +49,6 @@ TrainerNames::
 	li "SIEGFRIED"
 	li "WEEBRA"
 	li "JANINA"
-	li "SCHW.JOY"
-	li "OFF.ROCKY"
+	li "SCHW. JOY"
+	li "OFF. ROCKY"
 	assert_list_length NUM_TRAINERS
