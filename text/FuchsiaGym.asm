@@ -20,8 +20,8 @@ _FuchsiaGymKogaBeforeBattleText::
 
 _FuchsiaGymKogaReceivedSoulBadgeText::
 	text "Na sowas!"
-	line "Du bist ein"
-	cont "würdiger Kämpfer!"
+	line "Du hast Deinen"
+	cont "Wert bewiesen!"
 
 	para "Ich reiche Dir"
 	line "den SEELENORDEN!"
@@ -79,9 +79,9 @@ _FuchsiaGymRematchPostBattleText::
 	done
 
 _FuchsiaGymKogaSoulBadgeInfoText::
-	text "Nun, da Du Träger"
-	line "des SEELENORDENS"
-	cont "bist, wird die"
+	text "Nun, da Du den"
+	line "SEELENORDEN hast,"
+	cont "wird die"
 	cont "INITIATIVE Deiner"
 	cont "#MON steigen!"
 

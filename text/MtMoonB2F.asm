@@ -114,7 +114,7 @@ _MtMoonB2FRocket3BattleText::
 _MtMoonB2FRocket3EndBattleText::
 	text "Du"
 	line "bist 'ne harte"
-	cont "Nuß, Kleines!"
+	cont "Nuß!"
 	prompt
 
 _MtMoonB2FRocket3AfterBattleText::

@@ -90,7 +90,7 @@ _SilphCo2FRocket1AfterBattleText::
 	done
 
 _SilphCo2FRocket2BattleText::
-	text "Hey Kleines! Was"
+	text "Hey Kind! Was"
 	line "machst Du hier?"
 	done
 

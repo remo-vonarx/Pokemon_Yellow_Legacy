@@ -18,7 +18,7 @@ _CeruleanGymMistyPreBattleText::
 	cont "heit!"
 
 	para "Bist Du bereit,"
-	line "Süßer?"
+	line "Schätzchen?"
 	done
 
 _CeruleanGymRematchPreBattle1Text::

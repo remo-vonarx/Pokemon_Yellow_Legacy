@@ -5,7 +5,7 @@ _RocketHideoutB1FRocket5EndBattleText::
 
 _RocketHideoutB1FRocket1BattleText::
 	text "Wie kommst Du"
-	line "hierher, Kleines?"
+	line "denn hierher?"
 	done
 
 _RocketHideoutB1FRocket1EndBattleText::
@@ -32,7 +32,7 @@ _RocketHideoutB1FRocket2EndBattleText::
 _RocketHideoutB1FRocket2AfterBattleText::
 	text "Unsere Rache"
 	line "wird grauenvoll,"
-	cont "Du Lausebengel!"
+	cont "Du Rotznase!"
 	done
 
 _RocketHideoutB1FRocket3BattleText::

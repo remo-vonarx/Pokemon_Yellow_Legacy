@@ -98,7 +98,7 @@ _Route9Hiker1AfterBattleText::
 _Route9Hiker2BattleText::
 	text "Du hast"
 	line "keine Chance, Du"
-	cont "kleiner Rabauke!"
+	cont "halbe Portion!"
 	done
 
 _Route9Hiker2EndBattleText::

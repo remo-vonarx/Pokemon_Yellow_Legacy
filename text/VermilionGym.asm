@@ -113,7 +113,7 @@ _VermilionGymLTSurgeReceivedThunderBadgeText::
 	text "Wow!"
 
 	para "Du weißt, wie man"
-	line "kämpft, Kleines!"
+	line "kämpft, Kind!"
 
 	para "Als Auszeichnung"
 	line "verleihe ich Dir"

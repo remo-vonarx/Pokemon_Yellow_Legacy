@@ -41,7 +41,7 @@ _SSAnneBowSailor2AfterBattleText::
 	done
 
 _SSAnneBowSailor3BattleText::
-	text "Ahoi, Seemann!"
+	text "Ahoi, Landratte!"
 	line "Bist Du seekrank?"
 	done
 

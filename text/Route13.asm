@@ -117,8 +117,8 @@ _Route13Beauty1BattleText::
 
 _Route13Beauty1EndBattleText::
 	text "Oh!"
-	line "Du kleiner"
-	cont "Wüstling, Du!"
+	line "Du kleines"
+	cont "Biest, Du!"
 	prompt
 
 _Route13Beauty1AfterBattleText::

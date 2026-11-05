@@ -169,7 +169,7 @@ _PewterGymBrockBoulderBadgeInfoText::
 
 _PewterGymCooltrainerMBattleText::
 	text "Bleib stehen wo"
-	line "Du bist, Kleines!"
+	line "Du bist!"
 
 	para "Es dauert noch"
 	line "Lichtjahre, bis"

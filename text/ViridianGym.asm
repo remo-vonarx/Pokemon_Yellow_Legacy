@@ -52,11 +52,10 @@ _ViridianGymGiovanniPostBattleAdviceText::
 	text_end
 
 _ViridianGymGiovanniEarthBadgeInfoText::
-	text "Als Träger des"
-	line "ERDORDENS  werden"
-	cont "Dir alle #MON"
-	cont "jeglichen Levels"
-	cont "gehorchen!"
+	text "Mit dem ERDORDEN"
+	line "werden Dir alle"
+	cont "#MON jeglichen"
+	cont "Levels gehorchen!"
 
 	para "Er stellt den"
 	line "Beweis Deines"

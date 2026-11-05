@@ -11,7 +11,7 @@ _Route19CooltrainerM1EndBattleText::
 	prompt
 
 _Route19CooltrainerM1AfterBattleText::
-	text "Danke, Kleines!"
+	text "Danke Dir!"
 	line "Jetzt kann ich"
 	cont "schwimmen gehen!"
 	done

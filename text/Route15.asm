@@ -85,7 +85,7 @@ _Route15CooltrainerM2AfterBattleText::
 
 _Route15Beauty1BattleText::
 	text "Du bist ein"
-	line "gewitzter Kerl!"
+	line "gewitztes Ding!"
 	done
 
 _Route15Beauty1EndBattleText::
@@ -121,7 +121,7 @@ _Route15Beauty2AfterBattleText::
 	done
 
 _Route15Biker1BattleText::
-	text "Hey, Kleines!"
+	text "Hey, Du!"
 	line "Laß uns kämpfen!"
 	done
 

@@ -17,7 +17,7 @@ _Route17Biker1AfterBattleText::
 
 _Route17Biker2BattleText::
 	text "Was willst Du,"
-	line "Kleines?"
+	line "Kind?"
 	done
 
 _Route17Biker2EndBattleText::

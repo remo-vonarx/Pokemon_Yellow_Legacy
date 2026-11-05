@@ -15,8 +15,8 @@ _SSAnneB1FRoomsSailor1EndBattleText::
 	prompt
 
 _SSAnneB1FRoomsSailor1AfterBattleText::
-	text "Willst Du Seemann"
-	line "werden, Kleines?"
+	text "Willst Du zur See"
+	line "fahren, Kind?"
 	done
 
 _SSAnneB1FRoomsSailor2BattleText::

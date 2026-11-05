@@ -49,7 +49,7 @@ _SilphCo10FScientistAfterBattleText::
 
 _SilphCoJessieJamesText1::
 	text "Bleib sofort"
-	line "stehen, Kleines!@"
+	line "stehen, Rotznase!@"
 	text_end
 
 _SilphCoJessieJamesText2::

@@ -13,7 +13,7 @@ _MtMoon1FHikerEndBattleText::
 _MtMoon1FHikerAfterBattleText::
 	text "Hier ist kein"
 	line "Spielplatz. Zieh"
-	cont "Leine, Kleines!"
+	cont "Leine, Kind!"
 	done
 
 _MtMoon1FYoungster1BattleText::

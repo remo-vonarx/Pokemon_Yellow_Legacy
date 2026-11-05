@@ -1,10 +1,10 @@
 _SafariZoneSecretHouseFishingGuruYouHaveWonText::
 	text "Ah! Endlich!"
 
-	para "Du bist der"
-	line "Erste, der das"
+	para "Du hast als erste"
+	line "Person das"
 	cont "VERSTECKTE HAUS"
-	cont "gefunden hat!"
+	cont "gefunden!"
 
 	para "Ich dachte schon,"
 	line "niemand würde den"

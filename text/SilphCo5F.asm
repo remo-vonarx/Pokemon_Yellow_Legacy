@@ -8,7 +8,8 @@ _SilphCo5FSilphWorkerMThatsYouRightText::
 _SilphCo5FSilphWorkerMYoureOurHeroText::
 	text "TEAM ROCKET"
 	line "ist geflüchtet!"
-	cont "Du bist ein Held!"
+	cont "Du bist unsere"
+	cont "Rettung!"
 	done
 
 _SilphCo5FRocket1BattleText::

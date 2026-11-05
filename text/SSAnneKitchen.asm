@@ -1,6 +1,6 @@
 _SSAnneKitchenCook1Text::
 	text "Aus dem Weg, Du"
-	line "Leichtmatrose!"
+	line "Landratte!"
 
 	para "Wir sind schwer"
 	line "beschäftigt!"

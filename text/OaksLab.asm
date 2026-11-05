@@ -427,7 +427,7 @@ _OaksLabOakThatWasMyDreamText::
 	cont "verwirklichen!"
 
 	para "Macht Euch auf"
-	line "den Weg, Jungs!"
+	line "den Weg, Ihr zwei!"
 
 	para "Dies ist eines"
 	line "der bedeutendsten"
