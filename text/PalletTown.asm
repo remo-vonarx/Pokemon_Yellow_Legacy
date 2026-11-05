@@ -37,8 +37,8 @@ _PalletTownGirlText::
 	para "Magst Du meine"
 	line "neuen RENNSCHUHE?"
 	cont "Ich bin im Nu im"
-	cont "MARKT von"
-	cont "VERTANIA CITY!"
+	cont "PKMN-SUPERMARKT"
+	cont "von VERTANIA CITY!"
 
 	para "Bis zur ZINNOBER"
 	line "ISLAND komme ich"

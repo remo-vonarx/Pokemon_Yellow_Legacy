@@ -11,16 +11,16 @@ _FuchsiaGoodRodHouseFishingGuruText::
 	done
 
 _FuchsiaGoodRodHouseFishingGuruReceivedGiftText::
-	text "Großartig! Dein"
-	line "Stil gefällt mir!"
+	text "Klasse! Du bist"
+	line "mir sympathisch!"
 
 	para "Ich habe keine"
 	line "Angel mehr übrig,"
 
 	para "aber eines davon"
-	line "habe ich mir bei"
-	cont "den SEESCHAUM-"
-	cont "INSELN geangelt!"
+	line "habe ich bei den"
+	cont "SEESCHAUMINSELN"
+	cont "geangelt!"
 	text_end
 
 _FuchsiaGoodRodHouseFishingGuruThatsSoDisappointingText::

@@ -388,13 +388,13 @@ _TM08Description::
 	prompt
 
 _TM09Description::
-	text "Ein Rempler, der"
-	next "auch Dir schadet."
+	text "Rempler. Schadet"
+	next "auch dem Anwender."
 	prompt
 
 _TM10Description::
-	text "Ein Rempler, der"
-	next "auch Dir schadet."
+	text "Rempler. Schadet"
+	next "auch dem Anwender."
 	prompt
 
 _TM11Description::
@@ -428,8 +428,8 @@ _TM16Description::
 	prompt
 
 _TM17Description::
-	text "Eine Attacke, die"
-	next "auch Dir schadet."
+	text "Attacke. Schadet"
+	next "auch dem Anwender."
 	prompt
 
 _TM18Description::
