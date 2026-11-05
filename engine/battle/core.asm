@@ -6539,7 +6539,7 @@ LoadEnemyMonData:
 	ret
 
 .CraigMonsNicks
-	db "BLITZA@@@@@", "AERODACTYL@", "KOKOWEI@@@@", "RELAXO@@@@@", "AUSTOS@@@@@", "FURBALL@@@@"
+	db "BLITZA@@@@@", "AERODACTYL@", "KOKOWEI@@@@", "RELAXO@@@@@", "AUSTOS@@@@@", "FELLKNÄUEL@"
 
 ; calls BattleTransition to show the battle transition animation and initializes some battle variables
 DoBattleTransitionAndInitBattleVariables:
