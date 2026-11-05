@@ -40,7 +40,7 @@ _MrFujisHouseNidorinoText::
 	text_end
 
 _MrFujisHouseMrFujiIThinkThisMayHelpYourQuestText::
-	text "MR.FUJI: <PLAYER>!"
+	text "MR. FUJI: <PLAYER>!"
 
 	para "Du kannst Deinen"
 	line "#DEX nicht"
