@@ -103,7 +103,6 @@ _FuchsiaGymKogaReceivedTM06Text::
 
 _FuchsiaGymKogaTM06ExplanationText::
 	text_start
-	text_start
 
 	para "TM06 ist TOXIN!"
 

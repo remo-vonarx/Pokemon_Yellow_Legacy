@@ -39,8 +39,6 @@ _CopycatsHouse2FCopycatReceivedTM31Text::
 _CopycatsHouse2FCopycatTM31Explanation1Text::
 	text_start
 
-	text_start
-
 	para "TM31 ist meine"
 	line "Lieblings-TM,"
 	cont "MIMIKRY!"

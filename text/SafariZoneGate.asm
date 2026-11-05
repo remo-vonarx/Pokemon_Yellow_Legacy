@@ -54,8 +54,6 @@ _SafariZoneGateSafariZoneWorker1ThatllBe500PleaseText::
 _SafariZoneGateSafariZoneWorker1CallYouOnThePAText::
 	text_start
 
-	text_start
-
 	para "Wir rufen Dich"
 	line "über LAUTSPRECHER"
 	cont "aus, wenn Deine"
@@ -118,8 +116,6 @@ _SafariZoneGateSafariZoneWorker2YoureARegularHereText::
 _SafariZoneLowCostText1::
 	text_start
 
-	text_start
-
 	para "OK, dann bezahl"
 	line "soviel wie Du"
 	cont "kannst."
@@ -133,8 +129,6 @@ _SafariZoneLowCostText2::
 	done
 
 _SafariZoneLowCostText3::
-	text_start
-
 	text_start
 
 	para "Du bist ganz"

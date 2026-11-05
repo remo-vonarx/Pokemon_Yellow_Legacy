@@ -79,7 +79,6 @@ _OaksLabOak1DeliverParcelText::
 
 _OaksLabOak1ParcelThanksText::
 	text_start
-	text_start
 
 	para "Ah! Auf diesen"
 	line "SPEZIAL-#BALL"
@@ -120,7 +119,6 @@ _OaksLabOak1ReceivedPokeballsText::
 	text_end
 
 _OaksLabGivePokeballsExplanationText::
-	text_start
 	text_start
 
 	para "Taucht ein wildes"

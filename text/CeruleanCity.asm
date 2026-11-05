@@ -86,8 +86,6 @@ _CeruleanCityRocketReceivedTM28Text::
 _CeruleanCityRocketIBetterGetMovingText::
 	text_start
 
-	text_start
-
 	para "Ich gehe wohl"
 	line "besser! Tschüß!@"
 	text_end

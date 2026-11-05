@@ -65,8 +65,6 @@ _MrFujisHouseMrFujiReceivedPokeFluteText::
 _MrFujisHouseMrFujiPokeFluteExplanationText::
 	text_start
 
-	text_start
-
 	para "Schlafende"
 	line "#MON wachen"
 	cont "auf, wenn sie"

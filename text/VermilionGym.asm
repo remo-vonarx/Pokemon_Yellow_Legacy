@@ -94,8 +94,6 @@ _VermilionGymLTSurgeReceivedTM24Text::
 _TM24ExplanationText::
 	text_start
 
-	text_start
-
 	para "TM24 ist"
 	line "DONNERBLITZ!"
 

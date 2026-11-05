@@ -22,8 +22,6 @@ _SaffronGateGuardImParchedText::
 _SaffronGateGuardYouCanGoOnThroughText::
 	text_start
 
-	text_start
-
 	para "Gluck, gluck!"
 	line "Rülps..."
 	cont "Entschuldigung!"

@@ -81,8 +81,6 @@ _ViridianGymGiovanniReceivedTM27Text::
 _ViridianGymGiovanniTM27ExplanationText::
 	text_start
 
-	text_start
-
 	para "TM27 ist"
 	line "GEOFISSUR!"
 	cont "Man kann damit"

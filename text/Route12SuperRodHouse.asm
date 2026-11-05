@@ -26,8 +26,6 @@ _Route12SuperRodHouseFishingGuruReceivedSuperRodText::
 _Route12SuperRodHouseFishingGuruFishingWayOfLifeText::
 	text_start
 
-	text_start
-
 	para "Angeln ist nicht"
 	line "nur ein Sport, es"
 	cont "ist eine Kunst!"

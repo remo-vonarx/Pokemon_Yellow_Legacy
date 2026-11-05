@@ -25,8 +25,6 @@ _CeladonMartRoofLittleGirlReceivedTM13Text::
 _CeladonMartRoofLittleGirlTM13ExplanationText::
 	text_start
 
-	text_start
-
 	para "@"
 	text_ram wStringBuffer
 	text " ist"
@@ -58,8 +56,6 @@ _CeladonMartRoofLittleGirlReceivedTM48Text::
 _CeladonMartRoofLittleGirlTM48ExplanationText::
 	text_start
 
-	text_start
-
 	para "@"
 	text_ram wStringBuffer
 	text " ist"
@@ -87,8 +83,6 @@ _CeladonMartRoofLittleGirlReceivedTM49Text::
 	text_end
 
 _CeladonMartRoofLittleGirlTM49ExplanationText::
-	text_start
-
 	text_start
 
 	para "TM49 ist"

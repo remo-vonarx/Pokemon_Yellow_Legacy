@@ -26,8 +26,6 @@ _WardensHouseWardenGaveTheGoldTeethText::
 _WardensHouseWardenTeethPoppedInHisTeethText::
 	text_start
 
-	text_start
-
 	para "Der WÄRTER setzt"
 	line "das Gebiß ein!"
 	prompt

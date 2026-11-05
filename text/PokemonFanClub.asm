@@ -118,8 +118,6 @@ _PokemonFanClubReceivedBikeVoucherText::
 _PokemonFanClubExplainBikeVoucherText::
 	text_start
 
-	text_start
-
 	para "Du erhältst dafür"
 	line "ein FAHRRAD!"
 

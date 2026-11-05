@@ -11,8 +11,6 @@ _Route22GateGuardNoBoulderbadgeText::
 _Route22GateGuardICantLetYouPassText::
 	text_start
 
-	text_start
-
 	para "Befehl ist"
 	line "Befehl! Ich"
 	cont "darf Dich nicht"

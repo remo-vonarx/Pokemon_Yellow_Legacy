@@ -36,8 +36,6 @@ _Route23OhThatIsTheBadgeText::
 _Route23GoRightAheadText::
 	text_start
 
-	text_start
-
 	para "OK, Du darfst"
 	line "passieren!"
 	done

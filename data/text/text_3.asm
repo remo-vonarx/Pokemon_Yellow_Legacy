@@ -63,7 +63,6 @@ _GoodText::
 
 _ComeBackText::
 	text_start
-	text_start
 	line "Komm zurück!"
 	done
 

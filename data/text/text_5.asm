@@ -91,36 +91,30 @@ _ChargeMoveEffectText::
 
 _MadeWhirlwindText::
 	text_start
-	text_start
 	line "erz. WIRBELWIND!"
 	prompt
 
 _TookInSunlightText::
-	text_start
 	text_start
 	line "badet im Licht!"
 	prompt
 
 _LoweredItsHeadText::
 	text_start
-	text_start
 	line "duckt sich!"
 	prompt
 
 _SkyAttackGlowingText::
-	text_start
 	text_start
 	line "leuchtet!"
 	prompt
 
 _FlewUpHighText::
 	text_start
-	text_start
 	line "fliegt empor!"
 	prompt
 
 _DugAHoleText::
-	text_start
 	text_start
 	line "gräbt sich ein!"
 	prompt

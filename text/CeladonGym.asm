@@ -106,8 +106,6 @@ _CeladonGymReceivedTM21Text::
 _TM21ExplanationText::
 	text_start
 
-	text_start
-
 	para "TM21 ist"
 	line "MEGASAUGER."
 

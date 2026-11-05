@@ -897,7 +897,6 @@ _FoundHiddenCoins2Text::
 
 _DroppedHiddenCoinsText::
 	text_start
-	text_start
 
 	para "Ups! Ich glaube,"
 	line "ich habe ein paar"

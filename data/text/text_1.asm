@@ -3,7 +3,6 @@ _CardKeySuccessText1::
 	text_end
 
 _CardKeySuccessText2::
-	text_start
 	text "Der"
 	line "TÜRÖFFNER hat die"
 	cont "Tür entriegelt!"

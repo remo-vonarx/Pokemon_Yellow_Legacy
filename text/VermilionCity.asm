@@ -79,7 +79,6 @@ _VermilionCityMachopText::
 
 _VermilionCityMachopStompingTheLandFlatText::
 	text_start
-	text_start
 
 	para "Ein MACHOLLO"
 	line "ebnet das Land!"

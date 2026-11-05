@@ -100,8 +100,6 @@ _PewterGymReceivedTM34Text::
 _TM34ExplanationText::
 	text_start
 
-	text_start
-
 	para "Eine TM enthält"
 	line "Attacken, die"
 	cont "#MON erlernen"
@@ -148,8 +146,6 @@ _PewterGymBrockReceivedBoulderBadgeText::
 	text_end
 
 _PewterGymBrockBoulderBadgeInfoText::
-	text_start
-
 	text_start
 
 	para "Das ist ein"

@@ -92,8 +92,6 @@ _CinnabarGymBlaineReceivedTM38Text::
 _CinnabarGymBlaineTM38ExplanationText::
 	text_start
 
-	text_start
-
 	para "TM38 ist"
 	line "FEUERSTURM!"
 

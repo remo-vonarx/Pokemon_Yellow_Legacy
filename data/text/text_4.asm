@@ -45,7 +45,6 @@ _EvolvedText::
 
 _IntoText::
 	text_start
-	text_start
 	line "zu @"
 	text_ram wcd6d
 	text "!"

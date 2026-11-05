@@ -8,8 +8,6 @@ _Route24CooltrainerM1YouBeatOurContestText::
 _Route24CooltrainerM1YouJustEarnedAPrizeText::
 	text_start
 
-	text_start
-
 	para "Du hast einen"
 	line "großartigen Preis"
 	cont "gewonnen!"

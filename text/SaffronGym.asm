@@ -102,8 +102,6 @@ _SaffronGymSabrinaReceivedTM46Text::
 _TM46ExplanationText::
 	text_start
 
-	text_start
-
 	para "TM46 ist"
 	line "PSYWELLE!"
 	cont "Sie macht sich"
