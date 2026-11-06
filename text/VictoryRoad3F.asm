@@ -20,7 +20,7 @@ _VictoryRoad3FCooltrainerM1AfterBattleText::
 _VictoryRoad3FCooltrainerF1BattleText::
 	text "Nicht alle #MON"
 	line "sind stark, aber"
-	cont "seine Lieblinge zu"
+	cont "seine Favoriten zu"
 	cont "nutzen ist cool!"
 	done
 
@@ -53,13 +53,14 @@ _VictoryRoad3FCooltrainerM2EndBattleText::
 
 _VictoryRoad3FCooltrainerM2AfterBattleText::
 	text "Hast Du einen"
-	line "Liebling im Team?"
+	line "Favoriten im Team?"
 
 	para "Meiner ist"
-	line "NIDOKING, er ist"
-	cont "seit Anfang dabei!"
+	line "NIDOKING, es ist"
+	cont "von Anfang an"
+	cont "dabei!"
 
-	para "Und er ist so"
+	para "Und es ist so"
 	line "cool!"
 	done
 
@@ -80,5 +81,5 @@ _VictoryRoad3FCooltrainerF2AfterBattleText::
 	text "Mir ist egal,"
 	line "welche #MON gut"
 	cont "sind. Ich nutze"
-	cont "meine Lieblinge!"
+	cont "meine Favoriten!"
 	done
