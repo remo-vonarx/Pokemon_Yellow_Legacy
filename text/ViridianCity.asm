@@ -98,27 +98,27 @@ ViridianCityYoungster2OkThenText::
 ViridianCityYoungster2CaterpieAndWeedleDescriptionText::
 	text "Das nennt man"
 	line "Individuelle"
-	cont "Stärke, kurz IS."
+	cont "Stärke, auch"
+	cont "bekannt als DV."
 
-	para "Ein IS-Wert reicht"
-	line "von 0 bis 15, und"
+	para "Ein DV reicht von"
+	line "0 bis 15, und"
 	cont "höher ist besser."
 
-	para "IS spiegeln die"
+	para "DVs spiegeln die"
 	line "Eigenschaften"
 	cont "eines #MON"
 	cont "wider."
 
-	para "Die IS bestimmen,"
+	para "Der DV bestimmt,"
 	line "wie seine Werte"
 	cont "ausfallen."
 
 	para "Bei Level 100"
-	line "macht ein IS-Wert"
-	cont "von 0 statt 15"
-	cont "einen Unterschied"
-	cont "von 30 Status-"
-	cont "punkten."
+	line "macht ein DV von 0"
+	cont "statt 15 einen"
+	cont "Unterschied von 30"
+	cont "Statuspunkten."
 
 	para "Mach Dir nicht zu"
 	line "viele Gedanken,"

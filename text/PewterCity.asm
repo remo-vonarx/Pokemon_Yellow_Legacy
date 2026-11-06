@@ -86,7 +86,7 @@ _PewterCityYoungsterGoTakeOnBrockText::
 _PewterCityTrainerTipsText::
 	text "TIPS FÜR TRAINER"
 
-	para "Du kannst die IS"
+	para "Du kannst die DVs"
 	line "eines #MON im"
 	cont "Menü STATUS sehen."
 
