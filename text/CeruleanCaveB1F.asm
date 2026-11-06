@@ -5,8 +5,8 @@ _MewtwoBattleText::
 _CeruleanCaveSmithBattleText1::
 	text "Hey, was geht?"
 
-	para "Zeig mir mal, wie"
-	line "viel Schwung in"
+	para "Zeig mir mal,"
+	line "wieviel Schwung in"
 	cont "Dir steckt!"
 	done
 	

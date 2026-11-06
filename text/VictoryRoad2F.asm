@@ -17,7 +17,7 @@ _VictoryRoad2FHikerEndBattleText::
 	prompt
 
 _VictoryRoad2FHikerAfterBattleText::
-	text "Ich bin den"
+	text "Ich bin vom"
 	line "SILBERBERG"
 	cont "abgestiegen und"
 	cont "hier gelandet."

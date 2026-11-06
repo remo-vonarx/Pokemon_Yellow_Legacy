@@ -100,10 +100,10 @@ _LancesRoomLanceRematchEndBattleText::
 	prompt
 
 _LancesRoomLanceRematchAfterBattleText::
-	text "Als amtierender"
-	line "CHAMPION wird Dein"
-	cont "Vermächtnis immer"
-	cont "größer!"
+	text "Dein Vermächtnis"
+	line "als amtierender"
+	cont "CHAMPION wird"
+	cont "immer größer!"
 
 	para "Doch bedenke: Der"
 	line "Weg des CHAMPIONS"

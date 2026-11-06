@@ -95,10 +95,10 @@ _PokemonMansion2F_OakBeforeBattleText4::
 	prompt
 
 _PokemonMansion2F_OakBeforeBattleText5::
-	text "Seit ich weiß, wie"
+	text "Nun weiß ich, wie"
 	line "MEWTU erschaffen"
-	cont "wurde, war meine"
-	cont "Furcht wohl"
+	cont "wurde: Meine"
+	cont "Furcht war wohl"
 	cont "berechtigt."
 
 	para "Nicht jeder kann"

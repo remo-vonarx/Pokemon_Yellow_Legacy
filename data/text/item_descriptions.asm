@@ -443,8 +443,8 @@ _TM19Description::
 	prompt
 
 _TM20Description::
-	text "Getroffen steigt"
-	next "der ANGRIFF."
+	text "Wird es getroffen,"
+	next "steigt ANGRIFF."
 	prompt
 
 _TM21Description::
@@ -563,7 +563,7 @@ _TM43Description::
 	prompt
 
 _TM44Description::
-	text "2 Runden Schlaf"
+	text "Schläft 2 Runden,"
 	next "heilt alles."
 	prompt
 

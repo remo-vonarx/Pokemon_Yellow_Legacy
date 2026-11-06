@@ -34,7 +34,8 @@ _NurseJoyBattleText::
 	para "aber meine Pflich-"
 	line "ten hier erschwe-"
 	cont "ren das Reisen und"
-	cont "Orden sammeln."
+	cont "das Sammeln von"
+	cont "Orden."
 
 	para "Es wäre mir eine"
 	line "große Ehre, mich"
