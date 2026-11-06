@@ -3,7 +3,7 @@ _CinnabarGymBlainePreBattleText::
 
 	para "Ich bin PYRO, der"
 	line "ARENALEITER der"
-	cont "ZINNOBER ISLAND!"
+	cont "ZINNOBERINSEL!"
 
 	para "Meine FEUER-"
 	line "#MON lassen"

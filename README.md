@@ -19,7 +19,7 @@ This fork translates Yellow Legacy into German. It uses the wording and menu lay
 * Moves, items, badges, types, stats and trainer classes
 * All 151 Pokémon (KLEINSTEIN, GLURAK, PUMMELUFF, ...)
 * Characters: PROF EICH, ROCKO, MAJOR BOB, PYRO, SIEGFRIED, AGATHE, JANINA, NIKKI and OFFICER ROCKY
-* Cities: ALABASTIA, VERTANIA CITY, MARMORIA CITY, AZURIA CITY, ORANIA CITY, LAVANDIA, PRISMANIA CITY, FUCHSANIA CITY, SAFFRONIA CITY, ZINNOBER ISLAND and EBENHOLZ CITY
+* Cities: ALABASTIA, VERTANIA CITY, MARMORIA CITY, AZURIA CITY, ORANIA CITY, LAVANDIA, PRISMANIA CITY, FUCHSANIA CITY, SAFFRONIA CITY, ZINNOBERINSEL and EBENHOLZ CITY
 * Places: VERTANIA-WALD, MONDBERG, FELSTUNNEL, DIGDAS HÖHLE, SEESCHAUMINSELN, ...
 * The in-game trade nicknames, WILLI in the nickname house and the default names GELB, GRÜN and BLAU
 * The cries of talking Pokémon as in the German release, e.g. "PUMMELUFF: Puu! Pu-uuu-ummeluff!"

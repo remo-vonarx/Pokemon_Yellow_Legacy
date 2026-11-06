@@ -1,7 +1,7 @@
 _CeladonCityLittleGirlText::
 	text "Ich habe SMOGON"
 	line "auf der"
-	cont "ZINNOBER ISLAND"
+	cont "ZINNOBERINSEL"
 	cont "gefangen!"
 
 	para "Es ist nett, doch"

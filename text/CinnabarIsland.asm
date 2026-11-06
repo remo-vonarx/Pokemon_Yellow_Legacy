@@ -6,7 +6,7 @@ _CinnabarIslandDoorIsLockedText::
 _CinnabarIslandGirlText::
 	text "PYRO, der"
 	line "ARENALEITER der"
-	cont "ZINNOBER ISLAND,"
+	cont "ZINNOBERINSEL,"
 	cont "ist ein seltsamer"
 	cont "Mann. Er lebt"
 	cont "hier seit Jahren."
@@ -21,7 +21,7 @@ _CinnabarIslandGamblerText::
 	done
 
 _CinnabarIslandSignText::
-	text "ZINNOBER ISLAND"
+	text "ZINNOBERINSEL"
 	line "Die Stadt"
 	cont "brennender"
 	cont "Leidenschaft!"
@@ -32,7 +32,7 @@ _CinnabarIslandPokemonLabSignText::
 	done
 
 _CinnabarIslandGymSignText::
-	text "ZINNOBER ISLAND"
+	text "ZINNOBERINSEL"
 	line "PKMN-ARENA"
 	cont "ARENALEITER: PYRO"
 

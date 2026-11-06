@@ -143,7 +143,7 @@ _Route20Swimmer7AfterBattleText::
 
 _Route20Swimmer8BattleText::
 	text "Ich bin von der"
-	line "ZINNOBER ISLAND"
+	line "ZINNOBERINSEL"
 	cont "herüber-"
 	cont "geschwommen!"
 	done
@@ -155,7 +155,7 @@ _Route20Swimmer8EndBattleText::
 
 _Route20Swimmer8AfterBattleText::
 	text "Auf der"
-	line "ZINNOBER ISLAND"
+	line "ZINNOBERINSEL"
 	cont "haben #MON"
 	cont "eine verlassene"
 	cont "Villa besiedelt!"
@@ -163,7 +163,7 @@ _Route20Swimmer8AfterBattleText::
 
 _Route20Swimmer9BattleText::
 	text "Auf der"
-	line "ZINNOBER ISLAND"
+	line "ZINNOBERINSEL"
 	cont "befindet sich ein"
 	cont "#MON-LABOR."
 	done
@@ -174,9 +174,9 @@ _Route20Swimmer9EndBattleText::
 
 _Route20Swimmer9AfterBattleText::
 	text "Die"
-	line "ZINNOBER ISLAND"
-	cont "ist ein vulkani-"
-	cont "sches Eiland!"
+	line "ZINNOBERINSEL ist"
+	cont "ein vulkanisches"
+	cont "Eiland!"
 	done
 
 _Route20SeafoamIslandsSignText::

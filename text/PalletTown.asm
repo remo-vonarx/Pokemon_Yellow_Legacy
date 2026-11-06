@@ -40,10 +40,11 @@ _PalletTownGirlText::
 	cont "PKMN-SUPERMARKT"
 	cont "von VERTANIA CITY!"
 
-	para "Bis zur ZINNOBER"
-	line "ISLAND komme ich"
-	cont "nicht, aber ich"
-	cont "sehe sie von hier!"
+	para "Bis zur"
+	line "ZINNOBERINSEL"
+	cont "komme ich nicht,"
+	cont "aber ich sehe sie"
+	cont "von hier!"
 
 	para "Surft da jemand"
 	line "auf einem RIZEROS?"

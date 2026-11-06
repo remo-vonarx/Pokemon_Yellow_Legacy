@@ -71,7 +71,7 @@ _MtMoonB2fSuperNerdEachTakeOneText::
 
 _MtMoonB2FSuperNerdTheresAPokemonLabText::
 	text "Auf der fernen"
-	line "ZINNOBER ISLAND"
+	line "ZINNOBERINSEL"
 	cont "gibt es ein"
 	cont "#MON-Labor."
 
