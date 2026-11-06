@@ -123,7 +123,7 @@ _RockTunnelB1FHiker3AfterBattleText::
 	done
 
 _RockTunnelB1FSuperNerd3BattleText::
-	text "Zuhause zeichne"
+	text "Zu Hause zeichne"
 	line "ich gern #MON."
 	done
 

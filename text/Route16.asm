@@ -56,7 +56,7 @@ _Route16Biker4EndBattleText::
 	prompt
 
 _Route16Biker4AfterBattleText::
-	text "Mann kann über"
+	text "Man kann über"
 	line "eine Küstenstraße"
 	cont "von ORANIA CITY"
 	cont "nach FUCHSANIA"

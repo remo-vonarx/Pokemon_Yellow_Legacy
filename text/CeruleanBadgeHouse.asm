@@ -58,7 +58,7 @@ _CeruleanBadgeHouseThunderBadgeText::
 	line "Deiner #MON"
 	cont "nimmt zu."
 
-	para "Desweiteren ist"
+	para "Außerdem ist"
 	line "es Dir möglich,"
 	cont "FLIEGEN außerhalb"
 	cont "von Kämpfen"

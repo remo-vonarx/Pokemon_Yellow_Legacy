@@ -484,7 +484,7 @@ _BillsHouseInitiatedText::
 	text_end
 
 _BillsHousePokemonListText1::
-	text "Ein Liste von"
+	text "Eine Liste von"
 	line "BILLS LIEBLINGS-"
 	cont "#MON!"
 	prompt

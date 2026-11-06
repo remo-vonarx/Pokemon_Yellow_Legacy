@@ -33,7 +33,7 @@ _SilphCo7FSilphWorkerM1LaprasDescriptionText::
 _SilphCo7FSilphWorkerM1IsOurPresidentOkText::
 	text "TEAM ROCKETS"
 	line "BOSS ging in den"
-	cont "Sitzungsaal! Ob"
+	cont "Sitzungssaal! Ob"
 	cont "unser PRÄSIDENT"
 	cont "wohlauf ist?"
 	done
@@ -191,7 +191,7 @@ _SilphCo7FRivalDefeatedText::
 	text "Mann!"
 	line "Du bist so"
 	cont "gut, daß Du gegen"
-	cont "den ROCKET BOSS"
+	cont "den ROCKET-BOSS"
 	cont "antreten kannst!"
 	prompt
 

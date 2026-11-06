@@ -144,7 +144,7 @@ _CeruleanCityGuardText::
 
 	para "Wir sind sicher,"
 	line "daß TEAM ROCKET"
-	cont "dahinter steckt!"
+	cont "dahintersteckt!"
 
 	para "Sogar die POLIZEI"
 	line "ist gegen TEAM"

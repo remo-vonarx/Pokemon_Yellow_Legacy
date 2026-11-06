@@ -270,7 +270,7 @@ _SaffronGymYoungster3AfterBattleText::
 	cont "PKMN-ARENEN."
 
 	para "Allerdings hat"
-	line "der KAMPF-DOJO"
+	line "das KAMPF-DOJO"
 	cont "den Status als"
 	cont "PKMN-ARENA"
 	cont "verloren, weil"

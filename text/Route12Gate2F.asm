@@ -29,7 +29,7 @@ _Route12Gate2FBrunetteGirlTM39ExplanationText::
 	done
 
 _Route12Gate2FBrunetteGirlTM39NoRoomText::
-	text "Oh, Du kannst es"
+	text "Oh, Du kannst sie"
 	line "im Moment nicht"
 	cont "tragen."
 	done

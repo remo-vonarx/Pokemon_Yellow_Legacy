@@ -57,7 +57,7 @@ _SSAnneB1FRoomsSailor3AfterBattleText::
 
 _SSAnneB1FRoomsSailor4BattleText::
 	text "Ich war früher"
-	line "genau so aufge-"
+	line "genauso aufge-"
 	cont "dreht wie Du!@"
 	text_end
 

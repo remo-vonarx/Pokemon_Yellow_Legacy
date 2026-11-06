@@ -77,7 +77,7 @@ _RivalVictoryText::
 	cont "<RIVAL>!"
 
 	para "Vielleicht beim"
-	line "nächsten mal, Du"
+	line "nächsten Mal, Du"
 	cont "Kämpfer! Hahaha!"
 	prompt
 

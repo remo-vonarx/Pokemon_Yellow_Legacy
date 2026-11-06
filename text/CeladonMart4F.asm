@@ -3,7 +3,7 @@ _CeladonMart4FSuperNerdText::
 	line "COPYCAT ein"
 	cont "Geschenk!"
 
-	para "Ich kaufe Ihr"
+	para "Ich kaufe ihr"
 	line "diese trendige"
 	cont "#PUPPE!"
 	done

@@ -15,7 +15,7 @@ _Route24CooltrainerM1YouJustEarnedAPrizeText::
 
 _Route24CooltrainerM1ReceivedNuggetText::
 	text "<PLAYER> erhält"
-	line "einen @"
+	line "ein @"
 	text_ram wStringBuffer
 	text "!@"
 	text_end

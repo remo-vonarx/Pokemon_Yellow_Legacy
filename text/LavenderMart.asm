@@ -27,10 +27,10 @@ _LavenderMartCooltrainerMReviveText::
 
 _LavenderMartCooltrainerMNuggetText::
 	text "Ich habe in den"
-	line "Bergen einen"
+	line "Bergen ein"
 	cont "NUGGET gefunden."
 
-	para "Ich dachte, er"
+	para "Ich dachte, es"
 	line "wäre nutzlos,"
 	cont "doch dann habe"
 	cont "ich dafür ¥5000"

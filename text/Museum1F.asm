@@ -116,7 +116,7 @@ _Museum1FScientist3Text::
 	done
 
 _Museum1FOldAmberText::
-	text "Das BERNSTEIN"
+	text "Der BERNSTEIN"
 	line "schimmert"
 	cont "goldbraun und"
 	cont "ist durchsichtig!"

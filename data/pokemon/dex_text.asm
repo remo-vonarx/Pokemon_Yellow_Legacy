@@ -1289,7 +1289,7 @@ _MagikarpDexEntry::
 _GyaradosDexEntry::
 	text "Dieses #MON"
 	next "ist ungeheuer"
-	next "zerstörungwütig."
+	next "zerstörungswütig."
 
 	page "Es hat schon ganze"
 	next "Städte in Schutt"

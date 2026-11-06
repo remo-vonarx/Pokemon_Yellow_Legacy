@@ -421,7 +421,7 @@ _AfterTrade2Text::
 	text "Hallo! Dein"
 	line "@"
 	text_ram wInGameTradeGiveMonName
-	text ","
+	text_start
 	cont "ist einfach"
 	cont "großartig!"
 	done

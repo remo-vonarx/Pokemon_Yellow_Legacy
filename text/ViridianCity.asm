@@ -187,7 +187,7 @@ _ViridianCityFisherTM42ExplanationText::
 	done
 
 _ViridianCityFisherTM42NoRoomText::
-	text "Du trägst zuviele"
+	text "Du trägst zu viele"
 	line "Items bei Dir!"
 	done
 

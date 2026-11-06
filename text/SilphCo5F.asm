@@ -32,7 +32,7 @@ _SilphCo5FRocket1AfterBattleText::
 _SilphCo5FScientistBattleText::
 	text "Wir entwickeln in"
 	line "diesen Labors"
-	cont "neue #bälle!"
+	cont "neue #BÄLLE!"
 	done
 
 _SilphCo5FScientistEndBattleText::

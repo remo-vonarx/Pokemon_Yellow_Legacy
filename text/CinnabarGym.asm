@@ -22,7 +22,7 @@ _CinnabarGymBlaineReceivedVolcanoBadgeText::
 
 	para "Du hast Dir den"
 	line "VULKANORDEN"
-	cont "redlich verdient@"
+	cont "redlich verdient!@"
 	text_end
 
 _CinnabarGymBlainePostBattleAdviceText::
@@ -284,7 +284,7 @@ _CinnabarGymText_1::
 	cont "an einem Quiz"
 	cont "teilnehmen."
 
-	para "Wenn Du gewinnst"
+	para "Wenn Du gewinnst,"
 	line "mußt Du nicht"
 	cont "gegen uns"
 	cont "kämpfen!"
