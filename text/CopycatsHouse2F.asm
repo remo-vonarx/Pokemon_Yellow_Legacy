@@ -9,7 +9,7 @@ _CopycatsHouse2FCopycatDoYouLikePokemonText::
 	para "<PLAYER>: Wie?"
 	line "Du bist komisch!"
 
-	para "COPYCAT: Hmm?"
+	para "NACHAHMERIN: Hmm?"
 	line "Ich soll die"
 	cont "Nachahmerei"
 	cont "aufgeben?"
@@ -61,7 +61,7 @@ _CopycatsHouse2FCopycatTM31Explanation2Text::
 	cont "viel Spaß, mich"
 	cont "nachzuahmen?"
 
-	para "COPYCAT:"
+	para "NACHAHMERIN:"
 	line "Darauf kannst Du"
 	cont "wetten! Es ist"
 	cont "ein Brüller!"

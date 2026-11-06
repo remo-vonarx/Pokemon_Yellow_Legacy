@@ -14,7 +14,7 @@ _CopycatsHouse1FMiddleAgedManText::
 	para "Wegen ihres"
 	line "Mienenspiels"
 	cont "nennt man sie die"
-	cont "COPYCAT!"
+	cont "NACHAHMERIN!"
 	done
 
 _CopycatsHouse1FChanseyText::

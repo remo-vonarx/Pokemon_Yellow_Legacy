@@ -1,6 +1,6 @@
 _CeladonMart4FSuperNerdText::
 	text "Ich kaufe der"
-	line "COPYCAT ein"
+	line "NACHAHMERIN ein"
 	cont "Geschenk!"
 
 	para "Ich kaufe ihr"

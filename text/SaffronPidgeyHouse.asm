@@ -13,7 +13,7 @@ _SaffronPidgeyHousePidgeyText::
 
 _SaffronPidgeyHouseYoungsterText::
 	text "Ich mag die"
-	line "COPYCAT!"
+	line "NACHAHMERIN!"
 	cont "Ich kaufe ihr"
 	cont "eine #PUPPE!"
 	done
