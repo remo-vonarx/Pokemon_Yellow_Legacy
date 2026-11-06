@@ -75,8 +75,9 @@
 ; Actual characters (from other graphics files)
 
 	; needed for ShowPokedexDataInternal (see engine/menus/pokedex.asm)
-	charmap "′",         $60 ; gfx/pokedex/pokedex.png
-	charmap "″",         $61 ; gfx/pokedex/pokedex.png
+	charmap "<m>",       $60 ; gfx/pokedex/pokedex.png
+	charmap "<k>",       $61 ; gfx/pokedex/pokedex.png
+	charmap "<g>",       $62 ; gfx/pokedex/pokedex.png
 
 	; needed for LoadTownMap_Fly (see engine/items/town_map.asm)
 	charmap "▲",         $ed ; gfx/town_map/up_arrow.1bpp
@@ -157,6 +158,10 @@
 	charmap "Ä",         $c9 ; German umlauts, after the EXP bar tiles ($c0-$c8)
 	charmap "Ö",         $ca
 	charmap "Ü",         $cb
+	charmap "ä",         $dc ; lowercase umlauts and ß, clear of the Pikachu sprite ($cc-$d7)
+	charmap "ö",         $dd
+	charmap "ü",         $de
+	charmap "ß",         $df
 
 	charmap "'",         $e0
 	charmap "<PK>",      $e1

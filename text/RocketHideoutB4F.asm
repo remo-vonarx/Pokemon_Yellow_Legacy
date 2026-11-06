@@ -1,67 +1,85 @@
 _RocketHideoutJessieJamesText1::
-	text "Not another step,"
-	line "brat!@"
+	text "Keinen Schritt"
+	line "weiter!@"
 	text_end
 
 _RocketHideoutJessieJamesText2::
-	text "How dare you"
-	line "humiliate us at"
-	cont "MT.MOON!"
+	text "Du hast uns am"
+	line "MONDBERG ganz"
+	cont "schön gedemütigt!"
 
-	para "It's payback time,"
-	line "you brat!"
+	para "Aber Rache ist"
+	line "süß, Du Rotznase!"
 	done
 
 _RocketHideoutJessieJamesText3::
-	text "Such"
-	line "a dreadful twerp!"
+	text "So"
+	line "ein Hohlkopf!"
 	prompt
 
 _RocketHideoutJessieJamesText4::
-	text "Looks like TEAM"
-	line "ROCKET's blasting"
-	cont "off again!@"
+	text "TEAM ROCKET,"
+	line "schnell wie das"
+	cont "Licht...@"
 	text_end
 
 _RocketHideoutB4FGiovanniImpressedYouGotHereText::
-	text "So! I must say, I"
-	line "am impressed you"
-	cont "got here!"
+	text "Ich bin schwer"
+	line "beeindruckt. Du"
+	cont "bist tatsächlich"
+	cont "weit gekommen!"
+
+	para "TEAM ROCKET"
+	line "finanziert mit"
+	cont "#MON seine"
+	cont "finsteren Pläne!"
+
+	para "Ich bin hier der"
+	line "Boss, GIOVANNI!"
+
+	para "Mach Dich bereit,"
+	line "Höllenqualen zu"
+	cont "erleiden, Wicht!"
 	done
 
 _RocketHideoutB4FGiovanniWhatCannotBeText::
-	text "WHAT!"
-	line "This cannot be!"
+	text "NEIN!"
+	line "Ich habe kläglich"
+	cont "versagt!"
 	prompt
 
 _RocketHideoutB4FGiovanniHopeWeMeetAgainText::
-	text "I see that you"
-	line "raise #MON"
-	cont "with utmost care."
+	text "Offensichtlich"
+	line "trainierst Du"
+	cont "Deine #MON"
+	cont "sehr sorgfältig!"
 
-	para "A child like you"
-	line "would never"
-	cont "understand what I"
-	cont "hope to achieve."
+	para "Trotzdem würdest"
+	line "Du meine Ziele"
+	cont "und Beweggründe"
+	cont "nie verstehen..."
 
-	para "I shall step"
-	line "aside this time!"
+	para "Dieses Mal lasse"
+	line "ich Dich noch von"
+	cont "dannen ziehen..."
 
-	para "I hope we meet"
-	line "again..."
+	para "Doch wir werden"
+	line "uns wiedersehen!"
 	done
 
 _RocketHideoutB4FRocket2BattleText::
-	text "The elevator"
-	line "doesn't work? Who"
-	cont "has the LIFT KEY?"
+	text "Ich werde Dir"
+	line "den LIFTÖFFNER"
+	cont "niemals geben!"
 	done
 
 _RocketHideoutB4FRocket2EndBattleText::
-	text "No!"
+	text_start
+	line "Oh nein!"
 	prompt
 
 _RocketHideoutB4FRocket2AfterBattleText::
-	text "Oh no! I dropped"
-	line "the LIFT KEY!"
+	text "Mist! Ich habe"
+	line "den LIFTÖFFNER"
+	cont "verloren!"
 	done

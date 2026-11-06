@@ -5,5 +5,5 @@ _Route2SignText::
 	done
 
 _Route2DiglettsCaveSignText::
-	text "DIGDA's CAVE"
+	text "DIGDAs HÖHLE"
 	done

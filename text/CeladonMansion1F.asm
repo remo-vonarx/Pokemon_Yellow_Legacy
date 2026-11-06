@@ -11,56 +11,64 @@ _CeladonMansion1FNidoranFText::
 	text_end
 
 _CeladonMansion1FManagersSuiteSignText::
-	text "PRISMANIA MANSION"
-	line "Manager's Suite"
+	text "PRISMANIA-VILLA"
+	line "Manager Suite"
 	done
 
 _CeladonMansion1Text2::
-	text "My dear #MON"
-	line "keep me company."
+	text "Meine treuen"
+	line "#MON leisten"
+	cont "mir Gesellschaft."
 
-	para "MAUZI even brings"
-	line "money home!"
+	para "MAUZI bringt"
+	line "sogar Geld mit"
+	cont "nach Hause!"
 	done
 
 _CeladonMansion1Text6::
-	text "Oh, you have an"
-	line "adorable PIKACHU"
-	cont "with you.@"
+	text "Oh, Dein PIKACHU"
+	line "ist ein wahres"
+	cont "Prachtexemplar!@"
 	text_end
 
 _CeladonMansion1Text7::
-	text "It seems like it"
-	line "hasn't been tamed"
-	cont "at all."
+	text "Es sieht aus, als"
+	line "wäre es noch"
+	cont "nicht gezähmt."
 	done
 
 _CeladonMansion1Text8::
-	text "Why don't you"
-	line "take more care"
-	cont "with PIKACHU?"
+	text "Du mußt Dich"
+	line "viel mehr mit"
+	cont "Deinem PIKACHU"
+	cont "beschäftigen!"
 	done
 
 _CeladonMansion1Text9::
-	text "You must be happy"
-	line "to have a #MON"
-	cont "that cute."
+	text "Du mußt stolz"
+	line "sein, so ein"
+	cont "süßes #MON"
+	cont "zu besitzen!"
 	done
 
 _CeladonMansion1Text10::
-	text "Your PIKACHU seems"
-	line "tamed."
+	text "Dein PIKACHU"
+	line "sieht zahm aus."
 	done
 
 _CeladonMansion1Text11::
-	text "Your PIKACHU looks"
-	line "happy with you."
+	text "Dein PIKACHU"
+	line "scheint Dich zu"
+	cont "mögen."
 	done
 
 _CeladonMansion1Text12::
-	text "You look like a"
-	line "fantastic duo."
+	text "Du und Dein"
+	line "PIKACHU - Ihr"
+	cont "seid ein"
+	cont "fantastisches"
+	cont "Team!"
 
-	para "You're making me"
-	line "jealous!"
+	para "Ich werde ganz"
+	line "neidisch!"
 	done

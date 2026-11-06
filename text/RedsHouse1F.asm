@@ -1,63 +1,60 @@
 _RedsHouse1FMomWakeUpText::
-	text "MOM: Right."
-	line "All kids leave"
-	cont "home someday."
-	cont "It said so on TV."
+	text "MUTTER: Richtig."
+	line "Irgendwann gehen"
+	cont "alle Kinder fort,"
+	cont "um ein Abenteuer"
+	cont "zu erleben!"
 
-	para "PROF EICH, next"
-	line "door, is looking"
-	cont "for you."
+	para "PROF EICH von"
+	line "nebenan hat nach"
+	cont "Dir gefragt."
 	done
 
 _RedsHouse1FMomYouShouldRestText::
-	text "MOM: <PLAYER>, if"
-	line "you drive your"
-	cont "#MON too hard,"
-	cont "they'll dislike"
-	cont "you."
+	text "MUTTER: <PLAYER>!"
+	line "Wenn Du zu hart"
+	cont "zu Deinen #MON"
+	cont "bist, werden sie"
+	cont "nicht zutraulich!"
 
-	para "You should take a"
-	line "rest."
+	para "Du solltest eine"
+	line "kurze Pause"
+	cont "einlegen."
 	prompt
 
 _RedsHouse1FMomLookingGreatText::
-	text "MOM: Oh good!"
-	line "You and your"
-	cont "#MON are"
-	cont "looking great!"
-	cont "Take care now!"
+	text "MUTTER: Sehr gut!"
+	line "Du und Deine"
+	cont "#MON sehen"
+	cont "großartig aus!"
+	cont "Achte auf Dich!"
 	done
 
 _RedsHouse1FMomChampionText::
-	text "MOM: <PLAYER>!"
+	text "MUTTER: <PLAYER>!"
+	line "Ich bin so stolz"
+	cont "auf Dich, weil Du"
+	cont "CHAMPION der"
+	cont "PKMN-LIGA bist!"
 
-	para "I'm so proud of"
-	line "you for becoming"
-	cont "the #MON"
-	cont "LEAGUE CHAMPION!"
+	para "Du und Deine"
+	line "#MON habt hart"
+	cont "dafür gearbeitet."
+	cont "Glückwunsch!"
 
-	para "You and your"
-	line "#MON have"
-	cont "worked so hard"
-	cont "for this."
+	para "Nimm Dir Zeit, um"
+	line "mit #MON und"
+	cont "Freunden zu"
+	cont "feiern. Du hast"
+	cont "es Dir verdient!"
 
-	para "Congratulations!"
+	para "Ich weiß, Du wirst"
+	line "auch weiterhin"
+	cont "großartig sein."
 
-	para "Take some time to"
-	line "celebrate with"
-	cont "your #MON and"
-	cont "friends."
-	
-	para "You've earned it!"
-
-	para "I know you'll"
-	line "continue to be a"
-	cont "great trainer"
-	cont "and CHAMPION."
-
-	para "I'll always be"
-	line "here to support"
-	cont "you, <PLAYER>."
+	para "Ich werde immer"
+	line "für Dich da sein,"
+	cont "<PLAYER>."
 	done
 
 _RedsHouse1FMrMimeText::
@@ -66,14 +63,20 @@ _RedsHouse1FMrMimeText::
 	done
 
 _RedsHouse1FTVStandByMeMovieText::
-	text "There's a movie"
-	line "on TV. Four boys"
-	cont "are walking on"
-	cont "railroad tracks."
+	text "Im Fernsehen"
+	line "läuft ein Film."
+	cont "Vier Jungen"
+	cont "laufen ein"
+	cont "Bahngleis"
+	cont "entlang!"
 
-	para "I better go too."
+	para "Den Film kenne"
+	line "ich schon! Ich"
+	cont "mache mich besser"
+	cont "auf den Weg!"
 	done
 
 _RedsHouse1FTVWrongSideText::
-	text "Oops, wrong side."
+	text "Ups,"
+	line "falsche Richtung!"
 	done

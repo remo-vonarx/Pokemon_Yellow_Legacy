@@ -1,36 +1,43 @@
 _UndergroundPathRoute7CopyUnusedGirlText::
-	text "I want to shop at"
-	line "the dept. store"
-	cont "in PRISMANIA"
-	cont "but..."
+	text "Ich würde gerne"
+	line "nach PRISMANIA"
+	cont "CITY in das große"
+	cont "Einkaufszentrum"
+	cont "gehen!"
 
-	para "There are so many"
-	line "rough looking"
-	cont "people there."
+	para "Aber dort laufen"
+	line "so viele seltsame"
+	cont "Gestalten herum."
 	done
 
 _UndergroundPathRoute7CopyUnusedTeamRocketHadAHideoutText::
-	text "TEAM ROCKET had a"
-	line "secret hideout in"
-	cont "PRISMANIA CITY?"
+	text "In PRISMANIA CITY"
+	line "gab es einen"
+	cont "Unterschlupf von"
+	cont "TEAM ROCKET?"
 	done
 
 _UndergroundPathRoute7CopyUnusedMiddleAgedManText::
-	text "You're here to"
-	line "shop in PRISMANIA?"
+	text "Möchtest Du in"
+	line "PRISMANIA CITY"
+	cont "einkaufen gehen?"
 
-	para "Just step outside"
-	line "and head west!"
+	para "Du mußt draußen"
+	line "nur den Weg nach"
+	cont "Westen nehmen!"
 	done
 
 _UndergroundPathRoute7CopyUnusedGoesUnderSaffronText::
-	text "The UNDERGROUND"
-	line "PATH goes beneath"
-	cont "SAFFRONIA and"
-	cont "leads to LAVANDIA."
+	text "Der TUNNELPFAD"
+	line "führt Dich unter"
+	cont "SAFFRONIA CITY"
+	cont "hindurch nach"
+	cont "LAVANDIA."
 
-	para "If you're heading"
-	line "to AZURIA, go"
-	cont "to the building"
-	cont "across the road."
+	para "Wenn Du nach"
+	line "AZURIA CITY"
+	cont "möchtest, mußt"
+	cont "Du durch das Haus"
+	cont "auf der anderen "
+	cont "Seite gehen."
 	done

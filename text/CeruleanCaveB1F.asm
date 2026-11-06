@@ -3,28 +3,25 @@ _MewtwoBattleText::
 	text_end
 
 _CeruleanCaveSmithBattleText1::
-	text "Hey, what's up?"
+	text "Hey, was geht?"
 
-	para "Show me how much"
-	line "zest you've got!"
+	para "Zeig mir mal,"
+	line "wieviel Schwung in"
+	cont "Dir steckt!"
 	done
 	
 _CeruleanCaveSmithEndBattleText1::
 	text "Wow!"
-	
-	para "You've got zest!"
-
-	para "I love to see"
-	line "that."
+	line "Du hast Schwung!"
+	cont "Das gefällt mir."
 	prompt
 	
 _CeruleanCaveSmithAfterBattleText1::
-	text "What zest!"
-	
-	para "You should be"
-	line "able to handle"
-	cont "yourself in this"
-	cont "cave!"
+	text "Was für ein"
+	line "Schwung! Hier in"
+	cont "der Höhle solltest"
+	cont "Du klarkommen!"
 
-	para "Good luck, nerd!"
+	para "Viel Glück, Du"
+	line "Streber!"
 	done

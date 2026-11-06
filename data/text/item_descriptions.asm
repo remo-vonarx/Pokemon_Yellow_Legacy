@@ -1,31 +1,31 @@
 _MasterBallDescription::
-	text "The best BALL. It"
-	next "never misses."
+	text "Der beste BALL."
+	next "Fängt immer."
 	prompt
 
 _UltraBallDescription::
-	text "A BALL with a high"
-	next "rate of success."
+	text "Ein BALL mit hoher"
+	next "Fangquote."
 	prompt
 
 _GreatBallDescription::
-	text "A BALL with a de-"
-	next "cent success rate."
+	text "Ein BALL mit guter"
+	next "Fangquote."
 	prompt
 
 _PokeBallDescription::
-	text "An item for catch-"
-	next "ing #MON."
+	text "Zum Fangen von"
+	next "#MON."
 	prompt
 
 _TownMapDescription::
-	text "Shows your present"
-	next "location."
+	text "Zeigt Deinen"
+	next "aktuellen Ort."
 	prompt
 
 _BicycleDescription::
-	text "A collapsible bike"
-	next "for fast movement."
+	text "Ein Klapprad für"
+	next "schnelle Fahrten."
 	prompt
 
 _MoonStoneDescription::
@@ -33,568 +33,568 @@ _FireStoneDescription::
 _ThunderStoneDescription::
 _WaterStoneDescription::
 _LeafStoneDescription::
-	text "Evolves certain"
-	next "kinds of #MON."
+	text "Entwickelt be-"
+	next "stimmte #MON."
 	prompt
 
 _AntidoteDescription::
-	text "Cures poisoned"
+	text "Heilt vergiftete"
 	next "#MON."
 	prompt
 
 _BurnHealDescription::
-	text "Heals burned"
+	text "Heilt verbrannte"
 	next "#MON."
 	prompt
 
 _IceHealDescription::
-	text "Defrosts frozen"
-	next "#MON."
+	text "Taut gefrorene"
+	next "#MON auf."
 	prompt
 
 _AwakeningDescription::
-	text "Awakens sleeping"
+	text "Weckt schlafende"
 	next "#MON."
 	prompt
 
 _ParlyzHealDescription::
-	text "Heals paralyzed"
+	text "Heilt paralysierte"
 	next "#MON."
 	prompt
 
 _FullRestoreDescription::
-	text "Fully restores HP"
-	next "and status."
+	text "Heilt KP und"
+	next "Status voll."
 	prompt
 
 _MaxPotionDescription::
-	text "Fully restores"
-	next "#MON HP."
+	text "Füllt die KP eines"
+	next "#MON ganz auf."
 	prompt
 
 _HyperPotionDescription::
-	text "Restores #MON"
-	next "HP by 200."
+	text "Füllt die KP um"
+	next "200 auf."
 	prompt
 
 _SuperPotionDescription::
-	text "Restores #MON"
-	next "HP by 50."
+	text "Füllt die KP eines"
+	next "#MON um 50 auf."
 	prompt
 
 _PotionDescription::
-	text "Restores #MON"
-	next "HP by 20."
+	text "Füllt die KP eines"
+	next "#MON um 20 auf."
 	prompt
 
 _EscapeRopeDescription::
-	text "Use for escaping"
-	next "from caves, etc."
+	text "Führt aus Höhlen"
+	next "und ähnlichem."
 	prompt
 
 _RepelDescription::
-	text "Repels weak #-"
-	next "MON for 100 steps."
+	text "100 Schritte keine"
+	next "schwachen #MON."
 	prompt
 
 _OldAmberDescription::
-	text "Fossilized resin"
-	next "containing DNA."
+	text "Versteinertes Harz"
+	next "mit DNS."
 	prompt
 
 _HPUpDescription::
-	text "Raises the HP of"
-	next "one #MON."
+	text "Erhöht die KP"
+	next "eines #MON."
 	prompt
 
 _ProteinDescription::
-	text "Raises ATTACK of"
-	next "one #MON."
+	text "Erhöht ANGRIFF"
+	next "eines #MON."
 	prompt
 
 _IronDescription::
-	text "Raises DEFENSE of"
-	next "one #MON."
+	text "Erhöht ABWEHR"
+	next "eines #MON."
 	prompt
 
 _CarbosDescription::
-	text "Raises SPEED of"
-	next "one #MON."
+	text "Erhöht INITIATIVE"
+	next "eines #MON."
 	prompt
 
 _CalciumDescription::
-	text "Raises SPECIAL"
-	next "of one #MON."
+	text "Erhöht SPEZIAL"
+	next "eines #MON."
 	prompt
 
 _RareCandyDescription::
-	text "Raises level of a"
-	next "#MON by one."
+	text "Erhöht das Level"
+	next "um eins."
 	prompt
 
 _DomeFossilDescription::
 _HelixFossilDescription::
-	text "A fossilized"
-	next "#MON shell."
+	text "Eine versteinerte"
+	next "#MON-Schale."
 	prompt
 
 _SecretKeyDescription::
-	text "Opens doors."
+	text "Öffnet Türen."
 	prompt
 
 _BikeVoucherDescription::
-	text "Exchange for a new"
-	next "BICYCLE."
+	text "Tausche es gegen"
+	next "ein FAHRRAD."
 	prompt
 
 _XAccuracyDescription::
-	text "Raises accuracy."
-	next "(1 BTL)"
+	text "Erhöht die Genau-"
+	next "igkeit. (1 Kampf)"
 	prompt
 
 _CardKeyDescription::
-	text "Opens shutters in"
-	next "SILPH CO."
+	text "Öffnet die Türen"
+	next "der SILPH CO."
 	prompt
 
 _NuggetDescription::
-	text "Made of pure gold."
-	next "Sell high."
+	text "Aus purem Gold."
+	next "Teuer verkaufbar."
 	prompt
 
 _PokeDollDescription::
-	text "Use to escape from"
-	next "a wild #MON."
+	text "Zur Flucht vor"
+	next "wilden #MON."
 	prompt
 
 _FullHealDescription::
-	text "Eliminates all"
-	next "status problems."
+	text "Heilt alle"
+	next "Statusprobleme."
 	prompt
 
 _ReviveDescription::
-	text "Restores a fainted"
-	next "#MON to 1/2 HP."
+	text "Belebt ein #MON"
+	next "mit 1/2 KP wieder."
 	prompt
 
 _MaxReviveDescription::
-	text "Fully restores a"
-	next "fainted #MON."
+	text "Belebt ein #MON"
+	next "voll wieder."
 	prompt
 
 _GuardSpecDescription::
-	text "Prevents stats"
-	next "reduction. (1 BTL)"
+	text "Schützt die Werte."
+	next "(1 Kampf)"
 	prompt
 
 _SuperRepelDescription::
-	text "Repels weak #-"
-	next "MON for 200 steps."
+	text "200 Schritte keine"
+	next "schwachen #MON."
 	prompt
 
 _MaxRepelDescription::
-	text "Repels weak #-"
-	next "MON for 250 steps."
+	text "250 Schritte keine"
+	next "schwachen #MON."
 	prompt
 
 _DireHitDescription::
-	text "Ups critical hit"
-	next "ratio. (1 BTL)"
+	text "Mehr Volltreffer."
+	next "(1 Kampf)"
 	prompt
 
 _FreshWaterDescription::
-	text "Restores #MON"
-	next "HP by 50."
+	text "Füllt die KP eines"
+	next "#MON um 50 auf."
 	prompt
 
 _SodaPopDescription::
-	text "Restores #MON"
-	next "HP by 60."
+	text "Füllt die KP eines"
+	next "#MON um 60 auf."
 	prompt
 
 _LemonadeDescription::
-	text "Restores #MON"
-	next "HP by 80."
+	text "Füllt die KP eines"
+	next "#MON um 80 auf."
 	prompt
 
 _SSTicketDescription::
-	text "A ticket for the"
-	next "S.S.ANNE."
+	text "Ein Ticket für die"
+	next "M.S. ANNE."
 	prompt
 
 _GoldTeethDescription::
-	text "Gold dentures lost"
-	next "by the WARDEN."
+	text "Goldzähne, die der"
+	next "WÄRTER verlor."
 	prompt
 
 _XAttackDescription::
-	text "Raises ATTACK."
-	next "(1 BTL)"
+	text "Erhöht ANGRIFF."
+	next "(1 Kampf)"
 	prompt
 
 _XDefendDescription::
-	text "Raises DEFENSE."
-	next "(1 BTL)"
+	text "Erhöht ABWEHR."
+	next "(1 Kampf)"
 	prompt
 
 _XSpeedDescription::
-	text "Raises SPEED."
-	next "(1 BTL)"
+	text "Erhöht INITIATIVE."
+	next "(1 Kampf)"
 	prompt
 
 _XSpecialDescription::
-	text "Raises SPECIAL."
-	next "(1 BTL)"
+	text "Erhöht SPEZIAL."
+	next "(1 Kampf)"
 	prompt
 
 _CoinCaseDescription::
-	text "Holds up to 9,999"
-	next "game coins."
+	text "Faßt bis zu 9.999"
+	next "MÜNZEN."
 	prompt
 
 _OaksParcelDescription::
-	text "A parcel belonging"
-	next "to PROF EICH."
+	text "Ein Paket für"
+	next "PROF EICH."
 	prompt
 
 _ItemfinderDescription::
-	text "Checks for unseen"
-	next "items in the area."
+	text "Spürt versteckte"
+	next "Items in der Nähe."
 	prompt
 
 _SilphScopeDescription::
-	text "A scope to see in-"
-	next "visible #MON."
+	text "Zeigt unsichtbare"
+	next "#MON."
 	prompt
 
 _PokeFluteDescription::
-	text "Instantly awakens"
-	next "any #MON."
+	text "Weckt sofort"
+	next "jedes #MON."
 	prompt
 
 _LiftKeyDescription::
-	text "Key to the lift in"
-	next "the ROCKET base."
+	text "Schlüssel zum Lift"
+	next "der ROCKET-Basis."
 	prompt
 
 _ExpAllDescription::
-	text "Shares battle EXP."
-	next "points."
+	text "Teilt die EP aus"
+	next "dem Kampf."
 	prompt
 
 _OldRodDescription::
-	text "Use by water to"
-	next "fish for #MON."
+	text "Zum Angeln von"
+	next "#MON am Wasser."
 	prompt
 
 _GoodRodDescription::
-	text "A good ROD for"
-	next "catching #MON."
+	text "Eine gute ANGEL"
+	next "für #MON."
 	prompt
 
 _SuperRodDescription::
-	text "The best ROD for"
-	next "catching #MON."
+	text "Die beste ANGEL"
+	next "für #MON."
 	prompt
 
 _PPUpDescription::
-	text "Raises max PP of"
-	next "a selected move."
+	text "Erhöht die max. AP"
+	next "einer Attacke."
 	prompt
 
 _EtherDescription::
-	text "Restores PP of one"
-	next "move by 10."
+	text "Füllt die AP einer"
+	next "Attacke um 10 auf."
 	prompt
 
 _MaxEtherDescription::
-	text "Fully restores PP"
-	next "of one move."
+	text "Füllt die AP einer"
+	next "Attacke ganz auf."
 	prompt
 
 _ElixerDescription::
-	text "Restores PP of all"
-	next "moves by 10."
+	text "Füllt alle AP um"
+	next "10 auf."
 	prompt
 
 _MaxElixerDescription::
-	text "Fully restores the"
-	next "PP of one #MON."
+	text "Füllt alle AP"
+	next "eines #MON auf."
 	prompt
 
 _HM01Description::
-	text "Cuts using claws,"
-	next "scythes, etc."
+	text "Schneidet mit"
+	next "Klauen, Sicheln..."
 	prompt
 
 _HM02Description::
-	text "1st turn: Fly"
-	next "2nd turn: Attack"
+	text "1. Runde: Fliegen"
+	next "2. Runde: Angriff"
 	prompt
 
 _HM03Description::
-	text "A strong water-"
-	next "type attack."
+	text "Eine starke"
+	next "Wasser-Attacke."
 	prompt
 
 _HM04Description::
-	text "A powerful physi-"
-	next "cal attack."
+	text "Eine starke"
+	next "physische Attacke."
 	prompt
 
 _HM05Description::
-	text "Blinds the foe to"
-	next "reduce accuracy."
+	text "Blendet Gegner und"
+	next "senkt Genauigkeit."
 	prompt
 
 _TM01Description::
-	text "A powerful punch"
-	next "thrown very hard."
+	text "Ein mächtiger,"
+	next "harter Schlag."
 	prompt
 
 _TM02Description::
-	text "1st turn: Attack"
-	next "2nd turn: Rest"
+	text "1. Runde: Angriff"
+	next "2. Runde: Pause"
 	prompt
 
 _TM03Description::
-	text "A dance that in-"
-	next "creases ATTACK."
+	text "Ein Tanz, der den"
+	next "ANGRIFF erhöht."
 	prompt
 
 _TM04Description::
-	text "An attack that"
-	next "may cause a burn."
+	text "Kann Verbrennungen"
+	next "auslösen."
 	prompt
 
 _TM05Description::
-	text "A powerful kicking"
-	next "attack."
+	text "Ein mächtiger"
+	next "Tritt."
 	prompt
 
 _TM06Description::
-	text "A poison move with"
-	next "increasing damage."
+	text "Gift mit wachsen-"
+	next "dem Schaden."
 	prompt
 
 _TM07Description::
-	text "A one-hit KO,"
-	next "drill attack."
+	text "Ein K.O.-Treffer"
+	next "mit einem Bohrer."
 	prompt
 
 _TM08Description::
-	text "An attack that may"
-	next "cause paralysis."
+	text "Kann Paralyse"
+	next "auslösen."
 	prompt
 
 _TM09Description::
-	text "A tackle that also"
-	next "hurts the user."
+	text "Rempler. Schadet"
+	next "auch dem Anwender."
 	prompt
 
 _TM10Description::
-	text "A tackle that also"
-	next "hurts the user."
+	text "Rempler. Schadet"
+	next "auch dem Anwender."
 	prompt
 
 _TM11Description::
-	text "An attack that may"
-	next "lower SPEED."
+	text "Kann die"
+	next "INITIATIVE senken."
 	prompt
 
 _TM12Description::
-	text "Squirts water to"
-	next "attack."
+	text "Greift mit"
+	next "Wasserstrahl an."
 	prompt
 
 _TM13Description::
-	text "An attack that may"
-	next "freeze the foe."
+	text "Kann den Gegner"
+	next "einfrieren."
 	prompt
 
 _TM14Description::
-	text "An attack that may"
-	next "freeze the foe."
+	text "Kann den Gegner"
+	next "einfrieren."
 	prompt
 
 _TM15Description::
-	text "1st turn: Attack"
-	next "2nd turn: Rest"
+	text "1. Runde: Angriff"
+	next "2. Runde: Pause"
 	prompt
 
 _TM16Description::
-	text "Throws coins. Gets"
-	next "them back later."
+	text "Wirft Münzen, die"
+	next "man zurückerhält."
 	prompt
 
 _TM17Description::
-	text "An attack that al-"
-	next "so hurts the user."
+	text "Attacke. Schadet"
+	next "auch dem Anwender."
 	prompt
 
 _TM18Description::
-	text "Returns a physical"
-	next "blow double."
+	text "Gibt Treffer"
+	next "doppelt zurück."
 	prompt
 
 _TM19Description::
-	text "The user's level"
-	next "equals damage HP."
+	text "Schaden in KP ent-"
+	next "spricht dem Level."
 	prompt
 
 _TM20Description::
-	text "Raises ATTACK if"
-	next "the user is hit."
+	text "Wird es getroffen,"
+	next "steigt ANGRIFF."
 	prompt
 
 _TM21Description::
-	text "Steals 1/2 of the"
-	next "damage inflicted."
+	text "Stiehlt die Hälfte"
+	next "des Schadens."
 	prompt
 
 _TM22Description::
-	text "1st turn: Prepare"
-	next "2nd turn: Attack"
+	text "1. Runde: Laden"
+	next "2. Runde: Angriff"
 	prompt
 
 _TM23Description::
-	text "Always inflicts"
-	next "40HP damage."
+	text "Richtet immer"
+	next "40 KP Schaden an."
 	prompt
 
 _TM24Description::
-	text "An attack that may"
-	next "cause paralysis."
+	text "Kann Paralyse"
+	next "auslösen."
 	prompt
 
 _TM25Description::
-	text "An attack that may"
-	next "cause paralysis."
+	text "Kann Paralyse"
+	next "auslösen."
 	prompt
 
 _TM26Description::
-	text "Tough but useless"
-	next "vs. flying foes."
+	text "Stark, aber nicht"
+	next "gegen Fliegende."
 	prompt
 
 _TM27Description::
-	text "A ground-type,"
-	next "one-hit KO attack."
+	text "Boden-Attacke mit"
+	next "K.O. in 1 Treffer."
 	prompt
 
 _TM28Description::
-	text "1st turn: Burrow"
-	next "2nd turn: Attack"
+	text "1. Runde: Graben"
+	next "2. Runde: Angriff"
 	prompt
 
 _TM29Description::
-	text "An attack that may"
-	next "lower SPECIAL."
+	text "Kann SPEZIAL"
+	next "senken."
 	prompt
 
 _TM30Description::
-	text "A move for fleeing"
-	next "from battle."
+	text "Attacke zur Flucht"
+	next "aus dem Kampf."
 	prompt
 
 _TM31Description::
-	text "Copies a move used"
-	next "by the foe."
+	text "Kopiert Attacken"
+	next "des Gegners."
 	prompt
 
 _TM32Description::
-	text "Heightens evasive-"
-	next "ness."
+	text "Erhöht das"
+	next "Ausweichen."
 	prompt
 
 _TM33Description::
-	text "Raises DEFENSE"
-	next "with a barrier."
+	text "Barriere erhöht"
+	next "die ABWEHR."
 	prompt
 
 _TM34Description::
-	text "Waits 2-3 turns to"
-	next "hit back double."
+	text "Wartet 2-3 Runden,"
+	next "trifft doppelt."
 	prompt
 
 _TM35Description::
-	text "Randomly uses any"
-	next "#MON move."
+	text "Setzt eine zufäl-"
+	next "lige Attacke ein."
 	prompt
 
 _TM36Description::
-	text "Powerful but makes"
-	next "the user faint."
+	text "Stark, aber der"
+	next "Anwender wird K.O."
 	prompt
 
 _TM37Description::
-	text "Eggs are hurled at"
-	next "the foe."
+	text "Wirft Eier auf"
+	next "den Gegner."
 	prompt
 
 _TM38Description::
-	text "An attack that"
-	next "may cause a burn."
+	text "Kann Verbrennungen"
+	next "auslösen."
 	prompt
 
 _TM39Description::
-	text "An attack that"
-	next "never misses."
+	text "Eine Attacke, die"
+	next "immer trifft."
 	prompt
 
 _TM40Description::
-	text "1st turn: Prepare"
-	next "2nd turn: Attack"
+	text "1. Runde: Laden"
+	next "2. Runde: Angriff"
 	prompt
 
 _TM41Description::
-	text "Restores HP by 1/2"
-	next "the user's max HP."
+	text "Heilt die Hälfte"
+	next "der max. KP."
 	prompt
 
 _TM42Description::
-	text "Steals HP from a"
-	next "sleeping victim."
+	text "Raubt schlafenden"
+	next "Gegnern die KP."
 	prompt
 
 _TM43Description::
-	text "1st turn: Prepare"
-	next "2nd turn: Attack"
+	text "1. Runde: Laden"
+	next "2. Runde: Angriff"
 	prompt
 
 _TM44Description::
-	text "Sleep for 2 turns"
-	next "to fully recover."
+	text "Schläft 2 Runden,"
+	next "heilt alles."
 	prompt
 
 _TM45Description::
-	text "A move that may"
-	next "cause paralysis."
+	text "Kann Paralyse"
+	next "auslösen."
 	prompt
 
 _TM46Description::
-	text "An attack with"
-	next "variable power."
+	text "Eine Attacke mit"
+	next "variabler Stärke."
 	prompt
 
 _TM47Description::
-	text "Very powerful but"
-	next "makes user faint."
+	text "Sehr stark, aber"
+	next "Anwender wird K.O."
 	prompt
 
 _TM48Description::
-	text "An attack that may"
-	next "cause flinching."
+	text "Kann den Gegner"
+	next "zurückschrecken."
 	prompt
 
 _TM49Description::
-	text "Fires three kinds"
-	next "of beams at once."
+	text "Feuert drei Arten"
+	next "von Strahlen ab."
 	prompt
 
 _TM50Description::
-	text "Makes a decoy with"
-	next "1/4 user's max HP."
+	text "Köder aus 1/4 der"
+	next "max. KP."
 	prompt
 
 _UnusedItemDescription::

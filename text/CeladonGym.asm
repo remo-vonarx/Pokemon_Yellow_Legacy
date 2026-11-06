@@ -1,101 +1,103 @@
 _CeladonGymErikaPreBattleText::
-	text "Hello. Lovely"
-	line "weather isn't it?"
-	cont "It's so pleasant."
+	text "Ist das Wetter"
+	line "nicht wundervoll?"
+	cont "Einfach herrlich!"
 
-	para "...Oh dear..."
-	line "I must have dozed"
-	cont "off. Welcome."
+	para "Du meine Güte..."
+	line "Ich muß kurz"
+	cont "eingenickt sein!"
+	cont "Willkommen!"
 
-	para "My name is ERIKA."
-	line "I am the LEADER"
-	cont "of PRISMANIA GYM."
+	para "Ich bin ERIKA,"
+	line "die ARENALEITERIN"
+	cont "von PRISMANIA"
+	cont "CITY!"
 
-	para "I teach the art of"
-	line "flower arranging."
-	cont "My #MON are of"
-	cont "the grass-type."
+	para "Ich liebe die"
+	line "Kräfte der Natur!"
+	cont "Deshalb trainiere"
+	cont "ich PFLANZEN-"
+	cont "#MON."
 
-	para "Oh, I'm sorry, I"
-	line "had no idea that"
-	cont "you wished to"
-	cont "challenge me."
+	para "Du möchtest gegen"
+	line "mich antreten?"
+	cont "Also gut!"
 
-	para "Very well, but I"
-	line "shall not lose."
+	para "Ich werde ohnehin"
+	line "nicht verlieren!"
 	done
 
 _CeladonGymErikaReceivedRainbowBadgeText::
-	text "Oh!"
-	line "I concede defeat."
+	text "Ich muß"
+	line "meine Niederlage"
+	cont "eingestehen!"
 
-	para "You are remarkably"
-	line "strong."
+	para "Deine Stärke ist"
+	line "beachtlich!"
 
-	para "I must confer you"
-	line "the RAINBOWBADGE."
+	para "Ich übergebe Dir"
+	line "den FARBORDEN!"
 	prompt
 
 _CeladonGymErikaPostBattleAdviceText::
-	text "You are cataloging"
-	line "#MON? I must"
-	cont "say I'm impressed."
+	text "Du katalogisierst"
+	line "#MON? Ich"
+	cont "bin beeindruckt!"
 
-	para "I would never"
-	line "collect #MON"
-	cont "if they were"
-	cont "unattractive."
+	para "Ich würde niemals"
+	line "#MON sammeln,"
+	cont "die mich nicht"
+	cont "interessieren!"
 	done
 
 _CeladonGymRematchPreBattle1Text::
-	text "You've grown much"
-	line "stronger."
-	
-	para "It's inspiring!"
+	text "Du bist viel"
+	line "stärker geworden."
+	cont "Das inspiriert"
+	cont "mich!"
 
-	para "How about a"
-	line "rematch for old"
-	cont "times' sake?"
+	para "Wie wäre es mit"
+	line "einer Revanche um"
+	cont "der alten Zeiten"
+	cont "willen?"
 	done
 
 _CeladonGymPreRematchBattle2Text::
-	text "Prepare yourself!"
-
-	para "My #MON have"
-	line "reached full"
-	cont "bloom!"
+	text "Mach Dich bereit!"
+	line "Meine #MON"
+	cont "stehen in voller"
+	cont "Blüte!"
 	done
 
 _CeladonGymRematchPostBattleText::
-	text "Incredible!"
+	text "Unglaublich! Deine"
+	line "Stärke übertrifft"
+	cont "sogar die Schön-"
+	cont "heit voller Blüte."
 
-	para "Your strength"
-	line "surpasses even"
-	cont "the beauty of"
-	cont "full bloom."
-
-	para "Your victory"
-	line "is well earned."
-
-	para "Well done!"
+	para "Dein Sieg ist wohl"
+	line "verdient. Gut"
+	cont "gemacht!"
 	done
 
 _CeladonGymRainbowBadgeInfoText::
-	text "The RAINBOWBADGE"
-	line "will make #MON"
-	cont "up to L50 obey."
+	text "Der FARBORDEN"
+	line "läßt #MON bis"
+	cont "Level 50 Deinen"
+	cont "Befehlen folgen!"
 
-	para "It also allows"
-	line "#MON to use"
-	cont "STRENGTH in and"
-	cont "out of battle."
+	para "Außerdem können"
+	line "Deine #MON nun"
+	cont "STÄRKE außerhalb"
+	cont "von Kämpfen"
+	cont "anwenden."
 
-	para "Please also take"
-	line "this with you."
+	para "Nimm bitte noch"
+	line "dieses Geschenk:"
 	done
 
 _CeladonGymReceivedTM21Text::
-	text "<PLAYER> received"
+	text "<PLAYER> erhält"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
@@ -104,167 +106,173 @@ _CeladonGymReceivedTM21Text::
 _TM21ExplanationText::
 	text_start
 
-	para "TM21 contains"
-	line "MEGA DRAIN."
+	para "TM21 ist"
+	line "MEGASAUGER."
 
-	para "Half the damage"
-	line "it inflicts is"
-	cont "drained to heal"
-	cont "your #MON!"
+	para "Dein #MON"
+	line "erhält die Hälfte"
+	cont "der KP, die diese"
+	cont "Attacke dem"
+	cont "Gegner abzieht!"
 	done
 
 _CeladonGymTM21NoRoomText::
-	text "You should make"
-	line "room for this."
+	text "Du solltest etwas"
+	line "Platz schaffen!"
 	done
 
 _CeladonGymBattleText2::
 	text "Hey!"
 
-	para "You are not"
-	line "allowed in here!"
+	para "Du darfst hier"
+	line "nicht hinein!"
 	done
 
 _CeladonGymEndBattleText2::
-	text "You're"
-	line "too rough!"
+	text "Sei nicht"
+	line "so grob zu mir!"
 	prompt
 
 _CeladonGymAfterBattleText2::
-	text "Bleaah!"
-	line "I hope ERIKA"
-	cont "wipes you with"
-	cont "her strong moves!"
+	text "Buääh!"
+	line "Hoffentlich macht"
+	cont "ERIKA Dich mit"
+	cont "ihren starken"
+	cont "Attacken fertig!"
 	done
 
 _CeladonGymBattleText3::
-	text "I was getting"
-	line "bored."
+	text "Mir wurde es"
+	line "schon langweilig!"
 	done
 
 _CeladonGymEndBattleText3::
-	text "My"
-	line "makeup!"
+	text_start
+	line "Meine Frisur!"
+	cont "Ganz zerzaust!"
 	prompt
 
 _CeladonGymAfterBattleText3::
-	text "Grass-type #MON"
-	line "have a lot of"
-	cont "strong attack"
-	cont "and status moves!"
+	text "PFLANZEN-#MON"
+	line "haben viele starke"
+	cont "Angriffs- und"
+	cont "Status-Attacken!"
 
-	para "This makes up for"
-	line "their high"
-	cont "number of"
-	cont "weaknesses!"
+	para "Das gleicht ihre"
+	line "vielen Schwächen"
+	cont "wieder aus!"
 	done
 
 _CeladonGymBattleText4::
-	text "Aren't you the"
-	line "peeping Tom?"
+	text "Hier dürfen nur"
+	line "Frauen herein!"
 	done
 
 _CeladonGymEndBattleText4::
-	text "I'm"
-	line "in shock!"
+	text "Ich"
+	line "bin schockiert!"
 	prompt
 
 _CeladonGymAfterBattleText4::
-	text "Oh, you weren't"
-	line "peeping? We get a"
-	cont "lot of gawkers!"
+	text "Du bist ein"
+	line "Trainer? Und ich"
+	cont "dachte schon..."
 	done
 
 _CeladonGymBattleText5::
-	text "Look at my grass"
-	line "#MON!"
+	text "Schau Dir meine"
+	line "PFLANZEN-#MON"
+	cont "an!"
 
-	para "They're so easy"
-	line "to raise!"
+	para "Man kann sie ohne"
+	line "Mühe trainieren!"
 	done
 
 _CeladonGymEndBattleText5::
-	text "No!"
+	text "Nein!"
 	prompt
 
 _CeladonGymAfterBattleText5::
-	text "We only use grass-"
-	line "type #MON at"
-	cont "our GYM!"
+	text "Wir trainieren"
+	line "ausschließlich"
+	cont "PFLANZEN-#MON"
+	cont "in unserer ARENA!"
 
-	para "A lot of them"
-	line "are dual"
-	cont "poison-types!"
+	para "Viele davon sind"
+	line "zugleich"
+	cont "GIFT-#MON!"
 	done
 
 _CeladonGymBattleText6::
-	text "Don't bring any"
-	line "bugs or fire"
-	cont "#MON in here!"
+	text "Bringe bloß keine"
+	line "Käfer oder"
+	cont "FEUER-#MON"
+	cont "hierher!"
 	done
 
 _CeladonGymEndBattleText6::
 	text "Oh!"
-	line "You!"
+	line "Du Grobian!"
 	prompt
 
 _CeladonGymAfterBattleText6::
-	text "Our LEADER, ERIKA,"
-	line "might be quiet,"
-	cont "but she's also"
-	cont "very skilled!"
+	text "Wenngleich ERIKA"
+	line "schüchtern wirkt,"
+	cont "ist sie eine"
+	cont "sehr begabte"
+	cont "ARENALEITERIN!"
 
-	para "You better"
-	line "watch out for"
-	cont "her SOLARBEAM!"
+	para "Nimm Dich vor"
+	line "ihrem SOLARSTRAHL"
+	cont "in acht!"
 	done
 
 _CeladonGymBattleText7::
-	text "Pleased to meet"
-	line "you. My hobby is"
-	cont "#MON training."
+	text "Ich habe die"
+	line "Ehre... Ich liebe"
+	cont "#MON-Kämpfe!"
 	done
 
 _CeladonGymEndBattleText7::
 	text "Oh!"
-	line "Splendid!"
+	line "Ausgezeichnet!"
 	prompt
 
 _CeladonGymAfterBattleText7::
-	text "I have a blind"
-	line "date coming up"
-	cont "and I'm nervous!"
+	text "Ich habe bald ein"
+	line "Blind Date und bin"
+	cont "ganz nervös!"
 
-	para "Going into an"
-	line "uncertain event"
-	cont "can be scary!"
+	para "Ungewisse Dinge"
+	line "können beängsti-"
+	cont "gend sein!"
 
-	para "It's important"
-	line "to prepare for"
-	cont "all possible"
-	cont "outcomes!"
+	para "Man sollte auf"
+	line "alles vorbereitet"
+	cont "sein!"
 	done
 
 _CeladonGymBattleText8::
-	text "Welcome to"
-	line "PRISMANIA GYM!"
+	text "Willkommen in der"
+	line "PKMN-ARENA von"
+	cont "PRISMANIA CITY!"
 
-	para "You better not"
-	line "underestimate"
-	cont "girl power!"
+	para "Unterschätze"
+	line "niemals die"
+	cont "Girl-Power!"
 	done
 
 _CeladonGymEndBattleText8::
-	text "Oh!"
-	line "Beaten!"
+	text "Ich"
+	line "habe verloren!"
 	prompt
 
 _CeladonGymAfterBattleText8::
-	text "I may have lost"
-	line "but watch out!"
+	text "Ich habe zwar"
+	line "verloren, aber"
+	cont "paß auf!"
 
-	para "ERIKA has a"
-	line "dynamic team"
-	cont "with lots of"
-	cont "strategies!"
+	para "ERIKA hat ein"
+	line "starkes Team mit"
+	cont "vielen Strategien!"
 	done

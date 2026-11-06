@@ -1,51 +1,58 @@
 _PokemonTowerJessieJamesText1::
-	text "Stop right there!@"
+	text "Bleib stehen!@"
 	text_end
 
 _PokemonTowerJessieJamesText2::
-	text "Grampa here wanted"
-	line "to complain, so"
-	cont "we're setting him"
-	cont "straight."
+	text "Der alte Knacker"
+	line "wollte sich"
+	cont "beschweren!"
+	cont "Da mußten wir"
+	cont "ihm die Leviten"
+	cont "lesen!"
 
-	para "So render yourself"
-	line "invisible, or"
-	cont "prepare to fight!"
+	para "Und jetzt mach"
+	line "Dich vom Acker!"
+	cont "Oder Du bekommst"
+	cont "'ne Menge Ärger!"
 	done
 
 _PokemonTowerJessieJamesText3::
-	text "You"
-	line "will regret this!"
+	text "Dafür"
+	line "wirst Du büßen!"
 	prompt
 
 _PokemonTowerJessieJamesText4::
-	text "Looks like TEAM"
-	line "ROCKET's blasting"
-	cont "off again!@"
+	text "TEAM ROCKET - so"
+	line "schnell wie das"
+	cont "Licht...@"
 	text_end
 
 _PokemonTower7FMrFujiRescueText::
-	text "MR.FUJI: Heh? You"
-	line "came to save me?"
+	text "MR. FUJI: Was? Du"
+	line "kommst, um mich"
+	cont "zu retten?"
 
-	para "Thank you. But, I"
-	line "came here of my"
-	cont "own free will."
+	para "Vielen Dank!"
+	line "Aber ich bin"
+	cont "freiwillig hier."
 
-	para "I came to calm"
-	line "the soul of"
-	cont "TRAGOSSO's mother."
+	para "Ich kam her, um"
+	line "die umherirrende"
+	cont "Seele von"
+	cont "TRAGOSSOs Mutter"
+	cont "zu beruhigen!"
 
-	para "I think KNOGGA's"
-	line "spirit has gone"
-	cont "to the afterlife."
+	para "KNOGGAs Seele"
+	line "kann nun endlich"
+	cont "in Frieden in die"
+	cont "ewigen Jagdgründe "
+	cont "einkehren."
 
-	para "I must thank you"
-	line "for your kind"
-	cont "concern!"
+	para "Trotzdem danke"
+	line "ich Dir für Deine"
+	cont "Sorge um mich!"
 
-	para "Follow me to my"
-	line "home, #MON"
-	cont "HOUSE at the foot"
-	cont "of this tower."
+	para "Folge mir in das"
+	line "PKMN-CLUBHAUS am"
+	cont "Fuße des Turms."
 	done

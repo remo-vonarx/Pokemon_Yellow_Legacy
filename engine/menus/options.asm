@@ -79,7 +79,7 @@ OptionsMenu_TextSpeed:
 	ld e, [hl]
 	inc hl
 	ld d, [hl]
-	hlcoord 14, 2
+	hlcoord 3, 3
 	call PlaceString
 	and a
 	ret
@@ -90,11 +90,11 @@ TextSpeedStringsPointerTable:
 	dw SlowText
 
 FastText:
-	db "FAST@"
+	db "[ SCHNELL ]@"
 MidText:
-	db "MID @"
+	db "[ NORMAL  ]@"
 SlowText:
-	db "SLOW@"
+	db "[ LANGSAM ]@"
 
 GetTextSpeed:
 	ld a, [wOptions]
@@ -137,7 +137,7 @@ OptionsMenu_BattleAnimations:
 	ld e, [hl]
 	inc hl
 	ld d, [hl]
-	hlcoord 14, 4
+	hlcoord 3, 5
 	call PlaceString
 	and a
 	ret
@@ -147,9 +147,9 @@ AnimationOptionStringsPointerTable:
 	dw AnimationOffText
 
 AnimationOnText:
-	db "ON @"
+	db "[ AN  ]@"
 AnimationOffText:
-	db "OFF@"
+	db "[ AUS ]@"
 
 OptionsMenu_BattleStyle:
 	ldh a, [hJoy5]
@@ -173,7 +173,7 @@ OptionsMenu_BattleStyle:
 	ld e, [hl]
 	inc hl
 	ld d, [hl]
-	hlcoord 14, 6
+	hlcoord 3, 7
 	call PlaceString
 	and a
 	ret
@@ -183,9 +183,9 @@ BattleStyleOptionStringsPointerTable:
 	dw BattleStyleSetText
 
 BattleStyleShiftText:
-	db "SHIFT@"
+	db "[ WECHSEL ]@"
 BattleStyleSetText:
-	db "SET  @"
+	db "[ FOLGEND ]@"
 
 OptionsMenu_SpeakerSettings:
 	ld a, [wOptions]
@@ -225,7 +225,7 @@ OptionsMenu_SpeakerSettings:
 	ld e, [hl]
 	inc hl
 	ld d, [hl]
-	hlcoord 8, 8
+	hlcoord 3, 9
 	call PlaceString
 	and a
 	ret
@@ -237,13 +237,13 @@ SpeakerOptionStringsPointerTable:
 	dw Earphone3SoundText
 
 MonoSoundText:
-	db "MONO     @"
+	db "[ MONO        ]@"
 Earphone1SoundText:
-	db "EARPHONE1@"
+	db "[ KOPFHÖRER 1 ]@"
 Earphone2SoundText:
-	db "EARPHONE2@"
+	db "[ KOPFHÖRER 2 ]@"
 Earphone3SoundText:
-	db "EARPHONE3@"
+	db "[ KOPFHÖRER 3 ]@"
 
 OptionsMenu_GBPrinterBrightness:
 	call Func_41e7b
@@ -281,7 +281,7 @@ OptionsMenu_GBPrinterBrightness:
 	ld e, [hl]
 	inc hl
 	ld d, [hl]
-	hlcoord 8, 10
+	hlcoord 3, 11
 	call PlaceString
 	and a
 	ret
@@ -294,15 +294,15 @@ GBPrinterOptionStringsPointerTable:
 	dw DarkestPrintText
 
 LightestPrintText:
-	db "LIGHTEST@"
+	db "[ SEHR HELL   ]@"
 LighterPrintText:
-	db "LIGHTER @"
+	db "[ HELL        ]@"
 NormalPrintText:
-	db "NORMAL  @"
+	db "[ NORMAL      ]@"
 DarkerPrintText:
-	db "DARKER  @"
+	db "[ DUNKEL      ]@"
 DarkestPrintText:
-	db "DARKEST @"
+	db "[ SEHR DUNKEL ]@"
 
 Func_41e7b:
 	ld a, [wPrinterSettings]
@@ -433,11 +433,11 @@ InitOptionsMenu:
 	ret
 
 AllOptionsText:
-	db "TEXT SPEED :"
-	next "ANIMATION  :"
-	next "BATTLESTYLE:"
-	next "SOUND:"
-	next "PRINT:@"
+	db "TEXT-TEMPO"
+	next "KAMPFANIMATION"
+	next "KAMPFSTIL"
+	next "SOUND"
+	next "DRUCKEN@"
 
 OptionMenuCancelText:
-	db "CANCEL@"
+	db "ZURÜCK@"

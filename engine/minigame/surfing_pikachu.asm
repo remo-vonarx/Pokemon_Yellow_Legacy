@@ -1526,12 +1526,12 @@ INCBIN "gfx/surfing_pikachu/unknown_f8946.map"
 SurfingMinigame_PrintTextHiScore:
 	ld hl, .Hi_Score
 	decoord 6, 8
-	ld bc, $9
+	ld bc, $8
 	call CopyData
 	ret
 
 .Hi_Score:
-	db $20,$2e,$2f,$30,$31,$2c,$32,$23,$33 ; Hi-Score!!
+	db $20,$21,$2d,$2f,$30,$31,$32,$33 ; Rekord!!!
 
 SurfingMinigame_WriteHPLeft:
 	ld hl, .HP_Left
@@ -1542,7 +1542,7 @@ SurfingMinigame_WriteHPLeft:
 	ret
 
 .HP_Left:
-	db $20,$21,$ff,$22,$23,$24,$25 ; HP Left
+	db $20,$21,$22,$23,$24,$25,$26 ; Rest-KP
 
 SurfingMinigame_AddRemainingHPToTotal:
 	ld c, 99
@@ -1579,23 +1579,23 @@ SurfingMinigame_BCDPrintHPLeft:
 	call SurfingPikachu_PlaceBCDNumber
 	inc hl
 	inc hl
-	ld [hl], $21 ; P
+	ld [hl], $26 ; P
 	inc hl
-	ld [hl], $25 ; t
+	ld [hl], $2d ; k
 	inc hl
-	ld [hl], $26 ; s
+	ld [hl], $23 ; t
 	ret
 
 SurfingMinigame_WriteRadness:
 	ld hl, .Radness
 	decoord 2, 4
-	ld bc, $7
+	ld bc, $5
 	call CopyData
 	call SurfingMinigame_BCDPrintRadness
 	ret
 
 .Radness:
-	db $27,$28,$29,$2a,$23,$26,$26 ; Radness
+	db $27,$23,$28,$29,$21 ; Style
 
 SurfingMinigame_AddRadnessToTotal:
 	ld c, 99
@@ -1640,11 +1640,11 @@ SurfingMinigame_BCDPrintRadness:
 	call SurfingPikachu_PlaceBCDNumber
 	inc hl
 	inc hl
-	ld [hl], $21 ; P
+	ld [hl], $26 ; P
 	inc hl
-	ld [hl], $25 ; t
+	ld [hl], $2d ; k
 	inc hl
-	ld [hl], $26 ; s
+	ld [hl], $23 ; t
 	ret
 
 SurfingMinigame_AddPointsToTotal:
@@ -1671,24 +1671,24 @@ SurfingMinigame_BCDPrintTotalScore:
 	call SurfingPikachu_PlaceBCDNumber
 	inc hl
 	inc hl
-	ld [hl], $21 ; P
+	ld [hl], $26 ; P
 	inc hl
-	ld [hl], $25 ; t
+	ld [hl], $2d ; k
 	inc hl
-	ld [hl], $26 ; s
+	ld [hl], $23 ; t
 	ret
 
 SurfingMinigame_WriteTotal:
 	ld hl, .Total
 	decoord 2, 6
-	ld bc, $5
+	ld bc, $6
 	call CopyData
 	call SurfingMinigame_BCDPrintRadness
 	call SurfingMinigame_BCDPrintTotalScore
 	ret
 
 .Total:
-	db $2b,$2c,$25,$28,$2d ; Total
+	db $2a,$21,$22,$2b,$2c,$23 ; Gesamt
 
 DidPlayerGetAHighScore:
 	ld hl, wSurfingMinigameHiScore + 1
@@ -2334,7 +2334,7 @@ SurfingPikachuMinigameIntro:
 	call ClearObjectAnimationBuffers
 	ld hl, SurfingPikachu1Graphics3
 	ld de, $8800
-	ld bc, $900
+	ld bc, $820
 	ld a, BANK(SurfingPikachu1Graphics3)
 	call FarCopyData
 	ld a, LOW(SurfingPikachuSpawnStateDataPointer)
@@ -2397,68 +2397,18 @@ SurfingPikachuMinigameIntro:
 DrawSurfingPikachuMinigameIntroBackground:
 	ld hl, wTileMap
 	ld bc, SCREEN_WIDTH * SCREEN_HEIGHT
-	ld a, $ff
-	call FillMemory
-	ld hl, Tilemap_f90bc
-	decoord 0, 6
-	ld bc, 12 * SCREEN_WIDTH
-	call CopyData
-	ld de, Tilemap_f91c8
-	hlcoord 4, 0
-	lb bc, 6, 12
-	call .CopyBox
-	hlcoord 3, 7
-	lb bc, 3, 15
-	call .FillBoxWithFF
-	ld hl, Tilemap_f91ac
-	decoord 3, 7
-	ld bc, 15
-	call CopyData
-	ld hl, Tilemap_f91bb
-	decoord 4, 9
-	ld bc, 13
-	call CopyData
-	ret
-
-.CopyBox:
-.copy_row
-	push bc
-	push hl
-.copy_col
+	ld de, SurfingPikachuIntroTilemap
+.loop
 	ld a, [de]
-	inc de
 	ld [hli], a
-	dec c
-	jr nz, .copy_col
-	ld bc, SCREEN_WIDTH
-	pop hl
-	add hl, bc
-	pop bc
-	dec b
-	jr nz, .copy_row
+	inc de
+	dec bc
+	ld a, c
+	or b
+	jr nz, .loop
 	ret
 
-.FillBoxWithFF:
-.fill_row
-	push bc
-	push hl
-.fill_col
-	ld [hl], $ff
-	inc hl
-	dec c
-	jr nz, .fill_col
-	pop hl
-	ld bc, SCREEN_WIDTH
-	add hl, bc
-	pop bc
-	dec b
-	jr nz, .fill_row
-	ret
-
-Tilemap_f90bc: INCBIN "gfx/surfing_pikachu/unknown_f90bc.map"
-Tilemap_f91ac: INCBIN "gfx/surfing_pikachu/unknown_f91ac.map"
-Tilemap_f91bb: INCBIN "gfx/surfing_pikachu/unknown_f91bb.map"
-Tilemap_f91c8: INCBIN "gfx/surfing_pikachu/unknown_f91c8.map"
+SurfingPikachuIntroTilemap: INCBIN "gfx/surfing_pikachu/intro.map"
 
 SurfingMinigame_UpdateLYOverrides:
 	ld hl, wLYOverrides + $10

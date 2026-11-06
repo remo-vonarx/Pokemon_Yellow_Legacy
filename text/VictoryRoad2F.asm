@@ -3,101 +3,105 @@ _VictoryRoad2FMoltresBattleText::
 	text_end
 
 _VictoryRoad2FHikerBattleText::
-	text "Uh, I don't think"
-	line "I'm supposed to"
-	cont "be here."
-
-	para "Can you give me"
-	line "directions?"
+	text "Äh, ich glaube,"
+	line "ich bin hier"
+	cont "falsch. Kannst Du"
+	cont "mir den Weg"
+	cont "zeigen?"
 	done
 
 _VictoryRoad2FHikerEndBattleText::
-	text "You gave me"
-	line "a whalloping!"
+	text "Das"
+	line "war eine Tracht"
+	cont "Prügel!"
 	prompt
 
 _VictoryRoad2FHikerAfterBattleText::
-	text "I was hiking down"
-	line "MT. SILVER and I"
-	cont "ended up here."
+	text "Ich bin vom"
+	line "SILBERBERG"
+	cont "abgestiegen und"
+	cont "hier gelandet."
 
-	para "Can you point"
-	line "me towards"
-	cont "EBENHOLZ CITY?"
+	para "Zeigst Du mir den"
+	line "Weg nach EBENHOLZ"
+	cont "CITY?"
 	done
 
 _VictoryRoad2FJuggler1BattleText::
-	text "Tch, Lets see if"
-	line "KANTO trainers"
-	cont "are strong."
+	text "Tss, mal sehen, ob"
+	line "die Trainer aus"
+	cont "KANTO stark sind."
 	done
 
 _VictoryRoad2FJuggler1EndBattleText::
-	text "Not bad!"
-	line "You are pretty"
-	cont "good."
+	text "Nicht"
+	line "schlecht! Du bist"
+	cont "ziemlich gut."
 	prompt
 
 _VictoryRoad2FJuggler1AfterBattleText::
-	text "I come from"
-	line "another region"
-	cont "close to KANTO."
+	text "Ich komme aus"
+	line "einer Region nahe"
+	cont "KANTO."
 
-	para "You showed me"
-	line "I need to have"
-	cont "a bigger arsenal"
-	cont "to continue."
+	para "Du hast mir"
+	line "gezeigt, daß ich"
+	cont "mehr Attacken"
+	cont "brauche."
 	done
 
 _VictoryRoad2FTamerBattleText::
-	text "Come on!"
-	line "I'll whip you!"
+	text "Komm nur her!"
+	line "Ich werde Dich"
+	cont "besiegen!"
 	done
 
 _VictoryRoad2FTamerEndBattleText::
-	text "I got"
-	line "whipped!"
+	text "Auweia!"
+	line "Ich bin besiegt!"
 	prompt
 
 _VictoryRoad2FTamerAfterBattleText::
-	text "You earned the"
-	line "right to be on"
-	cont "VICTORY ROAD!"
+	text "Du beschreitest"
+	line "die SIEGESSTRASSE"
+	cont "nicht ohne Grund!"
 	done
 
 _VictoryRoad2FPokemaniacBattleText::
-	text "If you can get"
-	line "through here, you"
-	cont "can go meet the"
-	cont "ELITE FOUR!"
+	text "Wenn Du an mir"
+	line "vorbeikommst,"
+	cont "kannst Du zu den"
+	cont "TOP VIER gehen!"
 	done
 
 _VictoryRoad2FPokemaniacEndBattleText::
-	text "No!"
-	line "Unbelievable!"
+	text "Nein!"
+	line "Unglaublich!"
 	prompt
 
 _VictoryRoad2FPokemaniacAfterBattleText::
-	text "If you get stuck,"
-	line "try moving some"
-	cont "boulders around!"
+	text "Wenn Du nicht"
+	line "vorankommst,"
+	cont "versuche, die"
+	cont "Felsen zu"
+	cont "verschieben!"
 	done
 
 _VictoryRoad2FJuggler2BattleText::
-	text "I want a #MON"
-	line "that can learn"
-	cont "lots of HMs!"
+	text "Ich will ein"
+	line "#MON, das viele"
+	cont "VM lernen kann!"
 	done
 
 _VictoryRoad2FJuggler2EndBattleText::
-	text "No, not"
-	line "PIKACHU!"
-	cont "Something cuter!"
+	text "Nein,"
+	line "nicht PIKACHU!"
+	cont "Etwas Süßeres!"
 	prompt
 
 _VictoryRoad2FJuggler2AfterBattleText::
-	text "Maybe a brown,"
-	line "plump mouse"
-	cont "#MON with big"
-	cont "teeth?"
+	text "Vielleicht eine"
+	line "braune, pummelige"
+	cont "Maus mit großen"
+	cont "Zähnen?"
 	done

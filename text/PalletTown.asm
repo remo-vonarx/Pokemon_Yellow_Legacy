@@ -1,83 +1,85 @@
 _PalletTownOakHeyWaitDontGoOutText::
-	text "EICH: Hey! Wait!"
-	line "Don't go out!@"
+	text "EICH: Warte!"
+	line "Geh nicht raus!@"
 	text_end
 
 _PalletTownOakThatWasCloseText::
-	text "EICH: That was"
-	line "close!"
+	text "PROF EICH:"
+	line "Das war knapp!"
 
-	para "Wild #MON live"
-	line "in tall grass!"
+	para "Wilde #MON"
+	line "leben in hohem"
+	cont "Gras!"
 	done
 
 _PalletTownOakWhewText::
-	text "EICH: Whew..."
+	text "PROF EICH: Puuh!"
 	done
 
 _PalletTownOakComeWithMe::
-	text "EICH: A #MON"
-	line "can appear anytime"
-	cont "in tall grass."
+	text "PROF EICH:"
+	line "Wilde #MON"
+	cont "können jederzeit"
+	cont "auftauchen!"
 
-	para "You need your own"
-	line "#MON for your"
-	cont "protection."
-	cont "I know!"
+	para "Du brauchst eigene"
+	line "#MON, um"
+	cont "Dich zu schützen."
 
-	para "Here, come with"
-	line "me!"
+	para "Komm, folge"
+	line "mir!"
 	done
 
 _PalletTownGirlText::
-	text "I'm raising"
-	line "#MON too!"
+	text "Auch ich ziehe"
+	line "#MON auf!"
 
-	para "Like my new"
-	line "RUNNING SHOES?"
+	para "Magst Du meine"
+	line "neuen RENNSCHUHE?"
+	cont "Ich bin im Nu im"
+	cont "PKMN-SUPERMARKT"
+	cont "von VERTANIA CITY!"
 
-	para "I can get to"
-	line "VERTANIA MART"
-	cont "in record time!"
+	para "Bis zur"
+	line "ZINNOBERINSEL"
+	cont "komme ich nicht,"
+	cont "aber ich sehe sie"
+	cont "von hier!"
 
-	para "I can't run to"
-	line "ZINNOBER ISLAND,"
-	cont "but I can see"
-	cont "it from here!"
-
-	para "Is someone"
-	line "surfing on a"
-	cont "RIZEROS?"
+	para "Surft da jemand"
+	line "auf einem RIZEROS?"
 	done
 
 _PalletTownFisherText::
-	text "Technology is"
-	line "incredible!"
+	text "Die Technik"
+	line "heutzutage ist"
+	cont "unglaublich!"
 
-	para "My new backpack"
-	line "can store triple"
-	cont "the items!"
+	para "Mein neuer Ruck-"
+	line "sack faßt dreimal"
+	cont "so viele Items!"
 
-	para "It even sorts"
-	line "itself by"
-	cont "pressing START!"
+	para "Er sortiert sich"
+	line "sogar selbst, wenn"
+	cont "man START drückt!"
 	done
 
 _PalletTownOaksLabSignText::
-	text "EICHs #MON"
-	line "RESEARCH LAB"
+	text "PROFESSOR EICH"
+	line "#MON-LABOR"
 	done
 
 _PalletTownSignText::
 	text "ALABASTIA"
-	line "Shades of your"
-	cont "journey await!"
+	line "Dich erwarten"
+	cont "aufregende"
+	cont "Abenteuer!"
 	done
 
 _PalletTownPlayersHouseSignText::
-	text "<PLAYER>'s house "
+	text "Haus von <PLAYER>"
 	done
 
 _PalletTownRivalsHouseSignText::
-	text "<RIVAL>'s house "
+	text "Haus von <RIVAL>"
 	done

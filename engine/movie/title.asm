@@ -39,10 +39,10 @@ DisplayTitleScreen:
 	ld bc, 5 tiles
 	ld a, BANK(NintendoCopyrightLogoGraphics)
 	call FarCopyData
-	ld hl, NineTile
+	ld hl, CopyrightYearTiles
 	ld de, vTitleLogo tile $6e
-	ld bc, 1 tiles
-	ld a, BANK(NineTile)
+	ld bc, 2 tiles
+	ld a, BANK(CopyrightYearTiles)
 	call FarCopyData
 	ld hl, GameFreakLogoGraphics
 	ld de, vTitleLogo tile $65
@@ -129,7 +129,7 @@ DisplayTitleScreen:
 	jr .titleScreenCopyrightTilesLoop
 
 .tileScreenCopyrightTiles
-	db $e0,$e1,$e2,$e3,$e1,$e2,$ee,$e5,$e6,$e7,$e8,$e9,$ea,$eb,$ec,$ed,$ff ; ©1995-1999 GAME FREAK inc.
+	db $e0,$e1,$e2,$e3,$e4,$ee,$ef,$7f,$e5,$e6,$e7,$e8,$e9,$ea,$eb,$ec,$ed,$ff ; ©1995-2000 GAME FREAK inc.
 
 .finishedBouncingPokemonLogo
 	call LoadScreenTilesFromBuffer1
@@ -254,16 +254,16 @@ LoadCopyrightAndTextBoxTiles:
 LoadCopyrightTiles:
 	ld de, NintendoCopyrightLogoGraphics
 	ld hl, vChars2 tile $60
-	lb bc, BANK(NintendoCopyrightLogoGraphics), (TextBoxGraphics + $10 - NintendoCopyrightLogoGraphics) / $10 ; bug: overflows into text box graphics and copies the "A" tile
+	lb bc, BANK(NintendoCopyrightLogoGraphics), (TextBoxGraphics - NintendoCopyrightLogoGraphics) / $10
 	call CopyVideoData
 	hlcoord 2, 7
 	ld de, CopyrightTextString
 	jp PlaceString
 
 CopyrightTextString:
-	db   $60,$61,$62,$63,$61,$62,$7c,$7f,$65,$66,$67,$68,$69,$6a             ; ©1995-1999  Nintendo
-	next $60,$61,$62,$63,$61,$62,$7c,$7f,$6b,$6c,$6d,$6e,$6f,$70,$71,$72     ; ©1995-1999  Creatures inc.
-	next $60,$61,$62,$63,$61,$62,$7c,$7f,$73,$74,$75,$76,$77,$78,$79,$7a,$7b ; ©1995-1999  GAME FREAK inc.
+	db   $60,$61,$62,$63,$64,$7c,$7d,$7f,$65,$66,$67,$68,$69,$6a             ; ©1995-2000  Nintendo
+	next $60,$61,$62,$63,$64,$7c,$7d,$7f,$6b,$6c,$6d,$6e,$6f,$70,$71,$72     ; ©1995-2000  Creatures inc.
+	next $60,$61,$62,$63,$64,$7c,$7d,$7f,$73,$74,$75,$76,$77,$78,$79,$7a,$7b ; ©1995-2000  GAME FREAK inc.
 	db   "@"
 
 TitleScreen_PlayPikachuPCM:

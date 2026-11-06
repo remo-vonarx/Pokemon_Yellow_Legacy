@@ -1,94 +1,85 @@
 _VictoryRoad3FCooltrainerM1BattleText::
-	text "Have you seen a"
-	line "badger #MON"
-	cont "around here?"
+	text "Hast Du hier ein"
+	line "Dachs-#MON"
+	cont "gesehen?"
 	done
 
 _VictoryRoad3FCooltrainerM1EndBattleText::
-	text " "
-	line "Maybe it was a"
-	cont "mouse?"
+	text "War"
+	line "es vielleicht eine"
+	cont "Maus?"
 	prompt
 
 _VictoryRoad3FCooltrainerM1AfterBattleText::
-	text "I swear it was"
-	line "around here"
-	cont "somewhere,"
-
-	para "maybe I'm in the"
-	line "wrong place..."
+	text "Es war bestimmt"
+	line "hier irgendwo,"
+	cont "oder bin ich"
+	cont "falsch?"
 	done
 
 _VictoryRoad3FCooltrainerF1BattleText::
-	text "Not all #MON"
-	line "are strong,"
-
-	para "but it's always"
-	line "cool to use your"
-	cont "favorites!"
+	text "Nicht alle #MON"
+	line "sind stark, aber"
+	cont "seine Favoriten zu"
+	cont "nutzen ist cool!"
 	done
 
 _VictoryRoad3FCooltrainerF1EndBattleText::
-	text " "
-	line "Losing just means"
-	cont "I have more to"
-	cont "learn!"
+	text "Wer"
+	line "verliert, lernt"
+	cont "nur mehr dazu!"
 	prompt
 
 _VictoryRoad3FCooltrainerF1AfterBattleText::
-	text "I like DRAGONIR"
-	line "more than"
-	cont "DRAGORAN!"
-	cont "It's so cute!"
+	text "Ich mag DRAGONIR"
+	line "lieber als"
+	cont "DRAGORAN! Es ist"
+	cont "so süß!"
 	done
 
 _VictoryRoad3FCooltrainerM2BattleText::
-	text "You have come"
-	line "far, I hope"
-	cont "you and your"
-	cont "#MON enjoyed"
-	cont "the journey."
+	text "Du bist weit"
+	line "gekommen. Ich"
+	cont "hoffe, die Reise"
+	cont "hat Dir und Deinen"
+	cont "#MON gefallen."
 	done
 
 _VictoryRoad3FCooltrainerM2EndBattleText::
-	text " "
-	line "Seems you learned"
-	cont "a lot along the"
-	cont "way."
-
-	para "Nice fight!"
+	text "Du"
+	line "hast viel gelernt."
+	cont "Guter Kampf!"
 	prompt
 
 _VictoryRoad3FCooltrainerM2AfterBattleText::
-	text "Do you have a"
-	line "favorite on your"
-	cont "team?"
+	text "Hast Du einen"
+	line "Favoriten im Team?"
 
-	para "Mine is NIDOKING,"
-	line "he's been with me"
-	cont "since the start!"
+	para "Meiner ist"
+	line "NIDOKING, es ist"
+	cont "von Anfang an"
+	cont "dabei!"
 
-	para "And he's so cool!"
+	para "Und es ist so"
+	line "cool!"
 	done
 
 _VictoryRoad3FCooltrainerF2BattleText::
-	text "No stupid"
-	line "questions please."
+	text "Keine dummen"
+	line "Fragen, bitte."
 
-	para "Let me see your"
-	line "team!"
+	para "Zeig mir Dein"
+	line "Team!"
 	done
 
 _VictoryRoad3FCooltrainerF2EndBattleText::
-	text "Is"
-	line "that so?"
+	text "Ach"
+	line "ja?"
 	prompt
 
 _VictoryRoad3FCooltrainerF2AfterBattleText::
-	text "I don't care about"
-	line "what #MON are"
-	cont "good."
-
-	para "I just want to"
-	line "use my favorites!"
+	text "Mir ist egal,"
+	line "welche #MON gut"
+	cont "sind. Ich nutze"
+	cont "meine Favoriten!"
 	done

@@ -11,24 +11,27 @@ While Yellow Legacy is not designed as a “Kaizo” project, Pokémon trainer f
 
 ## Changes in this fork
 
-This fork keeps the English text of Yellow Legacy, but uses the German names, so the game feels familiar to everyone who grew up with the German releases.
+This fork is a full German translation of Yellow Legacy. The general rule was to follow the German Yellow release: its wording, menu layouts and graphics are used wherever Yellow Legacy did not change them, so the game feels familiar to everyone who grew up with the German releases. Minor mistakes in the German release, such as typos and text running past its box, are fixed. Text that Yellow Legacy added or changed has a new German translation.
 
 **German:**
-* All 151 Pokémon, also in dialogue, signs and the Pokédex (KLEINSTEIN, GLURAK, PUMMELUFF, ...)
+* All dialogue, signs, item descriptions and menus
+* The Pokédex, with entries and categories from the German release and heights and weights in metres and kilograms
+* Moves, items, badges, types, stats and trainer classes
+* All 151 Pokémon (KLEINSTEIN, GLURAK, PUMMELUFF, ...)
 * Characters: PROF EICH, ROCKO, MAJOR BOB, PYRO, SIEGFRIED, AGATHE, JANINA, NIKKI and OFFICER ROCKY
-* Cities: ALABASTIA, VERTANIA CITY, MARMORIA CITY, AZURIA CITY, ORANIA CITY, LAVANDIA, PRISMANIA CITY, FUCHSANIA CITY, SAFFRONIA CITY, ZINNOBER ISLAND and EBENHOLZ CITY
-* Places named after a city or Pokémon: VERTANIA FOREST, DIGDA's CAVE, AZURIA CAVE, PRISMANIA DEPT. STORE, ...
+* Cities: ALABASTIA, VERTANIA CITY, MARMORIA CITY, AZURIA CITY, ORANIA CITY, LAVANDIA, PRISMANIA CITY, FUCHSANIA CITY, SAFFRONIA CITY, ZINNOBERINSEL and EBENHOLZ CITY
+* Places: VERTANIA-WALD, MONDBERG, FELSTUNNEL, DIGDAs HÖHLE, SEESCHAUMINSELN, ...
 * The in-game trade nicknames, WILLI in the nickname house and the default names GELB, GRÜN and BLAU
 * The cries of talking Pokémon as in the German release, e.g. "PUMMELUFF: Puu! Pu-uuu-ummeluff!"
 
-**Still English:** everything else, including moves, items, badges, types, trainer classes, Pokédex categories and landmarks such as MT.MOON or ROCK TUNNEL.
+**Still English:** the debug menus.
 
 **Bug fixes from upstream pull requests:**
 * [#26](https://github.com/cRz-Shadows/Pokemon_Yellow_Legacy/pull/26) by CreamElDudJafar: Cerulean badge house texts, list menu offset after depositing, Hall of Fame half step, S.S. Anne reward money
 * [#41](https://github.com/cRz-Shadows/Pokemon_Yellow_Legacy/pull/41) by Fernando Barbosa: ELIXIR and MAX ELIXIR spelling
 * [#32](https://github.com/cRz-Shadows/Pokemon_Yellow_Legacy/pull/32) by rjd1922: the rival's victory speeches when you lose, shown only for opponents that have one
 
-The font has Ä, Ö and Ü in the tiles `$c9`-`$cb`. To keep names and line lengths consistent after changes, run `python3 tools/check_names.py` and `python3 tools/check_text_width.py`; `tools/germanize.py` replaces English names inside text strings.
+The font has Ä, Ö and Ü in the tiles `$c9`-`$cb` and ä, ö, ü and ß in `$dc`-`$df`. To keep names, line lengths and text commands consistent after changes, run `python3 tools/check_names.py`, `python3 tools/check_text_width.py` and `python3 tools/check_text_mode.py`; `tools/germanize.py` replaces English names inside text strings.
 
 ## Download and Play
 

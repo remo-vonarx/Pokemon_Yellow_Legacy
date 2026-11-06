@@ -1,70 +1,72 @@
 _GameCornerPrizeRoomBaldingGuyText::
-	text "I sure do fancy"
-	line "that PORYGON!"
+	text "Ich hätte gerne"
+	line "ein PORYGON!"
 
-	para "But, it's hard to"
-	line "win at slots!"
+	para "Aber ich habe"
+	line "kein Glück an"
+	cont "den einarmigen"
+	cont "Banditen!"
 	done
 
 _GameCornerPrizeRoomGamblerText::
-	text "I want to save"
-	line "up for HYPER"
-	cont "BEAM!"
+	text "Ich spare auf"
+	line "HYPERSTRAHL!"
 
-	para "It does huge"
-	line "damage, but"
-	cont "your #MON"
-	cont "will need a turn"
-	cont "to recharge"
-	cont "when used."
+	para "Er richtet großen"
+	line "Schaden an, aber"
+	cont "Dein #MON muß"
+	cont "danach eine Runde"
+	cont "aussetzen."
 
-	para "If you faint your"
-	line "opponent though"
-	cont "that isn't"
-	cont "the case."
+	para "Besiegst Du aber"
+	line "den Gegner, ist"
+	cont "das nicht nötig."
 
-	para "Your #MON"
-	line "will recharge"
-	cont "as your opponent"
-	cont "brings out their"
-	cont "next #MON."
+	para "Dein #MON lädt"
+	line "dann auf, während"
+	cont "der Gegner sein"
+	cont "nächstes #MON"
+	cont "schickt."
 	done
 
 _GameCornerPrizeRoomClerkDoYouNeedSomeGameCoinsText::
-	text "That clerk next"
-	line "door is so slow"
-	cont "giving out coins"
-	
-	para "that I can make a"
-	line "profit selling"
-	cont "them in bulk."
-	
-	para "It's ¥11000 for 500"
-	line "coins."
-	
-	para "Want some?"
+	text "Der Verkäufer"
+	line "nebenan gibt die"
+	cont "MÜNZEN so langsam"
+	cont "aus,"
+
+	para "daß ich sie mit"
+	line "Gewinn in großen"
+	cont "Mengen verkaufe."
+
+	para "500 MÜNZEN kosten"
+	line "¥11000."
+
+	para "Möchtest Du"
+	line "welche?"
 	done
 
 _GameCornerPrizeRoomClerkThanksHereAre50CoinsText::
-	text "Thanks! Here are"
-	line "your 500 coins!"
+	text "Danke! Hier sind"
+	line "Deine 500 Münzen!"
 	done
 
 _GameCornerPrizeRoomClerkPleaseComePlaySometimeText::
-	text "No? Suit yourself."
+	text "Nein? Wie Du"
+	line "willst."
 	done
 
 _GameCornerPrizeRoomClerkCantAffordTheCoinsText::
-	text "You can't afford"
-	line "the coins!"
+	text "Du hast nicht"
+	line "genug Geld!"
 	done
 
 _GameCornerPrizeRoomClerkCoinCaseIsFullText::
-	text "Oops! Your COIN"
-	line "CASE is full."
+	text "Dein MÜNZKORB"
+	line "ist voll!"
 	done
 
 _GameCornerPrizeRoomClerkDontHaveCoinCaseText::
-	text "You don't have a"
-	line "COIN CASE!"
+	text "Du benötigst"
+	line "einen MÜNZKORB!"
 	done

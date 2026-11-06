@@ -1,67 +1,74 @@
 _PokemonTower2FRivalWhatBringsYouHereText::
-	text "<RIVAL>: Hey,"
-	line "<PLAYER>! What"
-	cont "brings you here?"
-	cont "Your #MON"
-	cont "don't look dead!"
+	text "<RIVAL>:"
+	line "Hallo, <PLAYER>!"
+	cont "Was machst Du"
+	cont "denn hier? Deine"
+	cont "#MON scheinen"
+	cont "ganz gut in Form"
+	cont "zu sein!"
 
-	para "I can at least"
-	line "make them faint!"
-	cont "Let's go, pal!"
+	para "Naja, nach dem"
+	line "Kampf wird das"
+	cont "anders aussehen!"
 	done
 
 _PokemonTower2FRivalDefeatedText::
-	text "What?"
-	line "You stinker!"
+	text "Was?"
+	line "Du bist eine"
+	cont "harte Nuß!"
 
-	para "I took it easy on"
-	line "you too!"
+	para "Ich bin es wohl"
+	line "etwas zu locker"
+	cont "angegangen!"
 	prompt
 
 _PokemonTower2FRivalVictoryText::
-	text "Well,"
-	line "look at all your"
-	cont "wimpy #MON!"
+	text "Schau Dir"
+	line "nur Deine"
+	cont "Schwächlinge an!"
 
-	para "Toughen them up a"
-	line "bit more!"
+	para "Trainiere sie ein"
+	line "bißchen härter!"
 
-	para "Also watch out"
-	line "for ghost-type"
-	cont "moves!"
+	para "Und achte auf"
+	line "Geist-Attacken!"
 
-	para "They may not hit"
-	line "normal-types,"
-	cont "but non-physical"
-	cont "moves can still"
-	cont "hit hard!"
+	para "Sie treffen keine"
+	line "NORMAL-#MON,"
+	cont "aber nicht-physi-"
+	cont "sche Attacken"
+	cont "treffen hart!"
 	prompt
 
 _PokemonTower2FRivalHowsYourDexText::
-	text "How's your #DEX"
-	line "coming, pal?"
-	cont "I just caught a"
-	cont "TRAGOSSO!"
+	text "Wie macht sich"
+	line "Dein #DEX,"
+	cont "Kumpel? Ich habe"
+	cont "kürzlich ein"
+	cont "TRAGOSSO"
+	cont "gefangen!"
 
-	para "I can't find the"
-	line "grown-up KNOGGA"
-	cont "yet!"
+	para "Allerdings habe"
+	line "ich noch kein"
+	cont "KNOGGA!"
 
-	para "I doubt there are"
-	line "any left! Well, I"
-	cont "better get going!"
-	cont "I've got a lot to"
-	cont "accomplish, pal!"
+	para "Ich glaube, von"
+	line "diesen #MON"
+	cont "gibt es nur noch"
+	cont "wenige. Also, ich"
+	cont "habe viel zu tun!"
+	cont "Ich muß weiter!"
 
-	para "Smell ya later!"
+	para "Bis später!"
 	done
 
 _PokemonTower2FChannelerText::
-	text "Even we could not"
-	line "identify the"
-	cont "wayward GHOSTs!"
+	text "Selbst wir können"
+	line "die eigenwilligen"
+	cont "GEISTER nicht"
+	cont "identifizieren!"
 
-	para "A SILPH SCOPE"
-	line "might be able to"
-	cont "unmask them."
+	para "Man benötigt das"
+	line "SILPH SCOPE, um"
+	cont "sie zu erkennen!"
 	done
