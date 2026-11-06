@@ -6,7 +6,7 @@ _LavenderPokecenterGentlemanText::
 
 _LavenderPokecenterLittleGirlText::
 	text "Ich habe gesehen,"
-	line "wie TRAGOSSOS"
+	line "wie TRAGOSSOs"
 	cont "Mutter vergeblich"
 	cont "versuchte,  TEAM"
 	cont "ROCKET zu "

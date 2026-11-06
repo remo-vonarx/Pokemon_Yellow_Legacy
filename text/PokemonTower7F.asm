@@ -39,10 +39,10 @@ _PokemonTower7FMrFujiRescueText::
 	para "Ich kam her, um"
 	line "die umherirrende"
 	cont "Seele von"
-	cont "TRAGOSSOS Mutter"
+	cont "TRAGOSSOs Mutter"
 	cont "zu beruhigen!"
 
-	para "KNOGGAS Seele"
+	para "KNOGGAs Seele"
 	line "kann nun endlich"
 	cont "in Frieden in die"
 	cont "ewigen Jagdgründe "

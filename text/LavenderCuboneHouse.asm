@@ -7,7 +7,7 @@ _LavenderCuboneHouseBrunetteGirlPoorCubonesMotherText::
 	text "Ich hasse TEAM"
 	line "ROCKET!"
 
-	para "TRAGOSSOS arme"
+	para "TRAGOSSOs arme"
 	line "Mutter!"
 
 	para "Sie konnte TEAM"

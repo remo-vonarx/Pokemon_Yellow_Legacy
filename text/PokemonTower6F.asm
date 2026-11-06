@@ -1,7 +1,7 @@
 _PokemonTower6FGhostWasCubonesMotherText::
 	text "Der GEIST war die"
 	line "rastlose Seele"
-	cont "von TRAGOSSOS"
+	cont "von TRAGOSSOs"
 	cont "Mutter!"
 	done
 

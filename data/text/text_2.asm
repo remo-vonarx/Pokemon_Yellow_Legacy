@@ -186,7 +186,7 @@ _ViridianCityPokecenterGuyText::
 _PewterCityPokecenterGuyText::
 	text "Gähn!"
 
-	para "Von PUMMELUFFS"
+	para "Von PUMMELUFFs"
 	line "GESANG werden"
 	cont "#MON ganz"
 	cont "müde..."

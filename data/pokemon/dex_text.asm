@@ -869,7 +869,7 @@ _DewgongDexEntry::
 	dex
 
 _GrimerDexEntry::
-	text "SLEIMAS Körper"
+	text "SLEIMAs Körper"
 	next "besteht aus"
 	next "Industrieabfällen."
 
@@ -930,7 +930,7 @@ _HaunterDexEntry::
 _GengarDexEntry::
 	text "Ein plötzlicher"
 	next "Luftzug kündigt"
-	next "GENGARS Besuch an."
+	next "GENGARs Besuch an."
 
 	page "Es belegt seine"
 	next "Opfer mit furcht-"
@@ -1008,7 +1008,7 @@ _ElectrodeDexEntry::
 	dex
 
 _ExeggcuteDexEntry::
-	text "OWEIS kleine Köpfe"
+	text "OWEIs kleine Köpfe"
 	next "kreisen um den"
 	next "großen Kopf wie"
 
@@ -1187,7 +1187,7 @@ _SeakingDexEntry::
 	dex
 
 _StaryuDexEntry::
-	text "Solange STERNDUS"
+	text "Solange STERNDUs"
 	next "Kernstück"
 	next "unversehrt bleibt,"
 
@@ -1317,7 +1317,7 @@ _DittoDexEntry::
 	dex
 
 _EeveeDexEntry::
-	text "EVOLIS genetischer"
+	text "EVOLIs genetischer"
 	next "Code ist sehr"
 	next "instabil."
 

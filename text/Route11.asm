@@ -181,5 +181,5 @@ _Route11Youngster4AfterBattleText::
 	done
 
 _Route11DiglettsCaveSignText::
-	text "DIGDAS HÖHLE"
+	text "DIGDAs HÖHLE"
 	done

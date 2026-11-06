@@ -7,7 +7,7 @@ _MrFujisHouseSuperNerdMrFujiIsntHereText::
 
 _MrFujisHouseSuperNerdMrFujiHadBeenPrayingText::
 	text "MR. FUJI hat oft"
-	line "für TRAGOSSOS"
+	line "für TRAGOSSOs"
 	cont "Mutter gebetet."
 	done
 
