@@ -31,7 +31,7 @@ This fork translates Yellow Legacy into German. It uses the wording and menu lay
 * [#41](https://github.com/cRz-Shadows/Pokemon_Yellow_Legacy/pull/41) by Fernando Barbosa: ELIXIR and MAX ELIXIR spelling
 * [#32](https://github.com/cRz-Shadows/Pokemon_Yellow_Legacy/pull/32) by rjd1922: the rival's victory speeches when you lose, shown only for opponents that have one
 
-The font has Ä, Ö and Ü in the tiles `$c9`-`$cb` and ä, ö, ü and ß in `$dc`-`$df`. To keep names and line lengths consistent after changes, run `python3 tools/check_names.py` and `python3 tools/check_text_width.py`; `tools/germanize.py` replaces English names inside text strings.
+The font has Ä, Ö and Ü in the tiles `$c9`-`$cb` and ä, ö, ü and ß in `$dc`-`$df`. To keep names, line lengths and text commands consistent after changes, run `python3 tools/check_names.py`, `python3 tools/check_text_width.py` and `python3 tools/check_text_mode.py`; `tools/germanize.py` replaces English names inside text strings.
 
 ## Download and Play
 
