@@ -11,7 +11,7 @@ While Yellow Legacy is not designed as a “Kaizo” project, Pokémon trainer f
 
 ## Changes in this fork
 
-This fork translates Yellow Legacy into German. It uses the wording and menu layouts of the German Yellow release wherever they still fit, so the game feels familiar to everyone who grew up with the German releases. Text that Yellow Legacy added or changed has a new German translation.
+This fork is a full German translation of Yellow Legacy. The general rule was to follow the German Yellow release: its wording, menu layouts and graphics are used wherever Yellow Legacy did not change them, so the game feels familiar to everyone who grew up with the German releases. Minor mistakes in the German release, such as typos and text running past its box, are fixed. Text that Yellow Legacy added or changed has a new German translation.
 
 **German:**
 * All dialogue, signs, item descriptions and menus
