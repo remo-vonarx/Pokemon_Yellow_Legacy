@@ -119,7 +119,7 @@ _SaffronGymGuideChampInMakingText::
 	text "Hey! Warte, Du"
 	line "Champion in spe!"
 
-	para "SABRINAS reine"
+	para "SABRINAs reine"
 	line "PSYCHO-#MON"
 	cont "sind unglaublich"
 	cont "stark!"

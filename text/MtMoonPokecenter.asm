@@ -16,7 +16,7 @@ _MtMoonPokecenterGentlemanText::
 
 	para "Kein Tag vergeht"
 	line "ohne Meldungen"
-	cont "über TEAM ROCKETS"
+	cont "über TEAM ROCKETs"
 	cont "Schandtaten!"
 	done
 

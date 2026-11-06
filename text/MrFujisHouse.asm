@@ -13,7 +13,7 @@ _MrFujisHouseSuperNerdMrFujiHadBeenPrayingText::
 
 _MrFujisHouseLittleGirlThisIsMrFujisHouseText::
 	text "Das hier ist"
-	line "MR. FUJIS Haus."
+	line "MR. FUJIs Haus."
 
 	para "Er ist sehr"
 	line "fürsorglich!"

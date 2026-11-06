@@ -31,7 +31,7 @@ _SilphCo7FSilphWorkerM1LaprasDescriptionText::
 	done
 
 _SilphCo7FSilphWorkerM1IsOurPresidentOkText::
-	text "TEAM ROCKETS"
+	text "TEAM ROCKETs"
 	line "BOSS ging in den"
 	cont "Sitzungssaal! Ob"
 	cont "unser PRÄSIDENT"
@@ -56,7 +56,7 @@ _SilphCo7FSilphWorkerM2CancelledMasterBallText::
 	text "Wir haben das"
 	line "Projekt gestoppt."
 	cont "Der MEISTERBALL"
-	cont "in TEAM ROCKETS"
+	cont "in TEAM ROCKETs"
 	cont "Händen? Niemals!"
 	done
 

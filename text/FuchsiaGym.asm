@@ -167,7 +167,7 @@ _FuchsiaGymJanineBattleText::
 
 	para "Ich bin JANINA,"
 	line "eine Ninja aus"
-	cont "KOGAS ARENA."
+	cont "KOGAs ARENA."
 
 	para "Stell Dich meinem"
 	line "Gift!"

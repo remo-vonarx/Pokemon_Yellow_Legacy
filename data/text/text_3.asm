@@ -178,7 +178,7 @@ _TurnedOnPC1Text::
 
 _AccessedBillsPCText::
 	text "Die Verbindung zu"
-	line "BILLS PC wurde"
+	line "BILLs PC wurde"
 	cont "hergestellt."
 
 	para "Du hast Zugriff"

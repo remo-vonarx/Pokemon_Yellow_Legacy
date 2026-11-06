@@ -1,6 +1,6 @@
 _RocketHideoutB3FRocket1BattleText::
 	text "Halte Dich aus"
-	line "TEAM ROCKETS"
+	line "TEAM ROCKETs"
 	cont "Angelegenheiten"
 	cont "heraus!"
 	done

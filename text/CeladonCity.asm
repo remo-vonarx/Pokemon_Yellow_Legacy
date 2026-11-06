@@ -91,7 +91,7 @@ _CeladonCityRocket1Text::
 
 _CeladonCityRocket2Text::
 	text "Halte Dich aus"
-	line "TEAM ROCKETS"
+	line "TEAM ROCKETs"
 	cont "Angelegenheiten"
 	cont "heraus!"
 	done
