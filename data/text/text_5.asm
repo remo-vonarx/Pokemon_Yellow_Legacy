@@ -125,8 +125,8 @@ _BecameConfusedText::
 	prompt
 
 _MimicLearnedMoveText::
-	text "<USER> hat"
-	line "@"
+	text "<USER>"
+	line "hat @"
 	text_ram wcd6d
 	text_start
 	cont "gelernt!"
