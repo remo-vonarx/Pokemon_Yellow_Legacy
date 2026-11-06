@@ -10,7 +10,7 @@ CableClub_DoBattleOrTrade:
 	call LoadHpBarAndStatusTilePatterns
 	call LoadTrainerInfoTextBoxTiles
 	hlcoord 3, 8
-	lb bc, 2, 12
+	lb bc, 2, 13
 	call CableClub_TextBoxBorder
 	hlcoord 4, 10
 	ld de, PleaseWaitString
@@ -610,14 +610,14 @@ TradeCenter_DrawCancelBox:
 	ld bc, 2 * SCREEN_WIDTH + 9
 	call FillMemory
 	hlcoord 0, 15
-	lb bc, 1, 9
+	lb bc, 1, 12
 	call CableClub_TextBoxBorder
 	hlcoord 2, 16
 	ld de, CancelTextString
 	jp PlaceString
 
 CancelTextString:
-	db "ZURÜCK@"
+	db "ABBRECHEN@"
 
 TradeCenter_PlaceSelectedEnemyMonMenuCursor:
 	ld a, [wSerialSyncAndExchangeNybbleReceiveData]

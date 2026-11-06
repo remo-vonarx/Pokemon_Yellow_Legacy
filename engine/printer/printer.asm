@@ -570,7 +570,7 @@ GBPrinter_UpdateStatusMessage:
 	ld d, [hl]
 	hlcoord 1, 7
 	call PlaceString
-	hlcoord 2, 15
+	hlcoord 3, 15
 	ld de, .PressBToCancel
 	call PlaceString
 	ld a, $1
