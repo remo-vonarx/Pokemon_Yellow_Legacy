@@ -97,27 +97,28 @@ ViridianCityYoungster2OkThenText::
 
 ViridianCityYoungster2CaterpieAndWeedleDescriptionText::
 	text "Das nennt man"
-	line "Diversity Value,"
-	cont "kurz DV."
+	line "Individuelle"
+	cont "Stärke, kurz IS."
 
-	para "Ein DV reicht von"
-	line "0 bis 15, und"
+	para "Ein IS-Wert reicht"
+	line "von 0 bis 15, und"
 	cont "höher ist besser."
 
-	para "DVs spiegeln die"
+	para "IS spiegeln die"
 	line "Eigenschaften"
 	cont "eines #MON"
 	cont "wider."
 
-	para "Der DV bestimmt,"
+	para "Die IS bestimmen,"
 	line "wie seine Werte"
 	cont "ausfallen."
 
 	para "Bei Level 100"
-	line "macht ein DV von 0"
-	cont "statt 15 einen"
-	cont "Unterschied von 30"
-	cont "Statuspunkten."
+	line "macht ein IS-Wert"
+	cont "von 0 statt 15"
+	cont "einen Unterschied"
+	cont "von 30 Status-"
+	cont "punkten."
 
 	para "Mach Dir nicht zu"
 	line "viele Gedanken,"
