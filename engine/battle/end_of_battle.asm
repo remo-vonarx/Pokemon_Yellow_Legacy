@@ -21,7 +21,7 @@ EndOfBattle:
 	jr z, .placeWinOrLoseString
 	ld de, DrawText
 .placeWinOrLoseString
-	hlcoord 6, 8
+	hlcoord 4, 8
 	call PlaceString
 	ld c, 200
 	call DelayFrames
