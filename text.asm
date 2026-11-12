@@ -86,14 +86,6 @@ INCLUDE "text/SummerBeachHouse.asm"
 INCLUDE "text/Route22Gate.asm"
 INCLUDE "text/VictoryRoad2F.asm"
 INCLUDE "text/BillsHouse.asm"
-INCLUDE "text/Route1.asm"
-INCLUDE "text/Route2.asm"
-INCLUDE "text/Route3.asm"
-INCLUDE "text/Route4.asm"
-INCLUDE "text/Route5.asm"
-INCLUDE "text/Route6.asm"
-INCLUDE "text/Route7.asm"
-INCLUDE "text/Route8.asm"
 
 
 SECTION "Text 4", ROMX
@@ -238,8 +230,6 @@ INCLUDE "text/CeladonCity.asm"
 INCLUDE "text/FuchsiaCity.asm"
 INCLUDE "text/CinnabarIsland.asm"
 INCLUDE "text/SaffronCity.asm"
-INCLUDE "text/ViridianSchoolHouse.asm"
-INCLUDE "text/CeruleanGym.asm"
 
 INCLUDE "data/text/text_8.asm"
 
@@ -279,3 +269,21 @@ INCLUDE "text/SafariZoneSecretHouse.asm"
 INCLUDE "text/SafariZoneWestRestHouse.asm"
 INCLUDE "text/SafariZoneEastRestHouse.asm"
 INCLUDE "text/SafariZoneNorthRestHouse.asm"
+
+
+SECTION "Text 11", ROMX
+
+INCLUDE "text/Route1.asm"
+INCLUDE "text/Route2.asm"
+INCLUDE "text/Route3.asm"
+INCLUDE "text/Route4.asm"
+INCLUDE "text/Route5.asm"
+INCLUDE "text/Route6.asm"
+INCLUDE "text/Route7.asm"
+INCLUDE "text/Route8.asm"
+
+
+SECTION "Text 12", ROMX
+
+INCLUDE "text/ViridianSchoolHouse.asm"
+INCLUDE "text/CeruleanGym.asm"
