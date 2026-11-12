@@ -1,41 +1,42 @@
 _EnemyAppearedText::
 	text_ram wEnemyMonNick
 	text_start
-	line "appeared!"
+	line "taucht auf!"
 	prompt
 
 _TrainerWantsToFightText::
 	text_ram wTrainerName
-	text " wants"
-	line "to fight!"
+	text_start
+	line "möchte kämpfen!"
 	prompt
 
 _UnveiledGhostText::
-	text "SILPH SCOPE"
-	line "unveiled the"
-	cont "GHOST's identity!"
+	text "Das SILPH SCOPE"
+	line "hat den GEIST"
+	cont "identifiziert!"
 	prompt
 
 _GhostCantBeIDdText::
-	text "Darn! The GHOST"
-	line "can't be ID'd!"
+	text "Mist! Dieser"
+	line "GEIST ist nicht"
+	cont "identifizierbar!"
 	prompt
 
 _GoText::
-	text "Go! @"
+	text "Los! @"
 	text_end
 
 _DoItText::
-	text "Do it! @"
+	text "Los! @"
 	text_end
 
 _GetmText::
-	text "Get'm! @"
+	text "Los! @"
 	text_end
 
 _EnemysWeakText::
-	text "The enemy's weak!"
-	line "Get'm! @"
+	text "Mach es fertig!"
+	line "Los! @"
 	text_end
 
 _PlayerMon1Text::
@@ -49,7 +50,7 @@ _PlayerMon2Text::
 	text_end
 
 _EnoughText::
-	text "enough!@"
+	text "genug!@"
 	text_end
 
 _OKExclamationText::
@@ -57,20 +58,18 @@ _OKExclamationText::
 	text_end
 
 _GoodText::
-	text "good!@"
+	text "klasse!@"
 	text_end
 
 _ComeBackText::
 	text_start
-	line "Come back!"
+	line "Komm zurück!"
 	done
-
-; money related
 _PickUpPayDayMoneyText::
-	text "<PLAYER> picked up"
+	text "<PLAYER> sammelt"
 	line "¥@"
 	text_bcd wTotalPayDayMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
-	text "!"
+	text " auf!"
 	prompt
 
 _ClearSaveDataText::

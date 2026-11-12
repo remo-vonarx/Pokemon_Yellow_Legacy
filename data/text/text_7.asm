@@ -10,15 +10,16 @@ _PokemartGreetingText::
 _PokemonFaintedText::
 	text_ram wcd6d
 	text_start
-	line "fainted!"
+	line "wurde besiegt!"
 	done
 
 _PlayerBlackedOutText::
-	text "<PLAYER> is out of"
-	line "useable #MON!"
+	text "<PLAYER> hat keine"
+	line "einsatzbereiten"
+	cont "#MON mehr!"
 
-	para "<PLAYER> blacked"
-	line "out!"
+	para "<PLAYER> fällt"
+	line "in Ohnmacht!"
 	prompt
 
 _RepelWoreOffText::
