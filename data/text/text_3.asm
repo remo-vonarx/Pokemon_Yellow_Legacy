@@ -513,11 +513,11 @@ _OakSpeechText3::
 	done
 
 _DoYouWantToNicknameText::
-	text "Do you want to"
-	line "give a nickname"
-	cont "to @"
+	text "Möchtest Du"
+	line "@"
 	text_ram wcd6d
-	text "?"
+	text " einen"
+	cont "Spitznamen geben?"
 	done
 
 _YourNameIsText::
