@@ -60,34 +60,35 @@ _ItemUseBallText06::
 	text_end
 
 _SurfingGotOnText::
-	text "<PLAYER> got on"
-	line "@"
+	text "<PLAYER> steigt"
+	line "auf @"
 	text_ram wcd6d
 	text "!"
 	prompt
 
 _SurfingNoPlaceToGetOffText::
-	text "There's no place"
-	line "to get off!"
+	text "Hier kann man"
+	line "nicht absteigen!"
 	prompt
 
 _RefusingText::
 	text_ram wcd6d
 	text_start
-	line "is refusing!"
+	line "weigert sich!"
 	prompt
 
 _VitaminStatRoseText::
 	text_ram wcd6d
-	text "'s"
+	text "s"
 	line "@"
 	text_ram wStringBuffer
-	text " rose."
+	text " ist"
+	cont "gestiegen."
 	prompt
 
 _VitaminNoEffectText::
-	text "It won't have any"
-	line "effect."
+	text "Das würde keinen"
+	line "Effekt haben."
 	prompt
 
 _ThrewBaitText::
@@ -120,81 +121,94 @@ _PlayedFluteHadEffectText::
 	text_end
 
 _CoinCaseNumCoinsText::
-	text "Coins"
+	text "Münzen"
 	line "@"
 	text_bcd wPlayerCoins, 2 | LEADING_ZEROES | LEFT_ALIGN
 	text " "
 	prompt
 
 _ItemfinderFoundItemText::
-	text "Yes! ITEMFINDER"
-	line "indicates there's"
-	cont "an item nearby."
+	text "Oh! Der DETEKTOR"
+	line "zeigt an, dass"
+	cont "ein Item in der"
+	cont "Nähe liegt!"
 	prompt
 
 _ItemfinderFoundNothingText::
-	text "Nope! ITEMFINDER"
-	line "isn't responding."
+	text "Nichts! Der"
+	line "DETEKTOR schlägt"
+	cont "nicht an."
 	prompt
 
 _RaisePPWhichTechniqueText::
-	text "Raise PP of which"
-	line "technique?"
+	text "Für welche"
+	line "Attacke sollen"
+	cont "die AP erhöht"
+	cont "werden?"
 	done
 
 _RestorePPWhichTechniqueText::
-	text "Restore PP of"
-	line "which technique?"
+	text "Für welche"
+	line "Attacke sollen"
+	cont "die AP erneuert"
+	cont "werden?"
 	done
 
 _PPMaxedOutText::
+	text "Die AP von"
+	line "@"
 	text_ram wStringBuffer
-	text "'s PP"
-	line "is maxed out."
+	text " sind"
+	cont "auf dem Maximum!"
 	prompt
 
 _PPIncreasedText::
+	text "Die AP von"
+	line "@"
 	text_ram wStringBuffer
-	text "'s PP"
-	line "increased."
+	text_start
+	cont "sind gestiegen."
 	prompt
 
 _PPRestoredText::
-	text "PP was restored."
+	text "Die AP wurden"
+	line "aufgefüllt!"
 	prompt
 
 _BootedUpTMText::
-	text "Booted up a TM!"
+	text "TM aktiviert!"
 	prompt
 
 _BootedUpHMText::
-	text "Booted up an HM!"
+	text "VM aktiviert!"
 	prompt
 
 _TeachMachineMoveText::
-	text "It contained"
+	text "Sie enthält"
 	line "@"
 	text_ram wStringBuffer
 	text "!"
 
-	para "Teach @"
+	para "@"
 	text_ram wStringBuffer
 	text_start
-	line "to a #MON?"
+	line "einem #MON"
+	cont "beibringen?"
 	done
 
 _MonCannotLearnMachineMoveText::
 	text_ram wcd6d
-	text " is not"
-	line "compatible with"
+	text_start
+	line "passt nicht zu"
 	cont "@"
 	text_ram wStringBuffer
 	text "."
 
-	para "It can't learn"
+	para "Es kann"
 	line "@"
 	text_ram wStringBuffer
-	text "."
+	text_start
+	cont "nicht lernen."
 	prompt
 
 _ItemUseNotTimeText::
@@ -259,7 +273,7 @@ _ItemUseText002::
 	done
 
 _GotOnBicycleText1::
-	text "<PLAYER> got on the@"
+	text "<PLAYER> steigt@"
 	text_end
 
 _GotOnBicycleText2::
@@ -268,188 +282,204 @@ _GotOnBicycleText2::
 	prompt
 
 _GotOffBicycleText1::
-	text "<PLAYER> got off@"
+	text "<PLAYER> steigt@"
 	text_end
 
 _GotOffBicycleText2::
-	text "the @"
+	text "vom @"
 	text_ram wStringBuffer
-	text "."
+	text " ab."
 	prompt
 
 _ThrewAwayItemText::
-	text "Threw away"
-	line "@"
 	text_ram wcd6d
-	text "."
+	text_start
+	line "weggeworfen!"
 	prompt
 
 _IsItOKToTossItemText::
-	text "Is it OK to toss"
+	text "Willst Du"
 	line "@"
 	text_ram wStringBuffer
-	text "?"
+	text_start
+	cont "wegwerfen?"
 	prompt
 
 _TooImportantToTossText::
-	text "That's too impor-"
-	line "tant to toss!"
+	text "Dieses Item ist"
+	line "zu wichtig! Du"
+	cont "kannst es nicht"
+	cont "wegwerfen!"
 	prompt
 
 _TooImportantToDepositText::
-	text "That's too impor-"
-	line "tant to deposit!"
+	text "Dieses Item ist"
+	line "zu wichtig! Du"
+	cont "kannst es nicht"
+	cont "lagern!"
 	prompt
 
 _AlreadyKnowsText::
 	text_ram wcd6d
-	text " knows"
+	text " kennt"
 	line "@"
 	text_ram wStringBuffer
-	text "!"
+	text_start
+	cont "bereits!"
 	prompt
 
 _ConnectCableText::
-	text "Okay, connect the"
-	line "cable like so!"
+	text "OK, verbinde die"
+	line "Kabel so! "
 	prompt
 
 _TradedForText::
-	text "<PLAYER> traded"
+	text "<PLAYER> hat"
 	line "@"
 	text_ram wInGameTradeGiveMonName
-	text " for"
+	text " gegen"
 	cont "@"
 	text_ram wInGameTradeReceiveMonName
-	text "!@"
+	text_start
+	cont "getauscht!@"
 	text_end
 
 _WannaTrade1Text::
-	text "I'm looking for"
-	line "@"
-	text_ram wInGameTradeGiveMonName
-	text "! Wanna"
-
-	para "trade one for"
-	line "@"
-	text_ram wInGameTradeReceiveMonName
-	text "? "
-	done
-
-_NoTrade1Text::
-	text "Awww!"
-	line "Oh well..."
-	done
-
-_WrongMon1Text::
-	text "What? That's not"
+	text "Ich suche nach"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "!"
 
-	para "If you get one,"
-	line "come back here!"
+	para "Tauschst Du es"
+	line "gegen @"
+	text_ram wInGameTradeReceiveMonName
+	text "?"
+	done
+
+_NoTrade1Text::
+	text "Oje! Wenn"
+	line "das so ist..."
+	done
+
+_WrongMon1Text::
+	text "Was? Das ist aber"
+	line "kein @"
+	text_ram wInGameTradeGiveMonName
+	text "!"
+
+	para "Komm wieder,"
+	line "wenn Du eins"
+	cont "besitzt!"
 	done
 
 _Thanks1Text::
-	text "Hey thanks!"
+	text "Vielen Dank!"
 	done
 
 _AfterTrade1Text::
-	text "Isn't my old"
-	line "@"
+	text "Ist @"
 	text_ram wInGameTradeReceiveMonName
-	text " great?"
+	text_start
+	line "nicht cool?"
 	done
 
 _WannaTrade2Text::
-	text "Hello there! Do"
-	line "you want to trade"
-
-	para "your @"
+	text "Hallo! Willst Du"
+	line "Dein @"
 	text_ram wInGameTradeGiveMonName
 	text_start
-	line "for @"
+
+	para "nicht gegen ein"
+	line "@"
 	text_ram wInGameTradeReceiveMonName
-	text "?"
+	text_start
+
+	para "tauschen?"
 	done
 
 _NoTrade2Text::
-	text "Well, if you"
-	line "don't want to..."
+	text "Wenn Du nicht"
+	line "magst, kann man"
+	cont "nichts machen!"
 	done
 
 _WrongMon2Text::
-	text "Hmmm? This isn't"
+	text "Hm? Das ist kein"
 	line "@"
 	text_ram wInGameTradeGiveMonName
-	text "."
+	text "!"
 
-	para "Think of me when"
-	line "you get one."
+	para "Denk an mich,"
+	line "wenn Du eins"
+	cont "gefangen hast!"
 	done
 
 _Thanks2Text::
-	text "Thanks!"
+	text "Danke!"
 	done
 
 _AfterTrade2Text::
-	text "Hello there! Your"
-	line "old @"
+	text "Hallo! Dein"
+	line "@"
 	text_ram wInGameTradeGiveMonName
-	text " is"
-	cont "magnificent!"
+	text ","
+	cont "ist einfach"
+	cont "grossartig!"
 	done
 
 _WannaTrade3Text::
-	text "Hi! Do you have"
+	text "Besitzt Du ein"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "?"
 
-	para "Want to trade it"
-	line "for @"
+	para "Willst Du es"
+	line "gegen @"
 	text_ram wInGameTradeReceiveMonName
-	text "?"
+	text_start
+	cont "tauschen?"
 	done
 
 _NoTrade3Text::
-	text "That's too bad."
+	text "Schade!"
 	done
 
 _WrongMon3Text::
-	text "...This is no"
+	text "Das ist kein"
 	line "@"
 	text_ram wInGameTradeGiveMonName
-	text "."
+	text "!"
 
-	para "If you get one,"
-	line "trade it with me!"
+	para "Komm wieder,"
+	line "wenn Du eins"
+	cont "besitzt!"
 	done
 
 _Thanks3Text::
-	text "Thanks, pal!"
+	text "Vielen Dank!"
 	done
 
 _AfterTrade3Text::
-	text "How is my old"
+	text "Wie geht es"
 	line "@"
 	text_ram wInGameTradeReceiveMonName
 	text "?"
 
-	para "My @"
+	para "Mein @"
 	text_ram wInGameTradeGiveMonName
-	text " is"
-	line "doing great!"
+	text_start
+	line "fühlt sich super!"
 	done
 
 _NothingToCutText::
-	text "There isn't"
-	line "anything to CUT!"
+	text "Hier kann"
+	line "man nichts"
+	cont "zerschneiden!"
 	prompt
 
 _UsedCutText::
 	text_ram wcd6d
-	text " hacked"
-	line "away with CUT!"
+	text " setzt"
+	line "den ZERSCHNEIDER"
+	cont "ein!"
 	prompt
