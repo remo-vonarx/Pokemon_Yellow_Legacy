@@ -150,8 +150,9 @@ _PokemonMansion2F_OakDefeatedText::
 	prompt
 
 _PokemonMansion2F_OakWonText::
-	text "I've still got"
-	line "a trick or two"
+	text "I've"
+	line "still got a"
+	cont "trick or two"
 	cont "up my sleeve!"
 	prompt
 
