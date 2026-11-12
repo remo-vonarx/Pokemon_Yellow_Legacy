@@ -27,3 +27,8 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | STATS / SWITCH / CANCEL | STATUS / TAUSCH / ZURÜCK | party menu | German ROM |
 | CUT, FLY, SURF, STRENGTH, FLASH, DIG, TELEPORT, SOFTBOILED | ZERSCHNEIDER, FLIEGEN, SURFER, STÄRKE, BLITZ, SCHAUFLER, TELEPORT, WEICHEI | field moves in the party menu | German ROM; menu widths as in the German ROM (my choice) |
 | NAME / MONEY / TIME / BADGES | NAME / GELD / ZEIT / ORDEN | trainer card | German ROM |
+| TEXT SPEED / ANIMATION / BATTLESTYLE / SOUND / PRINT / CANCEL | TEXT-TEMPO / KAMPFANIMATION / KAMPFSTIL / SOUND / DRUCKEN / ZURÜCK | options screen | German ROM; each value on the line below its label, in brackets, as in the German ROM (my choice) |
+| FAST / MID / SLOW | SCHNELL / NORMAL / LANGSAM | options: text speed | German ROM |
+| ON / OFF | AN / AUS | options: battle animation | German ROM |
+| MONO / EARPHONE1–3 | MONO / KOPFHÖRER 1–3 | options: sound | German ROM |
+| LIGHTEST / LIGHTER / NORMAL / DARKER / DARKEST | SEHR HELL / HELL / NORMAL / DUNKEL / SEHR DUNKEL | options: printer brightness | German ROM |
