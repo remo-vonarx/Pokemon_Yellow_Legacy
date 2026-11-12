@@ -8,5 +8,5 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | PROF.OAK (trainer class) | PROF.EICH | trainer class list (fixed width) | German ROM |
 | OAK: (speaker) | EICH: | dialogue | German ROM |
 | PROFESSOR OAK | PROFESSOR EICH | lab sign | German ROM |
-| OAK's | EICHS | possessive | German ROM (`PROF. EICHS Gehilfe`, `EICHS PC`); same capital S for every possessive (BILLS, ROCKOS) |
+| OAK's | EICHs | possessive | My choice over the ROM's capital S (`PROF. EICHS Gehilfe`, `EICHS PC`); same lowercase s for every possessive (BILLs, ROCKOs) |
 | FIGHT | KAMPF | battle menu | My choice over the ROM's `KMPF`, if it fits the menu; otherwise ask |
