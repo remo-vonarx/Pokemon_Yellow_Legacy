@@ -96,77 +96,83 @@ _PokemartAnythingElseText::
 
 _LearnedMove1Text::
 	text_ram wLearnMoveMonName
-	text " learned"
+	text " lernt"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _WhichMoveToForgetText::
-	text "Which move should"
-	next "be forgotten?"
+	text "Welche Attacke"
+	next "soll vergessen"
+	cont "werden?"
 	done
 
 _AbandonLearningText::
-	text "Abandon learning"
-	line "@"
 	text_ram wStringBuffer
-	text "?"
+	text_start
+	line "nicht erlernen?"
 	done
 
 _DidNotLearnText::
 	text_ram wLearnMoveMonName
 	text_start
-	line "did not learn"
-	cont "@"
+	line "hat @"
 	text_ram wStringBuffer
-	text "!"
+	text_start
+	cont "nicht erlernt!"
 	prompt
 
 _TryingToLearnText::
 	text_ram wLearnMoveMonName
-	text " is"
-	line "trying to learn"
+	text_start
+	line "versucht,"
 	cont "@"
 	text_ram wStringBuffer
-	text "!"
+	text " zu"
+	cont "erlernen!"
 
-	para "But, @"
+	para "Aber @"
 	text_ram wLearnMoveMonName
 	text_start
-	line "can't learn more"
-	cont "than 4 moves!"
+	line "kann nicht mehr"
+	cont "als vier Attacken"
+	cont "erlernen!"
 
-	para "Delete an older"
-	line "move to make room"
-	cont "for @"
+	para "Soll eine andere"
+	line "Attacke zugunsten"
+	cont "von @"
 	text_ram wStringBuffer
-	text "?"
+	text_start
+	cont "vergessen werden?"
 	done
 
 _OneTwoAndText::
-	text "1, 2 and...@"
+	text "1, 2, @"
 	text_end
 
 _PoofText::
-	text " Poof!@"
+	text "schwupp!@"
 	text_end
 
 _ForgotAndText::
 	text_start
+
 	para "@"
 	text_ram wLearnMoveMonName
-	text " forgot"
+	text " hat"
 	line "@"
 	text_ram wcd6d
-	text "!"
+	text_start
+	cont "vergessen!"
 
-	para "And..."
+	para "Und..."
 	prompt
 
 _HMCantDeleteText::
-	text "HM techniques"
-	line "can't be deleted!"
+	text "VM-Attacken"
+	line "können nicht"
+	cont "gelöscht werden!"
 	prompt
 
 _PokemonCenterWelcomeText::

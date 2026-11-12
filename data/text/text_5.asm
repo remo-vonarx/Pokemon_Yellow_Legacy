@@ -1,8 +1,8 @@
 _IsEvolvingText::
-	text "What? @"
+	text "Hey! @"
 	text_ram wStringBuffer
 	text_start
-	line "is evolving!"
+	line "entwickelt sich!"
 	done
 
 _FellAsleepText::
