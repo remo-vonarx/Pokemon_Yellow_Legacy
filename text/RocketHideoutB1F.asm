@@ -1,5 +1,6 @@
 _RocketHideoutB1FRocket5EndBattleText::
-	text "Why...?@"
+	text_start
+	line "Was ist passiert?@"
 	text_end
 
 _RocketHideoutB1FRocket1BattleText::
@@ -23,7 +24,8 @@ _RocketHideoutB1FRocket2BattleText::
 	done
 
 _RocketHideoutB1FRocket2EndBattleText::
-	text "Burnt!"
+	text_start
+	line "Mist! Versagt!"
 	prompt
 
 _RocketHideoutB1FRocket2AfterBattleText::

@@ -12,8 +12,10 @@ _VictoryRoad2FHikerBattleText::
 	done
 
 _VictoryRoad2FHikerEndBattleText::
-	text "You gave me"
-	line "a whalloping!"
+	text_start
+	line "Das war eine"
+	cont "ordentliche"
+	cont "Abreibung!"
 	prompt
 
 _VictoryRoad2FHikerAfterBattleText::

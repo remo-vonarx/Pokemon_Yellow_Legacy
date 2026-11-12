@@ -19,7 +19,8 @@ _SilphCo9FRocket1BattleText::
 	done
 
 _SilphCo9FRocket1EndBattleText::
-	text "Ghaaah!"
+	text_start
+	line "Ghaaah!"
 	prompt
 
 _SilphCo9FRocket1AfterBattleText::
