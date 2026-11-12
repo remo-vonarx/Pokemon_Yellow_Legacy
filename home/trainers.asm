@@ -109,10 +109,10 @@ TalkToTrainer::
 	call PrintText
 	ld a, $a
 	call ReadTrainerHeaderInfo     ; read end battle text (2)
-	push de
+	ld d, h
+	ld e, l                        ; de = text if the player loses
 	ld a, $8
 	call ReadTrainerHeaderInfo     ; read end battle text
-	pop de
 	call SaveEndBattleTextPointers
 	ld hl, wFlags_D733
 	set 4, [hl]                    ; activate map script index override (index is set below)
