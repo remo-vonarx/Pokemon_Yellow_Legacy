@@ -195,7 +195,7 @@ Type = 20
 [Change_MSG@Change_link_closed_inactivity_message]
 Mode = 1
 Address = {HEX @+1}
-Fixcode = {PATCH_ +1 20}
+Fixcode = {PATCH_ +1 30}
 
 [fight_ret@BattleRandom_ret]
 Mode = 1
