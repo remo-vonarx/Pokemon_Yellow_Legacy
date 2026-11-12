@@ -19,3 +19,11 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | PLAYER / BADGES / TIME | SPIELER / ORDEN / ZEIT | save summary box (CONTINUE, saving) | German ROM; box one column further left and one wider, as in the German ROM (my choice) |
 | YES / NO | JA / NEIN | yes/no menus | German ROM; box one tile wider and one column further left, as in the German ROM (my choice) |
 | TRADE / CANCEL, HEAL / CANCEL | TAUSCH / ZURÜCK, HEILEN / ZURÜCK | link trade and Pokémon Center menus | German ROM |
+| YOUR NAME? / RIVAL's NAME? / NICKNAME? | DEIN NAME? / GEGNER-NAME? / ALIAS? | naming screen titles | German ROM |
+| lower case / UPPER CASE | kleinbuchstaben / GROSSBUCHSTABEN | naming screen case switch | German ROM |
+| nickname (in text) | Spitzname | dialogue | German ROM ("Möchtest Du … einen Spitznamen geben?") |
+| POKéDEX / SAVE / EXIT | #DEX / SICHERN / ZURÜCK | start menu | German ROM; #MON, ITEM, RESET and OPTION stay |
+| USE / TOSS | OK / MÜLL | item menu | German ROM |
+| STATS / SWITCH / CANCEL | STATUS / TAUSCH / ZURÜCK | party menu | German ROM |
+| CUT, FLY, SURF, STRENGTH, FLASH, DIG, TELEPORT, SOFTBOILED | ZERSCHNEIDER, FLIEGEN, SURFER, STÄRKE, BLITZ, SCHAUFLER, TELEPORT, WEICHEI | field moves in the party menu | German ROM; menu widths as in the German ROM (my choice) |
+| NAME / MONEY / TIME / BADGES | NAME / GELD / ZEIT / ORDEN | trainer card | German ROM |
