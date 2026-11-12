@@ -22,3 +22,8 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | YOUR NAME? / RIVAL's NAME? / NICKNAME? | DEIN NAME? / GEGNER-NAME? / ALIAS? | naming screen titles | German ROM |
 | lower case / UPPER CASE | kleinbuchstaben / GROSSBUCHSTABEN | naming screen case switch | German ROM |
 | nickname (in text) | Spitzname | dialogue | German ROM ("Möchtest Du … einen Spitznamen geben?") |
+| POKéDEX / SAVE / EXIT | #DEX / SICHERN / ZURÜCK | start menu | German ROM; #MON, ITEM, RESET and OPTION stay |
+| USE / TOSS | OK / MÜLL | item menu | German ROM |
+| STATS / SWITCH / CANCEL | STATUS / TAUSCH / ZURÜCK | party menu | German ROM |
+| CUT, FLY, SURF, STRENGTH, FLASH, DIG, TELEPORT, SOFTBOILED | ZERSCHNEIDER, FLIEGEN, SURFER, STÄRKE, BLITZ, SCHAUFLER, TELEPORT, WEICHEI | field moves in the party menu | German ROM; menu widths as in the German ROM (my choice) |
+| NAME / MONEY / TIME / BADGES | NAME / GELD / ZEIT / ORDEN | trainer card | German ROM |
