@@ -36,7 +36,7 @@ DrawBadges:
 
 ; Draw two rows of badges.
 	ld hl, wBadgeNumberTile
-	ld a, $d8 ; [1]
+	ld a, $c0 ; [1]
 	ld [hli], a
 
 	hlcoord 2, 11
