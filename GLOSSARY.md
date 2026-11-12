@@ -59,7 +59,7 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | CANCEL (list menus) | ZURÜCK | bag, PC and mart lists | German ROM |
 | TYPE/ / disabled | TYP/ / BLOCKIERT | battle move box | German ROM, slash at the German ROM's position |
 | PP (battle move box, Legacy) | AP | battle move box | My choice: original Yellow and the German ROM show no label; Legacy added a bold PP. AP in normal letters, as on the status screen |
-| WIN / LOSE / DRAW | GEWONNEN / VERLOREN / UNENTSCHIEDEN | link battle result | German ROM, at its positions |
+| WIN / LOSE / DRAW | GEWONNEN / VERLOREN / UNENTSCHIEDEN | link battle result | German ROM, at its positions; the versus box one tile wider, as in the German ROM |
 | Which technique? | Welche Attacke? | MIMIC move list | German ROM |
 | OLD MAN | GREIS | old man's catching demo | German ROM |
 | Enemy (prefix) | Gegn. | battle texts (`Gegn. RATTFRATZ`) | German ROM |
