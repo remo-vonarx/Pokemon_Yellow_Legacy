@@ -345,20 +345,20 @@ DrawPokedexVerticalLine:
 	ret
 
 PokedexSeenText:
-	db "SEEN@"
+	db "GES@"
 
 PokedexOwnText:
-	db "OWN@"
+	db "BES@"
 
 PokedexContentsText:
-	db "CONTENTS@"
+	db "INHALT@"
 
 PokedexMenuItemsText:
 	db   "DATA"
-	next "CRY"
-	next "AREA"
-	next "MOVE"
-	next "QUIT@"
+	next "RUF"
+	next "GEB."
+	next "ATK."
+	next "ZUR.@"
 
 Pokedex_PlacePokemonList:
 	xor a
@@ -915,10 +915,10 @@ NewPageButtonPressCheck::
 	ret
 
 LevelUpMovesText:
-	db   "LEVEL UP MOVES:@"
+	db   "LEVEL UP-ATTACKEN:@"
 
 TMHMMovesText:
-	db   "TM/HM MOVES:@"
+	db   "TM/VM-ATTACKEN:@"
 
 Pokedex_PrintFlavorTextAtRow11:
 	bccoord 1, 11
