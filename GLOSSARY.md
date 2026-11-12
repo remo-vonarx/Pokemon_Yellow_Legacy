@@ -45,3 +45,12 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | DATA / CRY / AREA / QUIT | DATA / RUF / GEB. / ZUR. | Pokédex menu | German ROM |
 | MOVE (Pokédex menu, Legacy) | ATK. | Pokédex menu | My choice: short for ATTACKEN, dot as in GEB. / ZUR.; stays apart from ANGR (the attack stat) |
 | LEVEL UP MOVES: / TM/HM MOVES: | LEVEL UP-ATTACKEN: / TM/VM-ATTACKEN: | Pokédex move page (Legacy) | My choice: LEVEL UP as on the German status screen, VM as in the German ROM |
+| Pokémon names | German ROM names (RIZEROS, PIKACHU, RELAXO, …) | everywhere | German ROM table, by index (`data/pokemon/names.asm`) |
+| EEVEE / FLAREON / JOLTEON / VAPOREON / CANCEL | EVOLI / FLAMARA / BLITZA / AQUANA / ZURÜCK | Bill's PC menu | German ROM |
+| FURBALL (nickname of Craig's ARCANINE, Legacy) | FELLKNÄUEL | Craig's battle | My proposal; Craig's other nicknames are species names and take the German species name |
+| Move names | German ROM names (DONNERSCHOCK, …); WEISSNEBEL, FUSSKICK with ss | everywhere | German ROM table, by index (`data/moves/names.asm`) |
+| Item names | German ROM names (TRANK, SONDERBONBON, …) | everywhere | German ROM table, by index (`data/items/names.asm`) |
+| OAK's PARCEL | EICHs PAKET | item | German ROM `EICHS PAKET`, with the lowercase possessive s |
+| B2F, B1F, 1F, 2F … 11F, B4F | UG2, UG1, EG, S1 … S10, UG4 | elevator floor lists | German ROM |
+| Type names | NORMAL, KAMPF, FLUG, GIFT, FEUER, WASSER, PFLANZE, ELEKTRO, PSYCHO, EIS, BODEN, GESTEIN, VOGEL, KÄFER, GEIST, DRACHEN | status screen, battle | German ROM (DRACHEN as in the first games; later games say DRACHE) |
+| TM / HM names in the bag (Legacy, `TM01 MEGPNCH`) | `TM01 MEGHIEB`, `VM01 ZERSCHN`, … (German move name, 7 letters at most) | bag, marts | My proposal, reviewed: names that fit stay whole; shared word parts always end the same (STRAHL → STRL, STURM → STRM, WELLE → WELL, DONNER → DNR, MEGA → MEG, BODY → BDY, -TOR → TR); full list in `text/tmhm_names.asm` |
