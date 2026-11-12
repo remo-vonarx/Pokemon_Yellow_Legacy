@@ -537,7 +537,7 @@ DrawTrainerInfo:
 	call TrainerInfo_FarCopyData
 	pop bc
 	ld hl, BadgeNumbersTileGraphics  ; badge number tile patterns
-	ld de, vChars1 tile $58
+	ld de, vChars1 tile $40 ; $dc-$de hold ä ö ü; the EXP bar tiles only load in battle
 	call TrainerInfo_FarCopyData
 	ld hl, GymLeaderFaceAndBadgeTileGraphics  ; gym leader face and badge tile patterns
 	ld de, vChars2 tile $20

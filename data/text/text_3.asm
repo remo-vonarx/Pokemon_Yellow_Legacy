@@ -433,75 +433,83 @@ _NotEnoughMemoryText::
 	done
 
 _OakSpeechText1::
-	text "Hello there!"
-	line "Welcome to the"
-	cont "world of #MON!"
+	text "Hallo! Herzlich"
+	line "willkommen in der"
+	cont "Welt der #MON!"
 
-	para "My name is OAK!"
-	line "People call me"
-	cont "the #MON PROF!"
+	para "Mein Name ist"
+	line "EICH! Man nennt"
+	cont "mich den #MON-"
+	cont "PROFESSOR!"
 	prompt
 
 _NormalModeText::
-	text "Are you sure?"
+	text "Bist Du sicher?"
 
-	para "Classic #MON"
-	line "rules."
+	para "Klassische"
+	line "#MON-Regeln."
 	done
 
 _HardModeText::
-	text "Are you sure?"
-	
-	para "Set mode, no"
-	line "items in battle,"
-	cont "gym level caps."
+	text "Bist Du sicher?"
+
+	para "Kampfstil FOLGEND,"
+	line "keine Items im"
+	cont "Kampf, ARENA-"
+	cont "Levelgrenzen."
 	done
 
 _OakSpeechText2A::
-	text "This world is"
-	line "inhabited by"
-	cont "creatures called"
-	cont "#MON!@"
+	text "Diese Welt wird"
+	line "von Wesen"
+	cont "bewohnt, die man"
+	cont "#MON nennt!@"
 	text_end
 
 _OakSpeechText2B::
-	text $51,"For some people,"
-	line "#MON are"
-	cont "pets. Others use"
-	cont "them for fights."
+	text $51,"Für manche Leute"
+	line "sind #MON"
+	cont "Haustiere, andere"
+	cont "tragen Kämpfe mit"
+	cont "ihnen aus."
 
-	para "Myself..."
+	para "Ich selbst..."
 
-	para "I study #MON"
-	line "as a profession."
+	para "...habe mein"
+	line "Hobby zum Beruf"
+	cont "gemacht und"
+	cont "studiere #MON."
 	prompt
 
 _IntroducePlayerText::
-	text "First, what is"
-	line "your name?"
+	text "Wie lautet Dein"
+	line "Name?"
 	prompt
 
 _IntroduceRivalText::
-	text "This is my grand-"
-	line "son. He's been"
-	cont "your rival since"
-	cont "you were a baby."
+	text "Dies ist mein"
+	line "Enkel."
+	cont "Von jeher wollt"
+	cont "Ihr einander"
+	cont "übertrumpfen!"
 
-	para "...Erm, what is"
-	line "his name again?"
+	para "Hmm, wie war noch"
+	line "gleich sein Name?"
 	prompt
 
 _OakSpeechText3::
 	text "<PLAYER>!"
 
-	para "Your very own"
-	line "#MON legend is"
-	cont "about to unfold!"
+	para "Eine unglaubliche"
+	line "Reise in die Welt"
+	cont "der #MON"
+	cont "erwartet Dich!"
 
-	para "A world of dreams"
-	line "and adventures"
-	cont "with #MON"
-	cont "awaits! Let's go!"
+	para "Eine Welt voller"
+	line "Wunder, Abenteuer"
+	cont "und Geheimnisse!"
+	cont "Kurz gesagt, ein"
+	cont "Traum wird wahr!"
 	done
 
 _DoYouWantToNicknameText::
@@ -513,14 +521,14 @@ _DoYouWantToNicknameText::
 	done
 
 _YourNameIsText::
-	text "Right! So your"
-	line "name is <PLAYER>!"
+	text "Richtig! Dein"
+	line "Name ist <PLAYER>!"
 	prompt
 
 _HisNameIsText::
-	text "That's right! I"
-	line "remember now! His"
-	cont "name is <RIVAL>!"
+	text "<RIVAL>! Stimmt!"
+	line "Es lag mir auf"
+	cont "der Zunge!"
 	prompt
 
 _WillBeTradedText::
