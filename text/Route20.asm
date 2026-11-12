@@ -18,7 +18,8 @@ _Route20Swimmer2BattleText::
 	done
 
 _Route20Swimmer2EndBattleText::
-	text "Quit it!"
+	text_start
+	line "Schluss damit!"
 	prompt
 
 _Route20Swimmer2AfterBattleText::

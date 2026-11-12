@@ -148,8 +148,8 @@ _Route24Youngster2BattleText::
 	done
 
 _Route24Youngster2EndBattleText::
-	text "Whoo!"
-	line "Good stuff!"
+	text "Wow!"
+	line "Du bist gut!"
 	prompt
 
 _Route24Youngster2AfterBattleText::

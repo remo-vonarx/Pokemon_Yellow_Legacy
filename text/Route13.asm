@@ -116,8 +116,8 @@ _Route13Beauty2BattleText::
 	done
 
 _Route13Beauty2EndBattleText::
-	text "It's over"
-	line "already?"
+	text "Das"
+	line "war schon alles?"
 	prompt
 
 _Route13Beauty2AfterBattleText::

@@ -69,7 +69,9 @@ _SilphCo2FRocket1BattleText::
 	done
 
 _SilphCo2FRocket1EndBattleText::
-	text "Tough!"
+	text_start
+	line "Das ist hart!"
+	cont "Verloren!"
 	prompt
 
 _SilphCo2FRocket1AfterBattleText::
@@ -87,7 +89,8 @@ _SilphCo2FRocket2BattleText::
 	done
 
 _SilphCo2FRocket2EndBattleText::
-	text "I goofed!"
+	text "Ich"
+	line "bin ein Versager!"
 	prompt
 
 _SilphCo2FRocket2AfterBattleText::

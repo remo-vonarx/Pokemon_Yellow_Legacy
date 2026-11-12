@@ -28,11 +28,12 @@ _LancesRoomLanceBeforeBattleText::
 	done
 
 _LancesRoomLanceEndBattleText::
-	text "That's it!"
+	text_start
+	line "Es ist vorbei!"
 
-	para "I hate to admit"
-	line "it, but you are a"
-	cont "#MON master!"
+	para "Unfassbar! Du"
+	line "bist wahrlich ein"
+	cont "#MON-MEISTER!"
 	prompt
 
 _LancesRoomLanceAfterBattleText::
@@ -87,14 +88,15 @@ _LancesRoomLanceRematchBeforeBattleText::
 	done
 
 _LancesRoomLanceRematchEndBattleText::
-	text "Incredible!"
+	text_start
+	line "Unglaublich!"
 
-	para "Your strength"
-	line "keeps growing."
+	para "Deine Stärke"
+	line "wächst stetig."
 
-	para "Truly, you are a"
-	line "#MON master"
-	cont "now."
+	para "Nun bist Du"
+	line "wahrlich ein"
+	cont "#MON-MEISTER!"
 	prompt
 
 _LancesRoomLanceRematchAfterBattleText::

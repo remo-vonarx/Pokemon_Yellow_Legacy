@@ -15,8 +15,8 @@ _SilphCo3FRocketBattleText::
 	done
 
 _SilphCo3FRocketEndBattleText::
-	text "I give"
-	line "up!"
+	text_start
+	line "Ich gebe auf!"
 	prompt
 
 _SilphCo3FRocketAfterBattleText::

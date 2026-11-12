@@ -76,8 +76,8 @@ _SilphCo11FGiovanniText::
 	done
 
 _SilphCo10FGiovanniILostAgainText::
-	text "Arrgh!!"
-	line "I lost again!?"
+	text "Arrgh!"
+	line "Wieder verloren!"
 	prompt
 
 _SilphCo11FGiovanniYouRuinedOurPlansText::

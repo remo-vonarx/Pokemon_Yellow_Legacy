@@ -37,15 +37,6 @@ SECTION "Text 2", ROMX
 INCLUDE "text/SilphCo11F.asm"
 INCLUDE "text/PokemonMansion3F.asm"
 INCLUDE "text/PokemonMansionB1F.asm"
-INCLUDE "text/SafariZoneEast.asm"
-INCLUDE "text/SafariZoneNorth.asm"
-INCLUDE "text/SafariZoneWest.asm"
-INCLUDE "text/SafariZoneCenter.asm"
-INCLUDE "text/SafariZoneCenterRestHouse.asm"
-INCLUDE "text/SafariZoneSecretHouse.asm"
-INCLUDE "text/SafariZoneWestRestHouse.asm"
-INCLUDE "text/SafariZoneEastRestHouse.asm"
-INCLUDE "text/SafariZoneNorthRestHouse.asm"
 INCLUDE "text/CeruleanCaveB1F.asm"
 INCLUDE "text/VictoryRoad1F.asm"
 INCLUDE "text/LancesRoom.asm"
@@ -275,3 +266,16 @@ INCLUDE "data/moves/names.asm"
 SECTION "Item Descriptions", ROMX
 
 INCLUDE "data/text/item_descriptions.asm"
+
+
+SECTION "Text 10", ROMX
+
+INCLUDE "text/SafariZoneEast.asm"
+INCLUDE "text/SafariZoneNorth.asm"
+INCLUDE "text/SafariZoneWest.asm"
+INCLUDE "text/SafariZoneCenter.asm"
+INCLUDE "text/SafariZoneCenterRestHouse.asm"
+INCLUDE "text/SafariZoneSecretHouse.asm"
+INCLUDE "text/SafariZoneWestRestHouse.asm"
+INCLUDE "text/SafariZoneEastRestHouse.asm"
+INCLUDE "text/SafariZoneNorthRestHouse.asm"

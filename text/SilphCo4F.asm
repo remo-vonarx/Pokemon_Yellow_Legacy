@@ -15,7 +15,8 @@ _SilphCo4FRocket1BattleText::
 	done
 
 _SilphCo4FRocket1EndBattleText::
-	text "Arrgh!"
+	text_start
+	line "Arrgh!"
 	prompt
 
 _SilphCo4FRocket1AfterBattleText::

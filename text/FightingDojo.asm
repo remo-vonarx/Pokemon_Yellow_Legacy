@@ -47,8 +47,8 @@ _FightingDojoBlackbelt1BattleText::
 	done
 
 _FightingDojoBlackbelt1EndBattleText::
-	text "I give"
-	line "up!"
+	text_start
+	line "Ich gebe auf!"
 	prompt
 
 _FightingDojoBlackbelt1AfterBattleText::
@@ -65,8 +65,8 @@ _FightingDojoBlackbelt2BattleText::
 	done
 
 _FightingDojoBlackbelt2EndBattleText::
-	text "Judge!"
-	line "1 point!"
+	text_start
+	line "Schiedsrichter!"
 	prompt
 
 _FightingDojoBlackbelt2AfterBattleText::

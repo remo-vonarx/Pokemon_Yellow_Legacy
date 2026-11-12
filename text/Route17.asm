@@ -111,7 +111,7 @@ _Route17Biker8BattleText::
 	done
 
 _Route17Biker8EndBattleText::
-	text "Aaaargh!"
+	text "Arrrgh!"
 	prompt
 
 _Route17Biker8AfterBattleText::
