@@ -39,21 +39,22 @@ _ChooseABoxText::
 
 _EvolvedText::
 	text_ram wStringBuffer
-	text " evolved"
+	text " wurde"
 	done
 
 _IntoText::
 	text_start
-	line "into @"
+	line "zu @"
 	text_ram wcd6d
 	text "!"
 	done
 
 _StoppedEvolvingText::
-	text "Huh? @"
+	text "Hmm? @"
 	text_ram wStringBuffer
-	text_start
-	line "stopped evolving!"
+	text "s"
+	line "Entwicklung ist"
+	cont "abgebrochen!"
 	prompt
 
 _SortItemsText::

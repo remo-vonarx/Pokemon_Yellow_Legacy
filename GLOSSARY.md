@@ -9,7 +9,7 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | OAK: (speaker) | EICH: | dialogue | German ROM |
 | PROFESSOR OAK | PROFESSOR EICH | lab sign | German ROM |
 | OAK's | EICHs | possessive | My choice over the ROM's capital S (`PROF. EICHS Gehilfe`, `EICHS PC`); same lowercase s for every possessive (BILLs, ROCKOs) |
-| FIGHT | KAMPF | battle menu | My choice over the ROM's `KMPF`, if it fits the menu; otherwise ask |
+| FIGHT / RUN | KAMPF / FLUCHT | battle menu | KAMPF: my choice over the ROM's `KMPF`; the box starts at column 5, one column left of the German ROM's. FLUCHT: German ROM |
 | SHIFT / SET (battle style) | WECHSEL / FOLGEND | options; in text "Kampfstil FOLGEND" | German ROM (`[ WECHSEL ]`, `[ FOLGEND ]`) |
 | NEW NAME | NAME | default-name lists in the intro | German ROM |
 | YELLOW, BLUE (default names) | GELB, BLAU | player / rival default names | German ROM; ASH, JACK, GARY, JOHN stay |
@@ -54,3 +54,20 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | B2F, B1F, 1F, 2F … 11F, B4F | UG2, UG1, EG, S1 … S10, UG4 | elevator floor lists | German ROM |
 | Type names | NORMAL, KAMPF, FLUG, GIFT, FEUER, WASSER, PFLANZE, ELEKTRO, PSYCHO, EIS, BODEN, GESTEIN, VOGEL, KÄFER, GEIST, DRACHEN | status screen, battle | German ROM (DRACHEN as in the first games; later games say DRACHE) |
 | TM / HM names in the bag (Legacy, `TM01 MEGPNCH`) | `TM01 MEGHIEB`, `VM01 ZERSCHN`, … (German move name, 7 letters at most) | bag, marts | My proposal, reviewed: names that fit stay whole; shared word parts always end the same (STRAHL → STRL, STURM → STRM, WELLE → WELL, DONNER → DNR, MEGA → MEG, BODY → BDY, -TOR → TR); full list in `text/tmhm_names.asm` |
+| BALL× / BAIT / ROCK / RUN | BALL× / KÖDER / STEIN / FLUCHT | Safari Zone battle menu | German ROM, cursor positions as in the German ROM |
+| SWITCH / STATS / CANCEL (battle) | TAUSCH / STATUS / ZURÜCK | party submenu in battle | German ROM |
+| CANCEL (list menus) | ZURÜCK | bag, PC and mart lists | German ROM |
+| TYPE/ / disabled | TYP/ / BLOCKIERT | battle move box | German ROM, slash at the German ROM's position |
+| PP (battle move box, Legacy) | AP | battle move box | My choice: original Yellow and the German ROM show no label; Legacy added a bold PP. AP in normal letters, as on the status screen |
+| WIN / LOSE / DRAW | GEWONNEN / VERLOREN / UNENTSCHIEDEN | link battle result | German ROM, at its positions; the versus box one tile wider, as in the German ROM |
+| Which technique? | Welche Attacke? | MIMIC move list | German ROM |
+| OLD MAN | GREIS | old man's catching demo | German ROM |
+| Enemy (prefix) | Gegn. | battle texts (`Gegn. RATTFRATZ`) | German ROM |
+| used (move) | ben. | battle texts (`SNORLAX` / `ben. FLIEGEN!`) | German ROM |
+| Party gained (EXP. ALL, Legacy) | Das Team erhält | EXP text when EXP. ALL is held | My proposal, reviewed; "Team" as in the German ROM (`Vogel-Team`) |
+| ATTACK / DEFENSE / SPEED / SPECIAL / ACCURACY / EVADE (stat-change texts) | ANGR / VERT / INIT / SPEZ / GENA / FLU | battle texts (`RATTFRATZs ANGR sinkt!`) | German ROM; my choice over the full words that CLAUDE.md asks for in text |
+| Trainer classes | German ROM names (TEENAGER, KÄFERSAMMLER, GÖRE, …, RIVALE1–3) | trainer class list, battle texts | German ROM table, by index (`data/trainers/names.asm`) |
+| JANINE (trainer class, Legacy) | JANINA | Legacy's added trainer | PokéWiki (Janina) |
+| NURSE JOY (trainer class, Legacy) | SCHW. JOY | Legacy's added trainer | My choice: SCHWESTER JOY is 13 characters, the limit is 12; class shortened, name intact |
+| OFF.JENNY (trainer class, Legacy) | OFF. ROCKY | Legacy's added trainer | My choice: OFFICER ROCKY doesn't fit; class shortened, name intact (example in CLAUDE.md) |
+| SMITH, CRAIG, WEEBRA (trainer classes, Legacy) | SMITH, CRAIG, WEEBRA | Legacy's added trainers | Cameos of the Legacy creators; names stay |

@@ -21,7 +21,7 @@ EndOfBattle:
 	jr z, .placeWinOrLoseString
 	ld de, DrawText
 .placeWinOrLoseString
-	hlcoord 6, 8
+	hlcoord 4, 8
 	call PlaceString
 	ld c, 200
 	call DelayFrames
@@ -79,13 +79,13 @@ EndOfBattle:
 	ret
 
 YouWinText:
-	db "YOU WIN@"
+	db "  GEWONNEN@"
 
 YouLoseText:
-	db "YOU LOSE@"
+	db "  VERLOREN@"
 
 DrawText:
-	db "  DRAW@"
+	db "UNENTSCHIEDEN@"
 
 PickUpPayDayMoneyText:
 	text_far _PickUpPayDayMoneyText

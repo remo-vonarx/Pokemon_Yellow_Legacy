@@ -4,8 +4,9 @@ _RockTunnelB1FCooltrainerF1BattleText::
 	done
 
 _RockTunnelB1FCooltrainerF1EndBattleText::
-	text "Ohhh!"
-	line "I did my best!"
+	text_start
+	line "Ich habe mein"
+	cont "Bestes gegeben!"
 	prompt
 
 _RockTunnelB1FCooltrainerF1AfterBattleText::

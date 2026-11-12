@@ -1,18 +1,19 @@
 _AIBattleWithdrawText::
 	text_ram wTrainerName
-	text " with-"
-	line "drew @"
+	text " ruft"
+	line "@"
 	text_ram wEnemyMonNick
-	text "!"
+	text_start
+	cont "zurück!"
 	prompt
 
 _AIBattleUseItemText::
 	text_ram wTrainerName
 	text_start
-	line "used @"
+	line "gibt @"
 	text_ram wcd6d
 	text_start
-	cont "on @"
+	cont "@"
 	text_ram wEnemyMonNick
 	text "!"
 	prompt
@@ -866,57 +867,58 @@ _PokemonStuffText::
 	done
 
 _OutOfSafariBallsText::
-	text "PA: Ding-dong!"
+	text "DURCHSAGE: Gong!"
 
-	para "You are out of"
-	line "SAFARI BALLs!"
+	para "Du hast keine"
+	line "SAFARIBÄLLE mehr!"
 	prompt
 
 _WildRanText::
-	text "Wild @"
+	text "Das wilde"
+	line "@"
 	text_ram wEnemyMonNick
-	text_start
-	line "ran!"
+	text " ist"
+	cont "geflüchtet!"
 	prompt
 
 _EnemyRanText::
-	text "Enemy @"
 	text_ram wEnemyMonNick
 	text_start
-	line "ran!"
+	line "ist geflüchtet!"
 	prompt
 
 _HurtByPoisonText::
-	text "<USER>'s"
-	line "hurt by poison!"
-	prompt
-
-_HurtByBurnText::
-	text "<USER>'s"
-	line "hurt by the burn!"
-	prompt
-
-_HurtByLeechSeedText::
-	text "LEECH SEED saps"
+	text "Das Gift schadet"
 	line "<USER>!"
 	prompt
 
+_HurtByBurnText::
+	text "Die Verbrennung"
+	line "schadet"
+	cont "<USER>!"
+	prompt
+
+_HurtByLeechSeedText::
+	text "Die SCHMAROTZER-"
+	line "ATTACKE schadet"
+	cont "<USER>!"
+	prompt
+
 _EnemyMonFaintedText::
-	text "Enemy @"
 	text_ram wEnemyMonNick
 	text_start
-	line "fainted!"
+	line "wurde besiegt!"
 	prompt
 
 _MoneyForWinningText::
-	text "<PLAYER> got ¥@"
+	text "<PLAYER>"
+	line "gewinnt ¥@"
 	text_bcd wAmountMoneyWon, 3 | LEADING_ZEROES | LEFT_ALIGN
-	text_start
-	line "for winning!"
+	text "!"
 	prompt
 
 _TrainerDefeatedText::
-	text "<PLAYER> defeated"
+	text "<PLAYER> besiegt"
 	line "@"
 	text_ram wTrainerName
 	text "!"
@@ -925,202 +927,213 @@ _TrainerDefeatedText::
 _PlayerMonFaintedText::
 	text_ram wBattleMonNick
 	text_start
-	line "fainted!"
+	line "wurde besiegt!"
 	prompt
 
 _UseNextMonText::
-	text "Use next #MON?"
+	text "Nächstes #MON"
+	line "einsetzen?"
 	done
 
 _Rival1WinText::
-	text "<RIVAL>: Yeah! Am"
-	line "I great or what?"
+	text "<RIVAL>: Ja! Ich"
+	line "bin der Beste!"
 	prompt
 
 _PlayerBlackedOutText2::
-	text "<PLAYER> is out of"
-	line "useable #MON!"
+	text "Alle #MON von"
+	line "<PLAYER> wurden"
+	cont "besiegt!"
 
-	para "<PLAYER> blacked"
-	line "out!"
+	para "<PLAYER> fällt"
+	line "in Ohnmacht!"
 	prompt
 
 _LinkBattleLostText::
-	text "<PLAYER> lost to"
-	line "@"
 	text_ram wTrainerName
-	text "!"
+	text " hat"
+	line "<PLAYER> besiegt!"
 	prompt
 
 _TrainerAboutToUseText::
 	text_ram wTrainerName
-	text " is"
-	line "about to use"
-	cont "@"
+	text " wird"
+	line "@"
 	text_ram wEnemyMonNick
-	text "!"
+	text " in den"
+	cont "Kampf schicken!"
 
-	para "Will <PLAYER>"
-	line "change #MON?"
+	para "Möchtest Du das"
+	line "#MON wechseln?"
 	done
 
 _TrainerSentOutText::
 	text_ram wTrainerName
-	text " sent"
-	line "out @"
+	text " setzt"
+	line "@"
 	text_ram wEnemyMonNick
-	text "!"
+	text " ein!"
 	done
 
 _NoWillText::
-	text "There's no will"
-	line "to fight!"
+	text "Das #MON"
+	line "wurde besiegt!"
 	prompt
 
 _CantEscapeText::
-	text "Can't escape!"
+	text "Du kannst nicht"
+	line "davonlaufen!"
 	prompt
 
 _NoRunningText::
-	text "No! There's no"
-	line "running from a"
-	cont "trainer battle!"
+	text "Man kann aus"
+	line "TRAINER-KÄMPFEN"
+	cont "nicht fliehen!"
 	prompt
 
 _GotAwayText::
-	text "Got away safely!"
+	text "Du bist"
+	line "entkommen!"
 	prompt
 
 _RunAwayText::
-	text "Hurry, get away!"
+	text "Schnell weg!"
 	prompt
 
 _ItemsCantBeUsedHereText::
-	text "Items can't be"
-	line "used here."
+	text "Du kannst hier"
+	line "keine Items "
+	cont "einsetzen."
 	prompt
 
 _AlreadyOutText::
 	text_ram wBattleMonNick
-	text " is"
-	line "already out!"
+	text_start
+	line "kämpft bereits!"
 	prompt
 
 _MoveNoPPText::
-	text "No PP left for"
-	line "this move!"
+	text "Du hast keine AP"
+	line "für diese Attacke"
+	cont "mehr übrig!"
 	prompt
 
 _MoveDisabledText::
-	text "The move is"
-	line "disabled!"
+	text "Diese Attacke"
+	line "ist blockiert!"
 	prompt
 
 _NoMovesLeftText::
 	text_ram wBattleMonNick
-	text " has no"
-	line "moves left!"
+	text " hat"
+	line "keine Attacken"
+	cont "mehr übrig!"
 	done
 
 _MultiHitText::
-	text "Hit the enemy"
+	text "Der Gegner wurde"
 	line "@"
 	text_decimal wPlayerNumHits, 1, 1
-	text " times!"
+	text "mal getroffen!"
 	prompt
 
 _ScaredText::
 	text_ram wBattleMonNick
-	text " is too"
-	line "scared to move!"
+	text " kann"
+	line "sich vor Angst"
+	cont "nicht bewegen!"
 	prompt
 
 _GetOutText::
-	text "GHOST: Get out..."
-	line "Get out..."
+	text "GEIST: Hau ab..."
+	line "Verschwinde..."
 	prompt
 
 _FastAsleepText::
 	text "<USER>"
-	line "is fast asleep!"
+	line "schläft fest!"
 	prompt
 
 _WokeUpText::
 	text "<USER>"
-	line "woke up!"
+	line "ist aufgewacht!"
 	prompt
 
 _IsFrozenText::
 	text "<USER>"
-	line "is frozen solid!"
+	line "ist festgefroren!"
 	prompt
 
 _FullyParalyzedText::
-	text "<USER>'s"
-	line "fully paralyzed!"
+	text "<USER>"
+	line "ist paralysiert!"
 	prompt
 
 _FlinchedText::
 	text "<USER>"
-	line "flinched!"
+	line "ist ausgewichen!"
 	prompt
 
 _MustRechargeText::
 	text "<USER>"
-	line "must recharge!"
+	line "muss sich wieder "
+	cont "aufladen!"
 	prompt
 
 _DisabledNoMoreText::
-	text "<USER>'s"
-	line "disabled no more!"
+	text "<USER>"
+	line "wird nicht mehr"
+	cont "blockiert!"
 	prompt
 
 _IsConfusedText::
 	text "<USER>"
-	line "is confused!"
+	line "ist verwirrt!"
 	prompt
 
 _HurtItselfText::
-	text "It hurt itself in"
-	line "its confusion!"
+	text "Es hat sich vor"
+	line "Verwirrung selbst"
+	cont "verletzt!"
 	prompt
 
 _ConfusedNoMoreText::
-	text "<USER>'s"
-	line "confused no more!"
+	text "<USER>"
+	line "ist nicht mehr"
+	cont "verwirrt!"
 	prompt
 
 _SavingEnergyText::
 	text "<USER>"
-	line "is saving energy!"
+	line "sammelt Kräfte!"
 	prompt
 
 _UnleashedEnergyText::
 	text "<USER>"
-	line "unleashed energy!"
+	line "greift an!"
 	prompt
 
 _ThrashingAboutText::
-	text "<USER>'s"
-	line "thrashing about!"
+	text "<USER>"
+	line "schlägt um sich!"
 	done
 
 _AttackContinuesText::
-	text "<USER>'s"
-	line "attack continues!"
+	text "<USER>"
+	line "greift weiter an!"
 	done
 
 _CantMoveText::
 	text "<USER>"
-	line "can't move!"
+	line "ist gelähmt!"
 	prompt
 
 _MoveIsDisabledText::
-	text "<USER>'s"
+	text "<USER>s"
 	line "@"
 	text_ram wcd6d
-	text " is"
-	cont "disabled!"
+	text " ist"
+	cont "blockiert!"
 	prompt
 
 _MonName1Text::
@@ -1129,11 +1142,11 @@ _MonName1Text::
 
 _UsedText::
 	text_start
-	line "used @"
+	line "ben. @"
 	text_end
 
 _InsteadText::
-	text "instead,"
+	text "stattdessen"
 	cont "@"
 	text_end
 
@@ -1146,157 +1159,163 @@ _ExclamationPointText::
 	done
 
 _AttackMissedText::
-	text "<USER>'s"
-	line "attack missed!"
+	text "<USER>s"
+	line "Attacke ging"
+	cont "daneben!"
 	prompt
 
 _KeptGoingAndCrashedText::
 	text "<USER>"
-	line "kept going and"
-	cont "crashed!"
+	line "verfehlt das Ziel"
+	cont "und fällt hin!"
 	prompt
 
 _UnaffectedText::
-	text "<TARGET>'s"
-	line "unaffected!"
+	text "<TARGET>"
+	line "ist unversehrt!"
 	prompt
 
 _DoesntAffectMonText::
-	text "It doesn't affect"
+	text "Keine Wirkung auf"
 	line "<TARGET>!"
 	prompt
 
 _CriticalHitText::
-	text "Critical hit!"
+	text "Volltreffer!"
 	prompt
 
 _OHKOText::
-	text "One-hit KO!"
+	text "K.O.-TREFFER!"
 	prompt
 
 _LoafingAroundText::
 	text_ram wBattleMonNick
-	text " is"
-	line "loafing around."
+	text_start
+	line "faulenzt!"
 	prompt
 
 _BeganToNapText::
 	text_ram wBattleMonNick
-	text " began"
-	line "to nap!"
+	text " hält"
+	line "ein Nickerchen!"
 	prompt
 
 _WontObeyText::
 	text_ram wBattleMonNick
-	text " won't"
-	line "obey!"
+	text " will"
+	line "nicht gehorchen!"
 	prompt
 
 _TurnedAwayText::
 	text_ram wBattleMonNick
-	text " turned"
-	line "away!"
+	text_start
+	line "wendet sich ab!"
 	prompt
 
 _IgnoredOrdersText::
 	text_ram wBattleMonNick
 	text_start
-	line "ignored orders!"
+	line "missachtet die"
+	cont "Befehle!"
 	prompt
 
 _SubstituteTookDamageText::
-	text "The SUBSTITUTE"
-	line "took damage for"
-	cont "<TARGET>!"
+	text "Der DELEGATOR hat"
+	line "<TARGET>"
+	cont "vor Schaden"
+	cont "bewahrt!"
 	prompt
 
 _SubstituteBrokeText::
-	text "<TARGET>'s"
-	line "SUBSTITUTE broke!"
+	text "<TARGET>s"
+	line "DELEGATOR wurde"
+	cont "zerstört!"
 	prompt
 
 _BuildingRageText::
-	text "<USER>'s"
-	line "RAGE is building!"
+	text "<USER>"
+	line "verfällt in"
+	cont "RASEREI!"
 	prompt
 
 _MirrorMoveFailedText::
-	text "The MIRROR MOVE"
-	next "failed!"
+	text "Der SPIEGELTRICK"
+	next "war erfolglos!"
 	prompt
 
 _HitXTimesText::
-	text "Hit @"
 	text_decimal wEnemyNumHits, 1, 1
-	text " times!"
+	text "mal getroffen!"
 	prompt
 
 _GainedText::
 	text_ram wcd6d
-	text " gained"
+	text " erhält"
 	line "@"
 	text_end
 
 _WithExpAllText::
-	text "Party gained"
+	text "Das Team erhält"
 	line "@"
 	text_end
 
 _BoostedText::
-	text "a boosted"
+	text "spezielle"
 	cont "@"
 	text_end
 
 _ExpPointsText::
 	text_decimal wExpAmountGained, 2, 4
-	text " EXP. Points!"
+	text " EP!"
 	prompt
 
 _GrewLevelText::
 	text_ram wcd6d
-	text " grew"
-	line "to level @"
+	text_start
+	line "erreicht"
+	cont "Level @"
 	text_decimal wCurEnemyLVL, 1, 3
 	text "!@"
 	text_end
 
 _SuperEffectiveText::
-	text "It's super"
-	line "effective!"
+	text "Die Attacke ist"
+	line "sehr effektiv!"
 	prompt
 
 _NotVeryEffectiveText::
-	text "It's not very"
-	line "effective..."
+	text "Die Attacke ist"
+	line "nicht effektiv..."
 	prompt
 
 _SafariZoneEatingText::
-	text "Wild @"
+	text "Das wilde"
+	line "@"
 	text_ram wEnemyMonNick
-	text_start
-	line "is eating!"
+	text " frisst!"
 	prompt
 
 _SafariZoneAngryText::
-	text "Wild @"
+	text "Das wilde"
+	line "@"
 	text_ram wEnemyMonNick
-	text_start
-	line "is angry!"
+	text " ist"
+	cont "wütend!"
 	prompt
 
 _WildMonAppearedText::
-	text "Wild @"
+	text "Ein wildes"
+	line "@"
 	text_ram wEnemyMonNick
-	text_start
-	line "appeared!"
+	text "!"
 	prompt
 
 _HookedMonAttackedText::
-	text "The hooked"
+	text "Das gefangene"
 	line "@"
 	text_ram wEnemyMonNick
 	text_start
-	cont "attacked!"
+	cont "greift an!"
 	prompt
 
 _DifficultyText::

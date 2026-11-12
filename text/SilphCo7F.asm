@@ -84,8 +84,8 @@ _SilphCo7FRocket1BattleText::
 	done
 
 _SilphCo7FRocket1EndBattleText::
-	text "Lights"
-	line "out!"
+	text_start
+	line "Licht aus!"
 	prompt
 
 _SilphCo7FRocket1AfterBattleText::

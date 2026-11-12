@@ -108,7 +108,9 @@ _ViridianGymHiker1BattleText::
 	done
 
 _ViridianGymHiker1EndBattleText::
-	text "Wargh!"
+	text_start
+	line "Meister, verzeih"
+	cont "mir!"
 	prompt
 
 _ViridianGymHiker1AfterBattleText::
@@ -123,8 +125,10 @@ _ViridianGymRocker1BattleText::
 	done
 
 _ViridianGymRocker1EndBattleText::
-	text "You are in"
-	line "perfect harmony!"
+	text_start
+	line "Deine #MON"
+	cont "harmonieren gut"
+	cont "mit Dir!"
 	prompt
 
 _ViridianGymRocker1AfterBattleText::
@@ -140,7 +144,7 @@ _ViridianGymHiker2BattleText::
 	done
 
 _ViridianGymHiker2EndBattleText::
-	text "Atcho!"
+	text "Au!"
 	prompt
 
 _ViridianGymHiker2AfterBattleText::
