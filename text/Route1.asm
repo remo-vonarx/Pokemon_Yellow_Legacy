@@ -103,9 +103,9 @@ _OakDefeatedText::
 	prompt
 
 _OakWonText::
-	text "Back in my day,"
-	line "I was a serious"
-	cont "TRAINER!"
+	text "Back in"
+	line "my day, I was a"
+	cont "serious TRAINER!"
 	prompt
 
 _OakPostBattleText::

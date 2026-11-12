@@ -22,7 +22,7 @@ Fill in once per hack. If a field is empty or turns out wrong, find the right va
 | Debug build | `make RGBDS=~/.local/rgbds-0.6.1/bin/ yellow_debug`. Hold SELECT on the title screen, pick DEBUG, press B through the intro and A at the difficulty choice: strong party, all badges except Earth, max money, full Pokédex |
 | Check scripts | `python3 tools/check_text_width.py`, `python3 tools/check_text_mode.py`, `python3 tools/check_names.py`. Known false alarm: `text/SilphCo11F.asm:90` (`check_text_width.py` guesses TEAM ROCKET, the speaker is Giovanni) |
 | Emulator | PyBoy 2.9 with Pillow, in a venv in the scratchpad |
-| Tilemap symbol | `wTileMap`, 20×18 tiles |
+| Tilemap symbol | `wTileMap`, 20×18 tiles. Without symbols (German ROM), read VRAM: most screens are drawn on the window, so when LCDC bit 5 is set and WY is 0 read the window map (`$9C00` if LCDC bit 6, else `$9800`), otherwise the BG map shifted by SCX/SCY |
 | Test entry points | Debug menu (above). Warp without a hook: write `hWarpDestinationMap` and `wDestinationWarpID`, then set bit 3 of `wd72d`; outdoor-to-outdoor warps keep the old position, so warp through an interior first. Free RAM byte for a hook: `wUnusedD71F` (`wUnusedC000` is used by Legacy's audio and AI). Battles: walk into a trainer, or set a map's script index (e.g. `wOaksLabCurScript` = 13 starts the first rival battle); battle style SET (`wOptions` bit 6) skips the switch prompt. Link: in the slave's ROM copy, change the `3E 01` before `3E 81 E0 02` in `CableClubNPC` to `3E 02`; prepare a save below the Viridian link receptionist |
 
 ## Project decisions

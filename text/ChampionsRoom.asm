@@ -110,8 +110,8 @@ _RivalRematchDefeatedText::
 	prompt
 
 _RivalRematchVictoryText::
-	text "With my new"
-	line "strategies,"
+	text "With my"
+	line "new strategies,"
 
 	para "you stood no"
 	line "chance, <PLAYER>!"
