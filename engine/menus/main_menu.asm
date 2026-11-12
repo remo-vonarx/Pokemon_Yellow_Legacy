@@ -179,13 +179,13 @@ SpecialEnterMap::
 	jp EnterMap
 
 ContinueText:
-	db "CONTINUE"
+	db "WEITER"
 	next ""
 	; fallthrough
 
 NewGameText:
-	db   "NEW GAME"
-	next "OPTION@"
+	db   "NEUES SPIEL"
+	next "OPTIONEN@"
 
 DisplayContinueGameInfo:
 	xor a
