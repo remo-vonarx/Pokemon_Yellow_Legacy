@@ -32,3 +32,16 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | ON / OFF | AN / AUS | options: battle animation | German ROM |
 | MONO / EARPHONE1–3 | MONO / KOPFHÖRER 1–3 | options: sound | German ROM |
 | LIGHTEST / LIGHTER / NORMAL / DARKER / DARKEST | SEHR HELL / HELL / NORMAL / DUNKEL / SEHR DUNKEL | options: printer brightness | German ROM |
+| HM | VM | everywhere | German ROM (`VM03 ist SURFER!`) |
+| m, é (font glyphs) | German ROM glyphs | every text | German ROM (`gfx/font/font.png`): narrower m, proper acute on é (my choice) |
+| HP: / No. / IDNo / to (font tiles) | KP: / Nr. / ID·Nr / ➔ | party menu, status screen, battle HP bars, Pokédex, trade screen | German ROM tiles copied into `gfx/font/font_battle_extra.png` (my choice) |
+| PP (status screen) | AP | status screen, move page | German ROM, with its own routine that prints A and P (my choice) |
+| SLP / PSN / BRN / FRZ / PAR / FNT | SLF / GIF / BRT / GFR / PAR / BSG | status conditions: party menu, status screen, battle | German ROM |
+| ABLE / NOT ABLE | OK / NEIN | party menu for TMs and evolution stones | German ROM |
+| Choose a #MON. / Use item on which #MON? / Bring out which #MON? / Teach to which #MON? / Move #MON where? | Wähle ein #MON aus! / Welches #MON erhält das Item? / Welches #MON soll antreten? / Wähle ein #MON aus! / Mit wem soll das #MON tauschen? | party menu prompts | German ROM |
+| TYPE1/ / TYPE2/ / EXP POINTS | TYP1/ / TYP2/ / EP-PUNKTE | status screen | German ROM; OT/, STATUS/, OK and LEVEL UP stay |
+| ATTACK / DEFENSE / SPEED / SPECIAL (stat box) | ANGR / VERT / INIT / SPEZ | status screen, level-up box | German ROM |
+| SEEN / OWN / CONTENTS | GES / BES / INHALT | Pokédex list | German ROM |
+| DATA / CRY / AREA / QUIT | DATA / RUF / GEB. / ZUR. | Pokédex menu | German ROM |
+| MOVE (Pokédex menu, Legacy) | ATK. | Pokédex menu | My choice: short for ATTACKEN, dot as in GEB. / ZUR.; stays apart from ANGR (the attack stat) |
+| LEVEL UP MOVES: / TM/HM MOVES: | LEVEL UP-ATTACKEN: / TM/VM-ATTACKEN: | Pokédex move page (Legacy) | My choice: LEVEL UP as on the German status screen, VM as in the German ROM |
