@@ -17,3 +17,5 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | BOY / GIRL | JUNGE / MÄDCHEN | boy/girl menu (Legacy) | My choice: box widened from 5 to 8 tiles by its width byte only; it grows to the right |
 | CONTINUE / NEW GAME / OPTION | WEITER / NEUES SPIEL / OPTIONEN | main menu | German ROM (the start menu keeps `OPTION`) |
 | PLAYER / BADGES / TIME | SPIELER / ORDEN / ZEIT | save summary box (CONTINUE, saving) | German ROM; box one column further left and one wider, as in the German ROM (my choice) |
+| YES / NO | JA / NEIN | yes/no menus | German ROM; box one tile wider and one column further left, as in the German ROM (my choice) |
+| TRADE / CANCEL, HEAL / CANCEL | TAUSCH / ZURÜCK, HEILEN / ZURÜCK | link trade and Pokémon Center menus | German ROM |
