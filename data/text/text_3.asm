@@ -74,8 +74,8 @@ _PickUpPayDayMoneyText::
 	prompt
 
 _ClearSaveDataText::
-	text "Clear all saved"
-	line "data?"
+	text "Alle Spielstände"
+	line "löschen?"
 	done
 
 _WhichFloorText::

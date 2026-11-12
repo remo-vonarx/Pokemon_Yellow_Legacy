@@ -1,6 +1,6 @@
 _FileDataDestroyedText::
-	text "The file data is"
-	line "destroyed!"
+	text "Die Speicherdaten"
+	line "sind defekt!"
 	prompt
 
 ; _WouldYouLikeToSaveText::
@@ -13,14 +13,15 @@ _FileDataDestroyedText::
 ; 	done
 
 _GameSavedText::
-	text "<PLAYER> saved"
-	line "the game!"
+	text "<PLAYER> hat das"
+	line "Spiel gesichert!"
 	done
 
 _OlderFileWillBeErasedText::
-	text "The older file"
-	line "will be erased to"
-	cont "save. Okay?"
+	text "Der bisherige"
+	line "Spielstand wird"
+	cont "überschrieben!"
+	cont "OK?"
 	done
 
 _WhenYouChangeBoxText::
