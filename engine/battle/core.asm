@@ -1200,17 +1200,30 @@ HandlePlayerBlackOut:
 	ld a, [wLinkState]
 	cp LINK_STATE_BATTLING
 	jr z, .notRival1Battle
-	ld a, [wCurOpponent]
-	cp OPP_RIVAL1
-	jr nz, .notRival1Battle
+	ld a, [wIsInBattle]
+	dec a
+	jr z, .notRival1Battle
+; only speak if the battle set up a victory text of its own (rival, Oak);
+; other trainers use their defeat text for both outcomes
+	ld a, [wd72d]
+	bit 7, a ; were end battle texts set up for this battle?
+	jr z, .notRival1Battle
+	ld hl, wEndBattleWinTextPointer
+	ld a, [wEndBattleLoseTextPointer]
+	cp [hl]
+	jr nz, .hasVictoryText
+	inc hl
+	ld a, [wEndBattleLoseTextPointer + 1]
+	cp [hl]
+	jr z, .notRival1Battle
+.hasVictoryText
 	hlcoord 0, 0  ; rival 1 battle
 	lb bc, 8, 21
 	call ClearScreenArea
 	call ScrollTrainerPicAfterBattle
 	ld c, 40
 	call DelayFrames
-	ld hl, Rival1WinText
-	call PrintText
+	call PrintEndBattleText
 	ld a, [wCurMap]
 	cp OAKS_LAB
 	ret z            ; starter battle in oak's lab: don't black out
