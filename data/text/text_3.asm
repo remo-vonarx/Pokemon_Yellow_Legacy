@@ -89,27 +89,28 @@ _SleepingPikachuText1::
 	prompt
 
 _PartyMenuNormalText::
-	text "Choose a #MON."
+	text "Wähle ein #MON"
+	line "aus!"
 	done
 
 _PartyMenuItemUseText::
-	text "Use item on which"
-	line "#MON?"
+	text "Welches #MON"
+	line "erhält das Item?"
 	done
 
 _PartyMenuBattleText::
-	text "Bring out which"
-	line "#MON?"
+	text "Welches #MON"
+	line "soll antreten?"
 	done
 
 _PartyMenuUseTMText::
-	text "Teach to which"
-	line "#MON?"
+	text "Wähle ein"
+	line "#MON aus!"
 	done
 
 _PartyMenuSwapMonText::
-	text "Move #MON"
-	line "where?"
+	text "Mit wem soll das"
+	line "#MON tauschen?"
 	done
 
 _PotionText::
