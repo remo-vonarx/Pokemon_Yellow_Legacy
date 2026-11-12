@@ -64,6 +64,7 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | OLD MAN | GREIS | old man's catching demo | German ROM |
 | Enemy (prefix) | Gegn. | battle texts (`Gegn. RATTFRATZ`) | German ROM |
 | used (move) | ben. | battle texts (`SNORLAX` / `ben. FLIEGEN!`) | German ROM |
+| Party gained (EXP. ALL, Legacy) | Das Team erhält | EXP text when EXP. ALL is held | My proposal, reviewed; "Team" as in the German ROM (`Vogel-Team`) |
 | ATTACK / DEFENSE / SPEED / SPECIAL / ACCURACY / EVADE (stat-change texts) | ANGR / VERT / INIT / SPEZ / GENA / FLU | battle texts (`RATTFRATZs ANGR sinkt!`) | German ROM; my choice over the full words that CLAUDE.md asks for in text |
 | Trainer classes | German ROM names (TEENAGER, KÄFERSAMMLER, GÖRE, …, RIVALE1–3) | trainer class list, battle texts | German ROM table, by index (`data/trainers/names.asm`) |
 | JANINE (trainer class, Legacy) | JANINA | Legacy's added trainer | PokéWiki (Janina) |
