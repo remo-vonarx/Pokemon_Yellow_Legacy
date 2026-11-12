@@ -1300,14 +1300,15 @@ _HookedMonAttackedText::
 	prompt
 
 _DifficultyText::
-    text "Select Difficulty"
+    text "Wähle einen"
+    line "Schwierigkeitsgrad"
     done
 
 _AreYouSureText::
-	text "Are you sure?"
+	text "Bist Du sicher?"
 	done
 
 _BoyGirlText::
-    text "Play as a boy, or"
-    line "as a girl?"
+    text "Als Junge oder als"
+    line "Mädchen spielen?"
     done
