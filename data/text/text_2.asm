@@ -237,7 +237,7 @@ _UnusedBenchGuyText1::
 	done
 
 _UnusedBenchGuyText2::
-	text "Nach all dem Spass"
+	text "Nach all dem Spaß"
 	line "bin ich nun müde."
 	done
 
@@ -365,7 +365,7 @@ _CinnabarGymQuizDummyIntroText::
 	text "Willkommen beim"
 	line "#MON-Quiz!"
 
-	para "Weisst Du die"
+	para "Weißt Du die"
 	line "richtige Antwort,"
 	cont "dann öffnet sich"
 	cont "die Tür!"
@@ -376,7 +376,7 @@ _CinnabarGymQuizDummyIntroText::
 	cont "kämpfen..."
 
 	para "Je mehr Antworten"
-	line "Du weisst, desto"
+	line "Du weißt, desto"
 	cont "fitter sind Deine"
 	cont "#MON beim"
 	cont "Kampf gegen den"
@@ -387,7 +387,7 @@ _CinnabarGymQuizIntroText::
 	text "Willkommen beim"
 	line "#MON-Quiz!"
 
-	para "Weisst Du die"
+	para "Weißt Du die"
 	line "richtige Antwort,"
 	cont "dann öffnet sich"
 	cont "die Tür!"
@@ -398,7 +398,7 @@ _CinnabarGymQuizIntroText::
 	cont "kämpfen..."
 
 	para "Je mehr Antworten"
-	line "Du weisst, desto"
+	line "Du weißt, desto"
 	cont "fitter sind Deine"
 	cont "#MON beim"
 	cont "Kampf gegen den"
@@ -568,7 +568,7 @@ TMNotebookText::
 	para "Es gibt"
 	line "insgesamt 50 TM."
 
-	para "Ausserdem gibt es"
+	para "Außerdem gibt es"
 	line "fünf VM, die"
 	cont "mehrfach nutzbar"
 	cont "sind."
@@ -602,7 +602,7 @@ _ViridianSchoolNotebookText1::
 
 	para "#MON-TRAINER"
 	line "ziehen #MON"
-	cont "gross und"
+	cont "groß und"
 	cont "trainieren sie."
 	prompt
 
@@ -682,7 +682,7 @@ _Route15UpstairsBinocularsText::
 	text "Du schaust durch"
 	line "das Fernrohr..."
 
-	para "Ein grosser Vogel"
+	para "Ein großer Vogel"
 	line "fliegt anmutig"
 	cont "aufs Meer hinaus."
 	done
@@ -836,7 +836,7 @@ _ViridianBlackboardFrozenText::
 
 _VermilionGymTrashText::
 	text "Hier ist nichts,"
-	line "bloss Abfall."
+	line "bloß Abfall."
 	done
 
 _VermilionGymTrashSuccessText1::
@@ -910,7 +910,7 @@ _IndigoPlateauStatuesText1::
 	prompt
 
 _IndigoPlateauStatuesText2::
-	text "Das grosse Ziel"
+	text "Das große Ziel"
 	line "aller Trainer:"
 	cont "Die PKMN-LIGA!"
 	done

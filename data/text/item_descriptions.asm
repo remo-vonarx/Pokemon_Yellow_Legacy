@@ -447,7 +447,7 @@ _TM04Description::
 
 _TM05Description::
 	text "Starke"
-	next "Fuss-Attacke.@"
+	next "Fuß-Attacke.@"
 	text_waitbutton
 	text_end
 

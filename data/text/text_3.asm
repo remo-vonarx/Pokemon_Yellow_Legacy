@@ -646,7 +646,7 @@ _ColosseumTotalL50Text::
 _ColosseumHeightText::
 	text_ram wcd6d
 	text " ist"
-	line "grösser als 2m!"
+	line "größer als 2m!"
 	prompt
 
 _ColosseumWeightText::

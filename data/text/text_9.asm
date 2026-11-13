@@ -424,7 +424,7 @@ _AfterTrade2Text::
 	text_ram wInGameTradeGiveMonName
 	text ","
 	cont "ist einfach"
-	cont "grossartig!"
+	cont "großartig!"
 	done
 
 _WannaTrade3Text::

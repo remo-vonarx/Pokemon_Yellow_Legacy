@@ -101,7 +101,7 @@ _CurrentTooFastText::
 
 _CyclingIsFunText::
 	text "Radfahren macht"
-	line "Spass! Surfen"
+	line "Spaß! Surfen"
 	cont "dagegen ist"
 	cont "nichts!"
 	prompt
