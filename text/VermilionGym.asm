@@ -41,9 +41,9 @@ _VermilionGymRematchPreBattle1Text::
 	line "Ich habe"
 	cont "aufgeladen!"
 
-	para "Das wird ein"
-	line "Energieschub, wie"
-	cont "Du ihn noch nie"
+	para "Das wird eine"
+	line "Überspannung, wie"
+	cont "Du sie noch nie"
 	cont "erlebt hast!"
 
 	para "Lust auf einen"
@@ -72,8 +72,8 @@ _VermilionGymRematchPostBattleText::
 	cont "CHAMPION."
 
 	para "Bis zum nächsten"
-	line "Mal: Bleib unter"
-	cont "Strom!"
+	line "Mal: Bleib so"
+	cont "energiegeladen!"
 	done
 
 _VermilionGymLTSurgeThunderBadgeInfoText::
