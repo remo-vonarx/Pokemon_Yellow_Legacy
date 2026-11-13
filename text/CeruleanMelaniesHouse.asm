@@ -1,46 +1,47 @@
 MelanieText1::
-	text "I take care of"
-	line "injured #MON."
+	text "Ich kümmere mich"
+	line "um verletzte"
+	cont "#MON."
 
-	para "I nursed this"
-	line "BULBASAUR back to"
-	cont "health."
+	para "Ich habe dieses"
+	line "BISASAM geheilt"
+	cont "und gepflegt."
 
-	para "It needs a good"
-	line "trainer to take"
-	cont "care of it now.@"
+	para "Es braucht einen"
+	line "guten Trainer,"
+	cont "der für es sorgt.@"
 	text_end
 
 MelanieText2::
-	text "I know! Would you"
-	line "take care of this"
-	cont "BULBASAUR?"
+	text "Würdest Du Dich"
+	line "um dieses BISASAM"
+	cont "kümmern?"
 	done
 
 MelanieText3::
-	text "Please take care"
-	line "of BULBASAUR!@"
+	text "Kümmere Dich"
+	line "gut um BISASAM!@"
 	text_end
 
 MelanieText4::
-	text "Is BULBASAUR"
-	line "doing well?@"
+	text "Wie macht BISASAM"
+	line "sich?@"
 	text_end
 
 MelanieText5::
 	text "Oh..."
-	line "That's too bad...@"
+	line "Das ist schade...@"
 	text_end
 
 MelanieBulbasaurText::
-	text "BULBASAUR: Bubba!"
-	line "Zoar!@"
+	text "BISASAM: Bisa!"
+	line "Bisasam!@"
 	text_end
 
 MelanieOddishText::
-	text "ODDISH: Orddissh!@"
+	text "MYRAPLA: Myraaa!@"
 	text_end
 
 MelanieSandshrewText::
-	text "SANDSHREW: Pikii!@"
+	text "SANDAN: Pikii!@"
 	text_end
