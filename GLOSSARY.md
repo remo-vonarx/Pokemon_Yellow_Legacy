@@ -48,6 +48,7 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | Pokémon names | German ROM names (RIZEROS, PIKACHU, RELAXO, …) | everywhere | German ROM table, by index (`data/pokemon/names.asm`) |
 | EEVEE / FLAREON / JOLTEON / VAPOREON / CANCEL | EVOLI / FLAMARA / BLITZA / AQUANA / ZURÜCK | Bill's PC menu | German ROM |
 | FURBALL (nickname of Craig's ARCANINE, Legacy) | FELLKNÄUEL | Craig's battle | My proposal; Craig's other nicknames are species names and take the German species name |
+| In-game trade nicknames | BODO, MICKY, SPIKY (unused), STINKER, BART (unused), SEPP, LILLI, DICKIE, ROBBIE, PROLO | in-game trades | German ROM, by slot. LILLI (English LOLA): Legacy brings back Red/Blue's JYNX trade, which German Yellow replaced; the German Red/Blue name, from Bulbapedia's list of in-game trades in other languages and Project Pokémon's German Red/Blue trade files |
 | Move names | German ROM names (DONNERSCHOCK, …); WEISSNEBEL, FUSSKICK with SS, as in capitals everywhere | everywhere | German ROM table, by index (`data/moves/names.asm`) |
 | Item names | German ROM names (TRANK, SONDERBONBON, …) | everywhere | German ROM table, by index (`data/items/names.asm`) |
 | OAK's PARCEL | EICHs PAKET | item | German ROM `EICHS PAKET`, with the lowercase possessive s |
