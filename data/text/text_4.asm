@@ -25,16 +25,17 @@ _OlderFileWillBeErasedText::
 	done
 
 _WhenYouChangeBoxText::
-	text "When you change a"
-	line "#MON BOX, data"
-	cont "will be saved."
+	text "Vor einem Wechsel"
+	line "der #MON-BOX"
+	cont "wird das Spiel"
+	cont "gesichert!"
 
-	para "Is that okay?"
+	para "Einverstanden?"
 	done
 
 _ChooseABoxText::
-	text "Choose a"
-	line "<PKMN> BOX.@"
+	text "Wähle eine"
+	line "<PKMN>-BOX!@"
 	text_end
 
 _EvolvedText::
@@ -58,16 +59,16 @@ _StoppedEvolvingText::
 	prompt
 
 _SortItemsText::
-	text "Would you like to"
-	next "sort items?"
+	text "Möchtest Du die"
+	next "Items sortieren?"
 	done
 
 _SortComplete::
-	text "Sorting is"
-	next "complete."
+	text "Das Sortieren ist"
+	next "abgeschlossen."
 	prompt
 
 _NothingToSort::
-	text "There is nothing"
-	next "to sort."
+	text "Es gibt nichts"
+	next "zu sortieren."
 	prompt

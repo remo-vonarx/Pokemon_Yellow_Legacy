@@ -3,8 +3,9 @@ _PokemonText::
 	done
 
 _PokemartGreetingText::
-	text "Hi there!"
-	next "May I help you?"
+	text "Hallo!"
+	next "Kann ich Dir"
+	cont "behilflich sein?"
 	done
 
 _PokemonFaintedText::
@@ -23,75 +24,80 @@ _PlayerBlackedOutText::
 	prompt
 
 _RepelWoreOffText::
-	text "Repel's effect"
-	line "wore off."
+	text "Der SCHUTZ wirkt"
+	line "nicht mehr."
 	done
 
 _RepelWoreOffUseAnotherText::
+	text "Der @"
 	text_ram wStringBuffer
-	text "'s"
-	line "effect wore off."
+	text_start
+	line "wirkt nicht mehr."
 
-	para "Use another?"
+	para "Noch einen"
+	line "einsetzen?"
 	done
 
 _PokemartBuyingGreetingText::
-	text "Take your time."
+	text "Schau Dich in"
+	line "Ruhe um."
 	done
 
 _PokemartTellBuyPriceText::
 	text_ram wStringBuffer
 	text "?"
-	line "That will be"
+	line "Das macht dann"
 	cont "¥@"
 	text_bcd hMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
-	text ". OK?"
+	text "! OK?"
 	done
 
 _PokemartBoughtItemText::
-	text "Here you are!"
-	line "Thank you!"
+	text "Hier, bitte sehr!"
+	line "Vielen Dank!"
 	prompt
 
 _PokemartNotEnoughMoneyText::
-	text "You don't have"
-	line "enough money."
+	text "Du hast nicht"
+	line "genug Geld."
 	prompt
 
 _PokemartItemBagFullText::
-	text "You can't carry"
-	line "any more items."
+	text "Du kannst keine"
+	line "weiteren Items"
+	cont "mehr tragen."
 	prompt
 
 _PokemonSellingGreetingText::
-	text "What would you"
-	line "like to sell?"
+	text "Was möchtest Du"
+	line "verkaufen?"
 	done
 
 _PokemartTellSellPriceText::
-	text "I can pay you"
+	text "Ich gebe Dir"
 	line "¥@"
 	text_bcd hMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
-	text " for that."
+	text " dafür."
 	done
 
 _PokemartItemBagEmptyText::
-	text "You don't have"
-	line "anything to sell."
+	text "Du hast nichts,"
+	line "was Du verkaufen"
+	cont "könntest!"
 	prompt
 
 _PokemartUnsellableItemText::
-	text "I can't put a"
-	line "price on that."
+	text "Das kann ich"
+	line "nicht gebrauchen."
 	prompt
 
 _PokemartThankYouText::
-	text "Thank you!"
+	text "Vielen Dank!"
 	done
 
 _PokemartAnythingElseText::
-	text "Is there anything"
-	line "else I can do?"
+	text "Kann ich sonst"
+	line "irgendwie helfen?"
 	done
 
 _LearnedMove1Text::
@@ -176,66 +182,66 @@ _HMCantDeleteText::
 	prompt
 
 _PokemonCenterWelcomeText::
-	text "Welcome to our"
-	line "#MON CENTER!"
+	text "Willkommen im"
+	line "PKMN-CENTER!"
 
-	para "We heal your"
-	line "#MON back to"
-	cont "perfect health!"
+	para "Wir heilen Deine"
+	line "#MON und"
+	cont "machen sie wieder"
+	cont "fit!"
 	prompt
 
 _ShallWeHealYourPokemonText::
-	text "Shall we heal your"
-	line "#MON?"
+	text "Sollen wir Deine"
+	line "#MON heilen?"
 	done
 
 _NeedYourPokemonText::
-	text "OK. We'll need"
-	line "your #MON."
+	text "OK. Wir benötigen"
+	line "Deine #MON."
 	done
 
 _TemPokemonOuNao::
-	text "You don't have"
-	line "any #MON!"
+	text "Du hast keine"
+	line "#MON!"
 	done
 
 _PokemonFightingFitText::
-	text "Thank you!"
-	line "Your #MON are"
-	cont "fighting fit!"
+	text "Danke! Deine"
+	line "#MON sind"
+	cont "wieder topfit!"
 	prompt
 
-; _PokemonFightingFitShortText::
-; 	text "Your #MON are"
-; 	line "fighting fit!"
-; 	done
-
 _PokemonCenterFarewellText::
-	text "We hope to see"
-	line "you again!"
+	text "Komm jederzeit"
+	line "wieder vorbei!"
 	done
 
 _LooksContentText::
-	text "It looks very"
-	line "content asleep."
+	text "Es sieht sehr"
+	line "zufrieden aus."
 	done
 
 _CableClubNPCAreaReservedFor2FriendsLinkedByCableText::
-	text "This area is"
-	line "reserved for 2"
-	cont "friends who are"
-	cont "linked by cable."
+	text "Dieser Bereich"
+	line "ist für Freunde"
+	cont "reserviert, die"
+	cont "über Game Link"
+	cont "Kabel miteinander"
+	cont "spielen!"
 	done
 
 _CableClubNPCWelcomeText::
-	text "Welcome to the"
-	line "Cable Club!"
+	text "Willkommen im"
+	line "KABEL-CLUB!"
 	done
 
 _CableClubNPCPleaseApplyHereHaveToSaveText::
-	text "Please apply here."
+	text "Bitte melde Dich"
+	line "hier an."
 
-	para "Before opening"
-	line "the link, we have"
-	cont "to save the game."
+	para "Das Spiel wird"
+	line "gesichert, bevor"
+	cont "die Verbindung"
+	cont "hergestellt wird!"
 	done

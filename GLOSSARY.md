@@ -71,3 +71,9 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | NURSE JOY (trainer class, Legacy) | SCHW. JOY | Legacy's added trainer | My choice: SCHWESTER JOY is 13 characters, the limit is 12; class shortened, name intact |
 | OFF.JENNY (trainer class, Legacy) | OFF. ROCKY | Legacy's added trainer | My choice: OFFICER ROCKY doesn't fit; class shortened, name intact (example in CLAUDE.md) |
 | SMITH, CRAIG, WEEBRA (trainer classes, Legacy) | SMITH, CRAIG, WEEBRA | Legacy's added trainers | Cameos of the Legacy creators; names stay |
+| Item name in a variable (Oak's aides) | no article: `GELB erhält VM05!`, `keinen Platz für VM05.` | Oak's aides | My choice: the German ROM writes `die` / `den` in front, which fits only some rewards (VM05, DETEKTOR, EP-TEILER) |
+| grew to level (RARE CANDY) | `PIKACHU` / `erreicht` / `Level 30!` | party menu | My choice: the same as the battle level-up; the German ROM leaves out "Level" here (`erreicht` / `30!`) |
+| deposit (items, PC) | lagern | Player's PC | German ROM (`#MON via PC lagern`); Legacy's "too important to deposit" is the German ROM's toss text with `lagern` |
+| sort (bag, Legacy) | sortieren (`Möchtest Du die Items sortieren?`) | bag | My proposal |
+| Repel wore off. Use another? (Legacy) | `Der SUPERSCHUTZ` / `wirkt nicht mehr.` / `Noch einen einsetzen?` | after a repel runs out | My proposal, reviewed, on the German ROM's `Der SCHUTZ wirkt nicht mehr.`; only SCHUTZ, SUPERSCHUTZ and TOP-SCHUTZ reach this text, all masculine, so the article is fixed |
+| Please come again! (link closed, Virtual Console) | Komm jederzeit wieder vorbei! | Cable Club, VC build | German ROM's Cable Club text for the same English line |
