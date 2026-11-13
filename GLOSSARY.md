@@ -130,5 +130,7 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | STAT experience (Legacy) | STATUS-Erfahrung | Route 1 | My proposal: no official term (PokéWiki: "inoffiziell als Stat Experience bekannt"); STATUS as in the party menu |
 | Diversity Value / DV, growth potential (Legacy) | Diversitätswert, kurz DV / Wachstumspotenzial | Viridian City, Pewter City sign | My proposal: Legacy's own term; the later official German term is Individuelle Stärken (IS), "vielen bekannt unter DV" (PokéWiki) |
 | `<PLAYER> received TM42 DRMEATR!` (Legacy) | `<PLAYER> erhält` / `TM42 TRMFRSR!` (also `TM27 GEOFISR!`, `TM34 GEDULD!`) | TM gifts | The bag name, as in Legacy's English (`text/tmhm_names.asm`) |
+| rematch (Legacy) | Revanche | gym leader rematches | My proposal |
 | MR MIME: MIME, MIME, MR MIME. (Legacy) | `PANTIMOS: Panti,` / `Panti, Pantimos.` | Red's house | My proposal, in the German ROM's style for cries (`NIDORAN: Nidoran!`, `PUMMELUFF: Puu!`) |
 | Win texts of the rival and Oak | no `<RIVAL>:` prefix; first line short | battles | Upstream fix: the battle prints the trainer's name before them |
+| Player address: boys / young one / kid | `alle Kinder` (Mom) / `mein Kind` (fishing guru) / `Kind` (Pewter Gym) | Red's house, Viridian Mart, Pewter Gym | My proposal, to confirm: the German ROM says `alle Jungen`, `junger Freund`, `Kleiner` |
