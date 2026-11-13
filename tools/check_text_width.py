@@ -7,7 +7,8 @@ Usage: python check_text_width.py [file.asm|directory ...]
 Report text lines that are wider than the 18-tile text box, and lines of
 18 tiles in the box's bottom row where the game waits for a button
 (before cont, para, prompt or text_promptbutton): the ▼ is drawn on the
-18th tile and the character under it is lost.
+18th tile and the character under it is lost. A Pokédex entry's `dex` adds
+a "." after its last line, so that line holds 17 tiles.
 Checks text/, data/, scripts/, engine/ and home/ when no paths are given.
 End battle texts are checked with the "NAME: " of their trainer in front of
 the first line. Lines whose width depends on runtime values (text_ram,
@@ -27,14 +28,14 @@ UNKNOWN = -1000  # pushes a line with a runtime-sized part below any limit
 # tiles printed for each control character; 1 tile if not listed
 CONTROL_WIDTHS = {
 	'<PLAYER>': 7, '<RIVAL>': 7, '<PKMN>': 2, '<TRAINER>': 7, '<ROCKET>': 6,
-	'<PC>': 2, '<TM>': 2, '<……>': 2, '<DEXEND>': 0,
+	'<PC>': 2, '<TM>': 2, '<……>': 2, '<DEXEND>': 1,  # DEXEND prints a "."
 	'<USER>': UNKNOWN, '<TARGET>': UNKNOWN,
 }
 NEW_LINE = {'line', 'cont', 'para', 'next', 'page'}
 BOTTOM_ROW = {'line', 'cont', 'next'}  # start the text box's bottom row
 WAITS = {'cont', 'para', 'prompt', 'text_promptbutton'}  # draw ▼ on the bottom row's 18th tile
 RUNTIME = {'text_ram', 'text_decimal', 'text_bcd', 'text_start', 'text_dots'}
-RESET = {'done', 'prompt', 'text_end', 'text_far', 'text_asm', 'IF', 'ELSE', 'ELIF', 'ENDC'}
+RESET = {'done', 'prompt', 'dex', 'text_end', 'text_far', 'text_asm', 'IF', 'ELSE', 'ELIF', 'ENDC'}
 COMMAND = re.compile(r'^\s*(\w+)\b(.*)$')
 LABEL = re.compile(r'^([A-Za-z_.][\w.]*)::?')
 TOP_LABEL = re.compile(r'^([A-Za-z_]\w*)::?')
@@ -143,6 +144,8 @@ def check_file(path, prefixes):
 		command, rest = match.groups()
 		if command in WAITS and bottom_row and width == MAX_WIDTH:
 			problems.append(f'{name}:{last[0]}: width {width} under ▼: {last[1].strip()}')
+		if command == 'dex' and width + 1 > MAX_WIDTH:
+			problems.append(f'{name}:{last[0]}: width {width + 1} with the "." of dex: {last[1].strip()}')
 		if command in RESET:
 			width = 0
 			bottom_row = False
