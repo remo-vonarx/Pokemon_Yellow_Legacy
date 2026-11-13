@@ -76,7 +76,7 @@ _ViridianGymGiovanniEarthBadgeInfoText::
 
 _ViridianGymGiovanniReceivedTM27Text::
 	text "<PLAYER> erhält"
-	line "TM27 GEOFISR!@"
+	line "TM27 GEOFISSUR!@"
 	text_end
 
 _ViridianGymGiovanniTM27ExplanationText::

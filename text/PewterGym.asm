@@ -93,21 +93,8 @@ _PewterGymRematchPostBattleText::
 	done
 
 _PewterGymBrockWaitTakeThisText::
-	text "Es gibt die"
-	line "verschiedensten"
-	cont "Trainer auf der"
-	cont "Welt!"
-
-	para "Du scheinst ein"
-	line "sehr begabter"
-	cont "#MON-TRAINER"
-	cont "zu sein!"
-
-	para "Gehe in die"
-	line "PKMN-ARENA von"
-	cont "AZURIA CITY und"
-	cont "teste dort Dein"
-	cont "Können!"
+	text "Warte! Nimm das"
+	line "hier mit!"
 	done
 
 _PewterGymReceivedTM34Text::
@@ -183,7 +170,8 @@ _PewterGymBrockBoulderBadgeInfoText::
 
 _PewterGymCooltrainerMBattleText::
 	text "Bleib stehen, wo"
-	line "Du bist, Kind!"
+	line "Du bist,"
+	cont "Grünschnabel!"
 
 	para "Es dauert noch"
 	line "Lichtjahre, bis"

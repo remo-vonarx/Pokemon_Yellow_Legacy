@@ -184,7 +184,7 @@ ViridianCityFisherYouCanHaveThisText::
 
 _ViridianCityFisherReceivedTM42Text::
 	text "<PLAYER> erhält"
-	line "TM42 TRMFRSR!@"
+	line "TM42 TRAUMFRESSER!@"
 	text_end
 
 _ViridianCityFisherTM42ExplanationText::

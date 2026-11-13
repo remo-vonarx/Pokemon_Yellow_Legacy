@@ -52,7 +52,7 @@ _ViridianOldRodHouseFishingGuruTakeThisText::
 
 	para "Nimm das hier"
 	line "und gehe angeln,"
-	cont "mein Kind!"
+	cont "junges Blut!"
 
 	para "<PLAYER> erhält"
 	line "eine @"
