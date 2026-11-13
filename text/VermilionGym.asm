@@ -41,9 +41,9 @@ _VermilionGymRematchPreBattle1Text::
 	line "Ich habe"
 	cont "aufgeladen!"
 
-	para "Das wird eine"
-	line "Überspannung, wie"
-	cont "Du sie noch nie"
+	para "Das wird ein"
+	line "Stromstoß, wie"
+	cont "Du ihn noch nie"
 	cont "erlebt hast!"
 
 	para "Lust auf einen"
