@@ -44,7 +44,7 @@ _CharmeleonDexEntry::
 	next "Aufregung, so"
 
 	page "spuckt es"
-	next "gleissend helle"
+	next "gleißend helle"
 	next "Flammen"
 	dex
 
@@ -183,7 +183,7 @@ _RattataDexEntry::
 	next "nagt alles und"
 	next "jeden an. Es"
 
-	page "lebt in grossen"
+	page "lebt in großen"
 	next "Rudeln von bis zu"
 	next "vierzig #MON"
 	dex
@@ -200,7 +200,7 @@ _RaticateDexEntry::
 
 _SpearowDexEntry::
 	text "Dieses #MON"
-	next "kann in grosser"
+	next "kann in großer"
 	next "Höhe nur schwer"
 
 	page "fliegen. Dafür"
@@ -245,7 +245,7 @@ _PikachuDexEntry::
 
 	page "Zieht man PIKACHU"
 	next "am Schweif, so"
-	next "beisst es um sich"
+	next "beißt es um sich"
 	dex
 
 _RaichuDexEntry::
@@ -381,7 +381,7 @@ _NinetalesDexEntry::
 _JigglypuffDexEntry::
 	text "Dieses #MON"
 	next "betört Gegner mit"
-	next "seinen grossen"
+	next "seinen großen"
 
 	page "Augen, bevor es"
 	next "sie in den Schlaf"
@@ -395,12 +395,12 @@ _WigglytuffDexEntry::
 
 	page "Körper. Es kann"
 	next "sich zu immenser"
-	next "Grösse aufblasen"
+	next "Größe aufblasen"
 	dex
 
 _ZubatDexEntry::
 	text "Dieses #MON"
-	next "stösst während des"
+	next "stößt während des"
 	next "Fluges"
 
 	page "Ultraschalllaute"
@@ -539,9 +539,9 @@ _PsyduckDexEntry::
 	dex
 
 _GolduckDexEntry::
-	text "Dank seiner gros-"
-	next "sen Schwimmflossen"
-	next "ist dieses in Seen"
+	text "Dank seiner großen"
+	next "Schwimmflossen ist"
+	next "dieses in Seen"
 
 	page "lebende #MON"
 	next "ein hervorragender"
@@ -703,7 +703,7 @@ _VictreebelDexEntry::
 	next "sättlich. Es lockt"
 	next "seine Beute mit"
 
-	page "süssen Düften an"
+	page "süßen Düften an"
 	next "und verschlingt"
 	next "sie in einem Biss"
 	dex
@@ -753,7 +753,7 @@ _GolemDexEntry::
 	next "#MON verfärbt"
 	next "sich an der Luft"
 
-	page "weiss und härtet"
+	page "weiß und verhärtet"
 	next "sich zu einem sehr"
 	next "harten Panzer"
 	dex
@@ -861,7 +861,7 @@ _SeelDexEntry::
 _DewgongDexEntry::
 	text "Der Körper dieses"
 	next "#MON ist"
-	next "schneeweiss."
+	next "schneeweiß."
 
 	page "Es kann sogar in"
 	next "Eiswasser kraft-"
@@ -905,7 +905,7 @@ _CloysterDexEntry::
 
 	page "Es kann aus seiner"
 	next "Schale mit harten"
-	next "Stacheln feuern"
+	next "Stacheln schießen"
 	dex
 
 _GastlyDexEntry::
@@ -979,7 +979,7 @@ _KrabbyDexEntry::
 	dex
 
 _KinglerDexEntry::
-	text "Die grosse Schere"
+	text "Die große Schere"
 	next "dieses #MON ist"
 	next "hart wie Stahl."
 
@@ -1011,7 +1011,7 @@ _ElectrodeDexEntry::
 _ExeggcuteDexEntry::
 	text "OWEIS kleine Köpfe"
 	next "kreisen um den"
-	next "grossen Kopf wie"
+	next "großen Kopf wie"
 
 	page "Planeten um die"
 	next "Sonne. Sie halten"
@@ -1049,7 +1049,7 @@ _MarowakDexEntry::
 	dex
 
 _HitmonleeDexEntry::
-	text "Der Fuss dieses"
+	text "Der Fuß dieses"
 	next "#MON ist"
 	next "unglaublich hart."
 
@@ -1073,7 +1073,7 @@ _LickitungDexEntry::
 	next "fast einen Meter"
 	next "lang. Sie ist"
 
-	page "äusserst beweglich"
+	page "äußerst beweglich"
 	next "und kann Gegner"
 	next "paralysieren"
 	dex
@@ -1114,8 +1114,8 @@ _RhydonDexEntry::
 	next "Hinterbeinen."
 
 	page "Seine stahlharte"
-	next "Haut übersteht"
-	next "sogar heisse Lava"
+	next "Haut widersteht"
+	next "sogar heißer Lava"
 	dex
 
 _ChanseyDexEntry::
@@ -1280,7 +1280,7 @@ _TaurosDexEntry::
 
 _MagikarpDexEntry::
 	text "Man sollte niemals"
-	next "grosse Hoffnungen"
+	next "große Hoffnungen"
 	next "auf KARPADOR"
 
 	page "setzen. Dieses"
@@ -1355,7 +1355,7 @@ _FlareonDexEntry::
 
 	page "Es holt Luft und"
 	next "speit 1000 Grad"
-	next "heisse Flammen"
+	next "heiße Flammen"
 	dex
 
 _PorygonDexEntry::
@@ -1420,7 +1420,7 @@ _AerodactylDexEntry::
 
 _SnorlaxDexEntry::
 	text "RELAXO ist ein"
-	next "Vielfrass. Es kann"
+	next "Vielfraß. Es kann"
 	next "sogar verdorbene"
 
 	page "Nahrung fressen,"
@@ -1455,7 +1455,7 @@ _MoltresDexEntry::
 
 	page "schlägt, erstrahlt"
 	next "der Nachthimmel in"
-	next "gleissendem Rot"
+	next "gleißendem Rot"
 	dex
 
 _DratiniDexEntry::
@@ -1501,7 +1501,7 @@ _MewtwoDexEntry::
 _MewDexEntry::
 	text "Betrachtet man"
 	next "MEWs Haut in der"
-	next "Vergrösserung, so"
+	next "Vergrößerung, so"
 
 	page "erkennt man ein"
 	next "Fell aus sehr"
