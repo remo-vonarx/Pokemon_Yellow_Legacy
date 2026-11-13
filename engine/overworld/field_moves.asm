@@ -159,14 +159,16 @@ CloseFieldMoveTextBox:
 	jp CloseTextDisplay
 
 PromptToSurfText:
-	text "The water is calm."
-	line "Would you like to"
-	cont "SURF?@@"
+	text "Das Wasser ist"
+	line "ruhig."
+	cont "Möchtest Du"
+	cont "SURFER einsetzen?@@"
 
 ExplainCutText:
-	text "This tree can be"
-	line "CUT!@@"
+	text "Diesen Baum kann"
+	line "man zerschneiden!@@"
 
 PromptToCutText:
-	text "Would you like to"
-	line "use CUT?@@"
+	text "Möchtest Du"
+	line "ZERSCHNEIDER"
+	cont "einsetzen?@@"
