@@ -84,6 +84,7 @@ Text the hack added has no German original, so translate it faithfully:
 
 - Never exceed the textbox from the profile. With variable-width fonts, measure in pixels, not characters.
 - A line in the box's bottom row that waits for a button (followed by `cont`, `para` or `prompt`) holds one character less: the ▼ covers the last tile, and the character under it is lost.
+- A Pokédex entry's last line (before `dex`) holds 17 characters: `dex` prints the closing "." after it.
 - Keep the semantics of the text commands: re-breaking lines is fine; changing how a box ends is not.
 - Count variables (player and rival name, Pokémon, item and move names, numbers) at their maximum length. Take the limits from the length constants, never from memory.
 - Names and fixed-width strings (menus, padded labels) must respect their length constant or exact padded width.

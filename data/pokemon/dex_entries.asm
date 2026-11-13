@@ -198,1059 +198,1059 @@ PokedexEntryPointers:
 ; text entry
 
 BulbasaurDexEntry:
-	db "SEED@"
-	db 2,4
-	dw 150
+	db "SAMEN@"
+	db 7 ; 0.7 m
+	dw 69 ; 6.9 kg
 	text_far _BulbasaurDexEntry
 	text_end
 
 IvysaurDexEntry:
-	db "SEED@"
-	db 3,3
-	dw 290
+	db "SAMEN@"
+	db 10 ; 1.0 m
+	dw 130 ; 13.0 kg
 	text_far _IvysaurDexEntry
 	text_end
 
 VenusaurDexEntry:
-	db "SEED@"
-	db 6,7
-	dw 2210
+	db "SAMEN@"
+	db 20 ; 2.0 m
+	dw 1000 ; 100.0 kg
 	text_far _VenusaurDexEntry
 	text_end
 
 CharmanderDexEntry:
-	db "LIZARD@"
-	db 2,0
-	dw 190
+	db "ECHSE@"
+	db 6 ; 0.6 m
+	dw 85 ; 8.5 kg
 	text_far _CharmanderDexEntry
 	text_end
 
 CharmeleonDexEntry:
-	db "FLAME@"
-	db 3,7
-	dw 420
+	db "FLAMME@"
+	db 11 ; 1.1 m
+	dw 190 ; 19.0 kg
 	text_far _CharmeleonDexEntry
 	text_end
 
 CharizardDexEntry:
-	db "FLAME@"
-	db 5,7
-	dw 2000
+	db "FLAMME@"
+	db 17 ; 1.7 m
+	dw 905 ; 90.5 kg
 	text_far _CharizardDexEntry
 	text_end
 
 SquirtleDexEntry:
-	db "TINYTURTLE@"
-	db 1,8
-	dw 200
+	db "MINIKRÖTE@"
+	db 5 ; 0.5 m
+	dw 90 ; 9.0 kg
 	text_far _SquirtleDexEntry
 	text_end
 
 WartortleDexEntry:
-	db "TURTLE@"
-	db 3,3
-	dw 500
+	db "KRÖTE@"
+	db 10 ; 1.0 m
+	dw 225 ; 22.5 kg
 	text_far _WartortleDexEntry
 	text_end
 
 BlastoiseDexEntry:
-	db "SHELLFISH@"
-	db 5,3
-	dw 1890
+	db "PANZERTIER@"
+	db 16 ; 1.6 m
+	dw 855 ; 85.5 kg
 	text_far _BlastoiseDexEntry
 	text_end
 
 CaterpieDexEntry:
-	db "WORM@"
-	db 1,0
-	dw 60
+	db "WURM@"
+	db 3 ; 0.3 m
+	dw 29 ; 2.9 kg
 	text_far _CaterpieDexEntry
 	text_end
 
 MetapodDexEntry:
-	db "COCOON@"
-	db 2,4
-	dw 220
+	db "KOKON@"
+	db 7 ; 0.7 m
+	dw 99 ; 9.9 kg
 	text_far _MetapodDexEntry
 	text_end
 
 ButterfreeDexEntry:
-	db "BUTTERFLY@"
-	db 3,7
-	dw 710
+	db "FALTER@"
+	db 11 ; 1.1 m
+	dw 320 ; 32.0 kg
 	text_far _ButterfreeDexEntry
 	text_end
 
 WeedleDexEntry:
-	db "HAIRY BUG@"
-	db 1,0
-	dw 70
+	db "RAUPE@"
+	db 3 ; 0.3 m
+	dw 32 ; 3.2 kg
 	text_far _WeedleDexEntry
 	text_end
 
 KakunaDexEntry:
-	db "COCOON@"
-	db 2,0
-	dw 220
+	db "KOKON@"
+	db 6 ; 0.6 m
+	dw 100 ; 10.0 kg
 	text_far _KakunaDexEntry
 	text_end
 
 BeedrillDexEntry:
-	db "POISON BEE@"
-	db 3,3
-	dw 650
+	db "GIFTBIENE@"
+	db 10 ; 1.0 m
+	dw 295 ; 29.5 kg
 	text_far _BeedrillDexEntry
 	text_end
 
 PidgeyDexEntry:
-	db "TINY BIRD@"
-	db 1,0
-	dw 40
+	db "KLEINVOGEL@"
+	db 3 ; 0.3 m
+	dw 18 ; 1.8 kg
 	text_far _PidgeyDexEntry
 	text_end
 
 PidgeottoDexEntry:
-	db "BIRD@"
-	db 3,7
-	dw 660
+	db "VOGEL@"
+	db 11 ; 1.1 m
+	dw 300 ; 30.0 kg
 	text_far _PidgeottoDexEntry
 	text_end
 
 PidgeotDexEntry:
-	db "BIRD@"
-	db 4,11
-	dw 870
+	db "VOGEL@"
+	db 15 ; 1.5 m
+	dw 395 ; 39.5 kg
 	text_far _PidgeotDexEntry
 	text_end
 
 RattataDexEntry:
-	db "RAT@"
-	db 1,0
-	dw 80
+	db "RATTE@"
+	db 3 ; 0.3 m
+	dw 35 ; 3.5 kg
 	text_far _RattataDexEntry
 	text_end
 
 RaticateDexEntry:
-	db "RAT@"
-	db 2,4
-	dw 410
+	db "RATTE@"
+	db 7 ; 0.7 m
+	dw 185 ; 18.5 kg
 	text_far _RaticateDexEntry
 	text_end
 
 SpearowDexEntry:
-	db "TINY BIRD@"
-	db 1,0
-	dw 40
+	db "KLEINVOGEL@"
+	db 3 ; 0.3 m
+	dw 20 ; 2.0 kg
 	text_far _SpearowDexEntry
 	text_end
 
 FearowDexEntry:
-	db "BEAK@"
-	db 3,11
-	dw 840
+	db "PICKVOGEL@"
+	db 12 ; 1.2 m
+	dw 380 ; 38.0 kg
 	text_far _FearowDexEntry
 	text_end
 
 EkansDexEntry:
-	db "SNAKE@"
-	db 6,7
-	dw 150
+	db "SCHLANGE@"
+	db 20 ; 2.0 m
+	dw 69 ; 6.9 kg
 	text_far _EkansDexEntry
 	text_end
 
 ArbokDexEntry:
-	db "COBRA@"
-	db 11,6
-	dw 1430
+	db "KOBRA@"
+	db 35 ; 3.5 m
+	dw 650 ; 65.0 kg
 	text_far _ArbokDexEntry
 	text_end
 
 PikachuDexEntry:
-	db "MOUSE@"
-	db 1,4
-	dw 130
+	db "MAUS@"
+	db 4 ; 0.4 m
+	dw 60 ; 6.0 kg
 	text_far _PikachuDexEntry
 	text_end
 
 RaichuDexEntry:
-	db "MOUSE@"
-	db 2,7
-	dw 660
+	db "MAUS@"
+	db 8 ; 0.8 m
+	dw 300 ; 30.0 kg
 	text_far _RaichuDexEntry
 	text_end
 
 SandshrewDexEntry:
-	db "MOUSE@"
-	db 2,0
-	dw 260
+	db "MAUS@"
+	db 6 ; 0.6 m
+	dw 120 ; 12.0 kg
 	text_far _SandshrewDexEntry
 	text_end
 
 SandslashDexEntry:
-	db "MOUSE@"
-	db 3,3
-	dw 650
+	db "MAUS@"
+	db 10 ; 1.0 m
+	dw 295 ; 29.5 kg
 	text_far _SandslashDexEntry
 	text_end
 
 NidoranFDexEntry:
-	db "POISON PIN@"
-	db 1,4
-	dw 150
+	db "GIFTDORN@"
+	db 4 ; 0.4 m
+	dw 70 ; 7.0 kg
 	text_far _NidoranFDexEntry
 	text_end
 
 NidorinaDexEntry:
-	db "POISON PIN@"
-	db 2,7
-	dw 440
+	db "GIFTDORN@"
+	db 8 ; 0.8 m
+	dw 200 ; 20.0 kg
 	text_far _NidorinaDexEntry
 	text_end
 
 NidoqueenDexEntry:
-	db "DRILL@"
-	db 4,3
-	dw 1320
+	db "BOHRER@"
+	db 13 ; 1.3 m
+	dw 600 ; 60.0 kg
 	text_far _NidoqueenDexEntry
 	text_end
 
 NidoranMDexEntry:
-	db "POISON PIN@"
-	db 1,8
-	dw 200
+	db "GIFTDORN@"
+	db 5 ; 0.5 m
+	dw 90 ; 9.0 kg
 	text_far _NidoranMDexEntry
 	text_end
 
 NidorinoDexEntry:
-	db "POISON PIN@"
-	db 2,11
-	dw 430
+	db "GIFTDORN@"
+	db 9 ; 0.9 m
+	dw 195 ; 19.5 kg
 	text_far _NidorinoDexEntry
 	text_end
 
 NidokingDexEntry:
-	db "DRILL@"
-	db 4,7
-	dw 1370
+	db "BOHRER@"
+	db 14 ; 1.4 m
+	dw 620 ; 62.0 kg
 	text_far _NidokingDexEntry
 	text_end
 
 ClefairyDexEntry:
-	db "FAIRY@"
-	db 2,0
-	dw 170
+	db "FEE@"
+	db 6 ; 0.6 m
+	dw 75 ; 7.5 kg
 	text_far _ClefairyDexEntry
 	text_end
 
 ClefableDexEntry:
-	db "FAIRY@"
-	db 4,3
-	dw 880
+	db "FEE@"
+	db 13 ; 1.3 m
+	dw 400 ; 40.0 kg
 	text_far _ClefableDexEntry
 	text_end
 
 VulpixDexEntry:
-	db "FOX@"
-	db 2,0
-	dw 220
+	db "FUCHS@"
+	db 6 ; 0.6 m
+	dw 99 ; 9.9 kg
 	text_far _VulpixDexEntry
 	text_end
 
 NinetalesDexEntry:
-	db "FOX@"
-	db 3,7
-	dw 440
+	db "FUCHS@"
+	db 11 ; 1.1 m
+	dw 199 ; 19.9 kg
 	text_far _NinetalesDexEntry
 	text_end
 
 JigglypuffDexEntry:
-	db "BALLOON@"
-	db 1,8
-	dw 120
+	db "BALLON@"
+	db 5 ; 0.5 m
+	dw 55 ; 5.5 kg
 	text_far _JigglypuffDexEntry
 	text_end
 
 WigglytuffDexEntry:
-	db "BALLOON@"
-	db 3,3
-	dw 260
+	db "BALLON@"
+	db 10 ; 1.0 m
+	dw 120 ; 12.0 kg
 	text_far _WigglytuffDexEntry
 	text_end
 
 ZubatDexEntry:
-	db "BAT@"
-	db 2,7
-	dw 170
+	db "FLEDERMAUS@"
+	db 8 ; 0.8 m
+	dw 75 ; 7.5 kg
 	text_far _ZubatDexEntry
 	text_end
 
 GolbatDexEntry:
-	db "BAT@"
-	db 5,3
-	dw 1210
+	db "FLEDERMAUS@"
+	db 16 ; 1.6 m
+	dw 550 ; 55.0 kg
 	text_far _GolbatDexEntry
 	text_end
 
 OddishDexEntry:
-	db "WEED@"
-	db 1,8
-	dw 120
+	db "UNKRAUT@"
+	db 5 ; 0.5 m
+	dw 54 ; 5.4 kg
 	text_far _OddishDexEntry
 	text_end
 
 GloomDexEntry:
-	db "WEED@"
-	db 2,7
-	dw 190
+	db "UNKRAUT@"
+	db 8 ; 0.8 m
+	dw 86 ; 8.6 kg
 	text_far _GloomDexEntry
 	text_end
 
 VileplumeDexEntry:
-	db "FLOWER@"
-	db 3,11
-	dw 410
+	db "BLUME@"
+	db 12 ; 1.2 m
+	dw 186 ; 18.6 kg
 	text_far _VileplumeDexEntry
 	text_end
 
 ParasDexEntry:
-	db "MUSHROOM@"
-	db 1,0
-	dw 120
+	db "PILZ@"
+	db 3 ; 0.3 m
+	dw 54 ; 5.4 kg
 	text_far _ParasDexEntry
 	text_end
 
 ParasectDexEntry:
-	db "MUSHROOM@"
-	db 3,3
-	dw 650
+	db "PILZ@"
+	db 10 ; 1.0 m
+	dw 295 ; 29.5 kg
 	text_far _ParasectDexEntry
 	text_end
 
 VenonatDexEntry:
-	db "INSECT@"
-	db 3,3
-	dw 660
+	db "INSEKT@"
+	db 10 ; 1.0 m
+	dw 300 ; 30.0 kg
 	text_far _VenonatDexEntry
 	text_end
 
 VenomothDexEntry:
-	db "POISONMOTH@"
-	db 4,11
-	dw 280
+	db "GIFTMOTTE@"
+	db 15 ; 1.5 m
+	dw 125 ; 12.5 kg
 	text_far _VenomothDexEntry
 	text_end
 
 DiglettDexEntry:
-	db "MOLE@"
-	db 0,8
-	dw 20
+	db "MAULWURF@"
+	db 2 ; 0.2 m
+	dw 8 ; 0.8 kg
 	text_far _DiglettDexEntry
 	text_end
 
 DugtrioDexEntry:
-	db "MOLE@"
-	db 2,4
-	dw 730
+	db "MAULWURF@"
+	db 7 ; 0.7 m
+	dw 333 ; 33.3 kg
 	text_far _DugtrioDexEntry
 	text_end
 
 MeowthDexEntry:
-	db "SCRATCHCAT@"
-	db 1,4
-	dw 90
+	db "KATZE@"
+	db 4 ; 0.4 m
+	dw 42 ; 4.2 kg
 	text_far _MeowthDexEntry
 	text_end
 
 PersianDexEntry:
-	db "CLASSY CAT@"
-	db 3,3
-	dw 710
+	db "RASSEKATZE@"
+	db 10 ; 1.0 m
+	dw 320 ; 32.0 kg
 	text_far _PersianDexEntry
 	text_end
 
 PsyduckDexEntry:
-	db "DUCK@"
-	db 2,7
-	dw 430
+	db "ENTE@"
+	db 8 ; 0.8 m
+	dw 196 ; 19.6 kg
 	text_far _PsyduckDexEntry
 	text_end
 
 GolduckDexEntry:
-	db "DUCK@"
-	db 5,7
-	dw 1690
+	db "ENTE@"
+	db 17 ; 1.7 m
+	dw 766 ; 76.6 kg
 	text_far _GolduckDexEntry
 	text_end
 
 MankeyDexEntry:
-	db "PIG MONKEY@"
-	db 1,8
-	dw 620
+	db "SCHW./AFFE@"
+	db 5 ; 0.5 m
+	dw 280 ; 28.0 kg
 	text_far _MankeyDexEntry
 	text_end
 
 PrimeapeDexEntry:
-	db "PIG MONKEY@"
-	db 3,3
-	dw 710
+	db "SCHW./AFFE@"
+	db 10 ; 1.0 m
+	dw 320 ; 32.0 kg
 	text_far _PrimeapeDexEntry
 	text_end
 
 GrowlitheDexEntry:
-	db "PUPPY@"
-	db 2,4
-	dw 420
+	db "HUND@"
+	db 7 ; 0.7 m
+	dw 190 ; 19.0 kg
 	text_far _GrowlitheDexEntry
 	text_end
 
 ArcanineDexEntry:
-	db "LEGENDARY@"
-	db 6,3
-	dw 3420
+	db "LEGENDÄR@"
+	db 19 ; 1.9 m
+	dw 1550 ; 155.0 kg
 	text_far _ArcanineDexEntry
 	text_end
 
 PoliwagDexEntry:
-	db "TADPOLE@"
-	db 2,0
-	dw 270
+	db "KAULQUAPPE@"
+	db 6 ; 0.6 m
+	dw 124 ; 12.4 kg
 	text_far _PoliwagDexEntry
 	text_end
 
 PoliwhirlDexEntry:
-	db "TADPOLE@"
-	db 3,3
-	dw 440
+	db "KAULQUAPPE@"
+	db 10 ; 1.0 m
+	dw 200 ; 20.0 kg
 	text_far _PoliwhirlDexEntry
 	text_end
 
 PoliwrathDexEntry:
-	db "TADPOLE@"
-	db 4,3
-	dw 1190
+	db "KAULQUAPPE@"
+	db 13 ; 1.3 m
+	dw 540 ; 54.0 kg
 	text_far _PoliwrathDexEntry
 	text_end
 
 AbraDexEntry:
 	db "PSI@"
-	db 2,11
-	dw 430
+	db 9 ; 0.9 m
+	dw 195 ; 19.5 kg
 	text_far _AbraDexEntry
 	text_end
 
 KadabraDexEntry:
 	db "PSI@"
-	db 4,3
-	dw 1250
+	db 13 ; 1.3 m
+	dw 565 ; 56.5 kg
 	text_far _KadabraDexEntry
 	text_end
 
 AlakazamDexEntry:
 	db "PSI@"
-	db 4,11
-	dw 1060
+	db 15 ; 1.5 m
+	dw 480 ; 48.0 kg
 	text_far _AlakazamDexEntry
 	text_end
 
 MachopDexEntry:
-	db "SUPERPOWER@"
-	db 2,7
-	dw 430
+	db "KRAFTPROTZ@"
+	db 8 ; 0.8 m
+	dw 195 ; 19.5 kg
 	text_far _MachopDexEntry
 	text_end
 
 MachokeDexEntry:
-	db "SUPERPOWER@"
-	db 4,11
-	dw 1550
+	db "KRAFTPROTZ@"
+	db 15 ; 1.5 m
+	dw 705 ; 70.5 kg
 	text_far _MachokeDexEntry
 	text_end
 
 MachampDexEntry:
-	db "SUPERPOWER@"
-	db 5,3
-	dw 2870
+	db "KRAFTPROTZ@"
+	db 16 ; 1.6 m
+	dw 1300 ; 130.0 kg
 	text_far _MachampDexEntry
 	text_end
 
 BellsproutDexEntry:
-	db "FLOWER@"
-	db 2,4
-	dw 90
+	db "BLUME@"
+	db 7 ; 0.7 m
+	dw 40 ; 4.0 kg
 	text_far _BellsproutDexEntry
 	text_end
 
 WeepinbellDexEntry:
-	db "FLYCATCHER@"
-	db 3,3
-	dw 140
+	db "FLIEGENTOT@"
+	db 10 ; 1.0 m
+	dw 64 ; 6.4 kg
 	text_far _WeepinbellDexEntry
 	text_end
 
 VictreebelDexEntry:
-	db "FLYCATCHER@"
-	db 5,7
-	dw 340
+	db "FLIEGENTOT@"
+	db 17 ; 1.7 m
+	dw 155 ; 15.5 kg
 	text_far _VictreebelDexEntry
 	text_end
 
 TentacoolDexEntry:
-	db "JELLYFISH@"
-	db 2,11
-	dw 1000
+	db "QUALLE@"
+	db 9 ; 0.9 m
+	dw 455 ; 45.5 kg
 	text_far _TentacoolDexEntry
 	text_end
 
 TentacruelDexEntry:
-	db "JELLYFISH@"
-	db 5,3
-	dw 1210
+	db "QUALLE@"
+	db 16 ; 1.6 m
+	dw 550 ; 55.0 kg
 	text_far _TentacruelDexEntry
 	text_end
 
 GeodudeDexEntry:
-	db "ROCK@"
-	db 1,4
-	dw 440
+	db "GESTEIN@"
+	db 4 ; 0.4 m
+	dw 200 ; 20.0 kg
 	text_far _GeodudeDexEntry
 	text_end
 
 GravelerDexEntry:
-	db "ROCK@"
-	db 3,3
-	dw 2320
+	db "GESTEIN@"
+	db 10 ; 1.0 m
+	dw 1050 ; 105.0 kg
 	text_far _GravelerDexEntry
 	text_end
 
 GolemDexEntry:
-	db "MEGATON@"
-	db 4,7
-	dw 6620
+	db "URGESTEIN@"
+	db 14 ; 1.4 m
+	dw 3000 ; 300.0 kg
 	text_far _GolemDexEntry
 	text_end
 
 PonytaDexEntry:
-	db "FIRE HORSE@"
-	db 3,3
-	dw 660
+	db "FEUERPFERD@"
+	db 10 ; 1.0 m
+	dw 300 ; 30.0 kg
 	text_far _PonytaDexEntry
 	text_end
 
 RapidashDexEntry:
-	db "FIRE HORSE@"
-	db 5,7
-	dw 2090
+	db "FEUERPFERD@"
+	db 17 ; 1.7 m
+	dw 950 ; 95.0 kg
 	text_far _RapidashDexEntry
 	text_end
 
 SlowpokeDexEntry:
-	db "DOPEY@"
-	db 3,11
-	dw 790
+	db "SCHNARCHER@"
+	db 12 ; 1.2 m
+	dw 360 ; 36.0 kg
 	text_far _SlowpokeDexEntry
 	text_end
 
 SlowbroDexEntry:
-	db "HERMITCRAB@"
-	db 5,3
-	dw 1730
+	db "SYMBIOSE@"
+	db 16 ; 1.6 m
+	dw 785 ; 78.5 kg
 	text_far _SlowbroDexEntry
 	text_end
 
 MagnemiteDexEntry:
 	db "MAGNET@"
-	db 1,0
-	dw 130
+	db 3 ; 0.3 m
+	dw 60 ; 6.0 kg
 	text_far _MagnemiteDexEntry
 	text_end
 
 MagnetonDexEntry:
 	db "MAGNET@"
-	db 3,3
-	dw 1320
+	db 10 ; 1.0 m
+	dw 600 ; 60.0 kg
 	text_far _MagnetonDexEntry
 	text_end
 
 FarfetchdDexEntry:
-	db "WILD DUCK@"
-	db 2,7
-	dw 330
+	db "WILDENTE@"
+	db 8 ; 0.8 m
+	dw 150 ; 15.0 kg
 	text_far _FarfetchdDexEntry
 	text_end
 
 DoduoDexEntry:
-	db "TWIN BIRD@"
-	db 4,7
-	dw 860
+	db "DUOVOGEL@"
+	db 14 ; 1.4 m
+	dw 392 ; 39.2 kg
 	text_far _DoduoDexEntry
 	text_end
 
 DodrioDexEntry:
-	db "TRIPLEBIRD@"
-	db 5,11
-	dw 1880
+	db "TRIVOGEL@"
+	db 18 ; 1.8 m
+	dw 852 ; 85.2 kg
 	text_far _DodrioDexEntry
 	text_end
 
 SeelDexEntry:
-	db "SEA LION@"
-	db 3,7
-	dw 1980
+	db "SEEHUND@"
+	db 11 ; 1.1 m
+	dw 900 ; 90.0 kg
 	text_far _SeelDexEntry
 	text_end
 
 DewgongDexEntry:
-	db "SEA LION@"
-	db 5,7
-	dw 2650
+	db "SEEHUND@"
+	db 17 ; 1.7 m
+	dw 1200 ; 120.0 kg
 	text_far _DewgongDexEntry
 	text_end
 
 GrimerDexEntry:
-	db "SLUDGE@"
-	db 2,11
-	dw 660
+	db "SCHLAMM@"
+	db 9 ; 0.9 m
+	dw 300 ; 30.0 kg
 	text_far _GrimerDexEntry
 	text_end
 
 MukDexEntry:
-	db "SLUDGE@"
-	db 3,11
-	dw 660
+	db "SCHLAMM@"
+	db 12 ; 1.2 m
+	dw 300 ; 30.0 kg
 	text_far _MukDexEntry
 	text_end
 
 ShellderDexEntry:
-	db "BIVALVE@"
-	db 1,0
-	dw 90
+	db "MUSCHEL@"
+	db 3 ; 0.3 m
+	dw 40 ; 4.0 kg
 	text_far _ShellderDexEntry
 	text_end
 
 CloysterDexEntry:
-	db "BIVALVE@"
-	db 4,11
-	dw 2920
+	db "MUSCHEL@"
+	db 15 ; 1.5 m
+	dw 1325 ; 132.5 kg
 	text_far _CloysterDexEntry
 	text_end
 
 GastlyDexEntry:
 	db "GAS@"
-	db 4,3
-	dw 2
+	db 13 ; 1.3 m
+	dw 1 ; 0.1 kg
 	text_far _GastlyDexEntry
 	text_end
 
 HaunterDexEntry:
 	db "GAS@"
-	db 5,3
-	dw 2
+	db 16 ; 1.6 m
+	dw 1 ; 0.1 kg
 	text_far _HaunterDexEntry
 	text_end
 
 GengarDexEntry:
-	db "SHADOW@"
-	db 4,11
-	dw 890
+	db "SCHATTEN@"
+	db 15 ; 1.5 m
+	dw 405 ; 40.5 kg
 	text_far _GengarDexEntry
 	text_end
 
 OnixDexEntry:
-	db "ROCK SNAKE@"
-	db 28,10
-	dw 4630
+	db "FELSNATTER@"
+	db 88 ; 8.8 m
+	dw 2100 ; 210.0 kg
 	text_far _OnixDexEntry
 	text_end
 
 DrowzeeDexEntry:
-	db "HYPNOSIS@"
-	db 3,3
-	dw 710
+	db "HYPNOSE@"
+	db 10 ; 1.0 m
+	dw 324 ; 32.4 kg
 	text_far _DrowzeeDexEntry
 	text_end
 
 HypnoDexEntry:
-	db "HYPNOSIS@"
-	db 5,3
-	dw 1670
+	db "HYPNOSE@"
+	db 16 ; 1.6 m
+	dw 756 ; 75.6 kg
 	text_far _HypnoDexEntry
 	text_end
 
 KrabbyDexEntry:
-	db "RIVER CRAB@"
-	db 1,4
-	dw 140
+	db "KRABBE@"
+	db 4 ; 0.4 m
+	dw 65 ; 6.5 kg
 	text_far _KrabbyDexEntry
 	text_end
 
 KinglerDexEntry:
-	db "PINCER@"
-	db 4,3
-	dw 1320
+	db "KNEIFER@"
+	db 13 ; 1.3 m
+	dw 600 ; 60.0 kg
 	text_far _KinglerDexEntry
 	text_end
 
 VoltorbDexEntry:
 	db "BALL@"
-	db 1,8
-	dw 230
+	db 5 ; 0.5 m
+	dw 104 ; 10.4 kg
 	text_far _VoltorbDexEntry
 	text_end
 
 ElectrodeDexEntry:
 	db "BALL@"
-	db 3,11
-	dw 1470
+	db 12 ; 1.2 m
+	dw 666 ; 66.6 kg
 	text_far _ElectrodeDexEntry
 	text_end
 
 ExeggcuteDexEntry:
-	db "EGG@"
-	db 1,4
-	dw 60
+	db "EI@"
+	db 4 ; 0.4 m
+	dw 25 ; 2.5 kg
 	text_far _ExeggcuteDexEntry
 	text_end
 
 ExeggutorDexEntry:
-	db "COCONUT@"
-	db 6,7
-	dw 2650
+	db "PALMFRUCHT@"
+	db 20 ; 2.0 m
+	dw 1200 ; 120.0 kg
 	text_far _ExeggutorDexEntry
 	text_end
 
 CuboneDexEntry:
-	db "LONELY@"
-	db 1,4
-	dw 140
+	db "EINSAM@"
+	db 4 ; 0.4 m
+	dw 65 ; 6.5 kg
 	text_far _CuboneDexEntry
 	text_end
 
 MarowakDexEntry:
-	db "BONEKEEPER@"
-	db 3,3
-	dw 990
+	db "KNOCHENFAN@"
+	db 10 ; 1.0 m
+	dw 450 ; 45.0 kg
 	text_far _MarowakDexEntry
 	text_end
 
 HitmonleeDexEntry:
-	db "KICKING@"
-	db 4,11
-	dw 1100
+	db "KICKER@"
+	db 15 ; 1.5 m
+	dw 498 ; 49.8 kg
 	text_far _HitmonleeDexEntry
 	text_end
 
 HitmonchanDexEntry:
-	db "PUNCHING@"
-	db 4,7
-	dw 1110
+	db "PUNCHER@"
+	db 14 ; 1.4 m
+	dw 502 ; 50.2 kg
 	text_far _HitmonchanDexEntry
 	text_end
 
 LickitungDexEntry:
-	db "LICKING@"
-	db 3,11
-	dw 1440
+	db "SCHLECKER@"
+	db 12 ; 1.2 m
+	dw 655 ; 65.5 kg
 	text_far _LickitungDexEntry
 	text_end
 
 KoffingDexEntry:
-	db "POISON GAS@"
-	db 2,0
-	dw 20
+	db "GIFTWOLKE@"
+	db 6 ; 0.6 m
+	dw 10 ; 1.0 kg
 	text_far _KoffingDexEntry
 	text_end
 
 WeezingDexEntry:
-	db "POISON GAS@"
-	db 3,11
-	dw 210
+	db "GIFTWOLKE@"
+	db 12 ; 1.2 m
+	dw 95 ; 9.5 kg
 	text_far _WeezingDexEntry
 	text_end
 
 RhyhornDexEntry:
-	db "SPIKES@"
-	db 3,3
-	dw 2540
+	db "STACHLER@"
+	db 10 ; 1.0 m
+	dw 1150 ; 115.0 kg
 	text_far _RhyhornDexEntry
 	text_end
 
 RhydonDexEntry:
-	db "DRILL@"
-	db 6,3
-	dw 2650
+	db "BOHRER@"
+	db 19 ; 1.9 m
+	dw 1200 ; 120.0 kg
 	text_far _RhydonDexEntry
 	text_end
 
 ChanseyDexEntry:
-	db "EGG@"
-	db 3,7
-	dw 760
+	db "EI@"
+	db 11 ; 1.1 m
+	dw 346 ; 34.6 kg
 	text_far _ChanseyDexEntry
 	text_end
 
 TangelaDexEntry:
-	db "VINE@"
-	db 3,3
-	dw 770
+	db "RANKE@"
+	db 10 ; 1.0 m
+	dw 350 ; 35.0 kg
 	text_far _TangelaDexEntry
 	text_end
 
 KangaskhanDexEntry:
-	db "PARENT@"
-	db 7,3
-	dw 1760
+	db "MUTTERTIER@"
+	db 22 ; 2.2 m
+	dw 800 ; 80.0 kg
 	text_far _KangaskhanDexEntry
 	text_end
 
 HorseaDexEntry:
-	db "DRAGON@"
-	db 1,4
-	dw 180
+	db "DRACHE@"
+	db 4 ; 0.4 m
+	dw 80 ; 8.0 kg
 	text_far _HorseaDexEntry
 	text_end
 
 SeadraDexEntry:
-	db "DRAGON@"
-	db 3,11
-	dw 550
+	db "DRACHE@"
+	db 12 ; 1.2 m
+	dw 250 ; 25.0 kg
 	text_far _SeadraDexEntry
 	text_end
 
 GoldeenDexEntry:
-	db "GOLDFISH@"
-	db 2,0
-	dw 330
+	db "GOLDFISCH@"
+	db 6 ; 0.6 m
+	dw 150 ; 15.0 kg
 	text_far _GoldeenDexEntry
 	text_end
 
 SeakingDexEntry:
-	db "GOLDFISH@"
-	db 4,3
-	dw 860
+	db "GOLDFISCH@"
+	db 13 ; 1.3 m
+	dw 390 ; 39.0 kg
 	text_far _SeakingDexEntry
 	text_end
 
 StaryuDexEntry:
-	db "STARSHAPE@"
-	db 2,7
-	dw 760
+	db "STERNFORM@"
+	db 8 ; 0.8 m
+	dw 345 ; 34.5 kg
 	text_far _StaryuDexEntry
 	text_end
 
 StarmieDexEntry:
-	db "MYSTERIOUS@"
-	db 3,7
-	dw 1760
+	db "MYSTERIÖS@"
+	db 11 ; 1.1 m
+	dw 800 ; 80.0 kg
 	text_far _StarmieDexEntry
 	text_end
 
 MrMimeDexEntry:
-	db "BARRIER@"
-	db 4,3
-	dw 1200
+	db "SPERRE@"
+	db 13 ; 1.3 m
+	dw 545 ; 54.5 kg
 	text_far _MrMimeDexEntry
 	text_end
 
 ScytherDexEntry:
 	db "MANTIS@"
-	db 4,11
-	dw 1230
+	db 15 ; 1.5 m
+	dw 560 ; 56.0 kg
 	text_far _ScytherDexEntry
 	text_end
 
 JynxDexEntry:
-	db "HUMANSHAPE@"
-	db 4,7
-	dw 900
+	db "HUMANOTYP@"
+	db 14 ; 1.4 m
+	dw 406 ; 40.6 kg
 	text_far _JynxDexEntry
 	text_end
 
 ElectabuzzDexEntry:
-	db "ELECTRIC@"
-	db 3,7
-	dw 660
+	db "ELEKTRO@"
+	db 11 ; 1.1 m
+	dw 300 ; 30.0 kg
 	text_far _ElectabuzzDexEntry
 	text_end
 
 MagmarDexEntry:
-	db "SPITFIRE@"
-	db 4,3
-	dw 980
+	db "BRENNER@"
+	db 13 ; 1.3 m
+	dw 445 ; 44.5 kg
 	text_far _MagmarDexEntry
 	text_end
 
 PinsirDexEntry:
-	db "STAGBEETLE@"
-	db 4,11
-	dw 1210
+	db "KNEIFKÄFER@"
+	db 15 ; 1.5 m
+	dw 550 ; 55.0 kg
 	text_far _PinsirDexEntry
 	text_end
 
 TaurosDexEntry:
-	db "WILD BULL@"
-	db 4,7
-	dw 1950
+	db "WILDBULLE@"
+	db 14 ; 1.4 m
+	dw 884 ; 88.4 kg
 	text_far _TaurosDexEntry
 	text_end
 
 MagikarpDexEntry:
-	db "FISH@"
-	db 2,11
-	dw 220
+	db "FISCH@"
+	db 9 ; 0.9 m
+	dw 100 ; 10.0 kg
 	text_far _MagikarpDexEntry
 	text_end
 
 GyaradosDexEntry:
-	db "ATROCIOUS@"
-	db 21,4
-	dw 5180
+	db "GRAUSAM@"
+	db 65 ; 6.5 m
+	dw 2350 ; 235.0 kg
 	text_far _GyaradosDexEntry
 	text_end
 
 LaprasDexEntry:
 	db "TRANSPORT@"
-	db 8,2
-	dw 4850
+	db 25 ; 2.5 m
+	dw 2200 ; 220.0 kg
 	text_far _LaprasDexEntry
 	text_end
 
 DittoDexEntry:
 	db "TRANSFORM@"
-	db 1,0
-	dw 90
+	db 3 ; 0.3 m
+	dw 40 ; 4.0 kg
 	text_far _DittoDexEntry
 	text_end
 
 EeveeDexEntry:
 	db "EVOLUTION@"
-	db 1,0
-	dw 140
+	db 3 ; 0.3 m
+	dw 65 ; 6.5 kg
 	text_far _EeveeDexEntry
 	text_end
 
 VaporeonDexEntry:
-	db "BUBBLE JET@"
-	db 3,3
-	dw 640
+	db "BLUBBLASE@"
+	db 10 ; 1.0 m
+	dw 290 ; 29.0 kg
 	text_far _VaporeonDexEntry
 	text_end
 
 JolteonDexEntry:
-	db "LIGHTNING@"
-	db 2,7
-	dw 540
+	db "BLITZ@"
+	db 8 ; 0.8 m
+	dw 245 ; 24.5 kg
 	text_far _JolteonDexEntry
 	text_end
 
 FlareonDexEntry:
-	db "FLAME@"
-	db 2,11
-	dw 550
+	db "FEUER@"
+	db 9 ; 0.9 m
+	dw 250 ; 25.0 kg
 	text_far _FlareonDexEntry
 	text_end
 
 PorygonDexEntry:
-	db "VIRTUAL@"
-	db 2,7
-	dw 800
+	db "VIRTUELL@"
+	db 8 ; 0.8 m
+	dw 365 ; 36.5 kg
 	text_far _PorygonDexEntry
 	text_end
 
 OmanyteDexEntry:
-	db "SPIRAL@"
-	db 1,4
-	dw 170
+	db "SPIRALE@"
+	db 4 ; 0.4 m
+	dw 75 ; 7.5 kg
 	text_far _OmanyteDexEntry
 	text_end
 
 OmastarDexEntry:
-	db "SPIRAL@"
-	db 3,3
-	dw 770
+	db "SPIRALE@"
+	db 10 ; 1.0 m
+	dw 350 ; 35.0 kg
 	text_far _OmastarDexEntry
 	text_end
 
 KabutoDexEntry:
-	db "SHELLFISH@"
-	db 1,8
-	dw 250
+	db "SCHALTIER@"
+	db 5 ; 0.5 m
+	dw 115 ; 11.5 kg
 	text_far _KabutoDexEntry
 	text_end
 
 KabutopsDexEntry:
-	db "SHELLFISH@"
-	db 4,3
-	dw 890
+	db "SCHALTIER@"
+	db 13 ; 1.3 m
+	dw 405 ; 40.5 kg
 	text_far _KabutopsDexEntry
 	text_end
 
 AerodactylDexEntry:
 	db "FOSSIL@"
-	db 5,11
-	dw 1300
+	db 18 ; 1.8 m
+	dw 590 ; 59.0 kg
 	text_far _AerodactylDexEntry
 	text_end
 
 SnorlaxDexEntry:
-	db "SLEEPING@"
-	db 6,11
-	dw 10140
+	db "TAGTRÄUMER@"
+	db 21 ; 2.1 m
+	dw 4600 ; 460.0 kg
 	text_far _SnorlaxDexEntry
 	text_end
 
 ArticunoDexEntry:
-	db "FREEZE@"
-	db 5,7
-	dw 1220
+	db "EIS@"
+	db 17 ; 1.7 m
+	dw 554 ; 55.4 kg
 	text_far _ArticunoDexEntry
 	text_end
 
 ZapdosDexEntry:
-	db "ELECTRIC@"
-	db 5,3
-	dw 1160
+	db "ELEKTRO@"
+	db 16 ; 1.6 m
+	dw 526 ; 52.6 kg
 	text_far _ZapdosDexEntry
 	text_end
 
 MoltresDexEntry:
-	db "FLAME@"
-	db 6,7
-	dw 1320
+	db "FEUER@"
+	db 20 ; 2.0 m
+	dw 600 ; 60.0 kg
 	text_far _MoltresDexEntry
 	text_end
 
 DratiniDexEntry:
-	db "DRAGON@"
-	db 5,11
-	dw 70
+	db "DRACHE@"
+	db 18 ; 1.8 m
+	dw 33 ; 3.3 kg
 	text_far _DratiniDexEntry
 	text_end
 
 DragonairDexEntry:
-	db "DRAGON@"
-	db 13,1
-	dw 360
+	db "DRACHE@"
+	db 40 ; 4.0 m
+	dw 165 ; 16.5 kg
 	text_far _DragonairDexEntry
 	text_end
 
 DragoniteDexEntry:
-	db "DRAGON@"
-	db 7,3
-	dw 4630
+	db "DRACHE@"
+	db 22 ; 2.2 m
+	dw 2100 ; 210.0 kg
 	text_far _DragoniteDexEntry
 	text_end
 
 MewtwoDexEntry:
-	db "GENETIC@"
-	db 6,7
-	dw 2690
+	db "GENMUTANT@"
+	db 20 ; 2.0 m
+	dw 1220 ; 122.0 kg
 	text_far _MewtwoDexEntry
 	text_end
 
 MewDexEntry:
-	db "NEW SPECIE@"
-	db 1,4
-	dw 90
+	db "NEUE ART@"
+	db 4 ; 0.4 m
+	dw 40 ; 4.0 kg
 	text_far _MewDexEntry
 	text_end
 
