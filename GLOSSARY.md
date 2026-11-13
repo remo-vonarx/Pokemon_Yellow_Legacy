@@ -122,4 +122,4 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | Pikachu's Beach record (print) | `Pikachus Strand` / `<name>s Rekord` / `Punkte` | printed Surfing Pikachu high score | German ROM |
 | The water is calm. Would you like to SURF? (Legacy) | `Das Wasser ist` / `ruhig.` / `Möchtest Du` / `SURFER einsetzen?` | Surf prompt | My proposal, approved (kept `Wasser` over `See`: the prompt also comes up at lakes and ponds) |
 | This tree can be CUT! / Would you like to use CUT? (Legacy) | `Diesen Baum kann` / `man zerschneiden!`; `Möchtest Du` / `ZERSCHNEIDER` / `einsetzen?` | Cut prompt | My proposal, approved |
-| HMs are really important! You should keep them on you at all times. (Legacy) | `VM sind wirklich` / `wichtig!` / `Du solltest sie` / `immer bei Dir` / `haben.` | Vermilion trade house | My proposal, needs review |
+| HMs are really important! You should keep them on you at all times. (Legacy) | `VM sind wirklich` / `wichtig!` / `Du solltest sie` / `immer bei Dir` / `haben.` | Vermilion trade house | My proposal, approved |
