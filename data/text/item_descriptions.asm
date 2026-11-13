@@ -159,6 +159,11 @@ _RareCandyDescription::
 	text_end
 
 _DomeFossilDescription::
+	text "Versteinerte"
+	next "#MON-Schale.@"
+	text_waitbutton
+	text_end
+
 _HelixFossilDescription::
 	text "Versteinerte"
 	next "#MON-Muschel.@"
