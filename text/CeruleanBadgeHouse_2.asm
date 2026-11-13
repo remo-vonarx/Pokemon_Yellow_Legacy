@@ -1,28 +1,32 @@
 _CeruleanBadgeHouseSoulBadgeText::
-	text "The SPEED of all"
-	line "#MON increases"
-	cont "a little bit."
+	text "Die INITIATIVE"
+	line "Deiner #MON"
+	cont "wird verbessert."
 
-	para "It also lets you"
-	line "use SURF outside"
-	cont "of battle."
+	para "Ferner kannst Du"
+	line "außerhalb von"
+	cont "Kämpfen SURFER"
+	cont "verwenden."
 	prompt
 
 _CeruleanBadgeHouseMarshBadgeText::
-	text "#MON up to L70"
-	line "will obey you."
+	text "#MON bis"
+	line "Level 70 folgen"
+	cont "Deinen Befehlen."
 
-	para "Any higher, they"
-	line "become unruly!"
+	para "#MON höherer"
+	line "Level gehorchen"
+	cont "Dir jedoch nicht!"
 	prompt
 
 _CeruleanBadgeHouseVolcanoBadgeText::
-	text "Your #MON's"
-	line "SPECIAL abilities"
-	cont "increase a bit."
+	text "Die SPEZIAL-"
+	line "FÄHIGKEITEN"
+	cont "Deiner #MON"
+	cont "werden erhöht."
 	prompt
 
 _CeruleanBadgeHouseEarthBadgeText::
-	text "All #MON will"
-	line "obey you!"
+	text "Jegliches #MON"
+	line "gehorcht Dir!"
 	prompt
