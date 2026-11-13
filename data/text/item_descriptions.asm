@@ -1,602 +1,722 @@
 _MasterBallDescription::
-	text "The best BALL. It"
-	next "never misses."
-	prompt
+	text "Der beste BALL."
+	next "Erfolg garantiert!@"
+	text_waitbutton
+	text_end
 
 _UltraBallDescription::
-	text "A BALL with a high"
-	next "rate of success."
-	prompt
+	text "Ein BALL mit hoher"
+	next "Erfolgsquote.@"
+	text_waitbutton
+	text_end
 
 _GreatBallDescription::
-	text "A BALL with a de-"
-	next "cent success rate."
-	prompt
+	text "Ein BALL mit guter"
+	next "Erfolgsquote.@"
+	text_waitbutton
+	text_end
 
 _PokeBallDescription::
-	text "An item for catch-"
-	next "ing #MON."
-	prompt
+	text "Damit fängst Du"
+	next "#MON.@"
+	text_waitbutton
+	text_end
 
 _TownMapDescription::
-	text "Shows your present"
-	next "location."
-	prompt
+	text "Zeigt, wo Du Dich"
+	next "gerade befindest.@"
+	text_waitbutton
+	text_end
 
 _BicycleDescription::
-	text "A collapsible bike"
-	next "for fast movement."
-	prompt
+	text "Ein Klapprad, um"
+	next "schneller zu sein.@"
+	text_waitbutton
+	text_end
 
 _MoonStoneDescription::
 _FireStoneDescription::
 _ThunderStoneDescription::
 _WaterStoneDescription::
 _LeafStoneDescription::
-	text "Evolves certain"
-	next "kinds of #MON."
-	prompt
+	text "Entwickelt manche"
+	next "#MON.@"
+	text_waitbutton
+	text_end
 
 _AntidoteDescription::
-	text "Cures poisoned"
-	next "#MON."
-	prompt
+	text "Heilt"
+	next "Vergiftungen.@"
+	text_waitbutton
+	text_end
 
 _BurnHealDescription::
-	text "Heals burned"
-	next "#MON."
-	prompt
+	text "Heilt"
+	next "Verbrennungen.@"
+	text_waitbutton
+	text_end
 
 _IceHealDescription::
-	text "Defrosts frozen"
-	next "#MON."
-	prompt
+	text "Taut #MON"
+	next "wieder auf.@"
+	text_waitbutton
+	text_end
 
 _AwakeningDescription::
-	text "Awakens sleeping"
-	next "#MON."
-	prompt
+	text "Weckt schlafende"
+	next "#MON.@"
+	text_waitbutton
+	text_end
 
 _ParlyzHealDescription::
-	text "Heals paralyzed"
-	next "#MON."
-	prompt
+	text "Heilt Paralyse.@"
+	text_waitbutton
+	text_end
 
 _FullRestoreDescription::
-	text "Fully restores HP"
-	next "and status."
-	prompt
+	text "Stellt KP und"
+	next "Status wieder her.@"
+	text_waitbutton
+	text_end
 
 _MaxPotionDescription::
-	text "Fully restores"
-	next "#MON HP."
-	prompt
+	text "Füllt KP"
+	next "vollständig auf.@"
+	text_waitbutton
+	text_end
 
 _HyperPotionDescription::
-	text "Restores #MON"
-	next "HP by 200."
-	prompt
+	text "Füllt KP um 200"
+	next "auf.@"
+	text_waitbutton
+	text_end
 
 _SuperPotionDescription::
-	text "Restores #MON"
-	next "HP by 50."
-	prompt
+	text "Füllt KP um 50"
+	next "auf.@"
+	text_waitbutton
+	text_end
 
 _PotionDescription::
-	text "Restores #MON"
-	next "HP by 20."
-	prompt
+	text "Füllt KP um 20"
+	next "auf.@"
+	text_waitbutton
+	text_end
 
 _EscapeRopeDescription::
-	text "Use for escaping"
-	next "from caves, etc."
-	prompt
+	text "Ermöglicht Flucht"
+	next "aus Höhlen, etc.@"
+	text_waitbutton
+	text_end
 
 _RepelDescription::
-	text "Repels weak #-"
-	next "MON for 100 steps."
-	prompt
+	text "Hält 100 Schritte"
+	next "lang schwache"
+	cont "#MON ab.@"
+	text_waitbutton
+	text_end
 
 _OldAmberDescription::
-	text "Fossilized resin"
-	next "containing DNA."
-	prompt
+	text "Versteinertes"
+	next "Baumharz mit DNA.@"
+	text_waitbutton
+	text_end
 
 _HPUpDescription::
-	text "Raises the HP of"
-	next "one #MON."
-	prompt
+	text "Erhöht KP eines"
+	next "#MON.@"
+	text_waitbutton
+	text_end
 
 _ProteinDescription::
-	text "Raises ATTACK of"
-	next "one #MON."
-	prompt
+	text "Erhöht den"
+	next "ANGR-Wert.@"
+	text_waitbutton
+	text_end
 
 _IronDescription::
-	text "Raises DEFENSE of"
-	next "one #MON."
-	prompt
+	text "Erhöht den"
+	next "VERT-Wert.@"
+	text_waitbutton
+	text_end
 
 _CarbosDescription::
-	text "Raises SPEED of"
-	next "one #MON."
-	prompt
+	text "Erhöht den"
+	next "INIT-Wert.@"
+	text_waitbutton
+	text_end
 
 _CalciumDescription::
-	text "Raises SPECIAL"
-	next "of one #MON."
-	prompt
+	text "Erhöht den"
+	next "SPEZ-Wert.@"
+	text_waitbutton
+	text_end
 
 _RareCandyDescription::
-	text "Raises level of a"
-	next "#MON by one."
-	prompt
+	text "Hebt Level um eins"
+	next "an.@"
+	text_waitbutton
+	text_end
 
 _DomeFossilDescription::
 _HelixFossilDescription::
-	text "A fossilized"
-	next "#MON shell."
-	prompt
+	text "Versteinerte"
+	next "#MON-Schale.@"
+	text_waitbutton
+	text_end
 
 _SecretKeyDescription::
-	text "Opens doors."
-	prompt
+	text "Öffnet Türen.@"
+	text_waitbutton
+	text_end
 
 _BikeVoucherDescription::
-	text "Exchange for a new"
-	next "BICYCLE."
-	prompt
+	text "Gegen ein neues"
+	next "FAHRRAD tauschen.@"
+	text_waitbutton
+	text_end
 
 _XAccuracyDescription::
-	text "Raises accuracy."
-	next "(1 BTL)"
-	prompt
+	text "Hebt Genauigkeit"
+	next "für 1 Kampf.@"
+	text_waitbutton
+	text_end
 
 _CardKeyDescription::
-	text "Opens shutters in"
-	next "SILPH CO."
-	prompt
+	text "Öffnet Türen in"
+	next "der SILPH CO.@"
+	text_waitbutton
+	text_end
 
 _NuggetDescription::
-	text "Made of pure gold."
-	next "Sell high."
-	prompt
+	text "Aus purem Gold."
+	next "Wert hoch.@"
+	text_waitbutton
+	text_end
 
 _PokeDollDescription::
-	text "Use to escape from"
-	next "a wild #MON."
-	prompt
+	text "Flucht vor wilden"
+	next "#MON.@"
+	text_waitbutton
+	text_end
 
 _FullHealDescription::
-	text "Eliminates all"
-	next "status problems."
-	prompt
+	text "Beseitigt alle"
+	next "Statusprobleme.@"
+	text_waitbutton
+	text_end
 
 _ReviveDescription::
-	text "Restores a fainted"
-	next "#MON to 1/2 HP."
-	prompt
+	text "Belebt #MON"
+	next "plus halbe KP.@"
+	text_waitbutton
+	text_end
 
 _MaxReviveDescription::
-	text "Fully restores a"
-	next "fainted #MON."
-	prompt
+	text "Belebt #MON"
+	next "plus volle KP.@"
+	text_waitbutton
+	text_end
 
 _GuardSpecDescription::
-	text "Prevents stats"
-	next "reduction. (1 BTL)"
-	prompt
+	text "Keine Statusände-"
+	next "rung für 1 Kampf.@"
+	text_waitbutton
+	text_end
 
 _SuperRepelDescription::
-	text "Repels weak #-"
-	next "MON for 200 steps."
-	prompt
+	text "Hält 200 Schritte"
+	next "lang schwache"
+	cont "#MON ab.@"
+	text_waitbutton
+	text_end
 
 _MaxRepelDescription::
-	text "Repels weak #-"
-	next "MON for 250 steps."
-	prompt
+	text "Hält 250 Schritte"
+	next "lang schwache"
+	cont "#MON ab.@"
+	text_waitbutton
+	text_end
 
 _DireHitDescription::
-	text "Ups critical hit"
-	next "ratio. (1 BTL)"
-	prompt
+	text "Hebt Volltreffer-"
+	next "quote für 1 Kampf.@"
+	text_waitbutton
+	text_end
 
 _FreshWaterDescription::
-	text "Restores #MON"
-	next "HP by 50."
-	prompt
+	text "Füllt KP um 50"
+	next "auf.@"
+	text_waitbutton
+	text_end
 
 _SodaPopDescription::
-	text "Restores #MON"
-	next "HP by 60."
-	prompt
+	text "Füllt KP um 60"
+	next "auf.@"
+	text_waitbutton
+	text_end
 
 _LemonadeDescription::
-	text "Restores #MON"
-	next "HP by 80."
-	prompt
+	text "Füllt KP um 80"
+	next "auf.@"
+	text_waitbutton
+	text_end
 
 _SSTicketDescription::
-	text "A ticket for the"
-	next "S.S.ANNE."
-	prompt
+	text "Ein Ticket für die"
+	next "M.S. ANNE.@"
+	text_waitbutton
+	text_end
 
 _GoldTeethDescription::
-	text "Gold dentures lost"
-	next "by the WARDEN."
-	prompt
+	text "Goldgebiss, das"
+	next "der WÄRTER verlor.@"
+	text_waitbutton
+	text_end
 
 _XAttackDescription::
-	text "Raises ATTACK."
-	next "(1 BTL)"
-	prompt
+	text "Hebt ANGR-Wert für"
+	next "1 Kampf.@"
+	text_waitbutton
+	text_end
 
 _XDefendDescription::
-	text "Raises DEFENSE."
-	next "(1 BTL)"
-	prompt
+	text "Hebt VERT-Wert für"
+	next "1 Kampf.@"
+	text_waitbutton
+	text_end
 
 _XSpeedDescription::
-	text "Raises SPEED."
-	next "(1 BTL)"
-	prompt
+	text "Hebt INIT-Wert für"
+	next "1 Kampf.@"
+	text_waitbutton
+	text_end
 
 _XSpecialDescription::
-	text "Raises SPECIAL."
-	next "(1 BTL)"
-	prompt
+	text "Hebt SPEZ-Wert für"
+	next "1 Kampf.@"
+	text_waitbutton
+	text_end
 
 _CoinCaseDescription::
-	text "Holds up to 9,999"
-	next "game coins."
-	prompt
+	text "Kann bis zu 9.999"
+	next "Münzen aufnehmen.@"
+	text_waitbutton
+	text_end
 
 _OaksParcelDescription::
-	text "A parcel belonging"
-	next "to PROF.OAK."
-	prompt
+	text "Ein Paket, das"
+	next "PROF. EICH gehört.@"
+	text_waitbutton
+	text_end
 
 _ItemfinderDescription::
-	text "Checks for unseen"
-	next "items in the area."
-	prompt
+	text "Scannt die Umge-"
+	next "bung nach Items.@"
+	text_waitbutton
+	text_end
 
 _SilphScopeDescription::
-	text "A scope to see in-"
-	next "visible #MON."
-	prompt
+	text "Linse für unsicht-"
+	next "bare #MON.@"
+	text_waitbutton
+	text_end
 
 _PokeFluteDescription::
-	text "Instantly awakens"
-	next "any #MON."
-	prompt
+	text "Weckt sofort jedes"
+	next "#MON auf.@"
+	text_waitbutton
+	text_end
 
 _LiftKeyDescription::
-	text "Key to the lift in"
-	next "the ROCKET base."
-	prompt
+	text "Öffnet den Lift im"
+	next "ROCKET-Versteck.@"
+	text_waitbutton
+	text_end
 
 _ExpAllDescription::
-	text "Shares battle EXP."
-	next "points."
-	prompt
+	text "Teilt Kampf-EP.@"
+	text_waitbutton
+	text_end
 
 _OldRodDescription::
-	text "Use by water to"
-	next "fish for #MON."
-	prompt
+	text "Damit kannst Du"
+	next "#MON angeln.@"
+	text_waitbutton
+	text_end
 
 _GoodRodDescription::
-	text "A good ROD for"
-	next "catching #MON."
-	prompt
+	text "Eine gute ANGEL"
+	next "zum Fischen.@"
+	text_waitbutton
+	text_end
 
 _SuperRodDescription::
-	text "The best ROD for"
-	next "catching #MON."
-	prompt
+	text "Die beste ANGEL"
+	next "zum Fischen.@"
+	text_waitbutton
+	text_end
 
 _PPUpDescription::
-	text "Raises max PP of"
-	next "a selected move."
-	prompt
+	text "Hebt die max."
+	next "Anzahl der AP.@"
+	text_waitbutton
+	text_end
 
 _EtherDescription::
-	text "Restores PP of one"
-	next "move by 10."
-	prompt
+	text "Füllt AP um 10"
+	next "auf.@"
+	text_waitbutton
+	text_end
 
 _MaxEtherDescription::
-	text "Fully restores PP"
-	next "of one move."
-	prompt
+	text "Füllt AP"
+	next "vollständig auf.@"
+	text_waitbutton
+	text_end
 
 _ElixerDescription::
-	text "Restores PP of all"
-	next "moves by 10."
-	prompt
+	text "Füllt alle AP um"
+	next "10 auf.@"
+	text_waitbutton
+	text_end
 
 _MaxElixerDescription::
-	text "Fully restores the"
-	next "PP of one #MON."
-	prompt
+	text "Füllt alle AP auf.@"
+	text_waitbutton
+	text_end
 
 _HM01Description::
-	text "Cuts using claws,"
-	next "scythes, etc."
-	prompt
+	text "Setzt Klauen,"
+	next "Sicheln etc. ein.@"
+	text_waitbutton
+	text_end
 
 _HM02Description::
-	text "1st turn: Fly"
-	next "2nd turn: Attack"
-	prompt
+	text "1. Emporfliegen"
+	next "2. Angriff@"
+	text_waitbutton
+	text_end
 
 _HM03Description::
-	text "A strong water-"
-	next "type attack."
-	prompt
+	text "Eine starke"
+	next "Wasser-Attacke.@"
+	text_waitbutton
+	text_end
 
 _HM04Description::
-	text "A powerful physi-"
-	next "cal attack."
-	prompt
+	text "Starke"
+	next "Körperattacke.@"
+	text_waitbutton
+	text_end
 
 _HM05Description::
-	text "Blinds the foe to"
-	next "reduce accuracy."
-	prompt
+	text "Blendet Gegner und"
+	next "senkt Präzision.@"
+	text_waitbutton
+	text_end
 
 _TM01Description::
-	text "A powerful punch"
-	next "thrown very hard."
-	prompt
+	text "Ein kräftiger"
+	next "Punch.@"
+	text_waitbutton
+	text_end
 
 _TM02Description::
-	text "1st turn: Attack"
-	next "2nd turn: Rest"
-	prompt
+	text "1. Vorbereitung"
+	next "2. Angriff@"
+	text_waitbutton
+	text_end
 
 _TM03Description::
-	text "A dance that in-"
-	next "creases ATTACK."
-	prompt
+	text "Tanz, erhöht"
+	next "ANGR-Wert.@"
+	text_waitbutton
+	text_end
 
 _TM04Description::
-	text "An attack that"
-	next "may cause a burn."
-	prompt
+	text "Gegner erleidet"
+	next "evtl. Verbrennung.@"
+	text_waitbutton
+	text_end
 
 _TM05Description::
-	text "A powerful kicking"
-	next "attack."
-	prompt
+	text "Starke"
+	next "Fuss-Attacke.@"
+	text_waitbutton
+	text_end
 
 _TM06Description::
-	text "A poison move with"
-	next "increasing damage."
-	prompt
+	text "Gift-Attacke mit"
+	next "Schadenszuwachs.@"
+	text_waitbutton
+	text_end
 
 _TM07Description::
-	text "A one-hit KO,"
-	next "drill attack."
-	prompt
+	text "K.O. durch"
+	next "Bohr-Attacke.@"
+	text_waitbutton
+	text_end
 
 _TM08Description::
-	text "An attack that may"
-	next "cause paralysis."
-	prompt
+	text "Gegner ist evtl."
+	next "paralysiert.@"
+	text_waitbutton
+	text_end
 
 _TM09Description::
-	text "A tackle that also"
-	next "hurts the user."
-	prompt
+	text "Tackle! Angreifer"
+	next "wird verletzt.@"
+	text_waitbutton
+	text_end
 
 _TM10Description::
-	text "A tackle that also"
-	next "hurts the user."
-	prompt
+	text "Tackle! Angreifer"
+	next "wird verletzt.@"
+	text_waitbutton
+	text_end
 
 _TM11Description::
-	text "An attack that may"
-	next "lower SPEED."
-	prompt
+	text "Senkt evtl. INIT-"
+	next "Wert des Gegners.@"
+	text_waitbutton
+	text_end
 
 _TM12Description::
-	text "Squirts water to"
-	next "attack."
-	prompt
+	text "Greift mit Wasser"
+	next "an.@"
+	text_waitbutton
+	text_end
 
 _TM13Description::
-	text "An attack that may"
-	next "freeze the foe."
-	prompt
+	text "Gegner wird evtl."
+	next "eingefroren.@"
+	text_waitbutton
+	text_end
 
 _TM14Description::
-	text "An attack that may"
-	next "freeze the foe."
-	prompt
+	text "Gegner wird evtl."
+	next "eingefroren.@"
+	text_waitbutton
+	text_end
 
 _TM15Description::
-	text "1st turn: Attack"
-	next "2nd turn: Rest"
-	prompt
+	text "1. Angriff"
+	next "2. Ausruhen.@"
+	text_waitbutton
+	text_end
 
 _TM16Description::
-	text "Throws coins. Gets"
-	next "them back later."
-	prompt
+	text "Wirft Münzen. Wie-"
+	next "dererhalt später.@"
+	text_waitbutton
+	text_end
 
 _TM17Description::
-	text "An attack that al-"
-	next "so hurts the user."
-	prompt
+	text "Eine Attacke, die"
+	next "Anwender verletzt.@"
+	text_waitbutton
+	text_end
 
 _TM18Description::
-	text "Returns a physical"
-	next "blow double."
-	prompt
+	text "Erwidert Körper-"
+	next "attacken doppelt.@"
+	text_waitbutton
+	text_end
 
 _TM19Description::
-	text "The user's level"
-	next "equals damage HP."
-	prompt
+	text "Angreiferlevel"
+	next "gleich Schaden.@"
+	text_waitbutton
+	text_end
 
 _TM20Description::
-	text "Raises ATTACK if"
-	next "the user is hit."
-	prompt
+	text "Hebt ANGR-Wert bei"
+	next "Schadenszufuhr.@"
+	text_waitbutton
+	text_end
 
 _TM21Description::
-	text "Steals 1/2 of the"
-	next "damage inflicted."
-	prompt
+	text "Erhält Hälfte des"
+	next "Schadens als KP.@"
+	text_waitbutton
+	text_end
 
 _TM22Description::
-	text "1st turn: Prepare"
-	next "2nd turn: Attack"
-	prompt
+	text "1. Vorbereitung"
+	next "2. Angriff@"
+	text_waitbutton
+	text_end
 
 _TM23Description::
-	text "Always inflicts"
-	next "40HP damage."
-	prompt
+	text "Fügt Gegner 40 KP"
+	next "Schaden zu.@"
+	text_waitbutton
+	text_end
 
 _TM24Description::
-	text "An attack that may"
-	next "cause paralysis."
-	prompt
+	text "Gegner ist evtl."
+	next "paralysiert.@"
+	text_waitbutton
+	text_end
 
 _TM25Description::
-	text "An attack that may"
-	next "cause paralysis."
-	prompt
+	text "Gegner ist evtl."
+	next "paralysiert.@"
+	text_waitbutton
+	text_end
 
 _TM26Description::
-	text "Tough but useless"
-	next "vs. flying foes."
-	prompt
+	text "Stark! Nutzlos bei"
+	next "Flug-#MON.@"
+	text_waitbutton
+	text_end
 
 _TM27Description::
-	text "A ground-type,"
-	next "one-hit KO attack."
-	prompt
+	text "K.O. durch"
+	next "Boden-Attacke.@"
+	text_waitbutton
+	text_end
 
 _TM28Description::
-	text "1st turn: Burrow"
-	next "2nd turn: Attack"
-	prompt
+	text "1. Graben"
+	next "2. Angriff@"
+	text_waitbutton
+	text_end
 
 _TM29Description::
-	text "An attack that may"
-	next "lower SPECIAL."
-	prompt
+	text "Senkt evtl. SPEZ-"
+	next "Wert des Gegners.@"
+	text_waitbutton
+	text_end
 
 _TM30Description::
-	text "A move for fleeing"
-	next "from battle."
-	prompt
+	text "Ermöglicht Flucht"
+	next "aus Kämpfen.@"
+	text_waitbutton
+	text_end
 
 _TM31Description::
-	text "Copies a move used"
-	next "by the foe."
-	prompt
+	text "Ahmt Attacke des"
+	next "Angreifers nach.@"
+	text_waitbutton
+	text_end
 
 _TM32Description::
-	text "Heightens evasive-"
-	next "ness."
-	prompt
+	text "Fluchtwert nimmt"
+	next "zu.@"
+	text_waitbutton
+	text_end
 
 _TM33Description::
-	text "Raises DEFENSE"
-	next "with a barrier."
-	prompt
+	text "Hebt VERT-Wert"
+	next "mittels Barriere.@"
+	text_waitbutton
+	text_end
 
 _TM34Description::
-	text "Waits 2-3 turns to"
-	next "hit back double."
-	prompt
+	text "Trifft nach 2-3"
+	next "Runden doppelt.@"
+	text_waitbutton
+	text_end
 
 _TM35Description::
-	text "Randomly uses any"
-	next "#MON move."
-	prompt
+	text "Wählt zufällige"
+	next "#MON-Attacke.@"
+	text_waitbutton
+	text_end
 
 _TM36Description::
-	text "Powerful but makes"
-	next "the user faint."
-	prompt
+	text "Stark, der Angrei-"
+	next "fer wird besiegt.@"
+	text_waitbutton
+	text_end
 
 _TM37Description::
-	text "Eggs are hurled at"
-	next "the foe."
-	prompt
+	text "Der Gegner erlebt"
+	next "einen Eierhagel.@"
+	text_waitbutton
+	text_end
 
 _TM38Description::
-	text "An attack that"
-	next "may cause a burn."
-	prompt
+	text "Gegner erleidet"
+	next "evtl. Verbrennung.@"
+	text_waitbutton
+	text_end
 
 _TM39Description::
-	text "An attack that"
-	next "never misses."
-	prompt
+	text "Attacke mit"
+	next "Treffergarantie.@"
+	text_waitbutton
+	text_end
 
 _TM40Description::
-	text "1st turn: Prepare"
-	next "2nd turn: Attack"
-	prompt
+	text "1. Vorbereitung"
+	next "2. Angriff@"
+	text_waitbutton
+	text_end
 
 _TM41Description::
-	text "Restores HP by 1/2"
-	next "the user's max HP."
-	prompt
+	text "Füllt KP zur"
+	next "Hälfte auf.@"
+	text_waitbutton
+	text_end
 
 _TM42Description::
-	text "Steals HP from a"
-	next "sleeping victim."
-	prompt
+	text "Zieht schlafendem"
+	next "Gegner KP ab.@"
+	text_waitbutton
+	text_end
 
 _TM43Description::
-	text "1st turn: Prepare"
-	next "2nd turn: Attack"
-	prompt
+	text "1. Vorbereitung"
+	next "2. Angriff@"
+	text_waitbutton
+	text_end
 
 _TM44Description::
-	text "Sleep for 2 turns"
-	next "to fully recover."
-	prompt
+	text "2 Runden pausieren"
+	next "für Erholung.@"
+	text_waitbutton
+	text_end
 
 _TM45Description::
-	text "A move that may"
-	next "cause paralysis."
-	prompt
+	text "Gegner ist evtl."
+	next "paralysiert.@"
+	text_waitbutton
+	text_end
 
 _TM46Description::
-	text "An attack with"
-	next "variable power."
-	prompt
+	text "Angriff mit"
+	next "variabler Kraft.@"
+	text_waitbutton
+	text_end
 
 _TM47Description::
-	text "Very powerful but"
-	next "makes user faint."
-	prompt
+	text "Stark; Angreifer"
+	next "wird besiegt.@"
+	text_waitbutton
+	text_end
 
 _TM48Description::
-	text "An attack that may"
-	next "cause flinching."
-	prompt
+	text "Gegner schreckt"
+	next "evtl. zurück.@"
+	text_waitbutton
+	text_end
 
 _TM49Description::
-	text "Fires three kinds"
-	next "of beams at once."
-	prompt
+	text "Drei Strahlen mit"
+	next "einem Schuss.@"
+	text_waitbutton
+	text_end
 
 _TM50Description::
-	text "Makes a decoy with"
-	next "1/4 user's max HP."
-	prompt
+	text "Macht DELEGATOR"
+	next "mit Viertel KP.@"
+	text_waitbutton
+	text_end
 
 _UnusedItemDescription::
-	text "?"
-	prompt
+	text "?@"
+	text_waitbutton
+	text_end
