@@ -257,7 +257,7 @@ LoadTownMap_Fly::
 	jr .pressedDown
 
 ToText:
-	db "To@"
+	db " <to>@"
 
 BuildFlyLocationsList:
 	ld hl, wFlyAnimUsingCoordList
