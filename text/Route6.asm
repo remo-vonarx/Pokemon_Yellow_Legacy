@@ -1,104 +1,117 @@
 _Route6CooltrainerM1BattleText::
-	text "I'm doing this"
-	line "out of love."
-	cont "Leave me alone!"
+	text "Das mache ich"
+	line "alles aus Liebe!"
+	cont "Lass mich allein!"
 	done
 
 _Route6CooltrainerM1EndBattleText::
-	text "No,"
-	line "this can't be..."
+	text "Das"
+	line "kann nicht sein!"
 	prompt
 
 _Route6CooltrainerM1AfterBattleText::
-	text "My love will leave"
-	line "me in disgust."
+	text "Meine Liebste"
+	line "wird mich"
+	cont "verlassen!"
 	done
 
 _Route6CooltrainerF1BattleText::
-	text "I'm training for"
-	line "my love. Don't"
-	cont "bother me!"
+	text "Ich trainiere für"
+	line "meinen Liebsten!"
+	cont "Stör mich nicht!"
 	done
 
 _Route6CooltrainerF1EndBattleText::
-	text "My"
-	line "textbook never..."
+	text "Das"
+	line "ist unmöglich..."
 	prompt
 
 _Route6CooltrainerF1AfterBattleText::
-	text "Now I understand,"
-	line "#MON isn't"
-	cont "about calculated"
-	cont "numbers."
+	text "Jetzt verstehe"
+	line "ich, dass man den"
+	cont "Sieg nicht vorher"
+	cont "berechnen kann!"
 	done
 
 _Route6Youngster1BattleText::
-	text "There aren't many"
-	line "bugs out here."
+	text "Man findet hier"
+	line "draußen nicht"
+	cont "viele Käfer..."
 	done
 
 _Route6Youngster1EndBattleText::
-	text "No!"
-	line "You're kidding!"
+	text_start
+	line "Du beliebst zu"
+	cont "scherzen, oder?"
 	prompt
 
 _Route6Youngster1AfterBattleText::
-	text "I like bugs, so"
-	line "I'm going back to"
-	cont "VIRIDIAN FOREST."
+	text "Ich gehe in den"
+	line "VERTANIA-WALD"
+	cont "zurück. Dort gibt"
+	cont "es mehr Käfer!"
 	done
 
 _Route6CooltrainerM2BattleText::
-	text "Huh? You want"
-	line "to talk to me?"
+	text "Hörte ich da"
+	line "jemanden vom"
+	cont "Kämpfen sprechen?"
 	done
 
 _Route6CooltrainerM2EndBattleText::
-	text "I"
-	line "didn't start it!"
+	text "Hmm,"
+	line "ich hätte es"
+	cont "besser überhört!"
 	prompt
 
 _Route6CooltrainerM2AfterBattleText::
-	text "I should carry"
-	line "more #MON with"
-	cont "me for safety."
+	text "Zu meiner eigenen"
+	line "Sicherheit sollte"
+	cont "ich mehr #MON"
+	cont "bei mir tragen!"
 	done
 
 _Route6CooltrainerF2BattleText::
-	text "Me? Well, OK."
-	line "I'll play!"
+	text "Kämpfen? Meinst"
+	line "Du mich? Na gut!"
 	done
 
 _Route6CooltrainerF2EndBattleText::
-	text "Just"
-	line "didn't work!"
+	text_start
+	line "Das hat nicht"
+	cont "ganz geklappt!"
 	prompt
 
 _Route6CooltrainerF2AfterBattleText::
-	text "I want to get"
-	line "stronger! What's"
-	cont "your secret?"
+	text "Verrätst Du mir"
+	line "Dein Geheimnis?"
+	cont "Ich möchte auch"
+	cont "stärker werden!"
 	done
 
 _Route6Youngster2BattleText::
-	text "I've never seen"
-	line "you around!"
-	cont "Are you good?"
+	text "Dich habe ich"
+	line "noch nie gesehen!"
+	cont "Bist Du ein guter"
+	cont "Trainer?"
 	done
 
 _Route6Youngster2EndBattleText::
-	text "You"
-	line "are too good!"
+	text "Du"
+	line "bist ein zu guter"
+	cont "Trainer!"
 	prompt
 
 _Route6Youngster2AfterBattleText::
-	text "Are my #MON"
-	line "weak? Or, am I"
-	cont "just bad?"
+	text "Sind meine"
+	line "#MON zu"
+	cont "schwach, oder bin"
+	cont "ich etwa nicht"
+	cont "gut genug?"
 	done
 
 _Route6UndergroundPathSignText::
-	text "UNDERGROUND PATH"
-	line "CERULEAN CITY -"
-	cont "VERMILION CITY"
+	text "TUNNELPFAD"
+	line "AZURIA CITY -"
+	cont "ORANIA CITY"
 	done
