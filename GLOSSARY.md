@@ -123,3 +123,9 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | The water is calm. Would you like to SURF? (Legacy) | `Das Wasser ist` / `ruhig.` / `Möchtest Du` / `SURFER einsetzen?` | Surf prompt | My proposal, approved (kept `Wasser` over `See`: the prompt also comes up at lakes and ponds) |
 | This tree can be CUT! / Would you like to use CUT? (Legacy) | `Diesen Baum kann` / `man zerschneiden!`; `Möchtest Du` / `ZERSCHNEIDER` / `einsetzen?` | Cut prompt | My proposal, approved |
 | HMs are really important! You should keep them on you at all times. (Legacy) | `VM sind wirklich` / `wichtig!` / `Du solltest sie` / `immer bei Dir` / `haben.` | Vermilion trade house | My proposal, approved |
+| Map dialogue (vanilla Yellow text) | German ROM by position, in the new spelling (`dass`, `musst`, `Lass`, `bisschen`, `zu viele`, `so viel`) | map texts | German ROM; where Legacy changed a text, the German ROM's wording is kept and only Legacy's change is translated |
+| RUNNING SHOES (Legacy) | TURBOTRETER | Pallet Town | PokéWiki: official name since Ruby/Sapphire |
+| backpack (Legacy) | Rucksack | Pallet Town | My proposal; the bag itself stays BEUTEL |
+| STAT experience (Legacy) | STATUS-Erfahrung | Route 1 | My proposal: no official term (PokéWiki: "inoffiziell als Stat Experience bekannt"); STATUS as in the party menu |
+| MR MIME: MIME, MIME, MR MIME. (Legacy) | `PANTIMOS: Panti,` / `Panti, Pantimos.` | Red's house | My proposal, in the German ROM's style for cries (`NIDORAN: Nidoran!`, `PUMMELUFF: Puu!`) |
+| Win texts of the rival and Oak | no `<RIVAL>:` prefix; first line short | battles | Upstream fix: the battle prints the trainer's name before them |
