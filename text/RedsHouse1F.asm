@@ -1,79 +1,94 @@
 _RedsHouse1FMomWakeUpText::
-	text "MOM: Right."
-	line "All kids leave"
-	cont "home someday."
-	cont "It said so on TV."
+	text "MUTTER: Richtig."
+	line "Irgendwann gehen"
+	cont "alle Kinder fort,"
+	cont "um ein Abenteuer"
+	cont "zu erleben!"
 
-	para "PROF.OAK, next"
-	line "door, is looking"
-	cont "for you."
+	para "PROF. EICH von"
+	line "nebenan hat nach"
+	cont "Dir gefragt."
 	done
 
 _RedsHouse1FMomYouShouldRestText::
-	text "MOM: <PLAYER>, if"
-	line "you drive your"
-	cont "#MON too hard,"
-	cont "they'll dislike"
-	cont "you."
+	text "MUTTER: <PLAYER>!"
+	line "Wenn Du zu hart"
+	cont "zu Deinen #MON"
+	cont "bist, werden sie"
+	cont "nicht zutraulich!"
 
-	para "You should take a"
-	line "rest."
+	para "Du solltest eine"
+	line "kurze Pause"
+	cont "einlegen."
 	prompt
 
 _RedsHouse1FMomLookingGreatText::
-	text "MOM: Oh good!"
-	line "You and your"
-	cont "#MON are"
-	cont "looking great!"
-	cont "Take care now!"
+	text "MUTTER: Sehr gut!"
+	line "Du und Deine"
+	cont "#MON sehen"
+	cont "großartig aus!"
+	cont "Achte auf Dich!"
 	done
 
 _RedsHouse1FMomChampionText::
-	text "MOM: <PLAYER>!"
+	text "MUTTER: <PLAYER>!"
 
-	para "I'm so proud of"
-	line "you for becoming"
-	cont "the #MON"
-	cont "LEAGUE CHAMPION!"
+	para "Ich bin so stolz"
+	line "auf Dich, dass Du"
+	cont "Champion der"
+	cont "PKMN-LIGA"
+	cont "geworden bist!"
 
-	para "You and your"
-	line "#MON have"
-	cont "worked so hard"
-	cont "for this."
+	para "Du und Deine"
+	line "#MON habt so"
+	cont "hart dafür"
+	cont "gearbeitet."
 
-	para "Congratulations!"
+	para "Herzlichen"
+	line "Glückwunsch!"
 
-	para "Take some time to"
-	line "celebrate with"
-	cont "your #MON and"
-	cont "friends."
-	
-	para "You've earned it!"
+	para "Nimm Dir etwas"
+	line "Zeit, um mit"
+	cont "Deinen #MON"
+	cont "und Freunden zu"
+	cont "feiern."
 
-	para "I know you'll"
-	line "continue to be a"
-	cont "great trainer"
-	cont "and CHAMPION."
+	para "Das hast Du Dir"
+	line "verdient!"
 
-	para "I'll always be"
-	line "here to support"
-	cont "you, <PLAYER>."
+	para "Ich weiß, dass Du"
+	line "auch weiterhin"
+	cont "großartig sein"
+	cont "wirst, als"
+	cont "Trainer und als"
+	cont "Champion."
+
+	para "Ich werde immer"
+	line "für Dich da sein"
+	cont "und Dich unter-"
+	cont "stützen, <PLAYER>."
 	done
 
 _RedsHouse1FMrMimeText::
-	text "MR MIME: MIME,"
-	line "MIME, MR MIME."
+	text "PANTIMOS: Panti,"
+	line "Panti, Pantimos."
 	done
 
 _RedsHouse1FTVStandByMeMovieText::
-	text "There's a movie"
-	line "on TV. Four boys"
-	cont "are walking on"
-	cont "railroad tracks."
+	text "Im Fernsehen"
+	line "läuft ein Film."
+	cont "Vier Jungen"
+	cont "laufen ein"
+	cont "Bahngleis"
+	cont "entlang!"
 
-	para "I better go too."
+	para "Den Film kenne"
+	line "ich schon! Ich"
+	cont "mache mich besser"
+	cont "auf den Weg!"
 	done
 
 _RedsHouse1FTVWrongSideText::
-	text "Oops, wrong side."
+	text "Ups,"
+	line "falsche Richtung!"
 	done

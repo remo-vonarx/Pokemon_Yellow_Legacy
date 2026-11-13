@@ -123,3 +123,19 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | The water is calm. Would you like to SURF? (Legacy) | `Das Wasser ist` / `ruhig.` / `Möchtest Du` / `SURFER einsetzen?` | Surf prompt | My proposal, approved (kept `Wasser` over `See`: the prompt also comes up at lakes and ponds) |
 | This tree can be CUT! / Would you like to use CUT? (Legacy) | `Diesen Baum kann` / `man zerschneiden!`; `Möchtest Du` / `ZERSCHNEIDER` / `einsetzen?` | Cut prompt | My proposal, approved |
 | HMs are really important! You should keep them on you at all times. (Legacy) | `VM sind wirklich` / `wichtig!` / `Du solltest sie` / `immer bei Dir` / `haben.` | Vermilion trade house | My proposal, approved |
+| Map dialogue (vanilla Yellow text) | German ROM by position, in the new spelling (`dass`, `musst`, `Lass`, `bisschen`, `zu viele`, `so viel`) | map texts | German ROM; where Legacy changed a text, the German ROM's wording is kept and only Legacy's change is translated |
+| TRAINER TIPS / tip | TIPPS FÜR TRAINER / Tipp | signs, Pewter Gym guide | German ROM `TIPS FÜR TRAINER`, `Tip`, in the new spelling |
+| RUNNING SHOES (Legacy) | TURBOTRETER | Pallet Town | PokéWiki: official name since Ruby/Sapphire |
+| backpack (Legacy) | Rucksack | Pallet Town | My proposal; the bag itself stays BEUTEL |
+| STAT experience (Legacy) | STATUS-Erfahrung | Route 1 | My proposal, approved: no official term (PokéWiki: "inoffiziell als Stat Experience bekannt"); STATUS as in the party menu. Not the later `Fleißpunkte`: they are a different mechanic |
+| Diversity Value / DV, growth potential (Legacy) | Diversitätswert, kurz DV / Wachstumspotenzial | Viridian City, Pewter City sign | My proposal, approved: Legacy's own term; the later official German term is Individuelle Stärken (IS), "vielen bekannt unter DV" (PokéWiki), but IS go 0–31 and the text says DVs go 0–15 |
+| `<PLAYER> received TM42 DRMEATR!` (Legacy) | `<PLAYER> erhält` / `TM42 TRAUMFRESSER!` (also `TM27 GEOFISSUR!`, `TM34 GEDULD!`) | every TM gift | Approved: the full German move name, not the bag's short name Legacy's English uses (`DRMEATR`) and not the German ROM's bare `TM42!`. Check each line: a 12-letter name fills all 18 tiles, so it fits only where no ▼ follows |
+| rematch (Legacy) | Revanche | gym leader rematches | My proposal |
+| MR MIME: MIME, MIME, MR MIME. (Legacy) | `PANTIMOS: Panti,` / `Panti, Pantimos.` | Red's house | My proposal, in the German ROM's style for cries (`NIDORAN: Nidoran!`, `PUMMELUFF: Puu!`) |
+| Win texts of the rival and Oak | no `<RIVAL>:` prefix; first line short | battles | Upstream fix: the battle prints the trainer's name before them |
+| All kids leave home (Legacy: boys → kids) | `alle Kinder` | Mom, Red's house | Approved; the German ROM says `alle Jungen` |
+| young one (fishing guru) | `junges Blut` | Viridian Mart, OLD ROD | Approved over `mein Kind` and the ROM's `junger Freund`; neutral (das Blut), an old man's word |
+| kid (put-down), German ROM `Kleiner` | `Grünschnabel` | Pewter Gym trainer, and every condescending `Kleiner` in the German ROM | Approved: used for anyone, keeps the put-down. Friendly `Kleiner` lines (`Danke, Kleiner!`) are not decided yet: ask when one comes up |
+| pal | `Kumpel` | rival, BILL, trainers | German ROM, approved: used for anyone in casual German, so it stays everywhere |
+| Wait! Take this with you! (BROCK, before TM34) | `Warte! Nimm das` / `hier mit!` | Pewter Gym | Approved own wording, after SABRINA's German (MARSHBADGE) `Warte! Nimm noch` / `diese TM von mir!`. The German ROM plays Red/Blue's old advice text (`Du scheinst ein sehr begabter #MON-TRAINER zu sein!…`) in this slot instead |
+| ROCK-hard will / Stones sharpen! (BROCK rematch, Legacy) | `STEIN-harter` / `Wille`; `Steine schärfen!` | Pewter Gym rematch | My proposal, approved: STEIN- as in his German `STEIN-#MON` |

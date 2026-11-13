@@ -1,133 +1,150 @@
 _Route1Youngster1MartSampleText::
-	text "Hi! I work at a"
-	line "#MON MART."
+	text "Hi! Ich arbeite"
+	line "in einem"
+	cont "PKMN-SUPERMARKT."
 
-	para "It's a convenient"
-	line "shop, so please"
-	cont "visit us in"
-	cont "VIRIDIAN CITY."
+	para "Wir verkaufen"
+	line "viele praktische"
+	cont "Dinge! Du findest"
+	cont "unseren Laden in"
+	cont "VERTANIA CITY."
 
-	para "I know, I'll give"
-	line "you a sample!"
-	cont "Here you go!"
+	para "Am besten gebe"
+	line "ich Dir ein"
+	cont "Werbegeschenk!"
+	cont "Hier, bitte!"
 	prompt
 
 _Route1Youngster1GotPotionText::
-	text "<PLAYER> got"
+	text "<PLAYER> erhält"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _Route1Youngster1AlsoGotPokeballsText::
-	text "We also carry"
-	line "# BALLs for"
-	cont "catching #MON!"
+	text "Willst Du #MON"
+	line "fangen? Wir haben"
+	cont "auch #BÄLLE"
+	cont "im Sortiment!"
 	done
 
 _Route1Youngster1NoRoomText::
-	text "You have too much"
-	line "stuff with you!"
+	text "Du kannst keine"
+	line "weiteren Items"
+	cont "mehr tragen!"
 	done
 
 _Route1Youngster2Text::
-	text "Do you know"
-	line "about STAT" 
-	cont "experience?"
+	text "Weißt Du, was"
+	line "STATUS-Erfahrung"
+	cont "ist?"
 
-	para "When a #MON"
-	line "battles, it"
-	cont "gains EXP."
+	para "Wenn ein #MON"
+	line "kämpft, erhält"
+	cont "es EP."
 
-	para "This EXP gives"
-	line "it increased"
-	cont "stats that"
-	cont "enemy trainers"
-	cont "don't have."
+	para "Diese EP geben"
+	line "ihm höhere"
+	cont "Statuswerte, die"
+	cont "gegnerische"
+	cont "Trainer nicht"
+	cont "haben."
 
-	para "A #MON trained"
-	line "from LVL 5 to"
-	cont "LVL 50 could"
-	cont "have the stats"
-	cont "of an opponent"
-	cont "at LVL 60!"
+	para "Ein #MON, das"
+	line "von Level 5 bis"
+	cont "Level 50"
+	cont "trainiert wurde,"
+	cont "kann die Werte"
+	cont "eines Gegners auf"
+	cont "Level 60 haben!"
 	done
 
 _Route1SignText::
 	text "ROUTE 1"
-	line "PALLET TOWN -"
-	cont "VIRIDIAN CITY"
+	line "ALABASTIA -"
+	cont "VERTANIA CITY"
 	done
 
 _OakBeforeBattleText::
-	text "OAK: Oh, my!"
-	
-	para "It seems you"
-	line "caught me during"
-	cont "my lunch hour!"
+	text "EICH: Ach herrje!"
 
-	para "<PLAYER>, you"
-	line "have truly come"
-	cont "into your own!"
+	para "Wie es aussieht,"
+	line "erwischst Du mich"
+	cont "in meiner"
+	cont "Mittagspause!"
 
-	para "Your #MON"
-	line "LEAGUE challenge"
-	cont "has reignited"
-	cont "a spirit that"
-	cont "left me a long"
-	cont "time ago..."
+	para "<PLAYER>, Du hast"
+	line "Dich wirklich"
+	cont "prächtig"
+	cont "entwickelt!"
 
-	para "How about we"
-	line "spar a bit?"
-	cont "What say you?"
+	para "Deine Heraus-"
+	line "forderung der"
+	cont "PKMN-LIGA hat in"
+	cont "mir einen Geist"
+	cont "wiedererweckt,"
+	cont "der mich vor"
+	cont "langer Zeit"
+	cont "verlassen hat..."
+
+	para "Wie wär's mit"
+	line "einem kleinen"
+	cont "Übungskampf?"
+	cont "Was meinst Du?"
 	done
 
 _OakRealChallengeBattleText::
-	text "Excellent!"
+	text "Ausgezeichnet!"
 
-	para "Prepare yourself"
-	line "for a real"
-	cont "challenge!"
+	para "Mach Dich auf"
+	line "eine echte"
+	cont "Herausforderung"
+	cont "gefasst!"
 	done
 
 _OakRefusedBattleText::
-	text "Maybe some other"
-	line "time!"
+	text "Vielleicht ein"
+	line "andermal!"
 	done
 
 _OakDefeatedText::
 	text "Hmm..."
 
-	para "I still have a"
-	line "lot to learn!"
+	para "Ich muss noch"
+	line "viel lernen!"
 	prompt
 
 _OakWonText::
-	text "Back in"
-	line "my day, I was a"
-	cont "serious TRAINER!"
+	text "Früher"
+	line "war ich ein"
+	cont "ernsthafter"
+	cont "TRAINER!"
 	prompt
 
 _OakPostBattleText::
-	text "Well done,"
+	text "Gut gemacht,"
 	line "<PLAYER>!"
 
-	para "You've certainly"
-	line "proved your"
-	cont "mettle."
+	para "Du hast Dein"
+	line "Können wahrlich"
+	cont "unter Beweis"
+	cont "gestellt."
 
-	para "It seems I might"
-	line "be getting a bit"
-	cont "rusty in my old"
-	cont "age."
+	para "Wie es scheint,"
+	line "roste ich auf"
+	cont "meine alten Tage"
+	cont "etwas ein."
 
-	para "A good trainer"
-	line "always strives"
-	cont "for improvement,"
-	cont "and so shall I."
+	para "Ein guter Trainer"
+	line "strebt stets nach"
+	cont "Verbesserung, und"
+	cont "das werde ich"
+	cont "auch tun."
 
-	para "May your journey"
-	line "continue to be"
-	cont "one of growth"
-	cont "and discovery."
+	para "Möge Deine Reise"
+	line "auch weiterhin"
+	cont "voller Wachstum"
+	cont "und Entdeckungen"
+	cont "sein."
 	done
