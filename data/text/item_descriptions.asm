@@ -117,8 +117,8 @@ _RepelDescription::
 	text_end
 
 _OldAmberDescription::
-	text "Versteinertes"
-	next "Baumharz mit DNA.@"
+	text "Bernstein mit"
+	next "#MON-DNA.@"
 	text_waitbutton
 	text_end
 
@@ -161,7 +161,7 @@ _RareCandyDescription::
 _DomeFossilDescription::
 _HelixFossilDescription::
 	text "Versteinerte"
-	next "#MON-Schale.@"
+	next "#MON-Muschel.@"
 	text_waitbutton
 	text_end
 
@@ -171,8 +171,8 @@ _SecretKeyDescription::
 	text_end
 
 _BikeVoucherDescription::
-	text "Gegen ein neues"
-	next "FAHRRAD tauschen.@"
+	text "Eintauschbar gegen"
+	next "ein neues FAHRRAD.@"
 	text_waitbutton
 	text_end
 
