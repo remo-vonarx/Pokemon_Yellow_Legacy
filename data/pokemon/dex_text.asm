@@ -705,7 +705,7 @@ _VictreebelDexEntry::
 
 	page "süssen Düften an"
 	next "und verschlingt"
-	next "sie in einem Zug"
+	next "sie in einem Biss"
 	dex
 
 _TentacoolDexEntry::
