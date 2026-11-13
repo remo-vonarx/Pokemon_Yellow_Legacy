@@ -3,9 +3,6 @@ SECTION "Text 1", ROMX
 INCLUDE "data/text/text_1.asm"
 
 INCLUDE "text/ViridianForest.asm"
-INCLUDE "text/MtMoon1F.asm"
-INCLUDE "text/MtMoonB1F.asm"
-INCLUDE "text/MtMoonB2F.asm"
 INCLUDE "text/SSAnne1F.asm"
 INCLUDE "text/SSAnne2F.asm"
 INCLUDE "text/SSAnne3F.asm"
@@ -104,8 +101,6 @@ INCLUDE "text/Route20.asm"
 INCLUDE "text/Route21.asm"
 INCLUDE "text/Route22.asm"
 INCLUDE "text/Route23.asm"
-INCLUDE "text/Route24.asm"
-INCLUDE "text/Route25.asm"
 INCLUDE "text/PokemonMansion2F.asm"
 
 INCLUDE "data/text/text_4.asm"
@@ -128,7 +123,6 @@ INCLUDE "text/FuchsiaPokecenter.asm"
 
 SECTION "Text 6", ROMX
 
-INCLUDE "text/CeruleanBadgeHouse_2.asm"
 INCLUDE "text/LavenderPokecenter.asm"
 INCLUDE "text/PokemonTower1F.asm"
 INCLUDE "text/PokemonTower2F.asm"
@@ -291,3 +285,13 @@ INCLUDE "text/PewterNidoranHouse.asm"
 INCLUDE "text/PewterMart.asm"
 INCLUDE "text/PewterSpeechHouse.asm"
 INCLUDE "text/PewterPokecenter.asm"
+
+
+SECTION "Text 14", ROMX
+
+INCLUDE "text/MtMoon1F.asm"
+INCLUDE "text/MtMoonB1F.asm"
+INCLUDE "text/MtMoonB2F.asm"
+INCLUDE "text/Route24.asm"
+INCLUDE "text/Route25.asm"
+INCLUDE "text/CeruleanBadgeHouse_2.asm"
