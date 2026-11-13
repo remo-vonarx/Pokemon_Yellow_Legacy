@@ -95,3 +95,30 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | BOULDERBADGE … EARTHBADGE | FELSORDEN, QUELLORDEN, DONNERORDEN, FARBORDEN, SEELENORDEN, SUMPFORDEN, VULKANORDEN, ERDORDEN | Route 23 guards, dialogue | German ROM (FELSORDEN only in dialogue) |
 | 's NEST / AREA UNKNOWN | `MEW FUNDORT` / `GEBIET UNB.` | Pokédex area page | German ROM |
 | To (Fly screen header) | ` ➔` (` <to>` in the source) | Fly screen | German ROM (`7F 70`): tile `$70`, which shows the arrow on this screen |
+| Menu boxes (this slice) | widths and positions as in the German ROM | PC menus, mart, vending machine, blackboard, prize menu, Cable Club, cup menu, trade screen, diploma, printer | My choice, approved for the menus and link slice |
+| BUY / SELL / QUIT | KAUF / VERKAUF / TSCHÜSS! | mart menu | German ROM |
+| MONEY | GELD | money box: marts, Game Corner, Hall of Fame | German ROM |
+| SOMEONE's PC / BILL's PC / `<name>`'s PC / PROF.OAK's PC / `<PKMN>`LEAGUE / LOG OFF | JEMANDES PC / BILLs PC / PC VON GELB / EICHs PC / `<PKMN>`-LIGA / AUSLOGGEN | Pokémon Center PC menu | German ROM; `PC VON` comes before the player's name (the code prints the name after it); BILLs / EICHs with the lowercase possessive s (the ROM writes BILLS / EICHS) |
+| WITHDRAW `<PKMN>` / DEPOSIT `<PKMN>` / RELEASE `<PKMN>` / CHANGE BOX / PRINT BOX / SEE YA! | `<PKMN>` MITNEHMEN / `<PKMN>` ABLEGEN / `<PKMN>` FREILASSEN / BOX WECHSELN / DRUCKEN / TSCHÜSS! | Bill's PC | German ROM; the submenu says ABLEGEN / MITNEHMEN, STATUS, ZURÜCK |
+| WITHDRAW ITEM / DEPOSIT ITEM / TOSS ITEM / LOG OFF | ITEM AUFNEHMEN / ITEM ABLEGEN / ITEM WEGWERFEN / AUSLOGGEN | player's PC | German ROM |
+| BOX No. | BOX Nr. | Bill's PC, save screen | German ROM |
+| HALL OF FAME / HALL OF FAME No | RUHMESHALLE / RUHMESHALLE Nr. | Hall of Fame, `<PKMN>`-LIGA PC | German ROM |
+| YELLOW LEGACY / HARD (Hall of Fame tag, Legacy) | GELBES VERMÄCHTNIS / SCHWER | Hall of Fame player screen | Approved: as in the backup branch, one box at `0,0` (2 × 18) with the title and the player's name below it, SCHWER at column 13 in hard mode |
+| PLAY TIME | SPIELZEIT | Hall of Fame, diploma | German ROM |
+| Diploma | `Diplom`; `Herzlichen Glück-` / `wunsch <name>!`; `Du hast es ge-` / `schafft, den` / `#DEX zu` / `vervollständigen.` | diploma (screen and print) | German ROM, with its layout: the player's name goes into the greeting's gap |
+| FRESH WATER / SODA POP / LEMONADE | TAFELWASSER / SPRUDEL / LIMONADE | vending machine | German ROM |
+| HOW TO LINK / COLOSSEUM / TRADE CENTER / STOP READING | LINK-INFO / KOLOSSEUM / HANDELSCENTER / VERLASSEN | Viridian school blackboard | German ROM; the status lists say SLF GIF PAR / BRT GFR ZUR. |
+| NO THANKS / COIN | TSCHÜSS! / MÜNZEN | Game Corner prize menu and coin box | German ROM |
+| BICYCLE | FAHRRAD | Bike Shop menu | German ROM |
+| HEALTH / ATTACK / DEFENSE / SPEED / SPECIAL (vitamins) | GESU / ANGR / VERT / INIT / SPEZ (`RELAXOs` / `GESU ist` / `gestiegen.`) | vitamin texts | German ROM; `data/battle/stat_names.asm` serves only the vitamins |
+| TRADE CENTER / COLOSSEUM / COLOSSEUM2 | HANDELSCENTER / KOLOSSEUM / KOLOSSEUM2 | Cable Club menu | German ROM; the ▷ marks the choice in the cursor column, as in the German ROM |
+| View Rules / # Cup / Pika Cup / Petit Cup | Regeln zeigen / #-Cup / Pika-Cup / Mini-Cup | KOLOSSEUM2 cup menu | German ROM, also the rules (`<PKMN>-LV: 50-55` / `Kombi-LV: max. 155` / `MEW ausgenommen`; `Basis-<PKMN>: LV25-30` / `Kombi-LV: max. 80` / `Maximum 2 m, 20 kg`) |
+| PLEASE WAIT! / Waiting...! | BITTE WARTEN! / BITTE WARTEN… | Cable Club table, link waiting box (trade and battle) | German ROM |
+| STATS / TRADE (trade submenu) | STATUS / TAUSCH | trade screen | German ROM |
+| CANCEL (trade screen) | ABBRECHEN | trade screen | German ROM, with its box (`lb bc, 1, 12`); lists keep ZURÜCK |
+| Trade completed! / Too bad! The trade was canceled! | TAUSCH VOLLZOGEN! / `Schade! Der Tausch` / `wurde abgebrochen!` | trade screen | German ROM |
+| Printer texts | `PRÜFE LINK...`, `ÜBERTRAGUNG...`, `DRUCKEN...`, `Abbrechen mit B`, `Druckfehler 1`–`5`, `Ziehe bitte das` / `Printer-Handbuch` / `zu Rate!`, `Es ist kein` / `Game Boy Printer` / `angeschlossen!` | printing | German ROM; `zu Rate!` in errors 1, 3 and 4 too (my choice: the ROM writes `zur Rate!` there and `zu Rate!` in error 2) |
+| Pikachu's Beach record (print) | `Pikachus Strand` / `<name>s Rekord` / `Punkte` | printed Surfing Pikachu high score | German ROM |
+| The water is calm. Would you like to SURF? (Legacy) | `Das Wasser ist` / `ruhig.` / `Möchtest Du` / `SURFER einsetzen?` | Surf prompt | My proposal, needs review |
+| This tree can be CUT! / Would you like to use CUT? (Legacy) | `Diesen Baum kann` / `man zerschneiden!`; `Möchtest Du` / `ZERSCHNEIDER` / `einsetzen?` | Cut prompt | My proposal, needs review |
+| HMs are really important! You should keep them on you at all times. (Legacy) | `VM sind wirklich` / `wichtig!` / `Du solltest sie` / `immer bei Dir` / `haben.` | Vermilion trade house | My proposal, needs review |
