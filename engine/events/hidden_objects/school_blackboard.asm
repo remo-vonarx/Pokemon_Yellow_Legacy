@@ -27,7 +27,7 @@ LinkCableHelp::
 	ld hl, wd730
 	set 6, [hl]
 	hlcoord 0, 0
-	lb bc, 8, 13
+	lb bc, 8, 14
 	call TextBoxBorder
 	hlcoord 2, 2
 	ld de, HowToLinkText
@@ -67,10 +67,10 @@ LinkCableHelpText2:
 	text_end
 
 HowToLinkText:
-	db   "HOW TO LINK"
-	next "COLOSSEUM"
-	next "TRADE CENTER"
-	next "STOP READING@"
+	db   "LINK-INFO"
+	next "KOLOSSEUM"
+	next "HANDELSCENTER"
+	next "VERLASSEN@"
 
 LinkCableInfoTexts:
 	dw LinkCableInfoText1
@@ -184,14 +184,14 @@ ViridianSchoolBlackboardText2:
 	text_end
 
 StatusAilmentText1:
-	db   " SLP"
-	next " PSN"
+	db   " SLF"
+	next " GIF"
 	next " PAR@"
 
 StatusAilmentText2:
-	db   " BRN"
-	next " FRZ"
-	next " QUIT@"
+	db   " BRT"
+	next " GFR"
+	next " ZUR.@"
 
 	db "@" ; unused
 

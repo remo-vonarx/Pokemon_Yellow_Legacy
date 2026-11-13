@@ -10,11 +10,11 @@ DisplayLinkBattleVersusTextBox:
 	hlcoord 4, 10
 	ld de, wLinkEnemyTrainerName
 	call PlaceString
-; place bold "VS" tiles between the names
+; place "VS" between the names, in plain letters as in the German ROM
 	hlcoord 9, 8
-	ld a, "<BOLD_V>"
+	ld a, "V"
 	ld [hli], a
-	ld [hl], "<BOLD_S>"
+	ld [hl], "S"
 	xor a
 	ld [wUpdateSpritesEnabled], a
 	callfar SetupPlayerAndEnemyPokeballs

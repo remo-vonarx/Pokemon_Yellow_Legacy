@@ -37,9 +37,9 @@ TextBoxTextAndCoordTable:
 	text_box_text JP_POKEDEX_MENU_TEMPLATE,          11,  8, 19, 17, JapanesePokedexMenu,     12, 10
 
 BuySellQuitText:
-	db   "BUY"
-	next "SELL"
-	next "QUIT@"
+	db   "KAUF"
+	next "VERKAUF"
+	next "TSCHÜSS!@"
 
 	db "@" ; unused
 
@@ -57,7 +57,7 @@ JapaneseSpeedOptionsText:
 	next "おそい@"
 
 MoneyText:
-	db "MONEY@"
+	db "GELD@"
 
 JapaneseMochimonoText:
 	db "もちもの@"
