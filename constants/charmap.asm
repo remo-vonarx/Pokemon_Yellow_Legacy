@@ -160,6 +160,7 @@
 	charmap "ä",         $dc ; clear of the Pikachu sprite ($cc-$d7)
 	charmap "ö",         $dd
 	charmap "ü",         $de
+	charmap "ß",         $df ; from the German ROM's font
 
 	charmap "'",         $e0
 	charmap "<PK>",      $e1

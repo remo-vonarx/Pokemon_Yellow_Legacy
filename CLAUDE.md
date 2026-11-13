@@ -12,12 +12,12 @@ Fill in once per hack. If a field is empty or turns out wrong, find the right va
 |---|---|
 | Hack and repo | Pokémon Yellow Legacy, `cRz-Shadows/Pokemon_Yellow_Legacy`. Work happens on the fork `remo-vonarx/Pokemon_Yellow_Legacy`; PRs go there |
 | Based on | pret `pokeyellow` |
-| German original | Pokémon Gelbe Edition: Special Pikachu Edition. Text dump: `.claude/upload/german_text_dump.txt` (`[texts]`, `[pokemon names]`, `[names]`; each line starts with bank:address), made by `.claude/upload/dump_german_text.py`; verbatim, so it still has ß. ROM: `.claude/upload/Pokemon - Gelbe Edition - Special Pikachu Edition (Germany) (GBC,SGB Enhanced) 2.gb` (SHA-1 `42f3714e…`). `.claude/upload/` is excluded locally in `.git/info/exclude` |
+| German original | Pokémon Gelbe Edition: Special Pikachu Edition. Text dump: `.claude/upload/german_text_dump.txt` (`[texts]`, `[pokemon names]`, `[names]`; each line starts with bank:address), made by `.claude/upload/dump_german_text.py`; verbatim, in the old spelling (daß, muß). ROM: `.claude/upload/Pokemon - Gelbe Edition - Special Pikachu Edition (Germany) (GBC,SGB Enhanced) 2.gb` (SHA-1 `42f3714e…`). `.claude/upload/` is excluded locally in `.git/info/exclude` |
 | Previous translations to reuse | None. The only exception is the title screen logo `GELBES VERMÄCHTNIS` from branch `backup/main-before-reset-2026-11-12`; that branch's text is not a source |
 | Textbox | 18 characters × 2 lines, fixed-width font (one tile per character) |
 | Text commands | `text`, `line`, `cont`, `para`, `next`, `prompt`, `done`; Pokédex: `page`, `dex`; inline: `text_far`, `text_ram`, `text_bcd`, `text_decimal`, `text_start`, `text_end`, `text_asm` (`macros/scripts/text.asm`) |
 | Length constants | `constants/text_constants.asm`: `NAME_LENGTH` 11 (10 characters + terminator), `ITEM_NAME_LENGTH` 13 (12 + terminator). Player and rival names: 7 characters (`engine/menus/naming_screen.asm:399`) |
-| Charmap and font | `constants/charmap.asm`, `gfx/font/font.png`. Ä Ö Ü `$c9–$cb`, ä ö ü `$dc–$de`; no ß. The German ROM has them at `$c0–$c5`, so its RAM and tile bytes differ from ours |
+| Charmap and font | `constants/charmap.asm`, `gfx/font/font.png`. Ä Ö Ü `$c9–$cb`, ä ö ü `$dc–$de`, ß `$df` (the German ROM's glyph). The German ROM has the umlauts at `$c0–$c5` and ß at `$be`, so its RAM and tile bytes differ from ours |
 | Build | `make RGBDS=~/.local/rgbds-0.6.1/bin/` (rgbds 0.6.1), builds `pokeyellow.gbc` and `pokeyellow_debug.gbc`. ROM0 has 22 bytes free, 7 in the debug ROM |
 | Debug build | `make RGBDS=~/.local/rgbds-0.6.1/bin/ yellow_debug`. Hold SELECT on the title screen, pick DEBUG, press B through the intro and A at the difficulty choice: strong party, all badges except Earth, max money, full Pokédex |
 | Virtual Console | The game must also run as a Virtual Console title on the New Nintendo 3DS. `make RGBDS=~/.local/rgbds-0.6.1/bin/ yellow_vc` builds `pokeyellow.patch`, the VC patch that goes with `pokeyellow.gbc`, from `vc/pokeyellow.patch.template` (the helper ROM `pokeyellow_vc.gbc` only feeds the patch). The patch hooks code by label (`vc_hook`, `vc_patch`, `vc_assert`: battle animations, link, save, Pokédex, Pikachu's voice) and limits the save to `sGameData`–`sGameDataEnd`. A `vc_patch` block swaps bytes, so both branches of its `IF DEF(_YELLOW_VC)` must stay the same length (`data/text/text_8.asm`). Only a real 3DS can run it; the build checks the hooks |
@@ -31,7 +31,7 @@ Fill in once per hack. If a field is empty or turns out wrong, find the right va
 Settled choices for this hack. If one of the topics below is not decided yet and a task touches it, ask before translating.
 
 - Name casing: capitals as in the German ROM (PIKACHU, PROF. EICH, ALABASTIA).
-- Spelling: new German spelling throughout, also in text taken from the German ROM (im Voraus, Tipp, kennenlernen); ss, never ß; capitalised Du / Dein / Dich / Dir.
+- Spelling: new German spelling throughout, also in text taken from the German ROM (im Voraus, Tipp, kennenlernen, dass); ß as the new spelling writes it (see Style); capitalised Du / Dein / Dich / Dir.
 - "Pokémon": the charmap token `#` (POKé), as in the German ROM (`#MON`, `#DEX`).
 - Stat labels: as in the German ROM: KP, ANGR, VERT, INIT, SPEZ on screens; ANGRIFF, VERTEIDIGUNG, INITIATIVE, SPEZIAL in text, except the stat-change texts in battle, which use the German ROM's ANGR, VERT, INIT, SPEZ, GENA, FLU (`RATTFRATZs ANGR sinkt!`), and the item descriptions, which use the German Gold/Silver/Crystal's ANGR-Wert, VERT-Wert, INIT-Wert, SPEZ-Wert.
 - Pokédex: metric (m, kg) as in the German ROM; entries from the German Gelbe Edition. Legacy has only the original 151, so there are no newer Pokémon or forms. Shortening is not allowed.
@@ -87,7 +87,7 @@ Text the hack added has no German original, so translate it faithfully:
 - Keep the semantics of the text commands: re-breaking lines is fine; changing how a box ends is not.
 - Count variables (player and rival name, Pokémon, item and move names, numbers) at their maximum length. Take the limits from the length constants, never from memory.
 - Names and fixed-width strings (menus, padded labels) must respect their length constant or exact padded width.
-- Use only characters defined in the charmap. Verify that ä, ö, ü, Ä, Ö, Ü and any punctuation you use map to font tiles. Don't add charmap entries or font graphics without asking.
+- Use only characters defined in the charmap. Verify that ä, ö, ü, Ä, Ö, Ü, ß and any punctuation you use map to font tiles. Don't add charmap entries or font graphics without asking.
 - Know the special charmap tokens (e.g. `#` for "POKé") and follow the project decisions on whether to use them.
 - Avoid German constructions whose article, case or gender depends on a variable (e.g. "einen/eine <ITEM>"). Rephrase neutrally.
 - If the player can be male or female, avoid gendered forms for the player, or follow how the German original handles it.
@@ -129,7 +129,7 @@ Exceptions to these rules exist only where the project decisions say so (e.g. Po
 
 ## Style
 
-- Never use ß. Always write ss (Strasse, gross, Stromstoss), also in official names and in text taken verbatim from the German original or a previous translation. Re-check the length afterwards: ss is one character longer.
+- Write ß as the new spelling does: after a long vowel or diphthong (Straße, groß, weiß, heiß), ss after a short vowel (dass, muss, lässt, Biss). Text from the German original keeps its ß except in those short-vowel words, which are one character longer there, so re-check the length. Words in capitals keep SS, as in the German ROM (WINDSTOSS, AUSSER BETRIEB).
 - Match the tone of the German original; keep each NPC's voice (kids, elders, villain teams, gym leaders) consistent.
 - Reuse the original's in-game terminology (e.g. "Arena", "Orden", "Beutel") rather than modern synonyms, unless the glossary says otherwise.
 
@@ -143,7 +143,7 @@ Exceptions to these rules exist only where the project decisions say so (e.g. Po
 
 ## Testing in the game
 
-A text, menu or graphics change is done when you have seen it in the emulator and it matches the German original **by position**: the same tiles in the same places, unless the hack itself changed that spot or the original uses ß (ss instead is expected). Where it did, compare against the hack's English screen instead: same layout, German text fits. A string existing somewhere in the ROM proves nothing.
+A text, menu or graphics change is done when you have seen it in the emulator and it matches the German original **by position**: the same tiles in the same places, unless the hack itself changed that spot or the new spelling writes ss where the original has ß (dass for daß). Where it did, compare against the hack's English screen instead: same layout, German text fits. A string existing somewhere in the ROM proves nothing.
 
 1. After any text edit, run the check scripts from the profile. Ignore only the known false alarms listed there.
 2. Clone the repo into the scratchpad and do all test work there. Hooks, ROM patches and save states stay in that clone and are never committed.
