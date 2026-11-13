@@ -135,17 +135,10 @@ INCLUDE "text/MrFujisHouse.asm"
 INCLUDE "text/LavenderMart.asm"
 INCLUDE "text/LavenderCuboneHouse.asm"
 INCLUDE "text/NameRatersHouse.asm"
-INCLUDE "text/VermilionPokecenter.asm"
-INCLUDE "text/PokemonFanClub.asm"
-INCLUDE "text/VermilionMart.asm"
-INCLUDE "text/VermilionGym.asm"
-INCLUDE "text/VermilionPidgeyHouse.asm"
-INCLUDE "text/VermilionDock.asm"
 
 
 INCLUDE "data/text/text_6.asm"
 
-INCLUDE "text/VermilionOldRodHouse.asm"
 INCLUDE "text/CeladonMart1F.asm"
 INCLUDE "text/CeladonMart2F.asm"
 INCLUDE "text/CeladonMart3F.asm"
@@ -295,3 +288,14 @@ INCLUDE "text/MtMoonB2F.asm"
 INCLUDE "text/Route24.asm"
 INCLUDE "text/Route25.asm"
 INCLUDE "text/CeruleanBadgeHouse_2.asm"
+
+
+SECTION "Text 15", ROMX
+
+INCLUDE "text/VermilionPokecenter.asm"
+INCLUDE "text/PokemonFanClub.asm"
+INCLUDE "text/VermilionMart.asm"
+INCLUDE "text/VermilionGym.asm"
+INCLUDE "text/VermilionPidgeyHouse.asm"
+INCLUDE "text/VermilionDock.asm"
+INCLUDE "text/VermilionOldRodHouse.asm"
