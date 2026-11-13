@@ -117,8 +117,8 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | STATS / TRADE (trade submenu) | STATUS / TAUSCH | trade screen | German ROM |
 | CANCEL (trade screen) | ABBRECHEN | trade screen | German ROM, with its box (`lb bc, 1, 12`); lists keep ZURÜCK |
 | Trade completed! / Too bad! The trade was canceled! | TAUSCH VOLLZOGEN! / `Schade! Der Tausch` / `wurde abgebrochen!` | trade screen | German ROM |
-| Printer texts | `PRÜFE LINK...`, `ÜBERTRAGUNG...`, `DRUCKEN...`, `Abbrechen mit B`, `Druckfehler 1`–`5`, `Ziehe bitte das` / `Printer-Handbuch` / `zu Rate!`, `Es ist kein` / `Game Boy Printer` / `angeschlossen!` | printing | German ROM; `zu Rate!` in errors 1, 3 and 4 too (my choice: the ROM writes `zur Rate!` there and `zu Rate!` in error 2) |
+| Printer texts | `PRÜFE LINK...`, `ÜBERTRAGUNG...`, `DRUCKEN...`, `Abbrechen mit B`, `Druckfehler 1`–`5`, `Ziehe bitte das` / `Printer-Handbuch` / `zu Rate!`, `Es ist kein` / `Game Boy Printer` / `angeschlossen!` | printing | German ROM; `zu Rate!` in errors 1, 3 and 4 too (approved: the ROM writes `zur Rate!` there and `zu Rate!` in error 2) |
 | Pikachu's Beach record (print) | `Pikachus Strand` / `<name>s Rekord` / `Punkte` | printed Surfing Pikachu high score | German ROM |
-| The water is calm. Would you like to SURF? (Legacy) | `Das Wasser ist` / `ruhig.` / `Möchtest Du` / `SURFER einsetzen?` | Surf prompt | My proposal, needs review |
+| The water is calm. Would you like to SURF? (Legacy) | `Das Wasser ist` / `ruhig.` / `Möchtest Du` / `SURFER einsetzen?` | Surf prompt | My proposal, approved (kept `Wasser` over `See`: the prompt also comes up at lakes and ponds) |
 | This tree can be CUT! / Would you like to use CUT? (Legacy) | `Diesen Baum kann` / `man zerschneiden!`; `Möchtest Du` / `ZERSCHNEIDER` / `einsetzen?` | Cut prompt | My proposal, needs review |
 | HMs are really important! You should keep them on you at all times. (Legacy) | `VM sind wirklich` / `wichtig!` / `Du solltest sie` / `immer bei Dir` / `haben.` | Vermilion trade house | My proposal, needs review |
