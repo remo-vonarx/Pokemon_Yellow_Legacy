@@ -4,7 +4,10 @@
 """
 Usage: python check_text_width.py [file.asm|directory ...]
 
-Report text lines that are wider than the 18-tile text box.
+Report text lines that are wider than the 18-tile text box, and lines of
+18 tiles in the box's bottom row where the game waits for a button
+(before cont, para, prompt or text_promptbutton): the ▼ is drawn on the
+18th tile and the character under it is lost.
 Checks text/, data/, scripts/, engine/ and home/ when no paths are given.
 End battle texts are checked with the "NAME: " of their trainer in front of
 the first line. Lines whose width depends on runtime values (text_ram,
@@ -28,6 +31,8 @@ CONTROL_WIDTHS = {
 	'<USER>': UNKNOWN, '<TARGET>': UNKNOWN,
 }
 NEW_LINE = {'line', 'cont', 'para', 'next', 'page'}
+BOTTOM_ROW = {'line', 'cont', 'next'}  # start the text box's bottom row
+WAITS = {'cont', 'para', 'prompt', 'text_promptbutton'}  # draw ▼ on the bottom row's 18th tile
 RUNTIME = {'text_ram', 'text_decimal', 'text_bcd', 'text_start', 'text_dots'}
 RESET = {'done', 'prompt', 'text_end', 'text_far', 'text_asm', 'IF', 'ELSE', 'ELIF', 'ENDC'}
 COMMAND = re.compile(r'^\s*(\w+)\b(.*)$')
@@ -122,30 +127,38 @@ def end_battle_prefixes():
 
 def check_file(path, prefixes):
 	problems = []
+	name = path.relative_to(ROOT) if path.is_relative_to(ROOT) else path
 	width = 0
+	bottom_row = False  # the current row is the text box's bottom row
+	last = None  # (number, line) of the last string on the current row
 	for number, line in enumerate(path.read_text(encoding='utf-8').splitlines(), 1):
 		match = LABEL.match(line)
 		if match:
 			width = prefixes.get(match.group(1), 0)
+			bottom_row = False
 			continue
 		match = COMMAND.match(line)
 		if not match:
 			continue
 		command, rest = match.groups()
+		if command in WAITS and bottom_row and width == MAX_WIDTH:
+			problems.append(f'{name}:{last[0]}: width {width} under ▼: {last[1].strip()}')
 		if command in RESET:
 			width = 0
+			bottom_row = False
 			continue
 		if command in RUNTIME:
 			width = UNKNOWN
 			continue
 		if command in NEW_LINE:
 			width = 0
+			bottom_row = command in BOTTOM_ROW
 		elif command != 'text':
 			continue
 		for string in re.findall(r'"([^"]*)"', rest):
 			width += string_width(string)
+			last = (number, line)
 		if width > MAX_WIDTH:
-			name = path.relative_to(ROOT) if path.is_relative_to(ROOT) else path
 			problems.append(f'{name}:{number}: width {width}: {line.strip()}')
 	return problems
 
@@ -156,7 +169,7 @@ def main():
 	problems = [problem for path in paths for problem in check_file(path, prefixes)]
 	for problem in problems:
 		print(problem)
-	print(f'{len(problems)} line(s) wider than {MAX_WIDTH} tiles in {len(paths)} file(s)', file=sys.stderr)
+	print(f'{len(problems)} line(s) too wide for the text box in {len(paths)} file(s)', file=sys.stderr)
 	sys.exit(1 if problems else 0)
 
 if __name__ == '__main__':
