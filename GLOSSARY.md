@@ -143,3 +143,4 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | critical hit / base SPEED (Legacy) | `Volltreffer` / `INITIATIVE-Basiswert` | Cerulean City sign | `Volltreffer!`: the German ROM's battle message. `Basiswert`: my proposal |
 | Let's make a splash! (MISTY rematch, Legacy) | `Lass uns Wellen` / `schlagen!` | Cerulean Gym rematch | My proposal: `Wellen schlagen` (to make waves) keeps the water pun |
 | Ready to dive in, CHAMPION? (MISTY rematch, Legacy) | `Bereit, ins` / `Wasser zu` / `springen,` / `CHAMPION?` | Cerulean Gym rematch | My proposal |
+| German ROM slips | fixed: missing comma (`Bleib stehen, wo`), missing verb (Route 24: `… die rechte Hand vom Boss werden!`), trailing spaces that push a line under the ▼ | map texts | Listed in each PR |
