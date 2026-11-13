@@ -90,7 +90,6 @@ INCLUDE "text/BillsHouse.asm"
 
 SECTION "Text 4", ROMX
 
-INCLUDE "text/RedsHouse1F.asm"
 INCLUDE "text/Route10.asm"
 INCLUDE "text/Route11.asm"
 INCLUDE "text/Route12.asm"
@@ -117,20 +116,7 @@ SECTION "Text 5", ROMX
 INCLUDE "data/text/text_5.asm"
 
 INCLUDE "text/Route9_2.asm"
-INCLUDE "text/BluesHouse.asm"
-INCLUDE "text/OaksLab.asm"
 INCLUDE "text/pokedex_ratings.asm"
-INCLUDE "text/ViridianPokecenter.asm"
-INCLUDE "text/ViridianMart.asm"
-INCLUDE "text/ViridianNicknameHouse.asm"
-INCLUDE "text/ViridianGym.asm"
-INCLUDE "text/Museum1F.asm"
-INCLUDE "text/Museum2F.asm"
-INCLUDE "text/PewterGym.asm"
-INCLUDE "text/PewterNidoranHouse.asm"
-INCLUDE "text/PewterMart.asm"
-INCLUDE "text/PewterSpeechHouse.asm"
-INCLUDE "text/PewterPokecenter.asm"
 INCLUDE "text/CeruleanTrashedHouse.asm"
 INCLUDE "text/CeruleanMelaniesHouse.asm"
 INCLUDE "text/CeruleanPokecenter.asm"
@@ -287,3 +273,21 @@ SECTION "Text 12", ROMX
 
 INCLUDE "text/ViridianSchoolHouse.asm"
 INCLUDE "text/CeruleanGym.asm"
+
+
+SECTION "Text 13", ROMX
+
+INCLUDE "text/RedsHouse1F.asm"
+INCLUDE "text/BluesHouse.asm"
+INCLUDE "text/OaksLab.asm"
+INCLUDE "text/ViridianPokecenter.asm"
+INCLUDE "text/ViridianMart.asm"
+INCLUDE "text/ViridianNicknameHouse.asm"
+INCLUDE "text/ViridianGym.asm"
+INCLUDE "text/Museum1F.asm"
+INCLUDE "text/Museum2F.asm"
+INCLUDE "text/PewterGym.asm"
+INCLUDE "text/PewterNidoranHouse.asm"
+INCLUDE "text/PewterMart.asm"
+INCLUDE "text/PewterSpeechHouse.asm"
+INCLUDE "text/PewterPokecenter.asm"
