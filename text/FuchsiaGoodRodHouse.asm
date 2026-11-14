@@ -1,44 +1,47 @@
 _FuchsiaGoodRodHouseFishingGuruText::
-	text "I'm the FISHING"
-	line "GURU's brother!"
+	text "Ich bin der"
+	line "Bruder des"
+	cont "PROFIANGLERS!"
 
-	para "I simply Looove"
-	line "fishing!"
+	para "Ich liebe"
+	line "den Angelsport!"
 
-	para "Do you like to"
-	line "fish?"
+	para "Angelst Du auch"
+	line "gerne?"
 	done
 
 _FuchsiaGoodRodHouseFishingGuruReceivedGiftText::
-	text "Grand! I like"
-	line "your style!"
+	text "Klasse! Du bist"
+	line "mir sympathisch!"
 
-	para "I don't have a"
-	line "spare rod to give"
-	cont "you,"
+	para "Ich habe keine"
+	line "Angel übrig, die"
+	cont "ich Dir geben"
+	cont "könnte,"
 
-	para "but I did fish"
-	line "myself up one of"
-	cont "these in the"
-	cont "SEAFOAM ISLANDS!"
+	para "aber auf den"
+	line "SEESCHAUMINSELN"
+	cont "habe ich mir"
+	cont "eins von denen"
+	cont "hier geangelt!"
 	text_end
 
 _FuchsiaGoodRodHouseFishingGuruThatsSoDisappointingText::
-	text "Oh... That's so"
-	line "disappointing..."
+	text "Oh!"
+	line "Das ist schade!"
 	done
 
 _FuchsiaGoodRodHouseFishingGuruHowAreTheFishText::
-	text "Hello there,"
-	line "<PLAYER>!"
+	text "Hallo, <PLAYER>!"
 
-	para "How are the fish"
-	line "biting?"
+	para "Wie beißen die"
+	line "Fische?"
 	done
 
 _FuchsiaGoodRodHouseFishingGuruNoRoomText::
-	text "Oh no!"
+	text "Oh nein!"
 
-	para "You have no room"
-	line "for my gift!"
+	para "Du hast keinen"
+	line "Platz mehr für"
+	cont "mein Geschenk!"
 	done
