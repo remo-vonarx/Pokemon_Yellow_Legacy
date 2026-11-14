@@ -87,9 +87,6 @@ INCLUDE "text/Route15.asm"
 INCLUDE "text/Route16.asm"
 INCLUDE "text/Route17.asm"
 INCLUDE "text/Route18.asm"
-INCLUDE "text/Route19.asm"
-INCLUDE "text/Route20.asm"
-INCLUDE "text/Route21.asm"
 INCLUDE "text/Route22.asm"
 INCLUDE "text/Route23.asm"
 INCLUDE "text/PokemonMansion2F.asm"
@@ -147,13 +144,6 @@ INCLUDE "text/GameCorner.asm"
 
 SECTION "Text 7", ROMX
 
-INCLUDE "text/FuchsiaMart.asm"
-INCLUDE "text/FuchsiaBillsGrandpasHouse.asm"
-INCLUDE "text/WardensHouse.asm"
-INCLUDE "text/SafariZoneGate.asm"
-INCLUDE "text/FuchsiaGym.asm"
-INCLUDE "text/FuchsiaMeetingRoom.asm"
-INCLUDE "text/FuchsiaGoodRodHouse.asm"
 INCLUDE "text/PokemonMansion1F.asm"
 INCLUDE "text/CinnabarGym.asm"
 INCLUDE "text/CinnabarLab.asm"
@@ -185,7 +175,6 @@ INCLUDE "text/CeruleanCity.asm"
 INCLUDE "text/LavenderTown.asm"
 INCLUDE "text/VermilionCity.asm"
 INCLUDE "text/CeladonCity.asm"
-INCLUDE "text/FuchsiaCity.asm"
 INCLUDE "text/CinnabarIsland.asm"
 INCLUDE "text/SaffronCity.asm"
 
@@ -307,3 +296,22 @@ INCLUDE "text/SilphCo7F.asm"
 INCLUDE "text/SilphCo8F.asm"
 INCLUDE "text/SilphCo9F.asm"
 INCLUDE "text/SilphCo10F.asm"
+
+
+SECTION "Text 18", ROMX
+
+INCLUDE "text/FuchsiaCity.asm"
+INCLUDE "text/FuchsiaMart.asm"
+INCLUDE "text/FuchsiaBillsGrandpasHouse.asm"
+INCLUDE "text/WardensHouse.asm"
+INCLUDE "text/SafariZoneGate.asm"
+INCLUDE "text/FuchsiaGym.asm"
+INCLUDE "text/FuchsiaMeetingRoom.asm"
+INCLUDE "text/FuchsiaGoodRodHouse.asm"
+
+
+SECTION "Text 19", ROMX
+
+INCLUDE "text/Route19.asm"
+INCLUDE "text/Route20.asm"
+INCLUDE "text/Route21.asm"

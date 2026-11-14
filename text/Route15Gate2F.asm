@@ -1,46 +1,51 @@
 _Route15Gate2FOaksAideHiText::
-	text "Hi! Remember me?"
-	line "I'm PROF.OAK's"
-	cont "AIDE!"
+	text "Hallo! Erinnerst"
+	line "Du Dich? Ich bin"
+	cont "PROF. EICHs"
+	cont "Gehilfe!"
 
-	para "I'm supposed to"
-	line "give you an"
-	cont "EXP ALL!"
+	para "Ich soll Dir"
+	line "einen EP-TEILER"
+	cont "geben!"
 	prompt
 
 _Route15Gate2FOaksAideGotItemText::
-	text "<PLAYER> got the"
-	line "EXP ALL!"
+	text "<PLAYER> erhält"
+	line "den EP-TEILER!"
 	prompt
 
 _Route15Gate2FOaksAideNoRoomText::
-	text "Oh! I see you"
-	line "don't have any"
-	cont "room for the"
-	cont "EXP ALL."
+	text "Oh! Du hast"
+	line "momentan keinen"
+	cont "Platz für den"
+	cont "EP-TEILER."
 	done
 
 _Route15Gate2FOaksAideExpAllText::
-	text "EXP.ALL gives"
-	line "EXP points to all"
-	cont "the #MON with"
-	cont "you, even if they"
-	cont "don't fight."
+	text "Mit dem EP-TEILER"
+	line "bekommen alle"
+	cont "#MON, die Du"
+	cont "mit Dir führst,"
+	cont "nach einem Kampf"
+	cont "EP."
 
-	para "It does, however,"
-	line "reduce the amount"
-	cont "of EXP for each"
-	cont "#MON."
+	para "Die EP werden"
+	line "nach dem Kampf"
+	cont "unter den #MON"
+	cont "aufgeteilt."
 
-	para "If you don't need"
-	line "it, you should "
-	cont "store it via PC."
+	para "Lege den"
+	line "EP-TEILER via PC"
+	cont "ab, wenn Du ihn"
+	cont "nicht benutzen"
+	cont "möchtest."
 	done
 
 _Route15Gate2FBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Du schaust durch"
+	line "das Fernrohr."
 
-	para "It looks like a"
-	line "small island!"
+	para "Hmm, das sieht"
+	line "wie eine kleine"
+	cont "Insel aus!"
 	done
