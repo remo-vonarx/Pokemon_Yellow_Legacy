@@ -807,9 +807,9 @@ _ViridianBlackboardPrlzText::
 
 _ViridianBlackboardBurnText::
 	text "Eine Verbrennung"
-	line "vermindert Kraft"
-	cont "und Stärke. Die"
-	cont "KP sinken stetig."
+	line "vermindert die"
+	cont "Kraft. Die KP"
+	cont "sinken stetig."
 
 	para "Verbrennungen"
 	line "dauern auch nach"
