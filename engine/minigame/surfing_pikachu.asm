@@ -2395,70 +2395,14 @@ SurfingPikachuMinigameIntro:
 	jr .loop
 
 DrawSurfingPikachuMinigameIntroBackground:
-	ld hl, wTileMap
+; the German Gelbe Edition draws the title screen from one full-screen map
+	ld hl, SurfingPikachuIntroTilemap
+	decoord 0, 0
 	ld bc, SCREEN_WIDTH * SCREEN_HEIGHT
-	ld a, $ff
-	call FillMemory
-	ld hl, Tilemap_f90bc
-	decoord 0, 6
-	ld bc, 12 * SCREEN_WIDTH
-	call CopyData
-	ld de, Tilemap_f91c8
-	hlcoord 4, 0
-	lb bc, 6, 12
-	call .CopyBox
-	hlcoord 3, 7
-	lb bc, 3, 15
-	call .FillBoxWithFF
-	ld hl, Tilemap_f91ac
-	decoord 3, 7
-	ld bc, 15
-	call CopyData
-	ld hl, Tilemap_f91bb
-	decoord 4, 9
-	ld bc, 13
 	call CopyData
 	ret
 
-.CopyBox:
-.copy_row
-	push bc
-	push hl
-.copy_col
-	ld a, [de]
-	inc de
-	ld [hli], a
-	dec c
-	jr nz, .copy_col
-	ld bc, SCREEN_WIDTH
-	pop hl
-	add hl, bc
-	pop bc
-	dec b
-	jr nz, .copy_row
-	ret
-
-.FillBoxWithFF:
-.fill_row
-	push bc
-	push hl
-.fill_col
-	ld [hl], $ff
-	inc hl
-	dec c
-	jr nz, .fill_col
-	pop hl
-	ld bc, SCREEN_WIDTH
-	add hl, bc
-	pop bc
-	dec b
-	jr nz, .fill_row
-	ret
-
-Tilemap_f90bc: INCBIN "gfx/surfing_pikachu/unknown_f90bc.map"
-Tilemap_f91ac: INCBIN "gfx/surfing_pikachu/unknown_f91ac.map"
-Tilemap_f91bb: INCBIN "gfx/surfing_pikachu/unknown_f91bb.map"
-Tilemap_f91c8: INCBIN "gfx/surfing_pikachu/unknown_f91c8.map"
+SurfingPikachuIntroTilemap: INCBIN "gfx/surfing_pikachu/intro.map"
 
 SurfingMinigame_UpdateLYOverrides:
 	ld hl, wLYOverrides + $10
