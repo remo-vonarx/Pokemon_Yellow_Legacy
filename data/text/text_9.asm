@@ -39,7 +39,7 @@ _ItemUseBallText05::
 _ItemUseBallText07::
 	text_ram wBoxMonNicks
 	text " wurde"
-	line "auf BILLS PC"
+	line "auf BILLs PC"
 	cont "übertragen!"
 	prompt
 
