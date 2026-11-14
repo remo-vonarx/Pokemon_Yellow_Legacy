@@ -124,7 +124,7 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | The water is calm. Would you like to SURF? (Legacy) | `Das Wasser ist` / `ruhig.` / `Möchtest Du` / `SURFER einsetzen?` | Surf prompt | My proposal, approved (kept `Wasser` over `See`: the prompt also comes up at lakes and ponds) |
 | This tree can be CUT! / Would you like to use CUT? (Legacy) | `Diesen Baum kann` / `man zerschneiden!`; `Möchtest Du` / `ZERSCHNEIDER` / `einsetzen?` | Cut prompt | My proposal, approved |
 | HMs are really important! You should keep them on you at all times. (Legacy) | `VM sind wirklich` / `wichtig!` / `Du solltest sie` / `immer bei Dir` / `haben.` | Vermilion trade house | My proposal, approved |
-| Map dialogue (vanilla Yellow text) | German ROM by position, in the new spelling (`dass`, `musst`, `Lass`, `bisschen`, `zu viele`, `so viel`, `zu viel`, `Stopp`, `Brennnesseln`, `des Weiteren`, `Tschüss`, `missglückt`, `in Acht`, `irgendetwas`, `als Erstes`, `so weit`, `wie viel`, `Gebiss`) | map texts | German ROM; where Legacy changed a text, the German ROM's wording is kept and only Legacy's change is translated |
+| Map dialogue (vanilla Yellow text) | German ROM by position, in the new spelling (`dass`, `musst`, `Lass`, `bisschen`, `zu viele`, `so viel`, `zu viel`, `Stopp`, `Brennnesseln`, `des Weiteren`, `Tschüss`, `missglückt`, `in Acht`, `irgendetwas`, `als Erstes`, `so weit`, `wie viel`, `Gebiss`, `neu entdeckt`) | map texts | German ROM; where Legacy changed a text, the German ROM's wording is kept and only Legacy's change is translated |
 | TRAINER TIPS / tip | TIPPS FÜR TRAINER / Tipp | signs, Pewter Gym guide | German ROM `TIPS FÜR TRAINER`, `Tip`, in the new spelling |
 | RUNNING SHOES (Legacy) | TURBOTRETER | Pallet Town | PokéWiki: official name since Ruby/Sapphire |
 | backpack (Legacy) | Rucksack | Pallet Town | My proposal; the bag itself stays BEUTEL |
@@ -175,3 +175,4 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | Oh, you're a little cutie! (Route 15 BEAUTY), German ROM `Du bist ein gewitzter Kerl!` | `Du bist ja ganz` / `schön gewitzt!` | Route 15 | Approved: drops `Kerl`, keeps the German ROM's `gewitzt` |
 | PROF.OAK's AIDE on Route 15 (Legacy: no #DEX check, always the EXP.ALL) | the German ROM's aide wording: `Ich bin PROF. EICHs Gehilfe!`; `einen` / `den EP-TEILER` | Route 15 gate 2F | The item is fixed here, so the article fits (see the Oak's aides row) |
 | Hah! (BLAINE) | `Haha!` | Cinnabar Gym, BLAINE rematch | German ROM |
+| a #MON master above all others (PROF. EICH about the player, Legacy) | `Niemand meistert` / `#MON wie Du.` | Pokémon Mansion 2F | My proposal: `ein #MON-Meister` would make the player a man |
