@@ -155,3 +155,5 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | Aren't you a little toughie! (Route 9 HIKER), German ROM `Du kleiner Rabauke!` | `Du kleiner Rabauke!`, `Kinder sollten kleine Rabauken sein!` | Route 9 | Approved: kept; `Rabauke` is said of girls too, like `Grünschnabel` |
 | 5F: POWER ZONE (Legacy; vanilla DRUG STORE) | `S4: DROGERIE` | Celadon department store directory, 5F sign, diner | My proposal: the German ROM's name stays; the German word has no drug sense to avoid |
 | status-reduction moves / SPECIAL stat / non physical attacks (Legacy TRAINER TIPS) | `Attacken, die ihre Statuswerte senken`; `SPEZIAL-Wert`; `nicht-physische Attacken` | Celadon City signs | My proposal; `nicht-physische Attacken` as approved for the #MON TOWER rival |
+| Oh! You! (Celadon Gym trainer), German ROM `Du Grobian!` | `Oh!` / `Wie grob!` | Celadon Gym | My proposal: `Grobian` is a man's word |
+| full bloom (ERIKA rematch, Legacy) | `in voller Blüte`, `die Schönheit der vollen Blüte` | Celadon Gym rematch | My proposal |
