@@ -143,6 +143,20 @@ CreditsTextPointers:
 	dw CreditsText_Lake
 	dw CreditsText_Neslug
 	dw CreditsText_TomWang
+	dw CreditsText_GermanTranslation
+	dw CreditsText_VonArx
+	dw CreditsText_EuropeStaff
+	dw CreditsText_EuropeCoord
+	dw CreditsText_Moyse
+	dw CreditsText_Kraft
+	dw CreditsText_Uesugi
+	dw CreditsText_GermanText
+	dw CreditsText_Fabri
+	dw CreditsText_Sano
+	dw CreditsText_NoeTesting
+	dw CreditsText_ZehThieret
+	dw CreditsText_NoaTesting
+	dw CreditsText_HudsonBuechele
 	assert_table_length NUM_CRED_STRINGS
 
 ; 
@@ -155,8 +169,8 @@ CreditsTextPointers:
 ; 16 / 17 = -7
 ; 18 / 19 = -8
 CreditsText_Version:
-	db -6, "YELLOW LEGACY"
-	next   "    STAFF@"
+	db -8, "GELBES VERMÄCHTNIS"
+	next   "   MITWIRKENDE@"
 CreditsText_Tajiri:
 	db -6, "SATOSHI TAJIRI@"
 CreditsText_Oota:
@@ -214,35 +228,35 @@ CreditsText_Yuda:
 CreditsText_Pokemon:
 	db -3, "#MON@"
 CreditsText_Director:
-	db -3, "DIRECTOR@"
+	db -3, "LEITUNG@"
 CreditsText_Programmers:
-	db -5, "PROGRAMMERS@"
+	db -6, "PROGRAMMIERER@"
 CreditsText_CharacterDesign:
-	db -7, "CHARACTER DESIGN@"
+	db -7, "CHARAKTER-DESIGN@"
 CreditsText_Music:
-	db -2, "MUSIC@"
+	db -2, "MUSIK@"
 CreditsText_SoundEffects:
-	db -6, "SOUND EFFECTS@"
+	db -6, "SOUND-EFFEKTE@"
 CreditsText_GameDesign:
-	db -5, "GAME DESIGN@"
+	db -5, "SPIEL-DESIGN@"
 CreditsText_MonsterDesign:
-	db -6, "MONSTER DESIGN@"
+	db -6, "MONSTER-DESIGN@"
 CreditsText_GameScenario:
-	db -6, "GAME SCENARIO@"
+	db -6, "SPIEL-SZENARIO@"
 CreditsText_ParametricDesign:
-	db -7, "PARAMETRIC DESIGN@"
+	db -7, "PARAMETR. DESIGN@"
 CreditsText_MapDesign:
-	db -4, "MAP DESIGN@"
+	db -6, "KARTEN-DESIGN@"
 CreditsText_Testing:
-	db -6, "PRODUCT TESTING@"
+	db -5, "PRODUKT-TEST@"
 CreditsText_SpecialThanks:
-	db -6, "SPECIAL THANKS@"
+	db -7, "BESONDERER DANK@"
 CreditsText_Producers:
-	db -4, "PRODUCERS@"
+	db -4, "PRODUZENTEN@"
 CreditsText_Producer:
-	db -3, "PRODUCER@"
+	db -4, "PRODUZENT@"
 CreditsText_ExecutiveProducer:
-	db -8, "EXECUTIVE PRODUCER@"
+	db -5, "AUSFÜHRENDER@"
 CreditsText_Tamada:
 	db -6, "SOUSUKE TAMADA@"
 CreditsText_Oota2:
@@ -285,7 +299,7 @@ CreditsText_Shogakukan:
 CreditsText_Ootani:
 	db -5, "IKUE OOTANI@"
 CreditsText_PikachuVoice:
-	db -6, "PIKACHU VOICE@"
+	db -7, "PIKACHUS STIMME@"
 
 	db -3, "××××××××@"
 CreditsText_USStaff:
@@ -332,27 +346,27 @@ CreditsText_Yamazaki:
 	db -6, "SAKAE YAMAZAKI@"
 
 CreditsText_Creator:
-	db -4, "CREATED BY@"
+	db -6, "ERSCHAFFEN VON@"
 CreditsText_Developer:
-	db -3, "DEVELOPER@"
+	db -4, "ENTWICKLER@"
 CreditsText_Editor:
-	db -2, "EDITOR@"
+	db -5, "VIDEOSCHNITT@"
 CreditsText_Moderators:
-	db -4, "MODERATORS@"
+	db -4, "MODERATOREN@"
 CreditsText_Playtesters:
-	db -4, "PLAYTESTERS@"
+	db -4, "SPIELTESTER@"
 CreditsText_SpriteArtists:
-	db -6, "SPRITE ARTISTS@"
+	db -6, "SPRITE-KÜNSTLER@"
 CreditsText_BackspriteArtists:
-	db -8, "BACKSPRITE ARTISTS@"
+	db -8, "BACKSPRITE-KÜNSTLER@"
 CreditsText_Tutorials:
 	db -7, "TUTORIALS / CODE@"
 CreditsText_Pret1:
-	db -7, "THANK YOU TO THE@"
+	db -5, "DANKE AN DAS@"
 CreditsText_Pret2:
-	db -7, "PRET TEAM FOR THE@"
+	db -7, "PRET-TEAM FÜR DAS@"
 CreditsText_Pret3:
-	db -4, "POKEYELLOW@"
+	db -4, "POKEYELLOW-@"
 CreditsText_Pret4:
 	db -4, "DISASSEMBLY@"
 
@@ -471,3 +485,35 @@ CreditsText_Neslug:
 	db -2, "NESLUG@"
 CreditsText_TomWang:
 	db -3, "TOM WANG@"
+
+; German translation (Yellow Legacy German)
+CreditsText_GermanTranslation:
+	db -9, "DEUTSCHE ÜBERSETZUNG@"
+CreditsText_VonArx:
+	db -5, "REMO VON ARX@"
+
+; European staff of the German Gelbe Edition
+CreditsText_EuropeStaff:
+	db -8, "EUROPÄISCHES TEAM@"
+CreditsText_EuropeCoord:
+	db -8, "EUROPA-KOORDINATION@"
+CreditsText_Moyse:
+	db -7, "CLAUDE M. MOYSE@"
+CreditsText_Kraft:
+	db -6, "JOHN D. KRAFT@"
+CreditsText_Uesugi:
+	db -7, "HIROYUKI UESUGI@"
+CreditsText_GermanText:
+	db -6, "DEUTSCHER TEXT@"
+CreditsText_Fabri:
+	db -7, "PATRICK R. FABRI@"
+CreditsText_Sano:
+	db -5, "SHINYA SANO@"
+CreditsText_NoeTesting:
+	db -8, "NOE PRODUCT TESTING@"
+CreditsText_ZehThieret:
+	db -6, "K.ZEH/P.THIERET@"
+CreditsText_NoaTesting:
+	db -8, "NOA PRODUCT TESTING@"
+CreditsText_HudsonBuechele:
+	db -8, "K.HUDSON/T.BUECHELE@"
