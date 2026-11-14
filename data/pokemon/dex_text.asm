@@ -869,7 +869,7 @@ _DewgongDexEntry::
 	dex
 
 _GrimerDexEntry::
-	text "SLEIMAS Körper"
+	text "SLEIMAs Körper"
 	next "besteht aus"
 	next "Industrieabfällen."
 
@@ -1009,7 +1009,7 @@ _ElectrodeDexEntry::
 	dex
 
 _ExeggcuteDexEntry::
-	text "OWEIS kleine Köpfe"
+	text "OWEIs kleine Köpfe"
 	next "kreisen um den"
 	next "großen Kopf wie"
 
