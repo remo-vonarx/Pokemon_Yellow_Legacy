@@ -23,8 +23,6 @@ INCLUDE "text/RocketHideoutElevator.asm"
 SECTION "Text 2", ROMX
 
 INCLUDE "text/SilphCo11F.asm"
-INCLUDE "text/PokemonMansion3F.asm"
-INCLUDE "text/PokemonMansionB1F.asm"
 INCLUDE "text/CeruleanCaveB1F.asm"
 INCLUDE "text/VictoryRoad1F.asm"
 INCLUDE "text/LancesRoom.asm"
@@ -33,7 +31,6 @@ INCLUDE "text/LoreleisRoom.asm"
 INCLUDE "text/BrunosRoom.asm"
 INCLUDE "text/AgathasRoom.asm"
 INCLUDE "text/RockTunnelB1F.asm"
-INCLUDE "text/SeafoamIslandsB4F.asm"
 
 INCLUDE "data/text/text_2.asm"
 
@@ -315,3 +312,10 @@ SECTION "Text 19", ROMX
 INCLUDE "text/Route19.asm"
 INCLUDE "text/Route20.asm"
 INCLUDE "text/Route21.asm"
+
+
+SECTION "Text 20", ROMX
+
+INCLUDE "text/PokemonMansion3F.asm"
+INCLUDE "text/PokemonMansionB1F.asm"
+INCLUDE "text/SeafoamIslandsB4F.asm"

@@ -124,8 +124,8 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | The water is calm. Would you like to SURF? (Legacy) | `Das Wasser ist` / `ruhig.` / `Möchtest Du` / `SURFER einsetzen?` | Surf prompt | My proposal, approved (kept `Wasser` over `See`: the prompt also comes up at lakes and ponds) |
 | This tree can be CUT! / Would you like to use CUT? (Legacy) | `Diesen Baum kann` / `man zerschneiden!`; `Möchtest Du` / `ZERSCHNEIDER` / `einsetzen?` | Cut prompt | My proposal, approved |
 | HMs are really important! You should keep them on you at all times. (Legacy) | `VM sind wirklich` / `wichtig!` / `Du solltest sie` / `immer bei Dir` / `haben.` | Vermilion trade house | My proposal, approved |
-| Map dialogue (vanilla Yellow text) | German ROM by position, in the new spelling (`dass`, `musst`, `Lass`, `bisschen`, `zu viele`, `so viel`, `zu viel`, `Stopp`, `Brennnesseln`, `des Weiteren`, `Tschüss`, `missglückt`, `in Acht`, `irgendetwas`, `als Erstes`, `so weit`, `wie viel`, `Gebiss`) | map texts | German ROM; where Legacy changed a text, the German ROM's wording is kept and only Legacy's change is translated |
-| TRAINER TIPS / tip | TIPPS FÜR TRAINER / Tipp | signs, Pewter Gym guide | German ROM `TIPS FÜR TRAINER`, `Tip`, in the new spelling |
+| Map dialogue (vanilla Yellow text) | German ROM by position, in the new spelling (`dass`, `musst`, `Lass`, `bisschen`, `zu viele`, `so viel`, `zu viel`, `Stopp`, `Brennnesseln`, `des Weiteren`, `Tschüss`, `missglückt`, `in Acht`, `irgendetwas`, `als Erstes`, `so weit`, `wie viel`, `Gebiss`, `neu entdeckt`) | map texts | German ROM; where Legacy changed a text, the German ROM's wording is kept and only Legacy's change is translated |
+| TRAINER TIPS / tip | TIPPS FÜR TRAINER / Tipp | signs, Pewter Gym guide, Summer Beach House (`SURFER-TIPP`) | German ROM `TIPS FÜR TRAINER`, `Tip`, in the new spelling |
 | RUNNING SHOES (Legacy) | TURBOTRETER | Pallet Town | PokéWiki: official name since Ruby/Sapphire |
 | backpack (Legacy) | Rucksack | Pallet Town | My proposal; the bag itself stays BEUTEL |
 | STAT experience (Legacy) | STATUS-Erfahrung | Route 1 | My proposal, approved: no official term (PokéWiki: "inoffiziell als Stat Experience bekannt"); STATUS as in the party menu. Not the later `Fleißpunkte`: they are a different mechanic |
@@ -165,7 +165,7 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | SABRINA's pure psychic #MON / high SPECIAL / high ATTACK (Legacy gym guide) | `SABRINAs reine PSYCHO-#MON`; `mit ihrem hohen SPEZIAL-Wert`; `#MON mit hohem ANGRIFF` | Saffron Gym | My proposal; `nicht-physische Treffer` as approved for the #MON TOWER rival |
 | SABRINA rematch (Legacy): psychic power / power within / psychic sense | `Meine PSYKRÄFTE spüren Deine Stärke.`; `Zeig mir die Kraft, die in Dir steckt!`; `übersinnliche Wahrnehmung` | Saffron Gym rematch | My proposal; `PSYKRÄFTE` as the German ROM's gym trainer says |
 | Thanks, kid! (SAFARI ZONE WARDEN), German ROM `Danke, Junge!` | `WÄRTER: Danke,` / `Kind! Niemand` | WARDEN's house | Approved: the English word, as the Game Corner fishing guru |
-| the CHAMPION (the player, in Legacy's new texts) | no gendered article: `jetzt, wo Du CHAMPION bist`, `ob Du als CHAMPION`, `des Titels CHAMPION wahrlich würdig` | NURSE JOY, KOGA rematch | My choice: `der` / `dem neuen CHAMPION` would make the player a man |
+| the CHAMPION (the player, in Legacy's new texts) | no gendered article: `jetzt, wo Du CHAMPION bist`, `ob Du als CHAMPION`, `des Titels CHAMPION wahrlich würdig` | NURSE JOY, KOGA and BLAINE rematches | My choice: `der` / `dem neuen CHAMPION` would make the player a man |
 | #MON MASTER (NURSE JOY about herself, Legacy) | `#MON-MEISTERIN` | Fuchsia Pokémon Center | My proposal |
 | Fwahahaha! (KOGA) | `Hahaha!` | Fuchsia Gym, KOGA rematch | German ROM |
 | the first person (Safari Zone SECRET HOUSE), German ROM `Du bist der Erste, der` | `Du bist die` / `erste Person, die` | Safari Zone SECRET HOUSE | Approved: the English words, neutral |
@@ -174,3 +174,7 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | You little brute! (Route 13 BEAUTY), German ROM `Du kleiner Wüstling, Du!` | `Du kleines` / `Biest, Du!` | Route 13 | Approved: `Wüstling` is a man's word |
 | Oh, you're a little cutie! (Route 15 BEAUTY), German ROM `Du bist ein gewitzter Kerl!` | `Du bist ja ganz` / `schön gewitzt!` | Route 15 | Approved: drops `Kerl`, keeps the German ROM's `gewitzt` |
 | PROF.OAK's AIDE on Route 15 (Legacy: no #DEX check, always the EXP.ALL) | the German ROM's aide wording: `Ich bin PROF. EICHs Gehilfe!`; `einen` / `den EP-TEILER` | Route 15 gate 2F | The item is fixed here, so the article fits (see the Oak's aides row) |
+| Hah! (BLAINE) | `Haha!` | Cinnabar Gym, BLAINE rematch | German ROM |
+| a #MON master above all others (PROF. EICH about the player, Legacy) | `Du bist ein` / `#MON-Meister` / `geworden wie kein` / `anderer.` | Pokémon Mansion 2F | Approved: `Meister` as a role word, like Trainer (chosen over `Niemand meistert #MON wie Du.`) |
+| 'Essence of Beast Style' (WEEBRA, Legacy) | `meine 'Essenz des` / `Bestien-Stils'` | Seafoam Islands B4F | Approved: translated (chosen over keeping the English); a fighting move from Yakuza 0 (`Essence of the Beast`) |
+| bro (WEEBRA, Legacy) | `Kumpel`; "fresh never frozen" → `frisch, nie tiefgekühlt` | Seafoam Islands B4F | Approved: the approved word for anyone (see `pal`) |

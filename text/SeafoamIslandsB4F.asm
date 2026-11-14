@@ -1,42 +1,48 @@
 _SeafoamIslandsB4FArticunoBattleText::
-	text "Gyaoo!@"
+	text "Arktos!@"
 	text_end
 
 _SeafoamIslandsB4FBouldersSignText::
-	text "Boulders might"
-	line "change the flow"
-	cont "of water!"
+	text "Felsen könnten"
+	line "die Strömung"
+	cont "vielleicht"
+	cont "umlenken!"
 	done
 
 _SeafoamIslandsB4FDangerSignText::
-	text "DANGER"
-	line "Fast current!"
+	text "VORSICHT!"
+	line "GEFÄHRLICHE"
+	cont "STRÖMUNG!"
 	done
 
 _SeafoamIslandsWeebraBattleText1::
-	text "You gotta be"
-	line "pretty strong"
-	cont "to get this far," 
-	cont "huh?"
-	
-	para "Then I guess"
-	line "we don't gotta"
-	cont "pull any punches."
+	text "Du musst ganz"
+	line "schön stark sein,"
+	cont "wenn Du es bis"
+	cont "hierher schaffst,"
+	cont "was?"
+
+	para "Dann brauchen wir"
+	line "uns ja nicht"
+	cont "zurückzuhalten."
 	done
 	
 _SeafoamIslandsWeebraEndBattleText1::
-	text "Nice moves!"
+	text "Starke Attacken!"
 
-	para "I almost got off"
-	line "my 'Essence of"
-	cont "Beast Style' too!"
+	para "Fast hätte ich"
+	line "meine 'Essenz des"
+	cont "Bestien-Stils'"
+	cont "auch noch"
+	cont "rausgehauen!"
 	done
 
 _SeafoamIslandsWeebraAfterBattleText1::
-	text "Honestly I prefer"
-	line "my team fresh"
-	cont "never frozen,"
+	text "Ehrlich gesagt mag"
+	line "ich mein Team"
+	cont "lieber frisch,"
+	cont "nie tiefgekühlt,"
 
-	para "but you do you,"
-	line "bro!"
+	para "aber mach Du Dein"
+	line "Ding, Kumpel!"
 	done
