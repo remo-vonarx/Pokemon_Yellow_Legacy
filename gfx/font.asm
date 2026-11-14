@@ -21,7 +21,7 @@ NintendoCopyrightLogoGraphics: INCBIN "gfx/splash/copyright.2bpp"
 GameFreakLogoGraphics: INCBIN "gfx/title/gamefreak_inc.2bpp"
 GameFreakLogoGraphicsEnd:
 
-NineTile: INCBIN "gfx/title/nine.2bpp"
+NineTile: INCBIN "gfx/title/nine.2bpp" ; "000" of the German ROM's ©1995-2000, 2 tiles
 
 TextBoxGraphics:: INCBIN "gfx/font/font_extra.2bpp"
 TextBoxGraphicsEnd::
