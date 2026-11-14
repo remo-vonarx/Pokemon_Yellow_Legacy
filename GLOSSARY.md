@@ -158,3 +158,6 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | Oh! You! (Celadon Gym trainer), German ROM `Du Grobian!` | `Oh!` / `Wie grob!` | Celadon Gym | My proposal: `Grobian` is a man's word |
 | full bloom (ERIKA rematch, Legacy) | `in voller Blüte`, `die Schönheit der vollen Blüte` | Celadon Gym rematch | My proposal |
 | Kid, do you want to play? (Game Corner fishing guru), German ROM `Junge` | `Möchtest Du auch` / `spielen,` / `junges Blut?` | Game Corner | My proposal, as the approved OLD ROD fishing guru |
+| brat (Rocket Hideout), German ROM `Du Lausebengel!` | `Du Rotznase!` | Rocket Hideout B1F | My proposal: the German ROM's word for JESSIE and JAMES's "brat" (B4F) |
+| I can't do it! (Rocket Hideout), German ROM `Ich konnte ihn nicht stoppen!!!` | `Ich konnte Dich nicht stoppen!!!` | Rocket Hideout B1F | My proposal: `ihn` makes the player a boy |
+| condescending `Kleiner` (Rocket Hideout) | `Wie kommst Du hierher, Grünschnabel?` | Rocket Hideout B1F | The `Grünschnabel` rule |
