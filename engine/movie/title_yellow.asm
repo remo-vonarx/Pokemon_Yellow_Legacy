@@ -26,6 +26,8 @@ TitleScreen_PlacePokemonLogo:
 	ld de, TitleScreenPokemonLogoTilemap
 	lb bc, 7, 16
 	call Bank3D_CopyBox
+	hlcoord 18, 7 ; the subtitle runs one tile past the 16-wide logo
+	ld [hl], $74
 	ret
 
 TitleScreen_PlacePikaSpeechBubble:
