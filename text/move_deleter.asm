@@ -1,41 +1,43 @@
 _MoveDeleterGreetingText::
-	text "Want me to make a"
-	line "#MON forget a"
-	cont "move?"
+	text "Soll ein #MON"
+	line "eine Attacke"
+	cont "vergessen?"
 	done
 
 _MoveDeleterSaidYesText::
-	text "Which #MON"
-	line "should forget a"
-	cont "move?"
+	text "Welches #MON"
+	line "soll eine Attacke"
+	cont "vergessen?"
 	prompt
 
 _MoveDeleterWhichMoveText::
-	text "Which move should"
-	line "it forget, then?"
+	text "Welche Attacke"
+	line "soll vergessen"
+	cont "werden?"
 	done
 
 _MoveDeleterConfirmText::
-	text "Make it forget"
-	line "@"
+	text "Soll @"
 	text_ram wStringBuffer
-	text "?"
+	text_start
+	line "vergessen werden?"
 	prompt
 
 _MoveDeleterForgotText::
 	text "@"
 	text_ram wStringBuffer
-	text " was"
-	line "forgotten!"
+	text " wurde"
+	line "vergessen!"
 	prompt
 
 _MoveDeleterByeText::
-	text "Come visit me"
-	line "again!"
+	text "Besuche mich"
+	line "wieder!"
 	done
 
 _MoveDeleterOneMoveText::
-	text "That #MON"
-	line "has one move."
-	cont "Pick another?"
+	text "Dieses #MON"
+	line "kann nur eine"
+	cont "Attacke."
+	cont "Ein anderes?"
 	done
