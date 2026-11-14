@@ -37,7 +37,7 @@ _MoveDeleterByeText::
 
 _MoveDeleterOneMoveText::
 	text "Dieses #MON"
-	line "kann nur eine"
+	line "kennt nur eine"
 	cont "Attacke."
 	cont "Ein anderes?"
 	done
