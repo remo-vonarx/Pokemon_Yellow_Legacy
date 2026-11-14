@@ -818,7 +818,7 @@ PrintPCBox_DrawPage1:
 	call PrintPCBox_PlaceBoxMonInfo
 	ret
 
-.PokemonListString: db "POKéMON LIST@"
+.PokemonListString: db "POKéMON-LISTE@"
 .BoxString: db "BOX@"
 
 PrintPCBox_DrawPage2:

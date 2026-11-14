@@ -55,7 +55,9 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | B2F, B1F, 1F, 2F … 11F, B4F | UG2, UG1, EG, S1 … S10, UG4 | elevator floor lists | German ROM |
 | Type names | NORMAL, KAMPF, FLUG, GIFT, FEUER, WASSER, PFLANZE, ELEKTRO, PSYCHO, EIS, BODEN, GESTEIN, VOGEL, KÄFER, GEIST, DRACHEN | status screen, battle | German ROM (DRACHEN as in the first games; later games say DRACHE) |
 | TM / HM names in the bag (Legacy, `TM01 MEGPNCH`) | `TM01 MEGHIEB`, `VM01 ZERSCHN`, … (German move name, 7 letters at most) | bag, marts | My proposal, reviewed: names that fit stay whole; shared word parts always end the same (STRAHL → STRL, STURM → STRM, WELLE → WELL, DONNER → DNR, MEGA → MEG, BODY → BDY, -TOR → TR); full list in `text/tmhm_names.asm` |
+| CREDIT / PAYOUT (slot machine) | `KREDIT` / `GEWINN` | Game Corner slot machines | German ROM's tiles (`gfx/slots/slots_1.png` tiles 2–9); its lightning bolt (tiles 28–29) is drawn differently but is not text and stays as in Yellow |
 | BALL× / BAIT / ROCK / RUN | BALL× / KÖDER / STEIN / FLUCHT | Safari Zone battle menu | German ROM, cursor positions as in the German ROM |
+| GHOST (a ghost seen without the SILPH SCOPE) | GEIST | ghost battles in the #MON TOWER | German ROM; the name is written letter by letter in `engine/battle/init_battle.asm` |
 | SWITCH / STATS / CANCEL (battle) | TAUSCH / STATUS / ZURÜCK | party submenu in battle | German ROM |
 | CANCEL (list menus) | ZURÜCK | bag, PC and mart lists | German ROM |
 | TYPE/ / disabled | TYP/ / BLOCKIERT | battle move box | German ROM, slash at the German ROM's position |
@@ -121,6 +123,7 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | Trade completed! / Too bad! The trade was canceled! | TAUSCH VOLLZOGEN! / `Schade! Der Tausch` / `wurde abgebrochen!` | trade screen | German ROM |
 | Printer texts | `PRÜFE LINK...`, `ÜBERTRAGUNG...`, `DRUCKEN...`, `Abbrechen mit B`, `Druckfehler 1`–`5`, `Ziehe bitte das` / `Printer-Handbuch` / `zu Rate!`, `Es ist kein` / `Game Boy Printer` / `angeschlossen!` | printing | German ROM; `zu Rate!` in errors 1, 3 and 4 too (approved: the ROM writes `zur Rate!` there and `zu Rate!` in error 2) |
 | Pikachu's Beach record (print) | `Pikachus Strand` / `<name>s Rekord` / `Punkte` | printed Surfing Pikachu high score | German ROM |
+| POKéMON LIST / BOX (printed PC box) | `POKéMON-LISTE` / `BOX` | printing a PC box | German ROM, same start column |
 | The water is calm. Would you like to SURF? (Legacy) | `Das Wasser ist` / `ruhig.` / `Möchtest Du` / `SURFER einsetzen?` | Surf prompt | My proposal, approved (kept `Wasser` over `See`: the prompt also comes up at lakes and ponds) |
 | This tree can be CUT! / Would you like to use CUT? (Legacy) | `Diesen Baum kann` / `man zerschneiden!`; `Möchtest Du` / `ZERSCHNEIDER` / `einsetzen?` | Cut prompt | My proposal, approved |
 | HMs are really important! You should keep them on you at all times. (Legacy) | `VM sind wirklich` / `wichtig!` / `Du solltest sie` / `immer bei Dir` / `haben.` | Vermilion trade house | My proposal, approved |

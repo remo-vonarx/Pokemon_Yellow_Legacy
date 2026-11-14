@@ -51,7 +51,7 @@ _VictoryRoad3FCooltrainerM2BattleText::
 	line "gekommen. Ich"
 	cont "hoffe, Du und"
 	cont "Deine #MON"
-	cont "haben die Reise"
+	cont "habt die Reise"
 	cont "genossen."
 	done
 

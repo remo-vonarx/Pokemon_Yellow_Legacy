@@ -277,6 +277,7 @@ _GotOnBicycleText1::
 	text_end
 
 _GotOnBicycleText2::
+	text "auf das @"
 	text_ram wStringBuffer
 	text "!"
 	prompt
