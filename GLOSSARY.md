@@ -157,3 +157,4 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | status-reduction moves / SPECIAL stat / non physical attacks (Legacy TRAINER TIPS) | `Attacken, die ihre Statuswerte senken`; `SPEZIAL-Wert`; `nicht-physische Attacken` | Celadon City signs | My proposal; `nicht-physische Attacken` as approved for the #MON TOWER rival |
 | Oh! You! (Celadon Gym trainer), German ROM `Du Grobian!` | `Oh!` / `Wie grob!` | Celadon Gym | My proposal: `Grobian` is a man's word |
 | full bloom (ERIKA rematch, Legacy) | `in voller Blüte`, `die Schönheit der vollen Blüte` | Celadon Gym rematch | My proposal |
+| Kid, do you want to play? (Game Corner fishing guru), German ROM `Junge` | `Möchtest Du auch` / `spielen,` / `junges Blut?` | Game Corner | My proposal, as the approved OLD ROD fishing guru |
