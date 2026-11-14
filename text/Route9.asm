@@ -1,136 +1,151 @@
 _Route9CooltrainerF1BattleText::
-	text "You have #MON"
-	line "with you!"
-	cont "You're mine!"
+	text "Du trägst #MON"
+	line "bei Dir! Lass uns"
+	cont "kämpfen!"
 	done
 
 _Route9CooltrainerF1EndBattleText::
-	text "You"
-	line "deceived me!"
+	text "Du"
+	line "hast gewonnen!"
 	prompt
 
 _Route9CooltrainerF1AfterBattleText::
-	text "You need light to"
-	line "get through that"
-	cont "dark tunnel ahead."
+	text "Du benötigst eine"
+	line "Lichtquelle, um"
+	cont "den Tunnel zu"
+	cont "durchqueren!"
 	done
 
 _Route9AJBattleText::
-	text "I aim to be the"
-	line "ultimate trainer!"
+	text "Ich werde einmal"
+	line "der weltbeste"
+	cont "#MON-Trainer!"
 	done
 
 _Route9AJEndBattleText::
-	text "My"
-	line "SANDSHREW lost?"
+	text "Mein"
+	line "SANDAN wurde"
+	cont "besiegt?"
 	prompt
 
 _Route9AJAfterBattleText::
-	text "I'll restart my"
-	line "100-win streak"
-	cont "with SANDSHREW."
+	text "Ich werde meine"
+	line "100-Siege-Tour"
+	cont "mit SANDAN neu"
+	cont "beginnen!"
 	done
 
 _Route9CooltrainerM2BattleText::
-	text "I'm taking ROCK"
-	line "TUNNEL to go to"
-	cont "LAVENDER..."
+	text "Ich gehe durch"
+	line "den FELSTUNNEL"
+	cont "nach LAVANDIA..."
 	done
 
 _Route9CooltrainerM2EndBattleText::
-	text "Can't"
-	line "measure up!"
+	text_start
+	line "Mit Dir habe ich"
+	cont "mich übernommen!"
 	prompt
 
 _Route9CooltrainerM2AfterBattleText::
-	text "Are you off to"
-	line "ROCK TUNNEL too?"
+	text "Möchtest Du auch"
+	line "den FELSTUNNEL"
+	cont "durchqueren?"
 	done
 
 _Route9CooltrainerF2BattleText::
-	text "Don't you dare"
-	line "condescend me!"
+	text "Trau Dich ruhig,"
+	line "mit mir zu"
+	cont "kämpfen!"
 	done
 
 _Route9CooltrainerF2EndBattleText::
-	text "No!"
-	line "You're too much!"
+	text "Das"
+	line "war zu viel des"
+	cont "Guten!"
 	prompt
 
 _Route9CooltrainerF2AfterBattleText::
-	text "You're obviously"
-	line "talented! Good"
-	cont "luck to you!"
+	text "Du hast sehr viel"
+	line "Talent! Viel"
+	cont "Glück auf Deinem"
+	cont "weiteren Weg!"
 	done
 
 _Route9Hiker1BattleText::
-	text "Bwahaha!"
-	line "Great! I was"
-	cont "bored, eh!"
+	text "Endlich"
+	line "kommt jemand!"
+	cont "Mir war richtig"
+	cont "langweilig!"
 	done
 
 _Route9Hiker1EndBattleText::
-	text "Keep it"
-	line "coming, eh!"
+	text "War das"
+	line "etwa schon alles?"
 
-	para "Oh wait. I'm out"
-	line "of #MON!"
+	para "Oh! Ich habe kein"
+	line "einsatzbereites"
+	cont "#MON übrig!"
 	prompt
 
 _Route9Hiker1AfterBattleText::
-	text "You sure had guts"
-	line "standing up to me"
-	cont "there, eh?"
+	text "Deine Knie haben"
+	line "ganz schön"
+	cont "geschlackert,"
+	cont "oder?"
 	done
 
 _Route9Hiker2BattleText::
-	text "Hahaha!"
-	line "Aren't you a"
-	cont "little toughie!"
+	text "Du hast"
+	line "keine Chance, Du"
+	cont "kleiner Rabauke!"
 	done
 
 _Route9Hiker2EndBattleText::
-	text "What's"
-	line "that?"
+	text "Was ist"
+	line "passiert?"
 	prompt
 
 _Route9Hiker2AfterBattleText::
-	text "Hahaha! Kids"
-	line "should be tough!"
+	text "Haha! Kinder"
+	line "sollten kleine"
+	cont "Rabauken sein!"
 	done
 
 _Route9Youngster2BattleText::
-	text "I got up early"
-	line "every day to"
-	cont "raise my #MON"
-	cont "from cocoons!"
+	text "Ich stehe jeden"
+	line "Tag früh auf, um"
+	cont "meine #MON"
+	cont "in ihrem Kokon zu"
+	cont "pflegen!"
 	done
 
 _Route9Youngster2EndBattleText::
-	text "WHAT?"
+	text "WAS?"
 
-	para "What a total"
-	line "waste of time!"
+	para "Das war nichts"
+	line "als reine Zeit-"
+	cont "verschwendung!"
 	prompt
 
 _Route9Youngster2AfterBattleText::
-	text "I have to collect"
-	line "more than bugs to"
-	cont "get stronger..."
+	text "Ich sollte lieber"
+	line "ein paar Stärkere"
+	cont "sammeln..."
 	done
 
 _Route9Hiker3BattleText::
-	text "Hahahaha!"
-	line "Come on, dude!"
+	text "Haha! Wie wär's"
+	line "mit einem Kampf?"
 	done
 
 _Route9Hiker3EndBattleText::
-	text "Hahahaha!"
-	line "You beat me fair!"
+	text "Haha!"
+	line "Ein fairer Kampf!"
 	prompt
 
 _Route9Hiker3AfterBattleText::
-	text "Hahahaha!"
-	line "Us hearty guys"
-	cont "always laugh!"
+	text "Haha!"
+	line "Ich bin eine"
+	cont "echte Frohnatur!"
 	done

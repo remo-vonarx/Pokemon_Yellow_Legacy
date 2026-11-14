@@ -1,37 +1,40 @@
 _PowerPlantVoltorbBattleText::
-	text "Bzzzt!"
+	text "Bzzz!"
 	done
 
 _PowerPlantZapdosBattleText::
-	text "Gyaoo!@"
+	text "Zapdos!@"
 	text_end
 
 _PowerPlantCraigBattleText1::
-	text "I'm trying to"
-	line "complete my"
-	cont "#DEX,"
-	
-	para "for a game I'm"
-	line "making based on"
-	cont "#MON."
+	text "Ich versuche,"
+	line "meinen #DEX zu"
+	cont "vervollständigen,"
 
-	para "How about this…"
+	para "für ein Spiel"
+	line "auf Basis von"
+	cont "#MON, das ich"
+	cont "gerade entwickle."
 
-	para "We battle,"
-	line "winner gets the"
-	cont "bird."
+	para "Wie wär's damit…"
+
+	para "Wir kämpfen, und"
+	line "wer gewinnt,"
+	cont "bekommt den"
+	cont "Vogel."
 	done
 	
 _PowerPlantCraigEndBattleText1::
-	text "This is"
-	line "good data!"
+	text "Das sind"
+	line "gute Daten!"
 
-	para "I can use this."
+	para "Die kann ich"
+	line "gebrauchen."
 	prompt
 	
 _PowerPlantCraigAfterBattleText1::
-	text "Can I see the"
-	line "#DEX entry"
-	cont "once you catch"
-	cont "it?"
+	text "Kann ich den"
+	line "#DEX-Eintrag"
+	cont "sehen, sobald Du"
+	cont "es gefangen hast?"
 	done
