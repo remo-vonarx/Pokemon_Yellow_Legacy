@@ -1,78 +1,89 @@
 _SilphCo11FSilphPresidentText::
-	text "PRESIDENT: Thank"
-	line "you for saving"
-	cont "SILPH!"
+	text "PRÄSIDENT: Ich"
+	line "danke Dir für"
+	cont "die Rettung der"
+	cont "SILPH CO."
 
-	para "I will never"
-	line "forget you saved"
-	cont "us in our moment"
-	cont "of peril!"
+	para "Ich werde niemals"
+	line "vergessen, wie Du"
+	cont "uns trotz größter"
+	cont "Gefahren tapfer"
+	cont "gerettet hast!"
 
-	para "I have to thank"
-	line "you in some way!"
+	para "Wie kann ich Dir"
+	line "bloß meinen Dank"
+	cont "aussprechen?"
 
-	para "Because I am rich,"
-	line "I can give you"
-	cont "anything!"
+	para "Ich bin reich,"
+	line "ich könnte Dir"
+	cont "alles geben!"
 
-	para "Here, maybe this"
-	line "will do!"
+	para "Aber vielleicht"
+	line "ist das hier eher"
+	cont "etwas für Dich!"
 	prompt
 
 _SilphCo11FSilphPresidentReceivedMasterBallText::
-	text "<PLAYER> got a"
-	line "@"
+	text "<PLAYER> erhält"
+	line "einen @"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _SilphCo11FSilphPresidentMasterBallDescriptionText::
-	text "PRESIDENT: You"
-	line "can't buy that"
-	cont "anywhere!"
+	text "PRÄSIDENT: Man"
+	line "kann ihn nirgends"
+	cont "kaufen!"
 
-	para "It's our secret"
-	line "prototype MASTER"
-	cont "BALL!"
+	para "Es ist der"
+	line "streng geheime"
+	cont "Prototyp des"
+	cont "MEISTERBALLS!"
 
-	para "It will catch any"
-	line "#MON without"
-	cont "fail!"
+	para "Du kannst mit ihm"
+	line "JEDES #MON"
+	cont "BEIM 1. VERSUCH"
+	cont "EINFANGEN!"
 
-	para "You should be"
-	line "quiet about using"
-	cont "it, though."
+	para "Wäge jedoch"
+	line "sorgfältig ab,"
+	cont "wann Du ihn"
+	cont "einsetzt!"
 	done
 
 _SilphCo11FSilphPresidentNoRoomText::
-	text "You have no"
-	line "room for this."
+	text "Du hast keinen"
+	line "Platz mehr!"
 	done
 
 _SilphCo11FBeautyText::
-	text "SECRETARY: Thank"
-	line "you for rescuing"
-	cont "all of us!"
+	text "SEKRETÄRIN: Wir"
+	line "danken Dir für"
+	cont "Deinen Heldenmut!"
 
-	para "We admire your"
-	line "courage."
+	para "Du hast uns alle"
+	line "gerettet! Danke!"
 	done
 
 _SilphCo11FGiovanniText::
 	text "Ah, <PLAYER>!"
-	line "So we meet again!"
+	line "So trifft man"
+	cont "sich wieder!"
 
-	para "The PRESIDENT and"
-	line "I are discussing"
-	cont "a vital business"
-	cont "proposition."
+	para "Ich führe gerade"
+	line "äußerst wichtige"
+	cont "Verhandlungen mit"
+	cont "dem PRÄSIDENTEN."
 
-	para "Keep your nose"
-	line "out of grown-up"
-	cont "matters..."
+	para "Halte Dich ein"
+	line "für allemal aus"
+	cont "den Geschäften"
+	cont "Erwachsener"
+	cont "heraus!"
 
-	para "or, experience a"
-	line "world of pain!"
+	para "Oder Du lernst"
+	line "eine Welt voller"
+	cont "Schmerzen kennen!"
 	done
 
 _SilphCo10FGiovanniILostAgainText::
@@ -81,35 +92,41 @@ _SilphCo10FGiovanniILostAgainText::
 	prompt
 
 _SilphCo11FGiovanniYouRuinedOurPlansText::
-	text "Blast it all!"
-	line "You ruined our"
-	cont "plans for SILPH!"
+	text "Verdammter Mist!"
+	line "Du hast unsere"
+	cont "Übernahme der"
+	cont "SILPH CO. "
+	cont "vereitelt!"
 
-	para "But, TEAM ROCKET"
-	line "will never fall!"
+	para "Aber TEAM ROCKET"
+	line "wird niemals"
+	cont "aufgeben!"
 
-	para "<PLAYER>! Never"
-	line "forget that all"
-	cont "#MON exist"
-	cont "for TEAM ROCKET!"
+	para "<PLAYER>! Vergiss"
+	line "nicht, dass alle"
+	cont "#MON nur zum"
+	cont "Nutzen des TEAM"
+	cont "ROCKET da sind!"
 
-	para "I must go, but I"
-	line "shall return!"
+	para "Ich muss gehen,"
+	line "aber meine Zeit"
+	cont "wird kommen!"
 	done
 
 _SilphCo11FRocket2BattleText::
-	text "Halt! Do you have"
-	line "an appointment"
-	cont "with my BOSS?"
+	text "Stopp! Hast Du"
+	line "einen Termin"
+	cont "beim BOSS?"
 	done
 
 _SilphCo11FRocket2EndBattleText::
-	text "Gaah!"
-	line "Demolished!"
+	text "OK!"
+	line "Du darfst durch!"
 	prompt
 
 _SilphCo11FRocket2AfterBattleText::
-	text "Watch your step,"
-	line "my BOSS likes his"
-	cont "#MON tough!"
+	text "Die #MON von"
+	line "unserem BOSS"
+	cont "werden Dich"
+	cont "fertig machen! "
 	done
