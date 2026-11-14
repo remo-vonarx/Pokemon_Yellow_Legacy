@@ -36,11 +36,11 @@ _PokemonTower2FRivalVictoryText::
 
 	para "Sie treffen zwar"
 	line "keine NORMAL-"
-	cont "#MON, aber"
+	cont "#MON, können"
+	cont "aber als"
 	cont "nicht-physische"
-	cont "Attacken können"
-	cont "trotzdem hart"
-	cont "treffen!"
+	cont "Attacken trotzdem"
+	cont "hart treffen!"
 	prompt
 
 _PokemonTower2FRivalHowsYourDexText::
