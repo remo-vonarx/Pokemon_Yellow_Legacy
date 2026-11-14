@@ -1,69 +1,74 @@
 _SilphCo5FSilphWorkerMThatsYouRightText::
-	text "TEAM ROCKET is"
-	line "in an uproar over"
-	cont "some intruder."
-	cont "That's you right?"
+	text "Ein Eindringling"
+	line "mischt TEAM"
+	cont "ROCKET auf... Das"
+	cont "bist Du, oder?"
 	done
 
 _SilphCo5FSilphWorkerMYoureOurHeroText::
-	text "TEAM ROCKET took"
-	line "off! You're our"
-	cont "hero! Thank you!"
+	text "TEAM ROCKET"
+	line "ist geflüchtet!"
+	cont "Du bist ein Held!"
 	done
 
 _SilphCo5FRocket1BattleText::
-	text "I heard a kid was"
-	line "wandering around."
+	text "Ich hörte, ein"
+	line "Kind läuft im"
+	cont "Gebäude herum..."
 	done
 
 _SilphCo5FRocket1EndBattleText::
-	text "Boom!"
+	text_start
+	line "Schluss! Aus!"
 	prompt
 
 _SilphCo5FRocket1AfterBattleText::
-	text "It's not smart"
-	line "to pick a fight"
-	cont "with TEAM ROCKET!"
+	text "Es war sehr dumm,"
+	line "sich mit TEAM"
+	cont "ROCKET anzulegen!"
 	done
 
 _SilphCo5FScientistBattleText::
-	text "We study #"
-	line "BALL technology"
-	cont "on this floor!"
+	text "Wir entwickeln in"
+	line "diesen Labors"
+	cont "neue #bälle!"
 	done
 
 _SilphCo5FScientistEndBattleText::
-	text "Dang!"
-	line "Blast it!"
+	text "Finito!"
+	line "Das war's!"
 	prompt
 
 _SilphCo5FScientistAfterBattleText::
-	text "We worked on the"
-	line "ultimate #"
-	cont "BALL which would"
-	cont "catch anything!"
+	text "Unsere neueste"
+	line "Entwicklung ist"
+	cont "ein BALL, der"
+	cont "alles fängt!"
 	done
 
 _SilphCo5FRockerBattleText::
-	text "Whaaat? There"
-	line "shouldn't be any"
-	cont "children here!"
+	text "Waaas? Wer hat"
+	line "denn das Kind"
+	cont "reingelassen?"
 	done
 
 _SilphCo5FRockerEndBattleText::
-	text "Oh"
-	line "goodness!"
+	text "Nein!"
+	line "Das Kind hat"
+	cont "mich besiegt!"
 	prompt
 
 _SilphCo5FRockerAfterBattleText::
-	text "You're only on 5F."
-	line "It's a long way"
-	cont "to my BOSS!"
+	text "Es ist ein weiter"
+	line "Weg zum BOSS! Du"
+	cont "bist hier erst im"
+	cont "4.Stock!"
 	done
 
 _SilphCo5FRocket2BattleText::
-	text "Show TEAM ROCKET"
-	line "a little respect!"
+	text "Zolle TEAM ROCKET"
+	line "gefälligst etwas"
+	cont "mehr Respekt!!!"
 	done
 
 _SilphCo5FRocket2EndBattleText::
@@ -72,40 +77,41 @@ _SilphCo5FRocket2EndBattleText::
 	prompt
 
 _SilphCo5FRocket2AfterBattleText::
-	text "Which reminds me."
-
-	para "KOFFING evolves"
-	line "into WEEZING!"
+	text "Da fällt mir ein,"
+	line "SMOGON entwickelt"
+	cont "sich zu SMOGMOG!"
 	done
 
 _SilphCo5FPokemonReport1Text::
-	text "It's a #MON"
-	line "REPORT!"
+	text "Ein ARTIKEL über"
+	line "#MON!"
 
-	para "#MON LAB"
-	line "created PORYGON,"
-	cont "the first virtual"
-	cont "reality #MON."
+	para "PORYGON!"
+	line "PKMN-LABOR ZEUGT"
+	cont "VIRTUELLES"
+	cont "#MON!"
 	done
 
 _SilphCo5FPokemonReport2Text::
-	text "It's a #MON"
-	line "REPORT!"
+	text "Eine Studie über"
+	line "#MON!"
 
-	para "Over 160 #MON"
-	line "techniques have"
-	cont "been confirmed."
+	para "Es gibt mehr als"
+	line "160 #MON-"
+	cont "Kampftechniken!"
 	done
 
 _SilphCo5FPokemonReport3Text::
-	text "It's a #MON"
-	line "REPORT!"
+	text "Ein Report über "
+	line "#MON!"
 
-	para "They say some"
-	line "#MON evolve"
-	cont "only when traded"
-	cont "by link-cable,"
+	para "Angeblich"
+	line "entwickeln sich"
+	cont "manche #MON"
+	cont "nur beim Tausch"
+	cont "über Link-Kabel"
+	cont "weiter,"
 
-	para "but it's not"
-	line "true."
+	para "aber das stimmt"
+	line "nicht."
 	done
