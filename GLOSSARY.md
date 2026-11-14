@@ -110,6 +110,7 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | YELLOW LEGACY / HARD (Hall of Fame tag, Legacy) | GELBES VERMÄCHTNIS / SCHWER | Hall of Fame player screen | Approved: as in the backup branch, one box at `0,0` (2 × 18) with the title and the player's name below it, SCHWER at column 13 in hard mode |
 | PLAY TIME | SPIELZEIT | Hall of Fame, diploma | German ROM |
 | Diploma | `Diplom`; `Herzlichen Glück-` / `wunsch <name>!`; `Du hast es ge-` / `schafft, den` / `#DEX zu` / `vervollständigen.` | diploma (screen and print) | German ROM, with its layout: the player's name goes into the greeting's gap |
+| CONGRATULATIONS! (printed diploma, second page) | `GLÜCKWUNSCH !!!` | printing the diploma | German ROM's tiles (`gfx/surfing_pikachu/surfing_pikachu_3.png` tiles 5–15); the German ROM copies 10 tiles of the banner, ours 11, but its tile 15 is blank, so the printout is the same |
 | FRESH WATER / SODA POP / LEMONADE | TAFELWASSER / SPRUDEL / LIMONADE | vending machine | German ROM |
 | HOW TO LINK / COLOSSEUM / TRADE CENTER / STOP READING | LINK-INFO / KOLOSSEUM / HANDELSCENTER / VERLASSEN | Viridian school blackboard | German ROM; the status lists say SLF GIF PAR / BRT GFR ZUR. |
 | NO THANKS / COIN | TSCHÜSS! / MÜNZEN | Game Corner prize menu and coin box | German ROM |
