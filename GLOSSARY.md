@@ -55,6 +55,7 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | B2F, B1F, 1F, 2F … 11F, B4F | UG2, UG1, EG, S1 … S10, UG4 | elevator floor lists | German ROM |
 | Type names | NORMAL, KAMPF, FLUG, GIFT, FEUER, WASSER, PFLANZE, ELEKTRO, PSYCHO, EIS, BODEN, GESTEIN, VOGEL, KÄFER, GEIST, DRACHEN | status screen, battle | German ROM (DRACHEN as in the first games; later games say DRACHE) |
 | TM / HM names in the bag (Legacy, `TM01 MEGPNCH`) | `TM01 MEGHIEB`, `VM01 ZERSCHN`, … (German move name, 7 letters at most) | bag, marts | My proposal, reviewed: names that fit stay whole; shared word parts always end the same (STRAHL → STRL, STURM → STRM, WELLE → WELL, DONNER → DNR, MEGA → MEG, BODY → BDY, -TOR → TR); full list in `text/tmhm_names.asm` |
+| CREDIT / PAYOUT (slot machine) | `KREDIT` / `GEWINN` | Game Corner slot machines | German ROM's tiles (`gfx/slots/slots_1.png` tiles 2–9); its lightning bolt (tiles 28–29) is drawn differently but is not text and stays as in Yellow |
 | BALL× / BAIT / ROCK / RUN | BALL× / KÖDER / STEIN / FLUCHT | Safari Zone battle menu | German ROM, cursor positions as in the German ROM |
 | GHOST (a ghost seen without the SILPH SCOPE) | GEIST | ghost battles in the #MON TOWER | German ROM; the name is written letter by letter in `engine/battle/init_battle.asm` |
 | SWITCH / STATS / CANCEL (battle) | TAUSCH / STATUS / ZURÜCK | party submenu in battle | German ROM |
