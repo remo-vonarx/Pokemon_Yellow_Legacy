@@ -1,30 +1,29 @@
 _MewtwoBattleText::
-	text "Mew!@"
+	text "Mewtu!@"
 	text_end
 
 _CeruleanCaveSmithBattleText1::
-	text "Hey, what's up?"
+	text "Hey, was geht?"
 
-	para "Show me how much"
-	line "zest you've got!"
+	para "Zeig mir, wie viel"
+	line "Elan Du hast!"
 	done
 	
 _CeruleanCaveSmithEndBattleText1::
 	text "Wow!"
-	
-	para "You've got zest!"
 
-	para "I love to see"
-	line "that."
+	para "Du hast Elan!"
+
+	para "Das sehe ich"
+	line "gern."
 	prompt
 	
 _CeruleanCaveSmithAfterBattleText1::
-	text "What zest!"
-	
-	para "You should be"
-	line "able to handle"
-	cont "yourself in this"
-	cont "cave!"
+	text "Was für ein Elan!"
 
-	para "Good luck, nerd!"
+	para "Du solltest in"
+	line "dieser Höhle gut"
+	cont "zurechtkommen!"
+
+	para "Viel Glück, Nerd!"
 	done

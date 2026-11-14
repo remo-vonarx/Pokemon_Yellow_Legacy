@@ -1,277 +1,316 @@
 _ChampionsRoomRivalIntroText::
-	text "<RIVAL>: Hey!"
+	text "<RIVAL>: Hallo!"
 
-	para "I was looking"
-	line "forward to seeing"
-	cont "you, <PLAYER>!"
+	para "Auf diesen Moment"
+	line "warte ich schon"
+	cont "lange, <PLAYER>!"
 
-	para "My rival should"
-	line "be strong to keep"
-	cont "me sharp!"
+	para "Ich brauche einen"
+	line "starken Gegner, "
+	cont "um mich in Form"
+	cont "zu halten!"
 
-	para "While working on"
-	line "#DEX, I looked"
-	cont "all over for"
-	cont "powerful #MON!"
+	para "Während ich"
+	line "meinen #DEX"
+	cont "aktualisierte,"
+	cont "habe ich nur die"
+	cont "stärksten #MON"
+	cont "ausgewählt!"
 
-	para "Not only that, I"
-	line "assembled teams"
-	cont "that would beat"
-	cont "any #MON type!"
+	para "Aber nicht nur"
+	line "das: Ich habe"
+	cont "Teams aufgebaut,"
+	cont "die ALLE #MON"
+	cont "besiegen können!"
 
-	para "And now!"
+	para "Und nun..."
 
-	para "I'm the #MON"
-	line "LEAGUE champion!"
+	para "...bin ich"
+	line "Champion der"
+	cont "PKMN-LIGA!"
 
-	para "<PLAYER>! Do you"
-	line "know what that"
-	cont "means?"
+	para "<PLAYER>!"
 
-	para "I'll tell you!"
+	para "Weißt Du, was das"
+	line "bedeutet?"
 
-	para "I am the most"
-	line "powerful trainer"
-	cont "in the world!"
+	para "Ich werde es Dir"
+	line "sagen!"
+
+	para "Ich bin der"
+	line "mächtigste"
+	cont "Trainer der Welt!"
 	done
 
 _RivalDefeatedText::
-	text "NO!"
-	line "That can't be!"
-	cont "You beat my best!"
+	text "NEIN!"
+	line "Das kann nicht"
+	cont "wahr sein! Meine"
+	cont "besten #MON"
+	cont "sind geschlagen!"
 
-	para "After all that"
-	line "work to become"
-	cont "LEAGUE champ?"
+	para "Mein Siegeszug"
+	line "ist schon vorbei?"
 
-	para "My reign is over"
-	line "already?"
-	cont "It's not fair!"
+	para "Nach all den"
+	line "Anstrengungen,"
+	cont "LIGA-CHAMPION"
+	cont "zu werden?"
+
+	para "Das ist nicht"
+	line "fair!"
 	prompt
 
 _RivalVictoryText::
-	text "Hahaha!"
-	line "I won, I won!"
+	text "Haha! Ich"
+	line "habe GEWONNEN!"
 
-	para "I'm too good for"
-	line "you, <PLAYER>!"
+	para "Ich bin einfach "
+	line "zu gut für Dich, "
+	cont "<PLAYER>!"
 
-	para "You did well to"
-	line "even reach me,"
-	cont "<RIVAL>, the"
-	cont "#MON genius!"
+	para "Immerhin hast"
+	line "Du es bis hierher"
+	cont "geschafft! Ich"
+	cont "hätte aber mehr"
+	cont "von Dir erwartet,"
+	cont "<RIVAL>!"
 
-	para "Nice try, loser!"
-	line "Hahaha!"
+	para "Vielleicht beim"
+	line "nächsten Mal, Du"
+	cont "Kämpfer! Hahaha!"
 	prompt
 
 _ChampionsRoomRivalAfterBattleText::
-	text "Why?"
-	line "Why did I lose?"
+	text "Wieso?"
+	cont "Wieso habe"
+	cont "ich verloren?"
 
-	para "I never made any"
-	line "mistakes raising"
-	cont "my #MON..."
+	para "Ich habe meine"
+	line "#MON doch"
+	cont "sehr sorgfältig"
+	cont "aufgezogen..."
 
-	para "Darn it! You're"
-	line "the new #MON"
-	cont "LEAGUE champion!"
+	para "Verdammt!"
+	line "Du bist der neue"
+	cont "CHAMPION der"
+	cont "PKMN-LIGA!"
 
-	para "Although I don't"
-	line "like to admit it."
+	para "Aber ich gönne"
+	line "Dir das nicht!"
 	done
 
 _ChampionsRoomRivalRematchIntroText::
-	text "Back again?"
-	line "I've been waiting,"
+	text "Schon wieder da?"
+	line "Ich habe auf Dich"
+	cont "gewartet,"
 	cont "<PLAYER>!"
 
-	para "This time, my"
-	line "team's stronger"
-	cont "and ready to"
-	cont "take you down!"
+	para "Diesmal ist mein"
+	line "Team stärker und"
+	cont "bereit, Dich zu"
+	cont "besiegen!"
 
-	para "Ready to hand"
-    line "over that title?"
+	para "Bist Du bereit,"
+	line "den Titel"
+	cont "abzugeben?"
 
-    para "Let's do this!"
-    line "No holding back!"
+	para "Los geht's!"
+	line "Ich halte mich"
+	cont "nicht zurück!"
 	done
 
 _RivalRematchDefeatedText::
-	text "Even"
-	line "with my"
-	cont "strongest team,"
+	text "Selbst"
+	line "mit meinem"
+	cont "stärksten Team..."
 
-	para "your skills as"
-	line "CHAMPION..."
+	para "Deine Fähigkeiten"
+	line "als CHAMPION..."
 
-	para "They're real."
+	para "Sie sind echt."
 	prompt
 
 _RivalRematchVictoryText::
-	text "With my"
-	line "new strategies,"
+	text "Gegen"
+	line "meine neuen"
+	cont "Strategien"
 
-	para "you stood no"
-	line "chance, <PLAYER>!"
+	para "hattest Du keine"
+	line "Chance, <PLAYER>!"
 
-	para "The title of"
-	line "champion is"
-	cont "rightfully mine!"
+	para "Der Titel des"
+	line "Champions gehört"
+	cont "zu Recht mir!"
 	prompt
 
 _ChampionsRoomRivalRematchAfterBattleText::
-	text "Fine, you win."
-	line "You're the best," 
+	text "Na gut, Du hast"
+	line "gewonnen. Du bist"
+	cont "die Nummer eins,"
 	cont "<PLAYER>."
 
-	para "But I won't give"
-	line "up just yet!"
+	para "Aber ich gebe"
+	line "noch nicht auf!"
 
-	para "Next time, I'll"
-	line "be CHAMPION."
+	para "Nächstes Mal bin"
+	line "ich CHAMPION."
 	done
 
 _ChampionsRoomOakText::
-	text "OAK: <PLAYER>!"
+	text "EICH: <PLAYER>!"
 	done
 
 _ChampionsRoomOakCongratulatesPlayerText::
-	text "OAK: So, you won!"
-	line "Congratulations!"
-	cont "You're the new"
-	cont "#MON LEAGUE"
-	cont "champion!"
+	text "EICH: Du hast"
+	line "also gewonnen!"
+	cont "Glückwunsch!"
+	cont "Du bist der neue"
+	cont "Champion der"
+	cont "PKMN-LIGA!"
 
-	para "You've grown up so"
-	line "much since you"
-	cont "first left with"
+	para "Du hast viel"
+	line "dazugelernt, seit"
+	cont "Du Dich mit"
 	cont "@"
 	text_ram wcd6d
-	text "!"
+	text " auf"
+	cont "den Weg gemacht"
+	cont "hast!"
 
-	para "<PLAYER>, you have"
-	line "come of age!"
+	para "<PLAYER>,"
+	line "Du bist schon"
+	cont "viel erfahrener!"
 	done
 
 _ChampionsRoomOakDisappointedWithRivalText::
-	text "OAK: <RIVAL>! I'm"
-	line "disappointed!"
+	text "EICH: <RIVAL>!"
+	line "Du hast mich"
+	cont "sehr enttäuscht!"
 
-	para "I came when I"
-	line "heard you beat"
-	cont "the ELITE FOUR!"
+	para "Als ich hörte, "
+	line "Du hättest die"
+	cont "TOP VIER besiegt,"
+	cont "kam ich hierher!"
 
-	para "But, when I got"
-	line "here, you had"
-	cont "already lost!"
+	para "Doch als ich"
+	line "ankam, warst Du"
+	cont "der Verlierer!"
 
-	para "<RIVAL>! Do you"
-	line "understand why"
-	cont "you lost?"
+	para "<RIVAL>, weißt"
+	line "Du, warum Du"
+	cont "verloren hast?"
 
-	para "You have forgotten"
-	line "to treat your"
-	cont "#MON with"
-	cont "trust and love!"
+	para "Du hast Deinen"
+	line "#MON nicht"
+	cont "genug Liebe"
+	cont "und Vertrauen "
+	cont "entgegengebracht!"
 
-	para "Without them, you"
-	line "will never become"
-	cont "a champ again!"
+	para "So wirst Du"
+	line "niemals Sieger"
+	cont "werden!"
 	done
 
 _ChampionsRoomOakComeWithMeText::
-	text "OAK: <PLAYER>!"
+	text "EICH: <PLAYER>!"
 
-	para "You understand"
-	line "that your victory"
-	cont "was not just your"
-	cont "own doing!"
+	para "Du hast"
+	line "begriffen, dass"
+	cont "Dein Sieg nicht"
+	cont "alleine Dein"
+	cont "Verdienst war!"
 
-	para "The bond you share"
-	line "with your #MON"
-	cont "is marvelous!"
+	para "Die Beziehung"
+	line "zu Deinen #MON"
+	cont "ist vorbildlich!"
 
 	para "<PLAYER>!"
-	line "Come with me!"
+	line "Folge mir!"
 	done
 
 _ChampionsRoomRematchOakCongratulatesPlayerText::
-	text "OAK: So, you won"
-	line "again!"
+	text "EICH: Du hast"
+	line "also wieder"
+	cont "gewonnen!"
 
-	para "Congratulations!"
-	line "Still the CHAMP"
-	cont "I see!"
+	para "Glückwunsch!"
+	line "Wie ich sehe,"
+	cont "bist Du noch"
+	cont "immer CHAMPION!"
 
-	para "You've returned,"
-	line "proving your"
-	cont "strength once"
-	cont "again!"
+	para "Du bist"
+	line "zurückgekehrt und"
+	cont "hast Deine Stärke"
+	cont "erneut bewiesen!"
 
-	para "Your bond with"
-	line "your #MON is"
-	cont "truly inspiring!"
+	para "Deine Beziehung"
+	line "zu Deinen #MON"
+	cont "ist wahrlich"
+	cont "inspirierend!"
 
-	para "<PLAYER>, you're"
-	line "a true CHAMPION!"
+	para "<PLAYER>, Du bist"
+	line "CHAMPION durch"
+	cont "und durch!"
 	done
 
 _ChampionsRoomRematchOakDisappointedWithRivalText::
-	text "OAK: Ah, "
+	text "EICH: Ach, "
 	line "<RIVAL>..."
 
-	para "I had hoped for"
-	line "a better outcome."
-	
-	para "but I see you"
-	line "have fallen"
-	cont "short once more!"
+	para "Ich hatte auf"
+	line "einen besseren"
+	cont "Ausgang gehofft,"
 
-	para "Remember,"
+	para "aber wie ich"
+	line "sehe, bist Du"
+	cont "wieder einmal"
+	cont "gescheitert!"
+
+	para "Vergiss nicht,"
 	line "<RIVAL>,"
 
-	para "it's not just"
-	line "about strength"
-	cont "in battle,"
+	para "es geht nicht nur"
+	line "um Stärke im"
+	cont "Kampf,"
 
-	para "but also about"
-	line "the bond you"
-	cont "share with your"
-	cont "#MON."
+	para "sondern auch um"
+	line "die Beziehung zu"
+	cont "Deinen #MON."
 
-	para "Reflect on this,"
-	line "and grow stronger!"
+	para "Denk darüber nach"
+	line "und werde"
+	cont "stärker!"
 	done
 
 _ChampionsRoomRematchOakComeWithMeText::
-	text "OAK: <PLAYER>!"
+	text "EICH: <PLAYER>!"
 
-	para "Your triumph is"
-	line "not yours alone!"
+	para "Dein Triumph"
+	line "gehört nicht Dir"
+	cont "allein!"
 
-	para "Your bond with"
-	line "your #MON is"
-	cont "a lesson for us"
-	cont "all!"
+	para "Deine Beziehung"
+	line "zu Deinen #MON"
+	cont "ist uns allen"
+	cont "ein Vorbild!"
 
-	para "<PLAYER>, let's"
-	line "celebrate your"
-	cont "achievement!"
+	para "<PLAYER>, lass"
+	line "uns Deinen Erfolg"
+	cont "feiern!"
 	done
 
 _ChampionsRoomJolteonText::
-	text "JOLTEON:"
-	line "JOLTEON!"
+	text "BLITZA:"
+	line "BLITZA!"
 	done
 
 _ChampionsRoomFlareonText::
-	text "FLAREON:"
-	line "FLAREON!"
+	text "FLAMARA:"
+	line "FLAMARA!"
 	done
 
 _ChampionsRoomVaporeonText::
-	text "VAPOREON:"
-	line "VAPOREON!"
+	text "AQUANA:"
+	line "AQUANA!"
 	done

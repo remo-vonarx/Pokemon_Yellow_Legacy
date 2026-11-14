@@ -1,30 +1,35 @@
 _LancesRoomLanceBeforeBattleText::
-	text "Ah! I heard about"
-	line "you, <PLAYER>!"
+	text "Ich habe bereits"
+	line "von Dir gehört,"
+	cont "<PLAYER>!"
 
-	para "I lead the ELITE"
-	line "FOUR! You can"
-	cont "call me LANCE the"
-	cont "dragon trainer!"
+	para "Ich bin"
+	line "SIEGFRIED,"
+	cont "Drachen-Trainer"
+	cont "und Oberhaupt der"
+	cont "TOP VIER!"
 
-	para "You know that"
-	line "dragons are"
-	cont "mythical #MON!"
+	para "Wusstest Du, dass"
+	line "Drachen mystische"
+	cont "#MON sind?"
 
-	para "They're hard to"
-	line "catch and raise,"
-	cont "but their powers"
-	cont "are superior!"
+	para "Sie sind schwer"
+	line "zu fangen und"
+	cont "zu zähmen!"
+	cont "Doch die Mühe"
+	cont "lohnt sich!"
 
-	para "They're virtually"
-	line "indestructible!"
+	para "Sie sind beinahe"
+	line "unbesiegbar!"
 
-	para "Well, are you"
-	line "ready to lose?"
+	para "Bist Du bereit,"
+	line "dem Schicksal ins"
+	cont "Auge zu blicken?"
 
-	para "Your LEAGUE"
-	line "challenge ends"
-	cont "with me, <PLAYER>!"
+	para "Für Dich endet"
+	line "der Ausflug in"
+	cont "die PKMN-Liga"
+	cont "hier, <PLAYER>!"
 	done
 
 _LancesRoomLanceEndBattleText::
@@ -37,54 +42,59 @@ _LancesRoomLanceEndBattleText::
 	prompt
 
 _LancesRoomLanceAfterBattleText::
-	text "I still can't"
-	line "believe my"
-	cont "dragons lost to"
-	cont "you, <PLAYER>!"
+	text "Es ist kaum zu"
+	line "glauben! Meine"
+	cont "Drachen sind an"
+	cont "Dir gescheitert,"
+	cont "<PLAYER>!"
 
-	para "You are now the"
-	line "#MON LEAGUE"
-	cont "champion!"
+	para "Nun bist Du der"
+	line "Champion der"
+	cont "PKMN-LIGA!"
 
-	para "...Or, you would"
-	line "have been, but"
-	cont "you have one more"
-	cont "challenge ahead."
+	para "Mmh, eigentlich"
+	line "wärst Du es!"
+	cont "Aber Du musst"
+	cont "noch eine"
+	cont "Herausforderung"
+	cont "bestehen!"
 
-	para "You have to face"
-	line "another trainer!"
-	cont "His name is..."
+	para "Ein weiterer"
+	line "Trainer erwartet"
+	cont "Dich! Es ist..."
 
-	para "<RIVAL>!"
-	line "He beat the ELITE"
-	cont "FOUR before you!"
+	para "<RIVAL>! Auch"
+	line "er hat die TOP"
+	cont "VIER besiegt!"
 
-	para "He is the real"
-	line "#MON LEAGUE"
-	cont "champion!@"
+	para "Er ist der"
+	line "amtierende"
+	cont "Champion der"
+	cont "PKMN-Liga!@"
 	text_end
 
 _LancesRoomLanceRematchBeforeBattleText::
-	text "Back so soon,"
+	text "So bald zurück,"
 	line "<PLAYER>?"
 
-	para "As CHAMPION,"
-	line "you seek more"
-	cont "battles?"
+	para "Suchst Du als"
+	line "CHAMPION nach"
+	cont "weiteren Kämpfen?"
 
-	para "My dragons await"
-	line "your challenge."
+	para "Meine Drachen"
+	line "erwarten Deine"
+	cont "Herausforderung."
 
-	para "Their might is"
-	line "unyielding, a"
-	cont "true force of"
-	cont "nature!"
+	para "Ihre Macht ist"
+	line "unerschütterlich,"
+	cont "eine wahre"
+	cont "Naturgewalt!"
 
-	para "Ready for"
-	line "round two?"
+	para "Bereit für die"
+	line "zweite Runde?"
 
-	para "We won't go"
-	line "easy!"
+	para "Wir werden Dich"
+	line "nicht schonen!"
 	done
 
 _LancesRoomLanceRematchEndBattleText::
@@ -100,18 +110,19 @@ _LancesRoomLanceRematchEndBattleText::
 	prompt
 
 _LancesRoomLanceRematchAfterBattleText::
-	text "As the reigning"
-	line "CHAMPION, your"
-	cont "legacy grows"
-	cont "even stronger!"
+	text "Als CHAMPION im"
+	line "Amt wächst Dein"
+	cont "Vermächtnis"
+	cont "immer weiter!"
 
-	para "But remember,"
-	line "the path of a"
-	cont "CHAMPION never"
-	cont "ends."
+	para "Aber vergiss"
+	line "nicht: Als"
+	cont "CHAMPION ist man"
+	cont "nie am Ziel."
 
-	para "Keep honing"
-	line "your skills!"
+	para "Arbeite weiter an"
+	line "Deinem Können!"
 
-	para "Until next time!"
+	para "Bis zum nächsten"
+	line "Mal!"
 	done
