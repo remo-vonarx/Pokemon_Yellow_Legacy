@@ -64,8 +64,7 @@ _GameCornerBeauty2Text::
 
 _GameCornerFishingGuru1WantToPlayText::
 	text "Möchtest Du auch"
-	line "spielen,"
-	cont "junges Blut?"
+	line "spielen, Kind?"
 	prompt
 
 _GameCornerFishingGuru1Received10CoinsText::

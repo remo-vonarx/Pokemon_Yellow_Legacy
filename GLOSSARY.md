@@ -153,11 +153,11 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | Come, child! (CHANNELER, purified zone), German ROM `mein Junge` | `Komm her, mein` / `Kind!` | #MON TOWER 5F | Approved: the English word, neutral |
 | Ghost-type moves (Legacy): physical contact / SPECIAL damage / non-physical moves | `GEIST-#MON greifen nicht mit Körperkontakt an, sondern richten SPEZIAL-Schaden an!`; `Sie treffen zwar keine NORMAL-#MON, können aber als nicht-physische Attacken trotzdem hart treffen!` | #MON TOWER 1F (CHANNELER), 2F (rival) | Approved: Legacy makes GHOST a special type (`constants/type_constants.asm`), so the non-physical moves are the GHOST moves themselves; GEIST as the type name, SPEZIAL as the stat in text |
 | Aren't you a little toughie! (Route 9 HIKER), German ROM `Du kleiner Rabauke!` | `Du kleiner Rabauke!`, `Kinder sollten kleine Rabauken sein!` | Route 9 | Approved: kept; `Rabauke` is said of girls too, like `Grünschnabel` |
-| 5F: POWER ZONE (Legacy; vanilla DRUG STORE) | `S4: DROGERIE` | Celadon department store directory, 5F sign, diner | My proposal: the German ROM's name stays; the German word has no drug sense to avoid |
+| 5F: POWER ZONE (Legacy; vanilla DRUG STORE) | `S4: DROGERIE` | Celadon department store directory, 5F sign, diner | Approved: the German ROM's name stays; the German word has no drug sense to avoid |
 | status-reduction moves / SPECIAL stat / non physical attacks (Legacy TRAINER TIPS) | `Attacken, die ihre Statuswerte senken`; `SPEZIAL-Wert`; `nicht-physische Attacken` | Celadon City signs | My proposal; `nicht-physische Attacken` as approved for the #MON TOWER rival |
-| Oh! You! (Celadon Gym trainer), German ROM `Du Grobian!` | `Oh!` / `Wie grob!` | Celadon Gym | My proposal: `Grobian` is a man's word |
+| Oh! You! (Celadon Gym trainer), German ROM `Du Grobian!` | `Oh!` / `Wie grob!` | Celadon Gym | Approved: `Grobian` is a man's word |
 | full bloom (ERIKA rematch, Legacy) | `in voller Blüte`, `die Schönheit der vollen Blüte` | Celadon Gym rematch | My proposal |
-| Kid, do you want to play? (Game Corner fishing guru), German ROM `Junge` | `Möchtest Du auch` / `spielen,` / `junges Blut?` | Game Corner | My proposal, as the approved OLD ROD fishing guru |
-| brat (Rocket Hideout), German ROM `Du Lausebengel!` | `Du Rotznase!` | Rocket Hideout B1F | My proposal: the German ROM's word for JESSIE and JAMES's "brat" (B4F) |
-| I can't do it! (Rocket Hideout), German ROM `Ich konnte ihn nicht stoppen!!!` | `Ich konnte Dich nicht stoppen!!!` | Rocket Hideout B1F | My proposal: `ihn` makes the player a boy |
+| Kid, do you want to play? (Game Corner fishing guru), German ROM `Junge` | `Möchtest Du auch` / `spielen, Kind?` | Game Corner | Approved: the English word (chosen over `junges Blut` and `Kumpel`) |
+| brat (Rocket Hideout), German ROM `Du Lausebengel!` | `Du Rotznase!` | Rocket Hideout B1F | Approved: the German ROM's word for JESSIE and JAMES's "brat" (B4F) |
+| I can't do it! (Rocket Hideout), German ROM `Ich konnte ihn nicht stoppen!!!` | `Ich konnte Dich nicht stoppen!!!` | Rocket Hideout B1F | Approved: `ihn` makes the player a boy |
 | condescending `Kleiner` (Rocket Hideout) | `Wie kommst Du hierher, Grünschnabel?` | Rocket Hideout B1F | The `Grünschnabel` rule |
