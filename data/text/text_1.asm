@@ -1,5 +1,5 @@
 _CardKeySuccessText1::
-	text "Bingo!@"
+	text "Bingo! @"
 	text_end
 
 _CardKeySuccessText2::
