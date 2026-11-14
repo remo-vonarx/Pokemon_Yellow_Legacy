@@ -165,7 +165,7 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | SABRINA's pure psychic #MON / high SPECIAL / high ATTACK (Legacy gym guide) | `SABRINAs reine PSYCHO-#MON`; `mit ihrem hohen SPEZIAL-Wert`; `#MON mit hohem ANGRIFF` | Saffron Gym | My proposal; `nicht-physische Treffer` as approved for the #MON TOWER rival |
 | SABRINA rematch (Legacy): psychic power / power within / psychic sense | `Meine PSYKRÄFTE spüren Deine Stärke.`; `Zeig mir die Kraft, die in Dir steckt!`; `übersinnliche Wahrnehmung` | Saffron Gym rematch | My proposal; `PSYKRÄFTE` as the German ROM's gym trainer says |
 | Thanks, kid! (SAFARI ZONE WARDEN), German ROM `Danke, Junge!` | `WÄRTER: Danke,` / `Kind! Niemand` | WARDEN's house | Approved: the English word, as the Game Corner fishing guru |
-| the CHAMPION (the player, in Legacy's new texts) | no gendered article: `jetzt, wo Du CHAMPION bist`, `ob Du als CHAMPION`, `des Titels CHAMPION wahrlich würdig` | NURSE JOY, KOGA and BLAINE rematches | My choice: `der` / `dem neuen CHAMPION` would make the player a man |
+| the CHAMPION (the player, in Legacy's new texts) | no gendered article: `jetzt, wo Du CHAMPION bist`, `ob Du als CHAMPION`, `des Titels CHAMPION wahrlich würdig`, `Als CHAMPION im Amt`, `Du bist wahrlich CHAMPION unter CHAMPIONS.` | NURSE JOY, KOGA and BLAINE rematches, the Elite Four, LANCE, the rival and PROF. EICH after the Hall of Fame | My choice: `der` / `dem neuen CHAMPION` would make the player a man |
 | #MON MASTER (NURSE JOY about herself, Legacy) | `#MON-MEISTERIN` | Fuchsia Pokémon Center | My proposal |
 | Fwahahaha! (KOGA) | `Hahaha!` | Fuchsia Gym, KOGA rematch | German ROM |
 | the first person (Safari Zone SECRET HOUSE), German ROM `Du bist der Erste, der` | `Du bist die` / `erste Person, die` | Safari Zone SECRET HOUSE | Approved: the English words, neutral |
@@ -182,3 +182,5 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | TEACHER (trainer class named in a text, Legacy) | LEHRERIN | Victory Road 1F | PokéWiki: the Gold/Silver/Crystal class |
 | X is the best (about a #MON, Legacy) | `die Nummer eins` | Victory Road 1F (RAICHU) | My choice: neutral, where `der` / `das Beste` would need a gender |
 | Everybody was Kung Fu fighting, HUH! (Victory Road BLACKBELT, Legacy) | kept in English; after the battle `Oh-ho-ho-ho,` / `HA!` stays too | Victory Road 1F | My proposal: the song "Kung Fu Fighting" is known in German by its English words |
+| child (AGATHE), German ROM `junger Mann`, `mein Junge` | `höchsten Tönen,` / `mein Kind!`; `fort, mein Kind!`; Legacy's "young one" also `mein Kind` | Elite Four, AGATHE | My proposal: the English word; her end text already says `ein ganz besonderes Kind` |
+| your legacy (LANCE rematch, Legacy) | `Dein Vermächtnis` | Elite Four, LANCE | My choice: the word of the title GELBES VERMÄCHTNIS |

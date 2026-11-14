@@ -1,82 +1,91 @@
 _LoreleisRoomLoreleiBeforeBattleText::
-	text "Welcome to"
-	line "#MON LEAGUE!"
+	text "Willkommen"
+	line "in der PKMN-LIGA!"
 
-	para "I am LORELEI of"
-	line "the ELITE FOUR!"
+	para "Ich bin LORELEI"
+	line "und gehöre zu den"
+	cont "TOP VIER!"
 
-	para "No one can best"
-	line "me when it comes"
-	cont "to icy #MON!"
+	para "Niemand kann sich"
+	line "mit mir messen,"
+	cont "wenn es um"
+	cont "EIS-#MON geht!"
 
-	para "Freezing moves"
-	line "are powerful!"
+	para "Die Kraft von"
+	line "Eis-Attacken ist"
+	cont "unglaublich!"
 
-	para "Your #MON will"
-	line "be at my mercy"
-	cont "when they are"
-	cont "frozen solid!"
+	para "Du wirst um Gnade"
+	line "winseln, wenn ich"
+	cont "Deine  #MON"
+	cont "eingefroren habe!"
 
 	para "Hahaha!"
-	line "Are you ready?"
+	line "Bist Du bereit?"
 	done
 
 _LoreleisRoomLoreleiEndBattleText::
-	text "How"
-	line "dare you!"
+	text "Wie"
+	line "kannst Du es"
+	cont "wagen?"
 	prompt
 
 _LoreleisRoomLoreleiAfterBattleText::
-	text "You're better"
-	line "than I thought!"
-	cont "Go on ahead!"
+	text "Du bist besser,"
+	line "als ich dachte!"
+	cont "Geh ruhig weiter!"
 
-	para "You only got a"
-	line "taste of #MON"
-	cont "LEAGUE power!"
+	para "Das hier war nur"
+	line "ein Vorgeschmack"
+	cont "auf die Dinge,"
+	cont "die Dich noch"
+	cont "erwarten..."
 	done
 
 _LoreleisRoomLoreleiRematchBeforeBattleText::
-	text "Back again?"
-    line "Impressive!"
-	
-	para "Welcome back to"
-	line "the #MON"
-	cont "LEAGUE!"
+	text "Schon wieder da?"
+	line "Beeindruckend!"
 
-    para "Your past win"
-    line "means nothing"
-    cont "now!"
+	para "Willkommen zurück"
+	line "in der PKMN-LIGA!"
 
-    para "Let's see if"
-    line "you've grown!"
-    
-    para "Prepare for a"
-    line "chilling battle!"
+	para "Dein früherer"
+	line "Sieg zählt jetzt"
+	cont "nichts mehr!"
 
-    para "Are you ready?"
-    done
+	para "Mal sehen, ob Du"
+	line "stärker geworden"
+	cont "bist!"
+
+	para "Mach Dich auf"
+	line "einen eisigen"
+	cont "Kampf gefasst!"
+
+	para "Bist Du bereit?"
+	done
 
 _LoreleisRoomLoreleiRematchEndBattleText::
-	text "Defeated"
-	line "again?!"
+	text "Schon"
+	line "wieder besiegt?!"
 	prompt
 
 _LoreleisRoomLoreleiRematchAfterBattleText::
-	text "Truly a worthy "
-    line "CHAMPION!"
-	
-    para "Well done!"
+	text "Du bist des"
+	line "Titels CHAMPION"
+	cont "wahrlich würdig!"
 
-    para "But remember,"
-    line "the challenge"
-    cont "never ends!"
+	para "Gut gemacht!"
 
-    para "Keep pushing"
-    line "your limits!"
+	para "Aber vergiss"
+	line "nicht: Die"
+	cont "Herausforderung"
+	cont "endet nie!"
+
+	para "Geh immer wieder"
+	line "an Deine Grenzen!"
 	done
 
 _LoreleisRoomLoreleiDontRunAwayText::
-	text "Someone's voice:"
-	line "Don't run away!"
+	text "EINE STIMME:"
+	line "Lauf nicht davon!"
 	done
