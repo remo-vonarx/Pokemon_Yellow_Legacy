@@ -124,8 +124,10 @@ _PokemonMansion2F_OakBeforeBattleText6::
 
 	para "<PLAYER>!"
 
-	para "Niemand meistert"
-	line "#MON wie Du."
+	para "Du bist ein"
+	line "#MON-Meister"
+	cont "geworden wie kein"
+	cont "anderer."
 
 	para "Unser Kampf hat"
 	line "mich zurück auf"

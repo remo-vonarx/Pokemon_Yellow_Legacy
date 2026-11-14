@@ -31,9 +31,10 @@ _SeafoamIslandsWeebraEndBattleText1::
 	text "Starke Attacken!"
 
 	para "Fast hätte ich"
-	line "meine 'Essence of"
-	cont "Beast Style' auch"
-	cont "noch rausgehauen!"
+	line "meine 'Essenz des"
+	cont "Bestien-Stils'"
+	cont "auch noch"
+	cont "rausgehauen!"
 	done
 
 _SeafoamIslandsWeebraAfterBattleText1::

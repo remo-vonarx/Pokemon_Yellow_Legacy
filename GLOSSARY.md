@@ -175,6 +175,6 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | Oh, you're a little cutie! (Route 15 BEAUTY), German ROM `Du bist ein gewitzter Kerl!` | `Du bist ja ganz` / `schön gewitzt!` | Route 15 | Approved: drops `Kerl`, keeps the German ROM's `gewitzt` |
 | PROF.OAK's AIDE on Route 15 (Legacy: no #DEX check, always the EXP.ALL) | the German ROM's aide wording: `Ich bin PROF. EICHs Gehilfe!`; `einen` / `den EP-TEILER` | Route 15 gate 2F | The item is fixed here, so the article fits (see the Oak's aides row) |
 | Hah! (BLAINE) | `Haha!` | Cinnabar Gym, BLAINE rematch | German ROM |
-| a #MON master above all others (PROF. EICH about the player, Legacy) | `Niemand meistert` / `#MON wie Du.` | Pokémon Mansion 2F | My proposal: `ein #MON-Meister` would make the player a man |
-| 'Essence of Beast Style' (WEEBRA, Legacy) | kept in English: `meine 'Essence of` / `Beast Style' auch` | Seafoam Islands B4F | My proposal: the name of a fighting move from Yakuza 0 (`Essence of the Beast`) |
-| bro (WEEBRA, Legacy) | `Kumpel` | Seafoam Islands B4F | My proposal: the approved word for anyone (see `pal`) |
+| a #MON master above all others (PROF. EICH about the player, Legacy) | `Du bist ein` / `#MON-Meister` / `geworden wie kein` / `anderer.` | Pokémon Mansion 2F | Approved: `Meister` as a role word, like Trainer (chosen over `Niemand meistert #MON wie Du.`) |
+| 'Essence of Beast Style' (WEEBRA, Legacy) | `meine 'Essenz des` / `Bestien-Stils'` | Seafoam Islands B4F | Approved: translated (chosen over keeping the English); a fighting move from Yakuza 0 (`Essence of the Beast`) |
+| bro (WEEBRA, Legacy) | `Kumpel`; "fresh never frozen" → `frisch, nie tiefgekühlt` | Seafoam Islands B4F | Approved: the approved word for anyone (see `pal`) |
