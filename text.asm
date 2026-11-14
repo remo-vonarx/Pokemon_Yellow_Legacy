@@ -18,15 +18,6 @@ INCLUDE "text/RocketHideoutB2F.asm"
 INCLUDE "text/RocketHideoutB3F.asm"
 INCLUDE "text/RocketHideoutB4F.asm"
 INCLUDE "text/RocketHideoutElevator.asm"
-INCLUDE "text/SilphCo2F.asm"
-INCLUDE "text/SilphCo3F.asm"
-INCLUDE "text/SilphCo4F.asm"
-INCLUDE "text/SilphCo5F.asm"
-INCLUDE "text/SilphCo6F.asm"
-INCLUDE "text/SilphCo7F.asm"
-INCLUDE "text/SilphCo8F.asm"
-INCLUDE "text/SilphCo9F.asm"
-INCLUDE "text/SilphCo10F.asm"
 
 
 SECTION "Text 2", ROMX
@@ -303,3 +294,16 @@ INCLUDE "text/GameCornerPrizeRoom.asm"
 INCLUDE "text/CeladonDiner.asm"
 INCLUDE "text/CeladonChiefHouse.asm"
 INCLUDE "text/CeladonHotel.asm"
+
+
+SECTION "Text 17", ROMX
+
+INCLUDE "text/SilphCo2F.asm"
+INCLUDE "text/SilphCo3F.asm"
+INCLUDE "text/SilphCo4F.asm"
+INCLUDE "text/SilphCo5F.asm"
+INCLUDE "text/SilphCo6F.asm"
+INCLUDE "text/SilphCo7F.asm"
+INCLUDE "text/SilphCo8F.asm"
+INCLUDE "text/SilphCo9F.asm"
+INCLUDE "text/SilphCo10F.asm"
