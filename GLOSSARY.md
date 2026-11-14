@@ -163,13 +163,13 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | condescending `Kleiner` (Rocket Hideout) | `Wie kommst Du hierher, Grünschnabel?` | Rocket Hideout B1F | The `Grünschnabel` rule |
 | SABRINA's pure psychic #MON / high SPECIAL / high ATTACK (Legacy gym guide) | `SABRINAs reine PSYCHO-#MON`; `mit ihrem hohen SPEZIAL-Wert`; `#MON mit hohem ANGRIFF` | Saffron Gym | My proposal; `nicht-physische Treffer` as approved for the #MON TOWER rival |
 | SABRINA rematch (Legacy): psychic power / power within / psychic sense | `Meine PSYKRÄFTE spüren Deine Stärke.`; `Zeig mir die Kraft, die in Dir steckt!`; `übersinnliche Wahrnehmung` | Saffron Gym rematch | My proposal; `PSYKRÄFTE` as the German ROM's gym trainer says |
-| Thanks, kid! (SAFARI ZONE WARDEN), German ROM `Danke, Junge!` | `WÄRTER: Danke,` / `Kind! Niemand` | WARDEN's house | My proposal: the English word, as the Game Corner fishing guru |
+| Thanks, kid! (SAFARI ZONE WARDEN), German ROM `Danke, Junge!` | `WÄRTER: Danke,` / `Kind! Niemand` | WARDEN's house | Approved: the English word, as the Game Corner fishing guru |
 | the CHAMPION (the player, in Legacy's new texts) | no gendered article: `jetzt, wo Du CHAMPION bist`, `ob Du als CHAMPION`, `des Titels CHAMPION wahrlich würdig` | NURSE JOY, KOGA rematch | My choice: `der` / `dem neuen CHAMPION` would make the player a man |
 | #MON MASTER (NURSE JOY about herself, Legacy) | `#MON-MEISTERIN` | Fuchsia Pokémon Center | My proposal |
 | Fwahahaha! (KOGA) | `Hahaha!` | Fuchsia Gym, KOGA rematch | German ROM |
-| the first person (Safari Zone SECRET HOUSE), German ROM `Du bist der Erste, der` | `Du bist die` / `erste Person, die` | Safari Zone SECRET HOUSE | My proposal: the English words, neutral |
-| Role nouns for the player: KOGA's `würdiger Kämpfer` and `Träger des SEELENORDENS`, the Safari Zone gate's `Stammkunde` | kept | Fuchsia Gym, Safari Zone gate | German ROM: role words, like Trainer and Champion |
+| the first person (Safari Zone SECRET HOUSE), German ROM `Du bist der Erste, der` | `Du bist die` / `erste Person, die` | Safari Zone SECRET HOUSE | Approved: the English words, neutral |
+| Role nouns for the player: KOGA's `würdiger Kämpfer` and `Träger des SEELENORDENS`, the Safari Zone gate's `Stammkunde` | kept | Fuchsia Gym, Safari Zone gate | Approved: role words, like Trainer and Champion |
 | That'll be ¥…, please! (Safari Zone gate) | `Das kostet` / `¥…!`, with the price paid | Safari Zone gate | The German ROM writes `¥500` into the text; Legacy (like English Yellow) prints the price, which is lower when the player is short of money |
-| You little brute! (Route 13 BEAUTY), German ROM `Du kleiner Wüstling, Du!` | `Du kleines` / `Biest, Du!` | Route 13 | My proposal: `Wüstling` is a man's word |
-| Oh, you're a little cutie! (Route 15 BEAUTY), German ROM `Du bist ein gewitzter Kerl!` | `Du bist ja ganz` / `schön gewitzt!` | Route 15 | My proposal: drops `Kerl`, keeps the German ROM's `gewitzt` |
+| You little brute! (Route 13 BEAUTY), German ROM `Du kleiner Wüstling, Du!` | `Du kleines` / `Biest, Du!` | Route 13 | Approved: `Wüstling` is a man's word |
+| Oh, you're a little cutie! (Route 15 BEAUTY), German ROM `Du bist ein gewitzter Kerl!` | `Du bist ja ganz` / `schön gewitzt!` | Route 15 | Approved: drops `Kerl`, keeps the German ROM's `gewitzt` |
 | PROF.OAK's AIDE on Route 15 (Legacy: no #DEX check, always the EXP.ALL) | the German ROM's aide wording: `Ich bin PROF. EICHs Gehilfe!`; `einen` / `den EP-TEILER` | Route 15 gate 2F | The item is fixed here, so the article fits (see the Oak's aides row) |
