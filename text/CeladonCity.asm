@@ -1,154 +1,173 @@
 _CeladonCityLittleGirlText::
-	text "I got my KOFFING"
-	line "from my friend!"
+	text "Ich habe SMOGON"
+	line "auf der"
+	cont "ZINNOBERINSEL"
+	cont "gefangen!"
 
-	para "We get along now,"
-	line "because I was"
-	cont "very nice to it!"
+	para "Es ist nett, doch"
+	line "wenn man es"
+	cont "ärgert, atmet es"
+	cont "Gift aus!"
 	done
 
 _CeladonCityGramps1Text::
-	text "Heheh! This GYM"
-	line "is great! It's"
-	cont "full of women!"
+	text "Hehe! Diese"
+	line "ARENA ist voller"
+	cont "Frauen..."
 	done
 
 _CeladonCityGirlText::
-	text "The GAME CORNER"
-	line "is bad for our"
-	cont "city's image!"
+	text "Die SPIELHALLE"
+	line "schadet dem Ruf"
+	cont "unserer Stadt!"
 	done
 
 _CeladonCityGramps2Text::
-	text "Moan! I blew it"
-	line "all at the slots!"
+	text "Mist! Ich habe"
+	line "alles verspielt!"
 
-	para "I knew I should"
-	line "have cashed in my"
-	cont "coins for prizes!"
+	para "Hätte ich doch"
+	line "meine Münzen"
+	cont "rechtzeitig gegen"
+	cont "einen Preis"
+	cont "eingetauscht!"
 	done
 
 _CeladonCityGramps3Text::
-	text "Hello, there!"
+	text "Hallo erstmal!"
 
-	para "I've seen you,"
-	line "but I never had a"
-	cont "chance to talk!"
+	para "Ich kenne Dich"
+	line "vom Sehen! Aber"
+	cont "ich hatte bisher"
+	cont "keine Zeit, Dich"
+	cont "anzusprechen!"
 
-	para "Here's a gift for"
-	line "dropping by!"
+	para "Hier, nimm dieses"
+	line "Geschenk!"
 	prompt
 
 _CeladonCityGramps3ReceivedTM41Text::
-	text "<PLAYER> received"
+	text "<PLAYER> erhält"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _CeladonCityGramps3TM41ExplanationText::
-	text "TM41 teaches"
-	line "SOFTBOILED!"
+	text "TM41 ist"
+	line "WEICHEI!"
 
-	para "Not many #MON"
-	line "can use it!"
+	para "Nur wenige"
+	line "#MON können es"
+	cont "benutzen!"
 	done
 
 _CeladonCityGramps3TM41NoRoomText::
-	text "Oh, your pack is"
-	line "full of items!"
+	text "Oh, Du trägst"
+	line "zu viele Items!"
 	done
 
 _CeladonCityFisherText::
-	text "This is my trusted"
-	line "pal, POLIWRATH!"
+	text "QUAPPO ist"
+	line "mein bester"
+	cont "Freund!"
 
-	para "It evolved from"
-	line "POLIWHIRL when I"
-	cont "used WATER STONE!"
+	para "Es entwickelte"
+	line "sich, als ich"
+	cont "einem QUAPUTZI"
+	cont "einen WASSERSTEIN"
+	cont "gab!"
 	done
 
 _CeladonCityPoliwrathText::
-	text "POLIWRATH: Ribi"
-	line "ribit!@"
+	text "QUAPPO: Quappo!"
+	line "Quappo!@"
 	text_end
 
 _CeladonCityRocket1Text::
-	text "What are you"
-	line "staring at?"
+	text "Was starrst Du"
+	line "mich so an?"
 	done
 
 _CeladonCityRocket2Text::
-	text "Keep out of TEAM"
-	line "ROCKET's way!"
+	text "Halte Dich aus"
+	line "TEAM ROCKETs"
+	cont "Angelegenheiten"
+	cont "heraus!"
 	done
 
 _CeladonCitySignText::
-	text "CELADON CITY"
-	line "The City of"
-	cont "Rainbow Dreams"
+	text "PRISMANIA CITY"
+	line "Die Stadt der"
+	cont "Regenbogen-"
+	cont "Träume!"
 	done
 
 _CeladonCityGymSignText::
-	text "CELADON CITY"
-	line "#MON GYM"
-	cont "LEADER: ERIKA"
+	text "PRISMANIA CITY"
+	line "PKMN-ARENA"
+	cont "ARENALEITERIN:"
+	cont "ERIKA"
 
-	para "The Nature-Loving"
-	line "Princess!"
+	para "Die paradiesische"
+	line "ARENALEITERIN!"
 	done
 
 _CeladonCityMansionSignText::
-	text "CELADON MANSION"
+	text "PRISMANIA-VILLA"
 	done
 
 _CeladonCityDeptStoreSignText::
-	text "Find what you"
-	line "need at CELADON"
-	cont "DEPT. STORE!"
+	text "Im PRISMANIA CITY"
+	line "EINKAUFSZENTRUM"
+	cont "findest Du alles,"
+	cont "was Du brauchst!"
 	done
 
 _CeladonCityTrainerTips2Text::
-	text "TRAINER TIPS"
+	text "TIPPS FÜR TRAINER"
 
-	para "GUARD SPEC."
-	line "protects #MON"
-	cont "from status-"
-	cont "reduction moves"
-	cont "during battle."
+	para "MEGABLOCK schützt"
+	line "#MON im Kampf"
+	cont "vor Attacken, die"
+	cont "ihre Statuswerte"
+	cont "senken!"
 
-	para "Get your items at"
-	line "CELADON DEPT."
-	cont "STORE!"
+	para "Diese Items"
+	line "kannst Du im"
+	cont "EINKAUFSZENTRUM"
+	cont "von PRISMANIA"
+	cont "CITY erstehen!"
 	done
 
 _CeladonCityPrizeExchangeSignText::
-	text "Coins exchanged"
-	line "for prizes!"
-	cont "PRIZE EXCHANGE"
+	text "Tausche Münzen"
+	line "gegen Preise!"
+	cont "WECHSELSTUBE"
 	done
 
 _CeladonCityGameCornerSignText::
-	text "ROCKET GAME CORNER"
-	line "The playground"
-	cont "for grownups!"
+	text "ROCKET SPIELHALLE"
+	line "Ein Spielplatz"
+	cont "für Erwachsene!"
 	done
 
 _CeladonCityTrainerTips1Text::
-	text "TRAINER TIPS"
+	text "TIPPS FÜR TRAINER"
 
-	para "The SPECIAL stat"
-	line "is both offense"
-	cont "and defense"
-	cont "based!"
+	para "Der SPEZIAL-Wert"
+	line "zählt sowohl für"
+	cont "den Angriff als"
+	cont "auch für die"
+	cont "Verteidigung!"
 
-	para "This means a"
-	line "#MON with "
-	cont "high SPECIAL"
-
-	para "can both land"
-	line "big damage, and"
-	cont "often take non"
-	cont "physical attacks"
-	cont "quite well!"
+	para "Das heißt: Ein"
+	line "#MON mit hohem"
+	cont "SPEZIAL-Wert kann"
+	cont "viel Schaden"
+	cont "anrichten und"
+	cont "steckt"
+	cont "nicht-physische"
+	cont "Attacken oft"
+	cont "recht gut weg!"
 	done
