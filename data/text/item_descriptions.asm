@@ -428,8 +428,8 @@ _TM01Description::
 	text_end
 
 _TM02Description::
-	text "1. Vorbereitung"
-	next "2. Angriff@"
+	text "1. Angriff"
+	next "2. Ausruhen.@"
 	text_waitbutton
 	text_end
 
