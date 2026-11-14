@@ -139,7 +139,7 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | pal | `Kumpel` | rival, BILL, trainers | German ROM, approved: used for anyone in casual German, so it stays everywhere |
 | Wait! Take this with you! (BROCK, before TM34) | `Warte! Nimm das` / `hier mit!` | Pewter Gym | Approved own wording, after SABRINA's German (MARSHBADGE) `Warte! Nimm noch` / `diese TM von mir!`. The German ROM plays Red/Blue's old advice text (`Du scheinst ein sehr begabter #MON-TRAINER zu sein!…`) in this slot instead |
 | ROCK-hard will / Stones sharpen! (BROCK rematch, Legacy) | `STEIN-harter` / `Wille`; `Steine schärfen!` | Pewter Gym rematch | My proposal, approved: STEIN- as in his German `STEIN-#MON` |
-| THUNDERBADGE / SOULBADGE stat (Legacy: DEFENSE / SPEED) | `Die VERTEIDIGUNG` / `Deiner #MON` / `nimmt zu.`; `Die INITIATIVE` / `Deiner #MON` / `wird verbessert.` | Cerulean badge house | The German ROM's two texts with the stats swapped: Legacy matches them to the badges' real effects, the German ROM (like English Yellow) has them the wrong way round |
+| THUNDERBADGE / SOULBADGE stat (Legacy: DEFENSE / SPEED) | `Die VERTEIDIGUNG` / `Deiner #MON` / `nimmt zu.`; `Die INITIATIVE` / `Deiner #MON` / `wird verbessert.`; KOGA: `wird die` / `INITIATIVE Deiner` / `#MON steigen!` | Cerulean badge house, Fuchsia Gym | The German ROM's two texts with the stats swapped: Legacy matches them to the badges' real effects, the German ROM (like English Yellow) has them the wrong way round |
 | critical hit / base SPEED (Legacy) | `Volltreffer` / `INITIATIVE-Basiswert` | Cerulean City sign | `Volltreffer!`: the German ROM's battle message. `Basiswert`: my proposal |
 | Let's make a splash! (MISTY rematch, Legacy) | `Lass uns Wellen` / `schlagen!` | Cerulean Gym rematch | My proposal, approved: `Wellen schlagen` (to make waves) keeps the water pun |
 | Ready to dive in, CHAMPION? (MISTY rematch, Legacy) | `Bereit, ins` / `Wasser zu` / `springen,` / `CHAMPION?` | Cerulean Gym rematch | My proposal, approved |
@@ -166,3 +166,4 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | Thanks, kid! (SAFARI ZONE WARDEN), German ROM `Danke, Junge!` | `WÄRTER: Danke,` / `Kind! Niemand` | WARDEN's house | My proposal: the English word, as the Game Corner fishing guru |
 | the CHAMPION (the player, in Legacy's new texts) | no gendered article: `jetzt, wo Du CHAMPION bist`, `ob Du als CHAMPION`, `des Titels CHAMPION wahrlich würdig` | NURSE JOY, KOGA rematch | My choice: `der` / `dem neuen CHAMPION` would make the player a man |
 | #MON MASTER (NURSE JOY about herself, Legacy) | `#MON-MEISTERIN` | Fuchsia Pokémon Center | My proposal |
+| Fwahahaha! (KOGA) | `Hahaha!` | Fuchsia Gym, KOGA rematch | German ROM |
