@@ -156,12 +156,6 @@ INCLUDE "text/GameCorner.asm"
 
 SECTION "Text 7", ROMX
 
-INCLUDE "text/GameCorner_2.asm"
-INCLUDE "text/CeladonMart5F.asm"
-INCLUDE "text/GameCornerPrizeRoom.asm"
-INCLUDE "text/CeladonDiner.asm"
-INCLUDE "text/CeladonChiefHouse.asm"
-INCLUDE "text/CeladonHotel.asm"
 INCLUDE "text/FuchsiaMart.asm"
 INCLUDE "text/FuchsiaBillsGrandpasHouse.asm"
 INCLUDE "text/WardensHouse.asm"
@@ -299,3 +293,13 @@ INCLUDE "text/VermilionGym.asm"
 INCLUDE "text/VermilionPidgeyHouse.asm"
 INCLUDE "text/VermilionDock.asm"
 INCLUDE "text/VermilionOldRodHouse.asm"
+
+
+SECTION "Text 16", ROMX
+
+INCLUDE "text/GameCorner_2.asm"
+INCLUDE "text/CeladonMart5F.asm"
+INCLUDE "text/GameCornerPrizeRoom.asm"
+INCLUDE "text/CeladonDiner.asm"
+INCLUDE "text/CeladonChiefHouse.asm"
+INCLUDE "text/CeladonHotel.asm"
