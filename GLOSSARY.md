@@ -123,7 +123,7 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | The water is calm. Would you like to SURF? (Legacy) | `Das Wasser ist` / `ruhig.` / `Möchtest Du` / `SURFER einsetzen?` | Surf prompt | My proposal, approved (kept `Wasser` over `See`: the prompt also comes up at lakes and ponds) |
 | This tree can be CUT! / Would you like to use CUT? (Legacy) | `Diesen Baum kann` / `man zerschneiden!`; `Möchtest Du` / `ZERSCHNEIDER` / `einsetzen?` | Cut prompt | My proposal, approved |
 | HMs are really important! You should keep them on you at all times. (Legacy) | `VM sind wirklich` / `wichtig!` / `Du solltest sie` / `immer bei Dir` / `haben.` | Vermilion trade house | My proposal, approved |
-| Map dialogue (vanilla Yellow text) | German ROM by position, in the new spelling (`dass`, `musst`, `Lass`, `bisschen`, `zu viele`, `so viel`, `zu viel`, `Stopp`, `Brennnesseln`, `des Weiteren`, `Tschüss`, `missglückt`, `in Acht`, `irgendetwas`, `als Erstes`, `so weit`, `Gebiss`) | map texts | German ROM; where Legacy changed a text, the German ROM's wording is kept and only Legacy's change is translated |
+| Map dialogue (vanilla Yellow text) | German ROM by position, in the new spelling (`dass`, `musst`, `Lass`, `bisschen`, `zu viele`, `so viel`, `zu viel`, `Stopp`, `Brennnesseln`, `des Weiteren`, `Tschüss`, `missglückt`, `in Acht`, `irgendetwas`, `als Erstes`, `so weit`, `wie viel`, `Gebiss`) | map texts | German ROM; where Legacy changed a text, the German ROM's wording is kept and only Legacy's change is translated |
 | TRAINER TIPS / tip | TIPPS FÜR TRAINER / Tipp | signs, Pewter Gym guide | German ROM `TIPS FÜR TRAINER`, `Tip`, in the new spelling |
 | RUNNING SHOES (Legacy) | TURBOTRETER | Pallet Town | PokéWiki: official name since Ruby/Sapphire |
 | backpack (Legacy) | Rucksack | Pallet Town | My proposal; the bag itself stays BEUTEL |
@@ -167,3 +167,6 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | the CHAMPION (the player, in Legacy's new texts) | no gendered article: `jetzt, wo Du CHAMPION bist`, `ob Du als CHAMPION`, `des Titels CHAMPION wahrlich würdig` | NURSE JOY, KOGA rematch | My choice: `der` / `dem neuen CHAMPION` would make the player a man |
 | #MON MASTER (NURSE JOY about herself, Legacy) | `#MON-MEISTERIN` | Fuchsia Pokémon Center | My proposal |
 | Fwahahaha! (KOGA) | `Hahaha!` | Fuchsia Gym, KOGA rematch | German ROM |
+| the first person (Safari Zone SECRET HOUSE), German ROM `Du bist der Erste, der` | `Du bist die` / `erste Person, die` | Safari Zone SECRET HOUSE | My proposal: the English words, neutral |
+| Role nouns for the player: KOGA's `würdiger Kämpfer` and `Träger des SEELENORDENS`, the Safari Zone gate's `Stammkunde` | kept | Fuchsia Gym, Safari Zone gate | German ROM: role words, like Trainer and Champion |
+| That'll be ¥…, please! (Safari Zone gate) | `Das kostet` / `¥…!`, with the price paid | Safari Zone gate | The German ROM writes `¥500` into the text; Legacy (like English Yellow) prints the price, which is lower when the player is short of money |
