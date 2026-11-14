@@ -79,7 +79,7 @@ InitWildBattle:
 	ld a, c
 	ld [hli], a   ; write front sprite pointer
 	ld [hl], b
-	ld hl, wEnemyMonNick  ; set name to "GEIST" (GHOST)
+	ld hl, wEnemyMonNick  ; set name to "GEIST"
 	ld a, "G"
 	ld [hli], a
 	ld a, "E"
