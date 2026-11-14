@@ -181,7 +181,8 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | MT. SILVER, BLACKTHORN CITY (Legacy) | SILBERBERG, EBENHOLZ CITY | Victory Road 2F | PokéWiki (Gold/Silver/Crystal) |
 | TEACHER (trainer class named in a text, Legacy) | LEHRERIN | Victory Road 1F | PokéWiki: the Gold/Silver/Crystal class |
 | X is the best / You're the best (Legacy) | `die Nummer eins` | Victory Road 1F (RAICHU), the rival's rematch in the Champion's room | My choice: neutral, where `der` / `das Beste` would need a gender |
-| Everybody was Kung Fu fighting, HUH! (Victory Road BLACKBELT, Legacy) | kept in English; after the battle `Oh-ho-ho-ho,` / `HA!` stays too | Victory Road 1F | My proposal: the song "Kung Fu Fighting" is known in German by its English words |
-| child (AGATHE), German ROM `junger Mann`, `mein Junge` | `höchsten Tönen,` / `mein Kind!`; `fort, mein Kind!`; Legacy's "young one" also `mein Kind` | Elite Four, AGATHE | My proposal: the English word; her end text already says `ein ganz besonderes Kind` |
+| Everybody was Kung Fu fighting, HUH! (Victory Road BLACKBELT, Legacy) | kept in English; after the battle `Oh-ho-ho-ho,` / `HA!` stays too | Victory Road 1F | Approved: the song "Kung Fu Fighting" is known in German by its English words |
+| child (AGATHE), German ROM `junger Mann`, `mein Junge` | before the battle no word (`PROF. EICH lobt Dich in höchsten Tönen!`); after it `fort, mein Kind!`; Legacy's "young one" `gewachsen bist,` / `mein Kind!` | Elite Four, AGATHE | Approved: a mix of no word and the English word; her end text already says `ein ganz besonderes Kind` |
 | your legacy (LANCE rematch, Legacy) | `Dein Vermächtnis` | Elite Four, LANCE | My choice: the word of the title GELBES VERMÄCHTNIS |
 | OAK: Er-hem! (Hall of Fame) | left out: `EICH: Herzlichen` / `Glückwunsch,` | Hall of Fame, also Legacy's rematch text | German ROM |
+| nerd (SMITH, friendly teasing, Legacy) | `Viel Glück, Nerd!`; "zest" → `Elan` | Cerulean Cave B1F | Approved: common German, used for anyone (chosen over `Streber`) |

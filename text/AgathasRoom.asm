@@ -5,8 +5,7 @@ _AgathaBeforeBattleText::
 
 	para "PROF. EICH"
 	line "lobt Dich in"
-	cont "höchsten Tönen,"
-	cont "mein Kind!"
+	cont "höchsten Tönen!"
 
 	para "Er war einmal ein"
 	line "gutaussehender,"
