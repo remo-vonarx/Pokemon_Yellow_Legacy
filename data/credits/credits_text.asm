@@ -299,7 +299,7 @@ CreditsText_Shogakukan:
 CreditsText_Ootani:
 	db -5, "IKUE OOTANI@"
 CreditsText_PikachuVoice:
-	db -7, "PIKACHUS STIMME@"
+	db -7, "PIKACHUs STIMME@"
 
 	db -3, "××××××××@"
 CreditsText_USStaff:
