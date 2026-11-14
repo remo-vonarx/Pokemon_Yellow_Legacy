@@ -125,7 +125,7 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | This tree can be CUT! / Would you like to use CUT? (Legacy) | `Diesen Baum kann` / `man zerschneiden!`; `Möchtest Du` / `ZERSCHNEIDER` / `einsetzen?` | Cut prompt | My proposal, approved |
 | HMs are really important! You should keep them on you at all times. (Legacy) | `VM sind wirklich` / `wichtig!` / `Du solltest sie` / `immer bei Dir` / `haben.` | Vermilion trade house | My proposal, approved |
 | Map dialogue (vanilla Yellow text) | German ROM by position, in the new spelling (`dass`, `musst`, `Lass`, `bisschen`, `zu viele`, `so viel`, `zu viel`, `Stopp`, `Brennnesseln`, `des Weiteren`, `Tschüss`, `missglückt`, `in Acht`, `irgendetwas`, `als Erstes`, `so weit`, `wie viel`, `Gebiss`, `neu entdeckt`) | map texts | German ROM; where Legacy changed a text, the German ROM's wording is kept and only Legacy's change is translated |
-| TRAINER TIPS / tip | TIPPS FÜR TRAINER / Tipp | signs, Pewter Gym guide | German ROM `TIPS FÜR TRAINER`, `Tip`, in the new spelling |
+| TRAINER TIPS / tip | TIPPS FÜR TRAINER / Tipp | signs, Pewter Gym guide, Summer Beach House (`SURFER-TIPP`) | German ROM `TIPS FÜR TRAINER`, `Tip`, in the new spelling |
 | RUNNING SHOES (Legacy) | TURBOTRETER | Pallet Town | PokéWiki: official name since Ruby/Sapphire |
 | backpack (Legacy) | Rucksack | Pallet Town | My proposal; the bag itself stays BEUTEL |
 | STAT experience (Legacy) | STATUS-Erfahrung | Route 1 | My proposal, approved: no official term (PokéWiki: "inoffiziell als Stat Experience bekannt"); STATUS as in the party menu. Not the later `Fleißpunkte`: they are a different mechanic |
@@ -176,3 +176,5 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | PROF.OAK's AIDE on Route 15 (Legacy: no #DEX check, always the EXP.ALL) | the German ROM's aide wording: `Ich bin PROF. EICHs Gehilfe!`; `einen` / `den EP-TEILER` | Route 15 gate 2F | The item is fixed here, so the article fits (see the Oak's aides row) |
 | Hah! (BLAINE) | `Haha!` | Cinnabar Gym, BLAINE rematch | German ROM |
 | a #MON master above all others (PROF. EICH about the player, Legacy) | `Niemand meistert` / `#MON wie Du.` | Pokémon Mansion 2F | My proposal: `ein #MON-Meister` would make the player a man |
+| 'Essence of Beast Style' (WEEBRA, Legacy) | kept in English: `meine 'Essence of` / `Beast Style' auch` | Seafoam Islands B4F | My proposal: the name of a fighting move from Yakuza 0 (`Essence of the Beast`) |
+| bro (WEEBRA, Legacy) | `Kumpel` | Seafoam Islands B4F | My proposal: the approved word for anyone (see `pal`) |
