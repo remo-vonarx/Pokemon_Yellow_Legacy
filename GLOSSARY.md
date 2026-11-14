@@ -170,3 +170,6 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | the first person (Safari Zone SECRET HOUSE), German ROM `Du bist der Erste, der` | `Du bist die` / `erste Person, die` | Safari Zone SECRET HOUSE | My proposal: the English words, neutral |
 | Role nouns for the player: KOGA's `würdiger Kämpfer` and `Träger des SEELENORDENS`, the Safari Zone gate's `Stammkunde` | kept | Fuchsia Gym, Safari Zone gate | German ROM: role words, like Trainer and Champion |
 | That'll be ¥…, please! (Safari Zone gate) | `Das kostet` / `¥…!`, with the price paid | Safari Zone gate | The German ROM writes `¥500` into the text; Legacy (like English Yellow) prints the price, which is lower when the player is short of money |
+| You little brute! (Route 13 BEAUTY), German ROM `Du kleiner Wüstling, Du!` | `Du kleines` / `Biest, Du!` | Route 13 | My proposal: `Wüstling` is a man's word |
+| Oh, you're a little cutie! (Route 15 BEAUTY), German ROM `Du bist ein gewitzter Kerl!` | `Du bist ja ganz` / `schön gewitzt!` | Route 15 | My proposal: drops `Kerl`, keeps the German ROM's `gewitzt` |
+| PROF.OAK's AIDE on Route 15 (Legacy: no #DEX check, always the EXP.ALL) | the German ROM's aide wording: `Ich bin PROF. EICHs Gehilfe!`; `einen` / `den EP-TEILER` | Route 15 gate 2F | The item is fixed here, so the article fits (see the Oak's aides row) |
