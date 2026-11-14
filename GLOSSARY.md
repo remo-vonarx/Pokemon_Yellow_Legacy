@@ -195,3 +195,4 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | German translation credit | `DEUTSCHE ÜBERSETZUNG` / `REMO VON ARX`, its own screen right after `VIDEOSCHNITT` / `WEEBRA` | credits | Approved |
 | THE END | `ENDE`, from the THE END tiles, at the German ROM's columns | credits, last screen | German ROM |
 | ©1995-1999 (copyright) | `©1995-2000`, with the German ROM's tiles (`20`, `00`, `0`) | boot screen, title screen, credits | German ROM; approved, with the two tile-count changes it needs |
+| YELLOW LEGACY (title screen logo) | `GELBES` / `VERMÄCHTNIS`, the backup branch's graphics (`VERMÄCHTNIS` runs one tile past the logo: tile $74 at 18,7) | title screen | Approved in CLAUDE.md (backup branch `a1dacd6`); the German ROM's slot says `GELBE EDITION` |
