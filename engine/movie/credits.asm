@@ -286,9 +286,9 @@ ShowTheEndGFX:
 	jp FadeInCreditsText
 
 TheEndTextString:
-; "T H E  E N D"
-	db $60, " ", $62, " ", $64, "  ", $64, " ", $66, " ", $68, "@"
-	db $61, " ", $63, " ", $65, "  ", $65, " ", $67, " ", $69, "@"
+; "   E N D E", as in the German Gelbe Edition (THE END tiles: T $60, H $62, E $64, N $66, D $68)
+	db "   ", $64, " ", $66, " ", $68, " ", $64, "@"
+	db "   ", $65, " ", $67, " ", $69, " ", $65, "@"
 
 PlaceCreditsText:
 	push hl
