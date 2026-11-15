@@ -30,7 +30,7 @@ _SaffronGymSabrinaReceivedMarshBadgeText::
 
 	para "Ich muss gestehen,"
 	line "ich habe mich"
-	cont "nicht allzusehr"
+	cont "nicht allzu sehr"
 	cont "angestrengt!"
 
 	para "Ich schenke Dir"
