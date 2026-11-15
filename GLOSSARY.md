@@ -167,6 +167,7 @@ Settled translation decisions for Yellow Legacy. Read before every task; add eac
 | Oh! You! (Celadon Gym trainer), German ROM `Du Grobian!` | `Oh!` / `Wie grob!` | Celadon Gym | Approved: `Grobian` is a man's word |
 | full bloom (ERIKA rematch, Legacy) | `in voller Blüte`, `die Schönheit der vollen Blüte` | Celadon Gym rematch | My proposal |
 | Kid, do you want to play? (Game Corner fishing guru), German ROM `Junge` | `Möchtest Du auch` / `spielen, Kind?` | Game Corner | Approved: the English word (chosen over `junges Blut` and `Kumpel`) |
+| JUNIOR TRAINERs (Game Corner gym guide about ERIKA's gym, Legacy) | `Vielleicht` / `verraten Dir die` / `Trainerinnen` / `etwas, wenn Du` / `sie besiegst!` | Game Corner | Approved: the generic word in normal case, true for all seven women in the gym; the class (`PFADFINDERIN`) fits only one of them, and `TRAINERIN` in capitals is COOLTRAINER♀ |
 | brat (Rocket Hideout, Silph Co.), German ROM `Du Lausebengel!`, `Kleiner` | `Du Rotznase!`; JESSIE and JAMES: `Bleib sofort stehen, Rotznase!` | Rocket Hideout B1F, Silph Co. 10F | Approved: the German ROM's word for JESSIE and JAMES's "brat" (B4F) |
 | I can't do it! (Rocket Hideout), German ROM `Ich konnte ihn nicht stoppen!!!` | `Ich konnte Dich nicht stoppen!!!` | Rocket Hideout B1F | Approved: `ihn` makes the player a boy |
 | condescending `Kleiner` (Rocket Hideout) | `Wie kommst Du hierher, Grünschnabel?` | Rocket Hideout B1F | The `Grünschnabel` rule |
