@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-Usage: python check_text_width.py [file.asm|directory ...]
+Usage: python check_text_width.py [--max] [file.asm|directory ...]
 
 Report text lines that are wider than the 18-tile text box, and lines of
 18 tiles in the box's bottom row where the game waits for a button
@@ -12,8 +12,11 @@ a "." after its last line, so that line holds 17 tiles.
 Checks text/, data/, scripts/, engine/ and home/ when no paths are given.
 End battle texts are checked with the "NAME: " of their trainer in front of
 the first line. Lines whose width depends on runtime values (text_ram,
-text_decimal, <USER>, ...) are skipped and need a manual check. Exits with
-status 1 if any line is too wide.
+text_decimal, <USER>, ...) are skipped and need a manual check. With --max,
+they are counted at their longest instead (MAX_RUNTIME_WIDTHS: a 12-letter
+item or move, a 10-letter Pokémon, all digits); texts that only ever print a
+shorter value then show up as false alarms. Exits with status 1 if any line
+is too wide.
 """
 
 import re
@@ -21,6 +24,9 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+MAX = '--max' in sys.argv
+if MAX:
+	sys.argv.remove('--max')
 DEFAULT_PATHS = ('text', 'data', 'scripts', 'engine', 'home')
 MAX_WIDTH = 18
 UNKNOWN = -1000  # pushes a line with a runtime-sized part below any limit
@@ -30,6 +36,15 @@ CONTROL_WIDTHS = {
 	'<PLAYER>': 7, '<RIVAL>': 7, '<PKMN>': 2, '<TRAINER>': 7, '<ROCKET>': 6,
 	'<PC>': 2, '<TM>': 2, '<……>': 2, '<DEXEND>': 1,  # DEXEND prints a "."
 	'<USER>': UNKNOWN, '<TARGET>': UNKNOWN,
+}
+if MAX:
+	CONTROL_WIDTHS.update({'<USER>': 16, '<TARGET>': 16})  # "Gegn. " + a 10-letter name
+# --max: the longest each name buffer gets
+MAX_RUNTIME_WIDTHS = {
+	'wcd6d': 12, 'wStringBuffer': 12, 'wOaksAideRewardItemName': 12, 'wTrainerName': 12,
+	'wEnemyMonNick': 10, 'wBattleMonNick': 10, 'wInGameTradeGiveMonName': 10, 'wInGameTradeReceiveMonName': 10,
+	'wLearnMoveMonName': 10, 'wBoxMonNicks': 10, 'wNameOfPlayerMonToBeTraded': 10, 'wDayCareMonName': 10,
+	'wBuffer': 10, 'wLinkEnemyTrainerName': 7, 'wGymLeaderName': 9, 'wGymCityName': 14, 'wBoxNumString': 2,
 }
 NEW_LINE = {'line', 'cont', 'para', 'next', 'page'}
 BOTTOM_ROW = {'line', 'cont', 'next'}  # start the text box's bottom row
@@ -41,6 +56,24 @@ LABEL = re.compile(r'^([A-Za-z_.][\w.]*)::?')
 TOP_LABEL = re.compile(r'^([A-Za-z_]\w*)::?')
 RIVALS = ('OPP_RIVAL1', 'OPP_RIVAL2', 'OPP_RIVAL3')  # print wRivalName instead
 TOKEN = re.compile(r"<[^>]+>|'[dlstvrm]|.")
+
+def runtime_width(command, rest):
+	"""--max: (tiles, description) of a runtime part at its longest."""
+	args = [a.strip() for a in rest.split(';')[0].split(',')]
+	if command == 'text_ram':
+		return MAX_RUNTIME_WIDTHS[args[0]], args[0]
+	if command == 'text_decimal':
+		return int(args[2]), f'{args[0]} ({args[2]} digits)'
+	if command == 'text_bcd':
+		flags = args[1].split('|')[0].strip()
+		n = 2 * ((int(flags[1:], 16) if flags.startswith('$') else int(flags)) & 0x1f)
+		return n, f'{args[0]} ({n} digits)'
+	if command == 'text_dots':
+		return int(args[0]), 'dots'
+	return 0, command
+
+def with_vars(parts):
+	return f' with {", ".join(parts)}' if parts else ''
 
 def string_width(string):
 	string = string.split('@')[0]
@@ -130,12 +163,14 @@ def check_file(path, prefixes):
 	problems = []
 	name = path.relative_to(ROOT) if path.is_relative_to(ROOT) else path
 	width = 0
+	parts = []  # --max: the runtime parts counted on the current row
 	bottom_row = False  # the current row is the text box's bottom row
 	last = None  # (number, line) of the last string on the current row
 	for number, line in enumerate(path.read_text(encoding='utf-8').splitlines(), 1):
 		match = LABEL.match(line)
 		if match:
 			width = prefixes.get(match.group(1), 0)
+			parts = []
 			bottom_row = False
 			continue
 		match = COMMAND.match(line)
@@ -143,18 +178,28 @@ def check_file(path, prefixes):
 			continue
 		command, rest = match.groups()
 		if command in WAITS and bottom_row and width == MAX_WIDTH:
-			problems.append(f'{name}:{last[0]}: width {width} under ▼: {last[1].strip()}')
+			where = last or (number, line)
+			problems.append(f'{name}:{where[0]}: width {width} under ▼{with_vars(parts)}: {where[1].strip()}')
 		if command == 'dex' and width + 1 > MAX_WIDTH:
 			problems.append(f'{name}:{last[0]}: width {width + 1} with the "." of dex: {last[1].strip()}')
 		if command in RESET:
 			width = 0
+			parts = []
 			bottom_row = False
 			continue
 		if command in RUNTIME:
-			width = UNKNOWN
+			if not MAX:
+				width = UNKNOWN
+				continue
+			tiles, part = runtime_width(command, rest)
+			width += tiles
+			parts.append(part)
+			if width > MAX_WIDTH:
+				problems.append(f'{name}:{number}: width {width}{with_vars(parts)}: {line.strip()}')
 			continue
 		if command in NEW_LINE:
 			width = 0
+			parts = []
 			bottom_row = command in BOTTOM_ROW
 		elif command != 'text':
 			continue
@@ -162,7 +207,7 @@ def check_file(path, prefixes):
 			width += string_width(string)
 			last = (number, line)
 		if width > MAX_WIDTH:
-			problems.append(f'{name}:{number}: width {width}: {line.strip()}')
+			problems.append(f'{name}:{number}: width {width}{with_vars(parts)}: {line.strip()}')
 	return problems
 
 def main():

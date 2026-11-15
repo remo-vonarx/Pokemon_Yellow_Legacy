@@ -1,0 +1,13 @@
+[
+ {"names": "wcd6d=KNUDDELUFF,wStringBuffer=KNUDDELUFF", "why": "these buffers hold a Pokémon name here",
+  "labels": ["_DaycareGentlemanMonNeedsMoreTimeText", "_NameRatersHouseNameRaterGiveItANiceNameText", "_MonWasReleasedText", "_GainedText", "_PotionText", "_DoYouWantToNicknameText", "_OnceReleasedText", "_WillBeTradedText"]},
+ {"names": "wEnemyMonNick=NIDOQUEEN", "why": "the longest Safari Zone species", "labels": ["_SafariZoneEatingText"]},
+ {"names": "wStringBuffer=RAD-COUPON", "why": "the one item given here", "labels": ["_PokemonFanClubReceivedBikeVoucherText"]},
+ {"names": "wStringBuffer=MEISTERBALL", "why": "the one item given here", "labels": ["_SilphCo11FSilphPresidentReceivedMasterBallText"]},
+ {"names": "wStringBuffer=MÜNZKORB", "why": "the one item given here", "labels": ["_CeladonDinerGymGuideReceivedCoinCaseText"]},
+ {"names": "wStringBuffer=NUGGET", "why": "the one item given here", "labels": ["_Route24CooltrainerM1ReceivedNuggetText"]},
+ {"names": "wStringBuffer=FAHRRAD", "why": "the bicycle", "labels": ["_GotOnBicycleText2", "_GotOffBicycleText2"]},
+ {"names": "wStringBuffer=TAFELWASSER", "why": "the longest drink", "labels": ["_VendingMachineText5"]},
+ {"names": "wStringBuffer=300", "why": "the coin payout", "labels": ["_LinedUpText"]},
+ {"names": "wStringBuffer=12", "why": "the box number", "labels": ["_SentToBoxText"]}
+]
