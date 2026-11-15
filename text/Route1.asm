@@ -81,8 +81,9 @@ _OakBeforeBattleText::
 
 	para "Deine Heraus-"
 	line "forderung der"
-	cont "PKMN-LIGA hat in"
-	cont "mir einen Geist"
+	cont "PKMN-LIGA hat"
+	cont "in mir den"
+	cont "Kampfgeist"
 	cont "wiedererweckt,"
 	cont "der mich vor"
 	cont "langer Zeit"
