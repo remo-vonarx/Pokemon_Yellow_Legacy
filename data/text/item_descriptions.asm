@@ -656,8 +656,8 @@ _TM39Description::
 	text_end
 
 _TM40Description::
-	text "1. Vorbereitung"
-	next "2. Angriff@"
+	text "1. Angriff"
+	next "2. Ausruhen.@"
 	text_waitbutton
 	text_end
 
@@ -674,8 +674,8 @@ _TM42Description::
 	text_end
 
 _TM43Description::
-	text "1. Vorbereitung"
-	next "2. Angriff@"
+	text "Starke"
+	next "Flug-Attacke.@"
 	text_waitbutton
 	text_end
 
