@@ -108,7 +108,7 @@ _RockTunnel1FCooltrainerF2AfterBattleText::
 	done
 
 _RockTunnel1FCooltrainerF3BattleText::
-	text "Du  besitzt"
+	text "Du besitzt"
 	line "#MON!"
 	cont "Lass uns kämpfen!"
 	done

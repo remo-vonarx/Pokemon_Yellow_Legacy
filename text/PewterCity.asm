@@ -61,7 +61,7 @@ _PewterCitySuperNerd2ThatsRightText::
 
 _PewterCitySuperNerd2ImSprayingRepelText::
 	text "Ich versprühe"
-	line "SCHUTZ,  um"
+	line "SCHUTZ, um"
 	cont "#MON von"
 	cont "meinem Garten"
 	cont "fernzuhalten!"

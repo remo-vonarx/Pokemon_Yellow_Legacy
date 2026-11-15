@@ -169,7 +169,7 @@ _CeruleanCityCooltrainerF1ElectrodeWithdrawText::
 	cont "zu kontrollieren!"
 
 	para "Ob Dein #MON"
-	line "gehorcht,  hängt"
+	line "gehorcht, hängt"
 	cont "von Deinen"
 	cont "Fähigkeiten als"
 	cont "Trainer ab!"

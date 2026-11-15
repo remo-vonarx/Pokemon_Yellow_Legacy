@@ -17,7 +17,7 @@ _LoreleisRoomLoreleiBeforeBattleText::
 
 	para "Du wirst um Gnade"
 	line "winseln, wenn ich"
-	cont "Deine  #MON"
+	cont "Deine #MON"
 	cont "eingefroren habe!"
 
 	para "Hahaha!"

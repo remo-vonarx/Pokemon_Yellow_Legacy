@@ -444,7 +444,7 @@ _OaksLabRivalLeaveItAllToMeText::
 	cont "Überlass es"
 	cont "ruhig mir!"
 
-	para "<PLAYER>,  es tut"
+	para "<PLAYER>, es tut"
 	line "mir leid, aber"
 	cont "ich brauche Deine"
 	cont "Hilfe nicht!"
