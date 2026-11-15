@@ -128,7 +128,7 @@ _OaksLabGivePokeballsExplanationText::
 
 	para "Werfe einfach"
 	line "einen #BALL"
-	line "und versuche es!"
+	cont "und versuche es!"
 
 	para "Doch Du wirst"
 	line "oftmals keinen"
