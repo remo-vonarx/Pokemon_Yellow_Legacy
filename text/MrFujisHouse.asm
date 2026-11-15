@@ -36,7 +36,7 @@ _MrFujisHousePsyduckText::
 	text_end
 
 _MrFujisHouseNidorinoText::
-	text "NIDORINO:  Nido!@"
+	text "NIDORINO: Nido!@"
 	text_end
 
 _MrFujisHouseMrFujiIThinkThisMayHelpYourQuestText::

@@ -53,7 +53,7 @@ _ViridianGymGiovanniPostBattleAdviceText::
 
 _ViridianGymGiovanniEarthBadgeInfoText::
 	text "Als Träger des"
-	line "ERDORDENS  werden"
+	line "ERDORDENS werden"
 	cont "Dir alle #MON"
 	cont "jeglichen Levels"
 	cont "gehorchen!"

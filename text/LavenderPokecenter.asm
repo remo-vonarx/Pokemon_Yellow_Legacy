@@ -8,7 +8,7 @@ _LavenderPokecenterLittleGirlText::
 	text "Ich habe gesehen,"
 	line "wie TRAGOSSOs"
 	cont "Mutter vergeblich"
-	cont "versuchte,  TEAM"
+	cont "versuchte, TEAM"
 	cont "ROCKET zu "
 	cont "entkommen!"
 	done

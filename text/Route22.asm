@@ -95,7 +95,7 @@ _Route22RivalBeforeBattleText2::
 	line "alle ORDEN?"
 	cont "Das ist cool!"
 
-	para "<PLAYER>,  ich"
+	para "<PLAYER>, ich"
 	line "werde mich für"
 	cont "die PKMN-LIGA"
 	cont "aufwärmen, indem"

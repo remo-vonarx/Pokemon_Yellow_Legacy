@@ -9,7 +9,7 @@ _WardensHouseWardenGibberish1Text::
 
 _WardensHouseWardenGibberish2Text::
 	text "Eff heffe fefe!"
-	line "Eef  hafahi-fone!"
+	line "Eef hafahi-fone!"
 	done
 
 _WardensHouseWardenGibberish3Text::

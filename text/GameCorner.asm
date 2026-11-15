@@ -106,7 +106,7 @@ _GameCornerGymGuideChampInMakingText::
 
 	para "Vielleicht"
 	line "verraten Dir die"
-	cont "TRAINERINNEN"
+	cont "Trainerinnen"
 	cont "etwas, wenn Du"
 	cont "sie besiegst!"
 	done
