@@ -7,14 +7,13 @@ _PowerPlantZapdosBattleText::
 	text_end
 
 _PowerPlantCraigBattleText1::
-	text "Ich versuche,"
-	line "meinen #DEX zu"
-	cont "vervollständigen,"
-
-	para "für ein Spiel"
-	line "auf Basis von"
-	cont "#MON, das ich"
-	cont "gerade entwickle."
+	text "Ich entwickle"
+	line "gerade ein Spiel"
+	cont "auf Basis von"
+	cont "#MON und"
+	cont "versuche dafür,"
+	cont "meinen #DEX zu"
+	cont "vervollständigen."
 
 	para "Wie wär's damit…"
 
