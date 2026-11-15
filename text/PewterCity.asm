@@ -91,10 +91,9 @@ _PewterCityTrainerTipsText::
 	cont "im STATUS-Menü"
 	cont "prüfen."
 
-	para "Halte vor dem"
-	line "Drücken von A"
-	cont "START gedrückt"
-	cont "und drücke im"
+	para "Halte START"
+	line "gedrückt und"
+	cont "drücke dann im"
 	cont "#MON-Menü bei"
 	cont "STATUS A."
 	done

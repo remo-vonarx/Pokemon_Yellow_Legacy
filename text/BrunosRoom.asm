@@ -51,7 +51,7 @@ _BrunoRematchBeforeBattleText::
 	line "Auf einen harten"
 	cont "Kampf!"
 
-	para "Hu-ha!"
+	para "Zum Angriff!"
 	done
 
 _BrunoRematchEndBattleText::

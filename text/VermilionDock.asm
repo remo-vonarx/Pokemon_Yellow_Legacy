@@ -4,8 +4,8 @@ _VermilionDockUnusedText::
 
 _VermilionDockTruckText::
 	text "Es klingt, als"
-	line "wäre hier unten"
-	cont "etwas."
+	line "wäre hier etwas"
+	cont "drunter."
 
 	para "Ich sollte mal"
 	line "nachsehen."

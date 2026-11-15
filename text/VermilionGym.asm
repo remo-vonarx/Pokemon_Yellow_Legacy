@@ -38,7 +38,7 @@ _VermilionGymLTSurgePostBattleAdviceText::
 
 _VermilionGymRematchPreBattle1Text::
 	text "CHAMPION, was?"
-	line "Ich habe"
+	line "Ich habe mich"
 	cont "aufgeladen!"
 
 	para "Das wird ein"
