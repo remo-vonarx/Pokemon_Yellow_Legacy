@@ -10,9 +10,7 @@ _CinnabarLabMetronomeRoomScientist1Text::
 
 _CinnabarLabMetronomeRoomScientist1ReceivedTM35Text::
 	text "<PLAYER> erhält"
-	line "@"
-	text_ram wStringBuffer
-	text "!@"
+	line "TM35 METRONOM!@"
 	text_end
 
 _CinnabarLabMetronomeRoomScientist1TM35ExplanationText::

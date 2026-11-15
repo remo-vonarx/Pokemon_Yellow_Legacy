@@ -11,9 +11,7 @@ SilphCo2FSilphWorkerFPleaseTakeThisText::
 
 _SilphCo2FSilphWorkerFReceivedTM36Text::
 	text "<PLAYER> erhält"
-	line "@"
-	text_ram wStringBuffer
-	text "!@"
+	line "TM36 FINALE!@"
 	text_end
 
 _SilphCo2FSilphWorkerFTM36ExplanationText::

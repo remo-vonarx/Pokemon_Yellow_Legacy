@@ -103,9 +103,7 @@ _CeladonGymRainbowBadgeInfoText::
 
 _CeladonGymReceivedTM21Text::
 	text "<PLAYER> erhält"
-	line "@"
-	text_ram wStringBuffer
-	text "!@"
+	line "TM21 MEGASAUGER!@"
 	text_end
 
 _TM21ExplanationText::

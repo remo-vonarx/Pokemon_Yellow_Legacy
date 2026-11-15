@@ -31,9 +31,7 @@ _CopycatsHouse2FCopycatTM31PreReceiveText::
 
 _CopycatsHouse2FCopycatReceivedTM31Text::
 	text "<PLAYER> erhält"
-	line "@"
-	text_ram wStringBuffer
-	text "!@"
+	line "TM31 MIMIKRY!@"
 	text_end
 
 _CopycatsHouse2FCopycatTM31Explanation1Text::

@@ -89,9 +89,7 @@ _CinnabarGymBlaineVolcanoBadgeInfoText::
 
 _CinnabarGymBlaineReceivedTM38Text::
 	text "<PLAYER> erhält"
-	line "@"
-	text_ram wStringBuffer
-	text "!@"
+	line "TM38 FEUERSTURM!@"
 	text_end
 
 _CinnabarGymBlaineTM38ExplanationText::

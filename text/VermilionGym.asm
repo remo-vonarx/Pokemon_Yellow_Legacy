@@ -94,9 +94,7 @@ _VermilionGymLTSurgeThunderBadgeInfoText::
 
 _VermilionGymLTSurgeReceivedTM24Text::
 	text "<PLAYER> erhält"
-	line "@"
-	text_ram wStringBuffer
-	text "!@"
+	line "TM24 DONNERBLITZ!@"
 	text_end
 
 _TM24ExplanationText::

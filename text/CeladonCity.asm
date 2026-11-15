@@ -48,9 +48,7 @@ _CeladonCityGramps3Text::
 
 _CeladonCityGramps3ReceivedTM41Text::
 	text "<PLAYER> erhält"
-	line "@"
-	text_ram wStringBuffer
-	text "!@"
+	line "TM41 WEICHEI!@"
 	text_end
 
 _CeladonCityGramps3TM41ExplanationText::
