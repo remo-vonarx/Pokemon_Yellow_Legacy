@@ -15,6 +15,8 @@ FuchsiaGoodRodHouseFishingGuruText:
 	ld a, [wCurrentMenuItem]
 	and a
 	jr nz, .refused
+	ld hl, .ReceivedGiftText
+	call PrintText
 	CheckEvent EVENT_GOT_DOME_FOSSIL
 	jr nz, .giveOmanyte
 	lb bc, KABUTO, 10
@@ -42,7 +44,6 @@ FuchsiaGoodRodHouseFishingGuruText:
 
 .ReceivedGiftText:
 	text_far _FuchsiaGoodRodHouseFishingGuruReceivedGiftText
-	sound_get_item_1
 	text_end
 
 .UnusedText:

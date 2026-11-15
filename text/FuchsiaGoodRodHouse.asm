@@ -24,7 +24,7 @@ _FuchsiaGoodRodHouseFishingGuruReceivedGiftText::
 	cont "habe ich mir"
 	cont "eins von denen"
 	cont "hier geangelt!"
-	text_end
+	prompt
 
 _FuchsiaGoodRodHouseFishingGuruThatsSoDisappointingText::
 	text "Oh!"
