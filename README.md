@@ -1,3 +1,48 @@
+# Pokémon Yellow Legacy – deutsche Fan-Übersetzung
+
+**Deutsch** · [English](#english)
+
+Dies ist eine inoffizielle deutsche Fan-Übersetzung von [Pokémon Yellow Legacy](https://github.com/cRz-Shadows/Pokemon_Yellow_Legacy). Im Spiel heißt sie GELBES VERMÄCHTNIS.
+
+**Alle Verdienste gehören dem Team von Yellow Legacy:** [TheSmithPlays](https://www.youtube.com/@TheSmithPlays), [cRz-Shadows](https://github.com/cRz-Shadows), Weebra und allen, die unten in den [Credits](#credits-for-yellow-legacy) stehen. Yellow Legacy wiederum beruht auf der [Disassembly von Pokémon Gelb](https://github.com/pret/pokeyellow) von pret.
+
+Diese Übersetzung ändert nur, was man im Spiel liest: Texte, Namen, Menüs und Grafiken mit Schrift. Spielinhalt, Balancing und Features sind die von Yellow Legacy.
+
+- Gibt es einen Text schon in der deutschen *Pokémon Gelbe Edition: Special Pikachu Edition*, stammt er von dort, in neuer Rechtschreibung.
+- Texte, die Yellow Legacy neu hinzugefügt hat, sind neu übersetzt.
+- Namen aus späteren Spielen sind die offiziellen deutschen.
+
+Dies ist ein Fanprojekt. Weder das Team von Yellow Legacy noch Nintendo, Creatures, GAME FREAK oder The Pokémon Company haben damit zu tun. Dieses Repository enthält keine ROM.
+
+Fehler in der Übersetzung bitte hier melden, nicht beim Team von Yellow Legacy.
+
+### Spielen
+
+Lade den Patch der neuesten Version unter [Releases](https://github.com/remo-vonarx/Pokemon_Yellow_Legacy/releases) herunter. Wende ihn auf eine unveränderte englische ROM von *Pokémon Yellow Version: Special Pikachu Edition* an (SHA-1 `cc7d03262ebfaf2f06772c1a480c7d9d5f4a38e1`), zum Beispiel mit [RomPatcher.js](https://www.marcrobledo.com/RomPatcher.js/).
+
+Selbst bauen: siehe [INSTALL.md](INSTALL.md), mit RGBDS 0.6.1.
+
+
+## English
+
+This is an unofficial German fan translation of [Pokémon Yellow Legacy](https://github.com/cRz-Shadows/Pokemon_Yellow_Legacy). In the game, it is called GELBES VERMÄCHTNIS.
+
+**All credit goes to the Yellow Legacy team:** [TheSmithPlays](https://www.youtube.com/@TheSmithPlays), [cRz-Shadows](https://github.com/cRz-Shadows), Weebra and everyone in the [credits](#credits-for-yellow-legacy) below. Yellow Legacy itself is built on pret's [Pokémon Yellow disassembly](https://github.com/pret/pokeyellow).
+
+The translation only changes what you read in the game: text, names, menus and graphics with lettering. Gameplay, balance and features are Yellow Legacy's.
+
+- Text that exists in the German *Pokémon Yellow* is taken from it, in the reformed spelling.
+- Text that Yellow Legacy added is translated new.
+- Names from later games are the official German ones.
+
+This is a fan project. Neither the Yellow Legacy team nor Nintendo, Creatures, GAME FREAK or The Pokémon Company is involved. This repository contains no ROM.
+
+Please report translation errors here, not to the Yellow Legacy team.
+
+---
+
+*The rest of this README is Yellow Legacy's own.*
+
 # Pokémon Yellow Legacy
 
 The Yellow Legacy project is the prequel to [Crystal Legacy](https://github.com/cRz-Shadows/Pokemon_Crystal_Legacy) by content creator Patrick Smith ([TheSmithPlays](https://www.youtube.com/@TheSmithPlays)), and the second project in his planned Legacy series. It is based on [the Pokémon Yellow Disassembly](https://github.com/pret/pokeyellow). The Legacy project is focused on changing the base game in a way that adds quality of life additions and better balancing with the benefit of twenty years of hindsight. The primary goal of each mod is to keep the original feeling of the game while still making meaningful improvements for the player. This means that certain idiosyncrasies of the first generation of Pokémon games will remain, as they are considered an essential aspect to the core experience.
