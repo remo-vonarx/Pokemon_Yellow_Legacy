@@ -18,9 +18,7 @@ _SafariZoneSecretHouseFishingGuruYouHaveWonText::
 
 _SafariZoneSecretHouseFishingGuruReceivedHM03Text::
 	text "<PLAYER> erhält"
-	line "@"
-	text_ram wStringBuffer
-	text "!@"
+	line "VM03 SURFER!@"
 	text_end
 
 _SafariZoneSecretHouseFishingGuruHM03ExplanationText::

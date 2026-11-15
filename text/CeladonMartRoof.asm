@@ -17,9 +17,7 @@ _CeladonMartRoofLittleGirlYayFreshWaterText::
 
 _CeladonMartRoofLittleGirlReceivedTM13Text::
 	text "<PLAYER> erhält"
-	line "@"
-	text_ram wStringBuffer
-	text "!@"
+	line "TM13 EISSTRAHL!@"
 	text_end
 
 _CeladonMartRoofLittleGirlTM13ExplanationText::
@@ -48,9 +46,7 @@ _CeladonMartRoofLittleGirlYaySodaPopText::
 
 _CeladonMartRoofLittleGirlReceivedTM48Text::
 	text "<PLAYER> erhält"
-	line "@"
-	text_ram wStringBuffer
-	text "!@"
+	line "TM48 STEINHAGEL!@"
 	text_end
 
 _CeladonMartRoofLittleGirlTM48ExplanationText::

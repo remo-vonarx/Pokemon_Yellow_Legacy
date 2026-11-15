@@ -8,9 +8,7 @@ _MrPsychicsHouseMrPsychicYouWantedThisText::
 
 _MrPsychicsHouseMrPsychicReceivedTM29Text::
 	text "<PLAYER> erhält"
-	line "@"
-	text_ram wStringBuffer
-	text "!@"
+	line "TM29 PSYCHOKINESE!@"
 	text_end
 
 _MrPsychicsHouseMrPsychicTM29ExplanationText::

@@ -102,9 +102,7 @@ _FuchsiaGymKogaSoulBadgeInfoText::
 
 _FuchsiaGymKogaReceivedTM06Text::
 	text "<PLAYER> erhält"
-	line "@"
-	text_ram wStringBuffer
-	text "!@"
+	line "TM06 TOXIN!@"
 	text_end
 
 _FuchsiaGymKogaTM06ExplanationText::

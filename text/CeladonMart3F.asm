@@ -89,9 +89,7 @@ _CeladonMart3FClerkTM18PreReceiveText::
 
 _CeladonMart3FClerkReceivedTM18Text::
 	text "<PLAYER> erhält"
-	line "@"
-	text_ram wStringBuffer
-	text "!@"
+	line "TM18 KONTER!@"
 	text_end
 
 _CeladonMart3FClerkTM18ExplanationText::

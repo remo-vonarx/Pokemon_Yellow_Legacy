@@ -39,9 +39,7 @@ _SSAnneCaptainsRoomCaptainIFeelMuchBetterText::
 
 _SSAnneCaptainsRoomCaptainReceivedHM01Text::
 	text "<PLAYER> erhält"
-	line "@"
-	text_ram wStringBuffer
-	text "!@"
+	line "VM01 ZERSCHNEIDER!@"
 	text_end
 
 _SSAnneCaptainsRoomCaptainNotSickAnymoreText::
